@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    max-width: 1024px;
+}
+
+.max-h-full {
+
+  max-height: 100%;
+
+}
+
+/*
+    Lets create a nice stamp effect
+    https://codepen.io/555/pen/pdwvBP
+*/
+.stamp {
+    transform: rotate(12deg);
+    color: #0A9928;
+    font-size: 3rem;
+    font-weight: 700;
+    border: 0.5rem double #0A9928;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-family: 'Courier';
+    -webkit-mask-image: url('/assets/images/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    position:absolute;
+    top: 30px;
+    left: 30%;
+  }
+
+  /*
+    Paper background
+  */
+  .paper {
+    background-image: url('/assets/images/paper.jpg');
+    background-repeat: no-repeat;
+    background-size: 1024px;
+    background-position: center;
+  }
