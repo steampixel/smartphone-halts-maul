@@ -48,7 +48,7 @@
 
         <div class="flex flex-wrap justify-between items-center">
 
-        <div class="text-3xl">🦄</div>
+        <div class="text-3xl cursor-pointer" @click="unicornConfetti()">🦄</div>
 
         <div class="text-center">
 
@@ -57,7 +57,7 @@
 
         </div>
 
-        <div class="text-3xl">🌈</div>
+        <div class="text-3xl cursor-pointer" @click="rainbowConfetti()">🌈</div>
 
         </div>
 
@@ -298,6 +298,18 @@
         });
        
         return found;
+      },
+
+      unicornConfetti() {
+        jsConfetti.addConfetti({
+          emojis: ['🦄'],
+        })
+      },
+
+      rainbowConfetti() {
+        jsConfetti.addConfetti({
+          emojis: ['🌈'],
+        })
       },
 
       done(points) {
