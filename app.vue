@@ -151,7 +151,7 @@
         Version: {{ version }} | 
         Stand: {{ lastUpdated }} | 
         Lizenz: MIT | 
-        <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">GitHub</a>
+        <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">GitHub</a> |
         <a target="_blank" href="https://steampixel.de/impressum/">Impressum</a> |
         <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">Datenschutz</a>
       </p>
