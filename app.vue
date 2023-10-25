@@ -103,11 +103,9 @@
 
         <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
         <space></space>
-        <space></space>
 
         <h2 class="text-2xl font-bold text-gray-800">{{categoryTag.title}}</h2>
 
-        <space></space>
         <space></space>
 
         <div v-for="(task) in tasks" :key="task.id" class="">
@@ -133,7 +131,6 @@
       </div>
 
       <space></space>
-      <space></space>
 
     </div>
     
@@ -143,7 +140,6 @@
 
       <app-button @click="clearAll">Lösche alle Daten aus meinem Browser</app-button>
 
-      <space></space>
       <space></space>
 
       <p class="text-sm">
@@ -156,7 +152,6 @@
         <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">Datenschutz</a>
       </p>
 
-      <space></space>
       <space></space>
 
     </div>
