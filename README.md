@@ -1,4 +1,4 @@
-# Smartphone halt's Maul!
+# 🦄 Smartphone halt's Maul!
 Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.
 
 ## Welche Dateien sind in diesem Projekt wichtig?
