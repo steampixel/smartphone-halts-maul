@@ -1,10 +1,10 @@
 <template>
 
-  <div v-if="visible" :class="'relative mb-4 block p-2 md:p-4 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(completed?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
+  <div v-if="visible" :class="'relative mb-4 block p-4 md:p-8 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(false?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
 
     <div class="flex justify-between">
 
-      <div class="text-sm">{{points}} Punkte</div>
+      <div class="text-sm italic">{{points}} Punkte</div>
 
       <div class="flex text-sm">
 
@@ -22,29 +22,33 @@
 
     <space></space>
 
-    <div class="flex items-baseline">
+    <div class="">
 
-      <input :id="'checkbox'+id" type="checkbox" v-model="completed" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-      
-      <div class="ml-2">
+      <label :for="'checkbox'+id" class="cursor-pointer block w-full">
 
-        <label :for="'checkbox'+id" class="cursor-pointer block w-full">
+        <div class="flex items-baseline">
 
-          <h3 class="text-xl font-bold text-gray-800">{{title}}</h3>
+          <input :id="'checkbox'+id" type="checkbox" v-model="completed" value="" class="accent-pink-500 scale-150 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
 
-          <div class="mb-2"></div>
+          <h3 class="text-xl font-bold text-gray-800 ml-4">{{title}}</h3>
 
-          <div class="text-base">
-            {{shortText}}
-          </div>
+        </div>
 
-        </label>
+        <div class="mb-2"></div>
 
-        <space></space>
+        <div class="text-base">
+          {{shortText}}
+        </div>
 
-        <button v-if="showMore" class="text-base cursor-pointer" @click="showModal=true">🎓 Mehr Informationen</button>
+      </label>
 
-      </div>
+      <space></space>
+
+      <app-button 
+        v-if="showMore" 
+        @click="showModal=true" 
+        color="bg-gray-200 hover:bg-gray-300"
+        text="text-black">🎓 Mehr Informationen</app-button>
 
     </div>
 
@@ -96,14 +100,14 @@
 
   import config from '~/config.js';
 
-  import Modal from '~/components/Space.vue'
+  import Modal from '~/components/Modal.vue'
   import Space from '~/components/Space.vue'
-
+  import AppButton from '~/components/Button.vue'
 
   export default {
 
     components: {
-      Modal, Space
+      Modal, Space, AppButton
     },
 
     props: [

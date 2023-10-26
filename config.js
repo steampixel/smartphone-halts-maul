@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.4.0',
+  version: '1.5.0',
 
-  lastUpdated: '2023-10-25',
+  lastUpdated: '2023-10-26',
 
   categoryTags: [
     {
@@ -146,7 +146,7 @@ export default {
       id: '1y9t0s94ukh4vmw1uxff1jrqii0wahot',
       title: 'Du kannst deine Geräte schnell abschalten',
       shortText: 'Eine Verschlüsselung ist nur effektiv, wenn das Telefon ausgeschaltet ist. Übe daher wie du dein Telefon in Stresssituationen schnell abschalten kannst.',
-      longText: 'Auch wenn dein Telefon verschlüsselt ist kann Software wie Cellebrite via USB darauf zugreifen. Solange dein Telefon eingeschaltet ist, ist die Verschlüsselung wirkungslos. Erst wenn es abgeschaltet ist, ist Verschlüsselung wirklich effektiv. Schalte dein Telefon unbedingt ab, bevor du es in fremnde Hände gibst! Wenn du auf Nummer sicher gehen willst kannst du auch einen Killswitch an deinem Telefon anbringen. So lässt sich der Akku in Gefahrensituationen schnell entfernen. Damit verschwindet dann der Schlüssel vom Speicher deines Geräts.',
+      longText: 'Auch wenn dein Telefon verschlüsselt ist kann Software wie Cellebrite via USB darauf zugreifen. Solange dein Telefon eingeschaltet ist, ist die Verschlüsselung wirkungslos. Erst wenn es abgeschaltet ist, ist Verschlüsselung wirklich effektiv. Schalte dein Telefon unbedingt ab, bevor du es in fremde Hände gibst! Wenn du auf Nummer sicher gehen willst kannst du auch einen Killswitch an deinem Telefon anbringen. So lässt sich der Akku in Gefahrensituationen schnell entfernen. Damit verschwindet dann der Schlüssel vom Speicher deines Geräts.',
       showMore: true,
       links: [
         {

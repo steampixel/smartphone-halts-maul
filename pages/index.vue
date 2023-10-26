@@ -1,55 +1,65 @@
 <template>
 
-  <div class="container">
+  <div class="container min-h-screen flex justify-center items-center">
 
-    <space></space>
+    <div>
 
-    <h1 class="text-gray-800">
-      <div class="text-5xl md:text-6xl font-bold mb-2">Smartphone halt's Maul!</div>
-      <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
-    </h1>
+      <space></space>
+      <space></space>
 
-    <space></space>
-    <space></space>
+      <h1 class="text-gray-800">
+        <div class="text-5xl md:text-6xl font-bold mb-2">🦄 Smartphone halt's Maul!</div>
+        <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
+      </h1>
 
-    <p>
-      Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
-      damit du ein Gefühl für die Thematik entwickeln kannst. 
-      Die Liste enthält {{ tasks.length }} konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
-      Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
-      Je größer dein Level desto mehr Konfetti kannst du beim Klick auf Einhorn oder Regenbogen generieren.
-    </p>
+      <space></space>
+      <space></space>
 
-    <space></space>
+      <p>
+        Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
+        damit du ein Gefühl für die Thematik entwickeln kannst. 
+        Die Liste enthält {{ tasks.length }} konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
+        Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
+        Je größer dein Level desto mehr Konfetti kannst du beim Klick auf Bonbon oder Regenbogen generieren.
+      </p>
 
-    <p>
-      Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt.
-      Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus.
-      Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht.
-    </p>
+      <space></space>
 
-    <space></space>
+      <p>
+        Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt.
+        Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus.
+        Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht.
+      </p>
 
-    <p>
-      Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
-      Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
-    </p>
+      <space></space>
 
-    <space></space>
-    <space></space>
+      <p>
+        Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
+        Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
+      </p>
+
+      <space></space>
+      <space></space>
+
+      <app-button @click="start">Starte jetzt</app-button>
+
+      <space></space>
+      <space></space>
+
+    </div>
 
   </div>
 
-  <div>
+  <div ref="mainsection">
 
     <!-- Sticky bar -->
-    <div class="sticky top-0 z-10 text-white bg-gray-800 p-2 md:p-4">
+    <div class="sticky top-0 z-10 text-white bg-gray-800 p-2 md:p-4 shadow-md">
 
       <div class="container">
 
         <div class="flex flex-wrap justify-between items-center">
 
-        <button aria-label="Einhorn-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="unicornConfetti()">🦄</button>
+        <button aria-label="Regenbogen-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
         <div class="text-center">
 
@@ -58,7 +68,7 @@
 
         </div>
 
-        <button aria-label="Regenbogen-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="rainbowConfetti()">🌈</button>
+        <button aria-label="Candy-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
         </div>
 
@@ -82,17 +92,20 @@
       <space></space>
       <space></space>
 
-      <ul class="">
-        <li 
+      <div class="">
+        <span 
           v-for="(tag) in filterTags" 
-          :key="tag.key" 
-          @click="tag.disabled=!tag.disabled" 
-          :class="(tag.disabled?'line-through':'')+' hover:scale-105 transition-all cursor-pointer mr-4'"
-          :aria-label="tag.title"
-          role="button">
-          {{tag.icon}} {{tag.title}}
-      </li>
-      </ul>
+          @click="tag.disabled=!tag.disabled"
+          :key="tag.key">
+          <app-button 
+            :aria-label="tag.title" 
+            class="hover:scale-105 transition-all cursor-pointer mr-4">
+            <span :class="(tag.disabled?'line-through':'')">
+              {{tag.icon}} {{tag.title}}
+            </span>
+          </app-button>
+        </span>
+      </div>
 
     </div>
 
@@ -185,7 +198,7 @@
       ogTitle: 'Smartphone halt\'s Maul - Eine Checkliste für deine mobile Sicherheit',
       description: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
       ogDescription: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      // ogImage: 'https://example.com/image.png',
+      ogImage: 'https://example.com/icon.png',
       // twitterCard: 'summary_large_image',
     })
 
@@ -256,7 +269,7 @@
             if(enableConfetti) {
 
               jsConfetti.addConfetti({
-                emojis: ['🌈', '🦄', 'LEVEL UP'],
+                emojis: ['🦄', '🍬', 'LEVEL UP'],
               })
 
             }
@@ -297,19 +310,19 @@
         return found;
       },
 
-      unicornConfetti() {
+      candyConfetti() {
         jsConfetti.addConfetti({
-          emojis: ['🦄'],
+          emojis: ['🍬'],
           confettiNumber: this.level,
         })
       },
 
-      rainbowConfetti() {
-        jsConfetti.addConfetti({
-          emojis: ['🌈'],
-          confettiNumber: this.level,
-        })
-      },
+      // rainbowConfetti() {
+      //   jsConfetti.addConfetti({
+      //     emojis: ['🌈'],
+      //     confettiNumber: this.level,
+      //   })
+      // },
 
       done(points) {
 
@@ -326,7 +339,11 @@
       clearAll() {
         localStorage.clear();
         location.reload(); 
-      }
+      },
+
+      start() {
+        this.$refs["mainsection"].scrollIntoView({ behavior: "smooth" })
+      },
 
     }
 

@@ -26,3 +26,4 @@ logs
 # Local stuff
 todo.md
 *.sh
+nginx.conf

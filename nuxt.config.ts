@@ -8,4 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  plugins: [
+    { src: '~/plugins/matomo.js', mode: 'client' }
+  ]
 })
