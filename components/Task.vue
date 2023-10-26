@@ -1,6 +1,6 @@
 <template>
 
-  <div v-if="visible" :class="'relative mb-4 block p-2 md:p-4 border border-gray-200 rounded-lg shadow '+(completed?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
+  <div v-if="visible" :class="'relative mb-4 block p-2 md:p-4 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(completed?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
 
     <div class="flex justify-between">
 

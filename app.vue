@@ -15,8 +15,9 @@
     <p>
       Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
       damit du ein Gefühl für die Thematik entwickeln kannst. 
-      Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
+      Die Liste enthält {{ tasks.length }} konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
       Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
+      Je größer dein Level desto mehr Konfetti kannst du beim Klick auf Einhorn oder Regenbogen generieren.
     </p>
 
     <space></space>
@@ -48,7 +49,7 @@
 
         <div class="flex flex-wrap justify-between items-center">
 
-        <div class="text-3xl cursor-pointer" @click="unicornConfetti()">🦄</div>
+        <button aria-label="Einhorn-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="unicornConfetti()">🦄</button>
 
         <div class="text-center">
 
@@ -57,7 +58,7 @@
 
         </div>
 
-        <div class="text-3xl cursor-pointer" @click="rainbowConfetti()">🌈</div>
+        <button aria-label="Regenbogen-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="rainbowConfetti()">🌈</button>
 
         </div>
 
@@ -79,18 +80,19 @@
       </p>
 
       <space></space>
+      <space></space>
 
-      <div class="flex flex-wrap">
-        <div 
+      <ul class="">
+        <li 
           v-for="(tag) in filterTags" 
           :key="tag.key" 
           @click="tag.disabled=!tag.disabled" 
-          :class="(tag.disabled?'line-through':'')+' cursor-pointer text-sm mr-4'"
+          :class="(tag.disabled?'line-through':'')+' hover:scale-105 transition-all cursor-pointer mr-4'"
           :aria-label="tag.title"
           role="button">
           {{tag.icon}} {{tag.title}}
-        </div>
-      </div>
+      </li>
+      </ul>
 
     </div>
 
@@ -298,12 +300,14 @@
       unicornConfetti() {
         jsConfetti.addConfetti({
           emojis: ['🦄'],
+          confettiNumber: this.level,
         })
       },
 
       rainbowConfetti() {
         jsConfetti.addConfetti({
           emojis: ['🌈'],
+          confettiNumber: this.level,
         })
       },
 
