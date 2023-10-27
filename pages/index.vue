@@ -191,7 +191,7 @@
       ogTitle: 'Smartphone halt\'s Maul - Eine Checkliste für deine mobile Sicherheit',
       description: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
       ogDescription: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogImage: 'https://example.com/icon.png',
+      ogImage: 'https://smartphone-halts-maul.de/icon.png',
       // twitterCard: 'summary_large_image',
     })
 
@@ -227,8 +227,7 @@
         filterTags: config.filterTags,
         tasks: config.tasks,
         points: 0,
-        level: 1,
-        showWelcomeModal: false
+        level: 1
       }
     },
 
