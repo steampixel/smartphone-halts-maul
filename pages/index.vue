@@ -83,12 +83,6 @@
       <h2 class="text-2xl font-bold text-gray-800">Liste filtern</h2>
 
       <space></space>
-
-      <p>
-        Hier kannst du die Items der Liste nach bestimmten Kriterien filtern indem du sie ausschließt. Dadurch kannst du einen besseren Überblick gewinnen und dir zum Beispiel zunächst die leichtesten Aufgaben vornehmen.
-      </p>
-
-      <space></space>
       <space></space>
 
       <div class="">
