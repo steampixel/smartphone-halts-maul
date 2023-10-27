@@ -20,7 +20,6 @@
         damit du ein Gefühl für die Thematik entwickeln kannst. 
         Die Liste enthält {{ tasks.length }} konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
         Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
-        Je größer dein Level desto mehr Konfetti kannst du beim Klick auf Bonbon oder Regenbogen generieren.
       </p>
 
       <space></space>

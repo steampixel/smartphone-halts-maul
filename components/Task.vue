@@ -48,12 +48,12 @@
         v-if="showMore" 
         @click="showModal=true" 
         color="bg-gray-200 hover:bg-gray-300"
-        text="text-black">🎓 Mehr Informationen</app-button>
+        text="text-black">Mehr Informationen</app-button>
 
     </div>
 
     <!-- Modal -->
-    <modal @close="showModal=false" :show="showModal" :title="'🎓 '+title">
+    <modal @close="showModal=false" :show="showModal" :title="title">
       <div class="text-base">
           {{longText}}
       </div>
