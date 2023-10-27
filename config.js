@@ -70,8 +70,15 @@ export default {
     {
       id: 'a2t3l5ehl2x96hbk35ua0u71hoxoklax',
       title: 'Du teilst diese Liste mit anderen',
-      shortText: 'Wenn wir es schaffen die Sicherheit aller Menschen zu erhöhen werden sich staatliche Überwachungsmaßnahmen weniger lohnen. Das kommt auch deiner Sicherheit zugute. Teile diese Liste daher in deinen Kanälen.',
+      shortText: 'Wenn wir es schaffen die Sicherheit aller Menschen zu erhöhen werden sich staatliche Überwachungsmaßnahmen weniger lohnen. Das kommt auch deiner Sicherheit zugute. Teile diese Liste daher in deinen Kanälen oder drucke den Flyer aus.',
       tags: ['common', 'easy'],
+      showMore: true,
+      links: [
+        {
+          title: 'Flyer: Smartphone halt\'s Maul',
+          url: 'https://smartphone-halts-maul.de/flyer'
+        }
+      ],
       points: 100,
       checked: false
     },
@@ -92,7 +99,7 @@ export default {
       showMore: true,
       links: [
         {
-          title: 'Nächte Cryptopartys auf cryptoparty.in',
+          title: 'Nächte Cryptoparties auf cryptoparty.in',
           url: 'https://www.cryptoparty.in/parties/upcoming'
         }
       ],

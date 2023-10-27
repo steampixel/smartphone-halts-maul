@@ -6,10 +6,10 @@
 
       <div class="absolute w-full h-full bg-gray-800 opacity-50" @click="$emit('close')"></div>
 
-      <div :class="'max-h-full overflow-auto md:w-1/2 bg-white mx-auto rounded-lg shadow-lg z-10 overflow-y-auto'">
+      <div :class="'py-4 px-8 max-h-full overflow-auto md:w-1/2 bg-white mx-auto rounded-lg shadow-lg z-10 overflow-y-auto'">
 
         <!--Title-->
-        <div class="px-8 pt-4 flex justify-between items-start">
+        <div class="flex justify-between items-start">
           <div class="text-2xl font-bold text-gray-800">{{title}}</div>
           <div class="pl-4 cursor-pointer z-20" @click="$emit('close')">
             <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -19,14 +19,14 @@
         </div>
 
         <!--Body-->
-        <div class="px-8 py-4">
+        <div class="py-4">
           <slot>
 
           </slot>
         </div>
 
         <!--Footer-->
-        <div class="px-8 pt-4 flex justify-end" >
+        <div class="pt-4 flex justify-end" >
           <app-button @click="$emit('close')">Schließen</app-button>
         </div>
 

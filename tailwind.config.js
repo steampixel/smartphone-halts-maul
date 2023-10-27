@@ -15,7 +15,13 @@ export default {
       padding: '2rem',
     },
 
-    extend: {},
+    extend: {
+
+      screens: {
+        'print': { 'raw': 'print' },
+      }
+
+    },
   },
   plugins: [],
 }
