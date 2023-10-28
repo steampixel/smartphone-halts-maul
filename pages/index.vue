@@ -18,7 +18,7 @@
       <p>
         Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
         damit du ein Gefühl für die Thematik entwickeln kannst. 
-        Die Liste enthält {{ tasks.length }} konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
+        Die Liste enthält <span class="font-bold">{{ tasks.length }}</span> konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
         Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
       </p>
 

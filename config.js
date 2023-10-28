@@ -137,10 +137,12 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2016-12-08',
           title: 'Phone-Cracking Cellebrite Software Used to Prosecute Tortured Dissident',
           url: 'https://theintercept.com/2016/12/08/phone-cracking-cellebrite-software-used-to-prosecute-tortured-dissident'
         },
         {
+          date: '2023-06-28',
           title: 'Netzpolitik: Abschiebung von Geduldeten: Berlin durchsucht weiter Handys',
           url: 'https://netzpolitik.org/2023/abschiebung-von-geduldeten-berlin-durchsucht-weiter-handys/'
         }
@@ -157,6 +159,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2020-01-26',
           title: 'Ein Killswitch für dein Smartphone',
           url: 'https://steampixel.de/ein-killswitch-fur-dein-smartphone/'
         }
@@ -199,6 +202,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-03-10',
           title: 'Polizei darf Fingerabdrücke nehmen, um Handy zu entsperren',
           url: 'https://netzpolitik.org/2023/gerichtsbeschluss-polizei-darf-fingerabdruecke-nehmen-um-handy-zu-entsperren/'
         }
@@ -214,6 +218,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2022-02-14',
           title: 'Heise: Android: Entwickleroptionen aktivieren/deaktivieren ',
           url: 'https://www.heise.de/tipps-tricks/Android-Entwickleroptionen-aktivieren-deaktivieren-4041510.html'
         }
@@ -229,6 +234,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-04-12',
           title: 'Tarnkappe: FBI warnt vor der Nutzung öffentlicher Handy-Ladestationen',
           url: 'https://tarnkappe.info/artikel/it-sicherheit/fbi-warnt-vor-der-nutzung-oeffentlicher-handy-ladestationen-272873.html'
         }
@@ -252,6 +258,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2020-08-09',
           title: 'Steampixel: Schon mal über Hardware-Versiegelungen nachgedacht?',
           url: 'https://steampixel.de/schon-mal-uber-hardware-versiegelungen-nachgedacht/'
         }
@@ -332,6 +339,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2018-02-09',
           title: 'Mobilfunkanbieter: Widerspruch gegen Erhebung von Bewegungsdaten',
           url: 'https://www.kuketz-blog.de/mobilfunkanbieter-widerspruch-gegen-erhebung-von-bewegungsdaten/'
         }
@@ -356,6 +364,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2018-08-07',
           title: 'Süddeutsche Zeitung: Alle eineinhalb Minuten pingt der Staat',
           url: 'https://www.sueddeutsche.de/digital/stille-sms-alle-eineinhalb-minuten-pingt-der-staat-1.4085229'
         },
@@ -372,6 +381,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2022-06-21',
           title: 'Netzpolitik.org: Behörden fragen jede Sekunde, wem eine Telefonnummer gehört',
           url: 'https://netzpolitik.org/2022/bestandsdatenauskunft-2021-behoerden-fragen-jede-sekunde-wem-eine-telefonnummer-gehoert/'
         },
@@ -380,38 +390,47 @@ export default {
           url: 'https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/OeffentlicheSicherheit/Autom_Auskunftsverfahren/FAQ/start.html'
         },
         {
+          date: '2017-07-11',
           title: 'Süddeutsche Zeitung: Das Ende der Anonymität',
           url: 'https://www.sueddeutsche.de/digital/prepaid-sim-karten-das-ende-der-anonymitaet-1.3564334'
         },
         {
+          date: '2017-08-02',
           title: 'Interaktive Karte: Registrierungspflicht für Prepaid-SIM-Karten in Europa weit verbreitet',
           url: 'https://netzpolitik.org/2017/interaktive-karte-registrierungspflicht-fuer-prepaid-sim-karten-in-europa-weit-verbreitet/'
         },
         {
+          date: '2016-09-20',
           title: 'Informatik-Gutachten: Eine Telefonnummer ist ausreichend, um eine Person mit einer Drohnen-Rakete zu treffen',
           url: 'https://netzpolitik.org/2016/informatik-gutachten-eine-telefonnummer-ist-ausreichend-um-eine-person-mit-einer-drohnen-rakete-zu-treffen/'
         },
         {
+          date: '2018-12-29',
           title: '35C3 - Die verborgene Seite des Mobilfunks',
           url: 'https://yt.artemislena.eu/watch?v=CSZWTaTu9As'
         },
         {
+          date: '2014-12-28',
           title: 'Tobias Engel: SS7: Locate. Track. Manipulate',
           url: 'https://yt.oelrichsgarcia.de/watch?v=-wu_pO5Z7Pk'
         },
         {
+          date: '2019-08-28',
           title: 'Die 5-G Überwachungsstandards',
           url: 'https://invidious.lunar.icu/watch?v=_2HOcuH5rKc'
         },
         {
+          date: '2023-09-16',
           title: 'Tarnkappe: Mobilfunkanbieter gaben erneut Daten illegal an die Schufa',
           url: 'https://tarnkappe.info/artikel/rechtssachen/mobilfunkanbieter-gaben-erneut-daten-illegal-an-die-schufa-280583.html'
         },
         {
+          date: '2023-06-27',
           title: 'Netzpolitik.org: Firma legt Scoring-Profile der Hälfte aller weltweiten Handynutzer an',
           url: 'https://netzpolitik.org/2023/datenschutzbeschwerde-gegen-telesign-firma-legt-scoring-profile-der-haelfte-aller-weltweiten-handynutzer-an/'
         },
         {
+          date: '2023-09-14',
           title: 'Netzpolitik.org: Russische Exil-Journalistin mit Pegasus gehackt',
           url: 'https://netzpolitik.org/2023/meduza-russische-exil-journalistin-mit-pegasus-gehackt/'
         }
@@ -478,6 +497,7 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-09-21',
           title: 'Wikipedia: Advanced Mobile Location',
           url: 'https://de.wikipedia.org/wiki/Advanced_Mobile_Location'
         },
@@ -511,10 +531,12 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-07-06',
           title: 'The adtech industry tracks most of what you do on the Internet. This file shows just how much.',
           url: 'https://netzpolitik.org/2023/surveillance-advertising-in-europe-the-adtech-industry-tracks-most-of-what-you-do-on-the-internet-this-file-shows-just-how-much/'
         },
         {
+          date: '2021-10-26',
           title: 'Für Anfänger/Bequeme: Werbung und Tracker unter iOS/Android systemweit verbannen',
           url: 'https://www.kuketz-blog.de/fuer-anfaenger-bequeme-werbung-und-tracker-unter-ios-android-systemweit-verbannen/'
         },
@@ -546,14 +568,17 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2020-10-09',
           title: 'Heise: Inverssuche: Google liefert Polizei Nutzerdaten auf Basis von Suchbegriffen',
           url: 'https://www.heise.de/news/Inverssuche-Google-liefert-Polizei-Nutzerdaten-auf-Basis-von-Suchbegriffen-4925754.html'
         },
         {
+          date: '2020-10-13',
           title: 'Polizei erhält Liste aller Nutzer, die nach einem Schlagwort gegoogelt haben',
           url: 'https://netzpolitik.org/2020/ermittlungen-in-den-usa-polizei-erhaelt-liste-aller-nutzer-die-nach-einem-schlagwort-gegoogelt-haben/'
         },
         {
+          date: '2023-04-12',
           title: 'Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware',
           url: 'https://tarnkappe.info/artikel/it-sicherheit/malware/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html'
         }
@@ -578,6 +603,7 @@ export default {
           url: 'https://support.apple.com/de-de/HT212520'
         },
         {
+          date: '2023-08-04',
           title: 'BAMF soll Cloud-Speicher von Asylsuchenden auslesen',
           url: 'https://netzpolitik.org/2023/innenministerium-bamf-soll-cloud-speicher-von-asylsuchenden-auslesen/'
         }
