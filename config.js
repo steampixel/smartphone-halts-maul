@@ -307,7 +307,7 @@ export default {
       id: '98rgv22iqrocb3e55w90anh5rtoni492',
       title: 'Du hast dein Telefon einmal überschrieben',
       shortText: 'Du hast das Telefon gebraucht gekauft? Dann solltest du einmal den kompletten Speicher überschreiben, um zu vermeiden, dass ungewollte Daten auf deinem Gerät gefunden werden.',
-      longText: 'Gebrauchte Telefone könnten illegale Daten enthalten haben, die wiederhergestellt und ausgewertet werden könnten. Um zu vermeiden, dass dir das zum Verhängnis wird solltest du das Telefon einmal komplett überschreiben. Wenn du die Möglichkeit hast generiere dir große Zufallsdateien und kopiere diese auf dein Telefon, bis es voll ist. Andernfalls kannst du dir auch große Testdaten aus dem Internet herunterladen und damit den Speicher deines Telefons überschrieben.',
+      longText: 'Gebrauchte Telefone könnten illegale Daten enthalten haben, die wiederhergestellt und ausgewertet werden könnten. Um zu vermeiden, dass dir das zum Verhängnis wird solltest du das Telefon einmal komplett überschreiben. Wenn du die Möglichkeit hast generiere dir große Zufallsdateien und kopiere diese auf dein Telefon, bis es voll ist. Andernfalls kannst du dir auch große Testdaten aus dem Internet herunterladen und damit den Speicher deines Telefons überschreiben.',
       showMore: true,
       links: [
         {
@@ -660,13 +660,13 @@ export default {
       points: 400
     },
 
-    {
-      id: '6y3nqp7tkk2i75iw5rojgx7wgi8g40zw',
-      title: 'Du achtest auf eine verschlüsselte Internetverbindung',
-      shortText: 'Du achtest beim Surfen auf eine gültige und verschlüsselte TLS-Verbindung (https://)? Super! Dann kannst du davon ausgehen, dass die Kommunikation zwischen dir und der Ziel-Website verschlüsselt erfolgt.',
-      tags: ['online', 'easy'],
-      points: 200
-    },
+    // {
+    //   id: '6y3nqp7tkk2i75iw5rojgx7wgi8g40zw',
+    //   title: 'Du achtest auf eine verschlüsselte Internetverbindung',
+    //   shortText: 'Du achtest beim Surfen auf eine gültige und verschlüsselte TLS-Verbindung (https://)? Super! Dann kannst du davon ausgehen, dass die Kommunikation zwischen dir und der Ziel-Website verschlüsselt erfolgt.',
+    //   tags: ['online', 'easy'],
+    //   points: 200
+    // },
 
     {
       id: 'z0meha5aadwsz3t2hpy6suymhi9u76qb',
