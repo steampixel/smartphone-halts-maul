@@ -68,8 +68,11 @@
 
         <ul class="text-base list-disc list-inside">
 
-          <li v-for="(link, index) in links" :key="index">
-            <a target="_blank" :href="link.url" class="underline">{{ link.title }}</a>
+          <li v-for="(link, index) in sortedLinks" :key="index">
+            <a target="_blank" :href="link.url" class="underline">
+              <span v-if="link.date">{{ link.date }} - </span>
+              <span>{{ link.title }}</span>
+            </a>
           </li>
 
         </ul>
@@ -137,7 +140,24 @@
       },
       expensive: function () {
         return  this.tags.includes('expensive'); 
-      }
+      },
+      sortedLinks() {        
+        return this.links
+          .sort((a, b) => {
+
+            if(!a.date) {a.date = '';}
+            if(!b.date) {b.date = '';}
+
+            if (a.date < b.date) {
+              return 1;
+            }
+            if (a.date > b.date) {
+              return -1;
+            }
+            return 0;
+          }
+        );
+      },
     },
 
     mounted: function () {

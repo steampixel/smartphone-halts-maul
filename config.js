@@ -490,6 +490,14 @@ export default {
     },
 
     {
+      id: 'htdfk57a95tvt9lmf13dv9s38y6ldrmk',
+      title: 'Du nutzt Rufnummernunterdrückung mit bedacht',
+      shortText: 'Du bist dir im klaren darüber, dass das Unterdrücken der Rufnummer lediglich dazu führt, dass diese auf dem Telefon der Gegenstelle nicht angezeigt wird. In den Verkehrsdaten der beteiligten Provider*innen wird deine Nummer dennoch gespeichert. Nutze anonyme Simkarten, wenn du auf Anonymität angewiesen bist.',
+      tags: ['mobile', 'easy'],
+      points: 200
+    },
+
+    {
       id: 'sqdf8gqi8sttil068u2mwb7jxa3p5ldn',
       title: 'Du wählst die 110 und die 112 mit bedacht',
       shortText: 'Seit 2019 wird in Deutschland Advances Mobile Location (AML) eingesetzt und schrittweise ausgebaut, um Personen in Notsituationen zu orten. Wenn du das nicht möchtest solltest du dich darauf vorbereiten.',
@@ -678,9 +686,17 @@ export default {
 
     {
       id: 'dlj81mgwv9w4i1eyca06znn8lf7wn28i',
-      title: 'Du nutzt verschlüsselte Mails oder verschlüsselte Messenger',
-      shortText: 'Nutzt du Emails? Dann solltest du unbedingt über Verschlüsselung wie GPG/OpenPGP nachdenken. Ansonsten setze unbedingt auf Messenger wie Element, Signal oder SimpleX.',
-      tags: ['online', 'simple', 'security', 'knowledge' ],
+      title: 'Du verschlüsselst deine E-Mails',
+      shortText: 'Nutzt du E-Mails? Dann solltest du unbedingt über Verschlüsselung wie GPG/OpenPGP nachdenken.',
+      tags: ['online', 'security', 'knowledge' ],
+      points: 800
+    },
+
+    {
+      id: '0blm4hke75axw4b9qrixkvpbterswatv',
+      title: 'Du nutzt Messenger mit verschlüsselter Kommunikation',
+      shortText: 'Du solltest unbedingt verschlüsselte Messenger wie Signal, Threema, Element oder SimpleX nutzen.',
+      tags: ['online', 'simple', 'security' ],
       points: 800
     },
 
@@ -689,6 +705,21 @@ export default {
       title: 'Lösche nicht genutzte Accounts',
       shortText: 'Es ist wichtig nicht mehr benötigte Accounts zu löschen. Egal, ob du diese für eine Website oder eine App benötigt hast. Wenn du sie länger nicht mehr genutzt hast solltest du sie schließen. Das minimiert das Risiko von Datenlecks enorm.',
       tags: ['online', 'knowledge' ],
+      points: 400
+    },
+
+    {
+      id: 'skjd0f1s35xqsuutwtfcfjmwbakciggh',
+      title: 'Du prüfst, ob du von Datenlecks betroffen bist',
+      shortText: 'Täglich leaken persönliche Daten aus Websites, Portalen und Onlineshops. Betroffne werden dabei selten informiert. Die Daten werden verkauft, gehandelt oder sind oft auch völlig frei zugänglich.',
+      longText: 'Auf der Website haveibeenpwned.com kannst du schnell und unkompliziert feststellen, ob deine Mailadresse in Datenlecks auftaucht. Du kannst dir dort auch einen Account zulegen, und dich bei neuen Funden automatisch benachrichtigen lassen.',
+      links: [
+        {
+          title: '\';--have i been pwned?',
+          url: 'https://haveibeenpwned.com/'
+        },
+      ],
+      tags: ['online', 'easy' ],
       points: 400
     },
 
