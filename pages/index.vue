@@ -8,7 +8,7 @@
       <space></space>
 
       <h1 class="text-gray-800">
-        <div class="text-5xl md:text-6xl font-bold mb-2">🦄 Smartphone halt's Maul!</div>
+        <div class="text-5xl md:text-6xl font-bold mb-2"><span class="inline-block unicorn">🦄</span> Smartphone halt's Maul!</div>
         <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
       </h1>
 
