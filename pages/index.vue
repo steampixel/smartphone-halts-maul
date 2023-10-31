@@ -35,6 +35,8 @@
       <p>
         Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
         Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
+        Diese Liste ist ein "work in progress". 
+        Wenn du helfen möchtest findest du den <a class="underline" target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">Code auf GitHub</a>.
       </p>
 
       <space></space>

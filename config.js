@@ -7,7 +7,7 @@ export default {
   categoryTags: [
     {
       key: 'common',
-      title: 'Allgemeine Hinweise und Tips'
+      title: 'Allgemeine Hinweise und Tipps'
     },
     {
       key: 'physical',
@@ -159,6 +159,11 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-10-30',
+          title: 'Netzpolitik: Beschlagnahmte Smartphones: Ein Grundrechtseingriff unbekannten Ausmaßes',
+          url: 'https://netzpolitik.org/2023/beschlagnahmte-smartphones-ein-grundrechtseingriff-unbekannten-ausmasses/'
+        },
+        {
           date: '2020-01-26',
           title: 'Ein Killswitch für dein Smartphone',
           url: 'https://steampixel.de/ein-killswitch-fur-dein-smartphone/'
@@ -301,6 +306,14 @@ export default {
       shortText: 'Im Falle einer Hausdurchsuchung oder eines Einbruchs werden oft alle Geräte entwendet. Bereite dich darauf vor indem du nicht genutzte Geräte bei deinen Freund*innen lagerst. So hast du schnell Ersatz.',
       tags: ['physical', 'easy', 'security'],
       points: 400
+    },
+
+    {
+      id: '255rov4bdircfn2ac5toavgq6jj99d42',
+      title: 'Du entsperrst dein Smartphone nicht auf Verlangen',
+      shortText: 'Bei Beschlagnahmungen auf richterliche Anordnung oder bei Sicherstellungen (freiwillige Herausgabe) eines Smartphones fragt die Polizei oft nach Pins und Passworten. Sage nichts. Entsperre nichts. Kontaktiere Anwält*innen.',
+      tags: ['physical', 'easy', 'security'],
+      points: 800
     },
 
     {
