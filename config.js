@@ -175,7 +175,7 @@ export default {
 
     {
       id: 'rww9tk85988s9p24s88rwrj1iow8m1nf',
-      title: 'Du verwendet eine Blickschutzfolie',
+      title: 'Du verwendest eine Blickschutzfolie',
       shortText: 'Du kannst eine spezielle Folie auf deinen Display kleben, die verhindert, dass umstehende Personen oder Kameras mitlesen können. Diese Folien gibt es für viele Modelle.',
       tags: ['physical', 'easy', 'expensive'],
       points: 200
