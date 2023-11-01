@@ -7,17 +7,28 @@ html {
 }
 
 .container {
-    max-width: 1024px;
+  max-width: 1024px;
 }
 
 .max-h-full {
-
   max-height: 100%;
-
 }
 
+/*
+    Break words
+*/
+.hyphenate {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 
+  -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+          hyphens: auto;
+}
 
+/*
+  Unicorn
+*/
 .unicorn {
   animation: Rotate 6s linear infinite;
 }

@@ -30,7 +30,9 @@
 
           <input :id="'checkbox'+id" type="checkbox" v-model="completed" value="" class="accent-pink-500 scale-150 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
 
-          <h3 class="text-xl font-bold text-gray-800 ml-4">{{title}}</h3>
+          <h3 class="text-base xs:text-lg sm:text-xl font-bold text-gray-800 ml-4 hyphenate">
+            {{title}}
+          </h3>
 
         </div>
 

@@ -2,12 +2,12 @@
 
   <div class="container min-h-screen flex justify-center items-center">
 
-    <div>
+    <div class="w-full">
 
       <space></space>
       <space></space>
 
-      <h1 class="text-gray-800">
+      <h1 class="text-gray-800 hyphenate">
         <div class="text-5xl md:text-6xl font-bold mb-2"><span class="inline-block unicorn">🦄</span> Smartphone halt's Maul!</div>
         <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
       </h1>
@@ -61,16 +61,16 @@
 
         <div class="flex flex-wrap justify-between items-center">
 
-        <button aria-label="Regenbogen-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
+          <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
-        <div class="text-center">
+          <div class="text-center">
 
-          Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
-          <span class="font-bold text-2xl md:text-3xl">{{points}}</span> Punkte
+            Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
+            <span class="font-bold text-2xl md:text-3xl">{{points}}</span> Punkte
 
-        </div>
+          </div>
 
-        <button aria-label="Candy-Konfetti" class="text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
+          <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
         </div>
 
@@ -88,17 +88,16 @@
       <space></space>
       <space></space>
 
-      <div class="">
+      <div>
         <span 
+          class="inline-block max-w-full"
           v-for="(tag) in filterTags" 
           @click="tag.disabled=!tag.disabled"
           :key="tag.key">
           <app-button 
             :aria-label="tag.title" 
-            class="hover:scale-105 transition-all cursor-pointer mr-4">
-            <span :class="(tag.disabled?'line-through':'')">
-              {{tag.icon}} {{tag.title}}
-            </span>
+            class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
+            <span :class="(tag.disabled?'line-through':'')+' hyphenate'">{{ tag.icon }} {{ tag.title }}</span>
           </app-button>
         </span>
       </div>

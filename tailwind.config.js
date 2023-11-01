@@ -18,8 +18,9 @@ export default {
     extend: {
 
       screens: {
+        'xs': '320px',
         'print': { 'raw': 'print' },
-      }
+      },
 
     },
   },
