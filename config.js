@@ -4,6 +4,8 @@ export default {
 
   lastUpdated: '2023-10-26',
 
+  pointsPerLevel: 800,
+
   categoryTags: [
     {
       key: 'common',

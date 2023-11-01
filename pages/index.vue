@@ -20,6 +20,7 @@
         damit du ein Gefühl für die Thematik entwickeln kannst. 
         Die Liste enthält <span class="font-bold">{{ tasks.length }}</span> konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
         Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
+        Du kannst maximal  <span class="font-bold">{{ countLevels() }}</span> Level aufsteigen.
       </p>
 
       <space></space>
@@ -239,7 +240,7 @@
       jsConfetti = new JSConfetti()
 
       // Enable confetti after 2 seconds
-      // We dont want to fire confetti on loading from local storage...
+      // We don't want to fire confetti on loading from local storage...
       enableConfetti = false;
       setTimeout(() => {
         enableConfetti = true;
@@ -252,7 +253,7 @@
         handler(newValue, oldValue) {
 
           // Calculate level
-          this.level = Math.ceil(newValue / 800);
+          this.level = this.calculateLevel(newValue);
 
         },
         deep: true,
@@ -303,6 +304,23 @@
         });
        
         return found;
+      },
+
+      countPoints() {
+        let points = 0;
+        this.tasks.forEach((task) => {
+          points = points + task.points;
+        });
+        return points;
+      },
+
+      countLevels() {
+        let points = this.countPoints();
+        return this.calculateLevel(points);;
+      },
+
+      calculateLevel(points) {
+        return Math.ceil(points / config.pointsPerLevel);
       },
 
       candyConfetti() {
