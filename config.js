@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.5.0',
+  version: '1.6.0',
 
-  lastUpdated: '2023-10-26',
+  lastUpdated: '2023-11-01',
 
   pointsPerLevel: 800,
 
@@ -396,6 +396,11 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-10-27',
+          title: 'Heise: Forscher: Sicherheitslücken beim Roaming bleiben auch bei 5G eine große Gefahr',
+          url: 'https://www.heise.de/news/Forscher-Sicherheitsluecken-beim-Roaming-bleiben-auch-bei-5G-eine-grosse-Gefahr-9347577.html'
+        },
+        {
           date: '2022-06-21',
           title: 'Netzpolitik.org: Behörden fragen jede Sekunde, wem eine Telefonnummer gehört',
           url: 'https://netzpolitik.org/2022/bestandsdatenauskunft-2021-behoerden-fragen-jede-sekunde-wem-eine-telefonnummer-gehoert/'
@@ -671,6 +676,14 @@ export default {
       id: 'jseo0a8ko4q5rnb3lyh55p1jzd42ldrr',
       title: 'Deaktiviere nicht genutzte Schnittstellen',
       shortText: 'Du solltest Positionierung, WiFi, Bluetooth oder NFC nur aktivieren, wenn du es benötigst',
+      showMore: true,
+      links: [
+        {
+          date: '2023-09-01',
+          title: 'Golem: Bluetooth-Spam gelingt jetzt auch per Android-App',
+          url: 'https://www.golem.de/news/kein-flipper-zero-noetig-bluetooth-spam-gelingt-jetzt-auch-per-android-app-2311-178988.html'
+        }
+      ],
       tags: ['online', 'easy'],
       points: 400
     },
