@@ -1,6 +1,6 @@
 export default {
 
-  version: '1.7.0',
+  version: '1.7.1',
 
   lastUpdated: '2023-11-02',
 
@@ -756,6 +756,7 @@ export default {
       title: 'Du prüfst, ob du von Datenlecks betroffen bist',
       shortText: 'Täglich leaken persönliche Daten aus Websites, Portalen und Onlineshops. Betroffne werden dabei selten informiert. Die Daten werden verkauft, gehandelt oder sind oft auch völlig frei zugänglich.',
       longText: 'Auf der Website haveibeenpwned.com kannst du schnell und unkompliziert feststellen, ob deine Mailadresse in Datenlecks auftaucht. Du kannst dir dort auch einen Account zulegen, und dich bei neuen Funden automatisch benachrichtigen lassen.',
+      showMore: true,
       links: [
         {
           title: '\';--have i been pwned?',
