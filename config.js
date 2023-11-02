@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.6.0',
+  version: '1.7.0',
 
-  lastUpdated: '2023-11-01',
+  lastUpdated: '2023-11-02',
 
   pointsPerLevel: 800,
 
@@ -675,9 +675,24 @@ export default {
     {
       id: 'jseo0a8ko4q5rnb3lyh55p1jzd42ldrr',
       title: 'Deaktiviere nicht genutzte Schnittstellen',
-      shortText: 'Du solltest Positionierung, WiFi, Bluetooth oder NFC nur aktivieren, wenn du es benötigst',
+      shortText: 'Du solltest Positionierung, WiFi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst',
+      longText: 'Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen.',
       showMore: true,
       links: [
+        {
+          title: 'Wigle.net - All the networks. Found by Everyone.',
+          url: 'https://wigle.net/'
+        },
+        {
+          title: 'Warum eine versteckte SSID keine Sicherheit bringt, sondern sogar Bewegungsprofile ermöglicht',
+          date: '2020-06-28',
+          url: 'https://www.wlan-blog.com/sicherheit/warum-eine-versteckte-ssid-keine-sicherheit-bringt-sondern-sogar-bewegungsprofile-ermoeglicht'
+        },
+        {
+          title: 'Heise: Von wegen privat: iPhones verrieten physische MAC-Adresse',
+          date:'2023-10-30',
+          url: 'https://www.heise.de/news/iPhone-Datenschutzpanne-Private-WLAN-Adresse-war-gar-nicht-so-privat-9349123.html'
+        },
         {
           date: '2023-09-01',
           title: 'Golem: Bluetooth-Spam gelingt jetzt auch per Android-App',
