@@ -721,7 +721,7 @@ export default {
 
     {
       id: 'l6vgj7s7b376ld7ks7htepeaivnvfkac',
-      title: 'Du ließt dir die Datenschutzerklärungen durch',
+      title: 'Du ließt dir Datenschutzerklärungen durch',
       shortText: 'Nimmst du dir Zeit Datenschutzerklärungen von neuen Apps und Services bei denen du dich registrierst zu lesen? Interessiert es dich mit wem deine Daten geteilt werden und was damit passiert?',
       tags: ['online', 'uncomfortable', 'knowledge' ],
       points: 400
