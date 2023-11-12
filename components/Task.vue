@@ -1,6 +1,6 @@
 <template>
 
-  <div v-if="visible" :class="'relative mb-4 block p-4 md:p-8 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(false?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
+  <div v-if="!(completed&&showCompleted) && visible" :class="'relative mb-4 block p-4 md:p-8 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(false?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
 
     <div class="flex justify-between">
 
@@ -116,7 +116,7 @@
     },
 
     props: [
-      'visible', 'id', 'title', 'shortText', 'longText', 'tags', 'showMore', 'links', 'points', 'checked'
+      'visible', 'id', 'title', 'shortText', 'longText', 'tags', 'showMore', 'links', 'points', 'checked', 'showCompleted'
     ],
 
     data: function() {

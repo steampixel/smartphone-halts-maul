@@ -103,6 +103,20 @@
             </span>
           </app-button>
         </span>
+
+        <span 
+          class="inline-block max-w-full"
+          @click="showCompleted=!showCompleted">
+          <app-button 
+            aria-label="Abgeschlossene ausblenden" 
+            :color="(!showCompleted?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
+            class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
+            <span class="hyphenate">
+              ☑ Abgeschlossene zeigen
+            </span>
+          </app-button>
+        </span>
+
       </div>
 
     </div>
@@ -126,6 +140,7 @@
           <task 
             v-if="taskHasTag(task, categoryTag.key)"
             :visible="(taskIsEnabled(task))"
+            :showCompleted="showCompleted"
             :id="task.id" 
             :title="task.title" 
             :shortText="task.shortText" 
@@ -232,6 +247,7 @@
         lastUpdated: config.lastUpdated,
         categoryTags: config.categoryTags,
         filterTags: config.filterTags,
+        showCompleted: false,
         tasks: config.tasks,
         points: 0,
         level: 1
@@ -299,20 +315,20 @@
             filterEnabled = true;
           }
         });
-
+        
         if(filterEnabled) {
 
           task.tags.forEach((taskTag) => {
 
-          this.filterTags.forEach((filterTag) => {
+            this.filterTags.forEach((filterTag) => {
 
-            // console.log(filterTag.key, taskTag);
+              if(
+                filterTag.enabled&&filterTag.key == taskTag
+                ) {
+                found = true;
+              }
 
-            if(filterTag.enabled&&filterTag.key == taskTag) {
-              found = true;
-            }
-
-          });
+            });
 
           });
 
