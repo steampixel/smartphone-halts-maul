@@ -96,7 +96,7 @@
           :key="tag.key">
           <app-button 
             :aria-label="tag.title" 
-            :color="(tag.enabled?'bg-green-800 hover:bg-green-900':'bg-gray-800 hover:bg-gray-900')"
+            :color="(tag.enabled?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="hyphenate">
               {{ tag.icon }} {{ tag.title }}
