@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.7.1',
+  version: '1.8.0',
 
-  lastUpdated: '2023-11-02',
+  lastUpdated: '2023-11-12',
 
   pointsPerLevel: 800,
 
@@ -30,31 +30,31 @@ export default {
       key: 'easy',
       icon: '⭐',
       title: 'Meist schnell und leicht umzusetzen',
-      disabled: false,
+      enabled: false,
     },
     {
       key: 'security',
       icon: '🦄',
       title: 'Bringt vergleichsweise viel Sicherheit',
-      disabled: false,
+      enabled: false,
     },
     {
       key: 'knowledge',
       icon: '📚',
       title: 'Benötigt Fachwissen oder Recherche',
-      disabled: false,
+      enabled: false,
     },
     {
       key: 'uncomfortable',
       icon: '🕑',
       title: 'Ist mit Gewohnheitsänderungen verbunden',
-      disabled: false,
+      enabled: false,
     },
     {
       key: 'expensive',
       icon: '💵',
       title: 'Ist eher teurer',
-      disabled: false,
+      enabled: false,
     },
   ],
 
@@ -535,7 +535,7 @@ export default {
     {
       id: '0sh38fz58qiq4pfs73sjkww6yzx7kz56',
       title: 'Du hast Simkarten und Telefone anonym bezogen',
-      shortText: 'Du solltest Simkarten und Telefone nie direkt an deine Adresse bestellen oder von deinen Konten bezahlen. Um keine Spuren zu hinterlassen kannst du Freund*innen bitten diese für dich zu bestellen oder abzuholen.',
+      shortText: 'Du solltest Simkarten und Telefone nie direkt an deine Adresse bestellen oder von deinen Konten bezahlen. Um keine Spuren zu hinterlassen kannst du Freund*innen bitten diese für dich zu bestellen oder abzuholen. Zahle in bar.',
       tags: ['mobile', 'easy'],
       points: 200
     },

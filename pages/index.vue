@@ -92,12 +92,15 @@
         <span 
           class="inline-block max-w-full"
           v-for="(tag) in filterTags" 
-          @click="tag.disabled=!tag.disabled"
+          @click="tag.enabled=!tag.enabled"
           :key="tag.key">
           <app-button 
             :aria-label="tag.title" 
+            :color="(tag.enabled?'bg-green-800 hover:bg-green-900':'bg-gray-800 hover:bg-gray-900')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
-            <span :class="(tag.disabled?'line-through':'')+' hyphenate'">{{ tag.icon }} {{ tag.title }}</span>
+            <span class="hyphenate">
+              {{ tag.icon }} {{ tag.title }}
+            </span>
           </app-button>
         </span>
       </div>
@@ -287,21 +290,37 @@
 
       taskIsEnabled(task) {
 
-        let found = true;
+        let found = false;
+        let filterEnabled = false;
 
-        task.tags.forEach((taskTag) => {
+        // Check if a filter is enabled
+        this.filterTags.forEach((filterTag) => {
+          if(filterTag.enabled) {
+            filterEnabled = true;
+          }
+        });
+
+        if(filterEnabled) {
+
+          task.tags.forEach((taskTag) => {
 
           this.filterTags.forEach((filterTag) => {
 
             // console.log(filterTag.key, taskTag);
 
-            if(filterTag.disabled&&filterTag.key == taskTag) {
-              found = false;
+            if(filterTag.enabled&&filterTag.key == taskTag) {
+              found = true;
             }
 
           });
 
-        });
+          });
+
+        } else {
+
+          found = true;
+
+        }
        
         return found;
       },
