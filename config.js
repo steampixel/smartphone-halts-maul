@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.8.0',
+  version: '1.9.0',
 
-  lastUpdated: '2023-11-12',
+  lastUpdated: '2023-11-17',
 
   pointsPerLevel: 800,
 
@@ -285,8 +285,8 @@ export default {
     {
       id: 'aq4hbvo8yvmm5uq7544qxl7ww9zogqyy',
       title: 'Du fertigst regelmäßig Backups an',
-      shortText: 'Erstelle von deinen wichtigsten Daten regelmäßig Backups. Wenn möglich speichere die Backups verschlüsselt, dezentral und außerhalb deiner Wohnung. Übe außerdem die Wiederherstellung. Dein Backup muss nicht perfekt sein. Ein schlechtes Backup ist besser als kein Backup!',
-      longText: 'Du solltest bei deinem Backup auch an wichtige Apps wie 2-Faktor-Apps oder Passwortmanager denken. Die Einstellungen lassen sich daraus meist leicht exportieren. Wenn du die Möglichkeit hast solltest du die Backups unbedingt verschlüsseln und außerhalb deiner Wohnung aufbewahren. Denke außerdem daran, dass Zugriff auf die Backups möglich sein muss, auch wenn du keine Geräte mehr hast. Nutze wenn möglich quelloffene Backup-Software wie "oandbackup" oder "Neo Backup". Diese benötigen allerdings Root-Rechte. Eine einfache regelmäßige Kopie deiner wichtigsten Daten auf einen verschlüsselten Stick ist aber auch ein guter Anfang! Denke daran, dass "No Backup, No Mercy" eine arrogante Haltung ist. Nicht alle Menschen haben das Wissen und die technischen Möglichkeiten für Backups. Helft euch gegenseitig!',
+      shortText: 'Erstelle von deinen wichtigsten Daten regelmäßig Backups. Dein Backup muss nicht perfekt sein. Ein schlechtes Backup ist besser als kein Backup!',
+      longText: 'Du solltest bei deinem Backup auch an wichtige Apps wie 2-Faktor-Apps oder Passwortmanager denken. Die Einstellungen lassen sich daraus meist leicht exportieren. Nutze wenn möglich quelloffene Backup-Software wie "oandbackup" oder "Neo Backup". Diese benötigen allerdings Root-Rechte. Eine einfache regelmäßige Kopie deiner wichtigsten Daten auf einen USB-Stick ist aber auch ein guter Anfang! Denke daran, dass "No Backup, No Mercy" eine arrogante Haltung ist. Nicht alle Menschen haben das Wissen und die technischen Möglichkeiten für Backups. Helft euch gegenseitig!',
       showMore: true,
       links: [
         {
@@ -300,6 +300,65 @@ export default {
       ],
       tags: ['physical', 'knowledge', 'security'],
       points: 800
+    },
+
+    {
+      id: '15ts0bg9cuc51qzua6ecz7zgmg1e0tss',
+      title: 'Deine Backups sind verschlüsselt',
+      shortText: 'Wenn du die Möglichkeit hast solltest du deine Backups unbedingt verschlüsseln, um diese vor ungewollten Zugriffen zu schützen.',
+      longText: 'Die Android-App Neo Backup unterstützt Verschlüsselung von Haus aus. Du kannst aber auch verschlüsselte Zip-Archive von Hand erstellen oder gleich ganze USB-Sticks verschlüsseln. Unter Linux, MacOS und einigen Windows-Versionen geht das ganz einfach über eine grafische Oberfläche. Du kannst aber auch eine Verschlüsselungssoftware für deine Sticks wie VeraCrypt einsetzen, die auf den meisten Betriebssystemen funktioniert. Wenn du dich tiefer mit der Materie befassen möchtest und die Kommandozeile nicht scheust kannst du dir professionelle Software wie Restic (Linux) oder duplicity (Linux) ansehen.',
+      showMore: true,
+      links: [
+        {
+          date: '2022-03-30',
+          title: 'Windows: How to password protect ZIP files and folders on PC',
+          url: 'https://nordvpn.com/de/blog/how-to-password-protect-a-zip-file/'
+        },
+        {
+          date: '2021-09-01',
+          title: 'Linux: How to encrypt a USB disk',
+          url: 'https://medium.com/tech-notes-and-geek-stuff/how-to-encrypt-a-usb-disk-47f6a4166f03'
+        },
+        {
+          title: 'MacOS: Verschlüsseln und Schützen eines Speichermediums mit einem Passwort mit dem Festplattendienstprogramm auf dem Mac',
+          url: 'https://support.apple.com/de-de/guide/disk-utility/dskutl35612/mac'
+        },
+        {
+          date: '2022-12-29',
+          title: 'Windows: How to encrypt a USB flash drive—and why you should',
+          url: 'https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/how-and-why-to-encrypt-usb-flash-drive'
+        },
+        {
+          title: 'VeraCrypt',
+          url: 'https://veracrypt.fr/en/Downloads.html'
+        },
+        {
+          title: 'duplicity',
+          url: 'https://duplicity.us/'
+        },
+        {
+          title: 'restic',
+          url: 'https://restic.net/'
+        }
+      ],
+      tags: ['physical', 'knowledge', 'security'],
+      points: 400
+    },
+
+    {
+      id: 'ue4r5ahyan5cu3rkcuxp0wd2a4ls17aw',
+      title: 'Deine Backups sind dezentral und auch außerhalb deiner Wohnung gelagert',
+      shortText: 'Verschaffe dir einen Überblick über die Wichtigkeit deiner Daten für deinen Alltag und lagere sie entsprechend. Lagere z.B. eine Kopie deiner Musik- oder Bildersammlung weiter entfernt bei Freund*innen. Auf Backups von Passwortmanagern, 2-Faktor-Apps oder wichtigen Dokumenten solltest du eher schnell Zugriff haben.',
+      tags: ['physical', 'uncomfortable'],
+      points: 400
+    },
+
+    {
+      id: '198wym1kqg9oyfjd1g7hr71e5ar91c45',
+      title: 'Du übst die Wiederherstellung deiner Backups',
+      shortText: 'Die Wiederherstellung deiner Daten ist das Wichtigste an einem Backup. Übe diese Situation. So kannst du sehen, ob dein Backup intakt ist. Stelle sicher, dass du dein Backup ohne Zugriff auf Passwortmanager und Zwei-Faktor-Apps wiederherstellen kannst.',
+      tags: ['physical', 'easy'],
+      points: 400
     },
 
     {
@@ -330,16 +389,6 @@ export default {
           url: 'https://fastest.fish/test-files'
         }
       ],
-      tags: ['physical', 'easy'],
-      points: 200
-    },
-
-    {
-      id: 'sy8okumsb3a9hjwwg4kp6zkktfrjayg5',
-      title: 'Du verzichtest auf Root-Rechte',
-      shortText: 'Root-Rechte ermöglichen dir viele einzigartige Apps. Diese Rechte gelten dann aber eventuell auch für schadhafte Apps, weswegen du auf Root generell verzichten solltest.',
-      longText: 'Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie "Neo Backup" aber auch Apps wie "SnoopSnitch", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. "SnoopSnitch" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.',
-      showMore: true,
       tags: ['physical', 'easy'],
       points: 200
     },
@@ -561,7 +610,7 @@ export default {
           url: 'https://de.wikipedia.org/wiki/Advanced_Mobile_Location'
         },
       ],
-      tags: ['mobile', 'knowledge', 'security', 'uncomfortable'],
+      tags: ['mobile', 'easy'],
       points: 400
     },
 
@@ -602,6 +651,16 @@ export default {
       ],
       tags: ['online', 'knowledge'],
       points: 400
+    },
+
+    {
+      id: 'sy8okumsb3a9hjwwg4kp6zkktfrjayg5',
+      title: 'Du verzichtest auf Root-Rechte',
+      shortText: 'Root-Rechte ermöglichen dir viele einzigartige Apps. Diese Rechte gelten dann aber eventuell auch für schadhafte Apps, weswegen du auf Root generell verzichten solltest.',
+      longText: 'Wenn du nicht weißt was Root ist hat du es vermutlich nicht. Root muss bei den meisten Geräten aufwändig aktiviert werden. Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie "Neo Backup" aber auch Apps wie "SnoopSnitch", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. "SnoopSnitch" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.',
+      showMore: true,
+      tags: ['online', 'easy'],
+      points: 200
     },
 
     {
@@ -671,13 +730,17 @@ export default {
       points: 600
     },
 
-    {
-      id: 'bn3v5acplivk7go166czs7wecf7hbh49',
-      title: 'Du hast für deine Messenger separate Pins eingestellt',
-      shortText: 'Einige Apps wie z.B. Telegram oder Signal bieten einen zusätzlichen Passwortschutz für die Anmeldung an. Angreifer*innen, denen deine Simkarte oder eine Kopie der Karte in die Hände fällt können so nicht auf deine Chats zugreifen.',
-      tags: ['online', 'knowledge', 'security'],
-      points: 400
-    },
+    // {
+    //   id: 'bn3v5acplivk7go166czs7wecf7hbh49',
+    //   title: 'Du hast für deine Messenger separate Pins eingestellt',
+    //   shortText: 'Einige Apps wie z.B. Telegram oder Signal bieten einen zusätzlichen Passwortschutz für die Anmeldung an. Angreifer*innen, denen deine Simkarte oder eine Kopie der Karte in die Hände fällt können so nicht auf deine Chats zugreifen.',
+    //   tags: ['online', 'knowledge', 'security'],
+    //   showMore: true,
+    //   links: [
+
+    //   ],
+    //   points: 400
+    // },
 
     {
       id: '7uz2t0588ipgha7teyuhsf18xdk9q6zk',

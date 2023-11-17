@@ -55,26 +55,32 @@
   <div ref="mainsection">
 
     <!-- Sticky bar -->
-    <div class="sticky top-0 z-10 text-white bg-gray-800 p-2 md:p-4 shadow-md">
+    <div class="sticky top-0 z-10 text-white bg-gray-800 shadow-md">
 
-      <div class="container">
+      <div class="p-2 md:p-4">
 
-        <div class="flex flex-wrap justify-between items-center">
+        <div class="container">
 
-          <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
+          <div class="flex flex-wrap justify-between items-center">
 
-          <div class="text-center">
+            <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
-            Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
-            <span class="font-bold text-2xl md:text-3xl">{{points}}</span> Punkte
+            <div class="text-center">
+
+              Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
+              <span class="font-bold text-2xl md:text-3xl">{{points}}</span> Punkte
+
+            </div>
+
+            <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
           </div>
-
-          <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
 
         </div>
 
       </div>
+
+      <div class="h-1 bg-pink-600" :style="{width: percentage + '%'}"></div>
 
     </div>
 
@@ -250,7 +256,8 @@
         showCompleted: false,
         tasks: config.tasks,
         points: 0,
-        level: 1
+        level: 1,
+        percentage: 0
       }
     },
 
@@ -274,12 +281,16 @@
           // Calculate level
           this.level = this.calculateLevel(newValue);
 
+          // Percentage
+          this.percentage = Math.floor(newValue / this.countPoints() * 100);
+
         },
         deep: true,
       },
       level: {
         handler(newValue, oldValue) {
 
+          // Do we need confetti?
           if(newValue>oldValue) {
             if(enableConfetti) {
 
