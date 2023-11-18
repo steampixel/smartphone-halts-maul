@@ -8,7 +8,7 @@
       <space></space>
 
       <h1 class="text-gray-800 hyphenate">
-        <div class="text-5xl md:text-6xl font-bold mb-2"><span class="inline-block unicorn">🦄</span> Smartphone halt's Maul!</div>
+        <div class="text-5xl md:text-6xl font-bold mb-2"><span class="inline-block unicorn">🦄</span> Smartphone, halt's Maul!</div>
         <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
       </h1>
 
@@ -200,7 +200,7 @@
 <script setup>
 
   useHead({
-      title: 'Smartphone halt\'s Maul - Eine Checkliste für deine mobile Sicherheit',
+      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
       meta: [
         { 
           name: 'description', 
@@ -215,8 +215,8 @@
     })
 
     useSeoMeta({
-      title: 'Smartphone halt\'s Maul - Eine Checkliste für deine mobile Sicherheit',
-      ogTitle: 'Smartphone halt\'s Maul - Eine Checkliste für deine mobile Sicherheit',
+      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
+      ogTitle: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
       description: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
       ogDescription: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
       ogImage: 'https://smartphone-halts-maul.de/icon.png',

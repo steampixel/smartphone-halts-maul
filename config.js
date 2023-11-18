@@ -77,7 +77,7 @@ export default {
       showMore: true,
       links: [
         {
-          title: 'Flyer: Smartphone halt\'s Maul',
+          title: 'Flyer: Smartphone, halt\'s Maul!',
           url: 'https://smartphone-halts-maul.de/flyer'
         }
       ],
