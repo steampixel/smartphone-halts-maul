@@ -657,7 +657,7 @@ export default {
       id: 'sy8okumsb3a9hjwwg4kp6zkktfrjayg5',
       title: 'Du verzichtest auf Root-Rechte',
       shortText: 'Root-Rechte ermöglichen dir viele einzigartige Apps. Diese Rechte gelten dann aber eventuell auch für schadhafte Apps, weswegen du auf Root generell verzichten solltest.',
-      longText: 'Wenn du nicht weißt was Root ist hat du es vermutlich nicht. Root muss bei den meisten Geräten aufwändig aktiviert werden. Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie "Neo Backup" aber auch Apps wie "SnoopSnitch", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. "SnoopSnitch" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.',
+      longText: 'Wenn du nicht weißt was Root ist, hast du es vermutlich nicht. Root muss bei den meisten Geräten aufwändig aktiviert werden. Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie "Neo Backup" aber auch Apps wie "SnoopSnitch", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. "SnoopSnitch" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.',
       showMore: true,
       tags: ['online', 'easy'],
       points: 200
@@ -699,7 +699,11 @@ export default {
           date: '2023-04-12',
           title: 'Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware',
           url: 'https://tarnkappe.info/artikel/it-sicherheit/malware/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html'
-        }
+        },
+        {
+          title: 'F-Droid',
+          url: 'https://f-droid.org/de/'
+        },
       ],
       tags: ['online', 'security', 'knowledge', 'uncomfortable'],
       points: 600
@@ -778,6 +782,14 @@ export default {
       id: 'z0meha5aadwsz3t2hpy6suymhi9u76qb',
       title: 'Du löschst Metadaten aus deinen Bildern',
       shortText: 'Dein Smartphone heftet Metadaten wie Koordinaten, Kameratyp, Auflösung, Smartphone-Modell oder Betriebssystem unsichtbar an deine Bilder. Nutze Apps wie "Imagepipe" um deine Bilder zu bereinigen bevor du diese ins Internet lädst.',
+      longText: 'Imagepipe kannst du über den F-Droid auf deinem Android-Smartphone installieren. F-Droid ist ein installierbarer Katalog für freie und Open-Source-Software.',
+      showMore: true,
+      links: [
+        {
+          title: 'F-Droid',
+          url: 'https://f-droid.org/de/'
+        },
+      ],
       tags: ['online', 'easy', 'uncomfortable'],
       points: 400
     },
@@ -809,7 +821,7 @@ export default {
     {
       id: 'kmebgdtj44opafsufh1maup3xblhe6m5',
       title: 'Lösche nicht genutzte Accounts',
-      shortText: 'Es ist wichtig nicht mehr benötigte Accounts zu löschen. Egal, ob du diese für eine Website oder eine App benötigt hast. Wenn du sie länger nicht mehr genutzt hast solltest du sie schließen. Das minimiert das Risiko von Datenlecks enorm.',
+      shortText: 'Es ist wichtig nicht mehr benötigte Accounts zu löschen. Egal, ob du diese für eine Website oder eine App benötigt hast. Wenn du sie länger nicht mehr genutzt hast, solltest du sie schließen. Das minimiert das Risiko von Datenlecks enorm.',
       tags: ['online', 'knowledge' ],
       points: 400
     },
