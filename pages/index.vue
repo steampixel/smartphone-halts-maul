@@ -8,7 +8,10 @@
       <space></space>
 
       <h1 class="text-gray-800 hyphenate">
-        <div class="text-5xl md:text-6xl font-bold mb-2"><img class="inline-block unicorn h-20 w-20" src="https://smartphone-halts-maul.de/unicorn.png" /> Smartphone, halt's Maul!</div>
+        <div class="text-5xl md:text-6xl font-bold mb-2">
+          <img class="inline-block unicorn h-20 w-20" src="https://smartphone-halts-maul.de/unicorn.png" />
+          Smartphone, halt's Maul!
+        </div>
         <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
       </h1>
 

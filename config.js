@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.9.0',
+  version: '1.10.0',
 
-  lastUpdated: '2023-11-17',
+  lastUpdated: '2023-11-20',
 
   pointsPerLevel: 800,
 
