@@ -49,6 +49,8 @@ export default {
 
   h-8
   fill-pink-500
+  fill-white
+  fill-black
 */
 
 </style>
