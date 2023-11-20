@@ -28,31 +28,31 @@ export default {
   filterTags: [
     {
       key: 'easy',
-      icon: '⭐',
+      icon: 'star',
       title: 'Meist schnell und leicht umzusetzen',
       enabled: false,
     },
     {
       key: 'security',
-      icon: '🦄',
+      icon: 'lock',
       title: 'Bringt vergleichsweise viel Sicherheit',
       enabled: false,
     },
     {
       key: 'knowledge',
-      icon: '📚',
+      icon: 'book',
       title: 'Benötigt Fachwissen oder Recherche',
       enabled: false,
     },
     {
       key: 'uncomfortable',
-      icon: '🕑',
+      icon: 'clock',
       title: 'Ist mit Gewohnheitsänderungen verbunden',
       enabled: false,
     },
     {
       key: 'expensive',
-      icon: '💵',
+      icon: 'dollar',
       title: 'Ist eher teurer',
       enabled: false,
     },

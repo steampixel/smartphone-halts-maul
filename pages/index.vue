@@ -63,7 +63,9 @@
 
           <div class="flex flex-wrap justify-between items-center">
 
-            <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
+            <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
+              <icon size="8" color="pink-500" type="candy"></icon>
+            </button>
 
             <div class="text-center">
 
@@ -72,7 +74,9 @@
 
             </div>
 
-            <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">🍬</button>
+            <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
+              <icon size="8" color="pink-500" type="candy"></icon>
+            </button>
 
           </div>
 
@@ -104,8 +108,9 @@
             :aria-label="tag.title" 
             :color="(tag.enabled?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
-            <span class="hyphenate">
-              {{ tag.icon }} {{ tag.title }}
+            <span class="inline-flex hyphenate items-center">
+              <icon class="mr-2" :type="tag.icon"></icon>
+              {{ tag.title }}
             </span>
           </app-button>
         </span>
@@ -117,8 +122,9 @@
             aria-label="Abgeschlossene ausblenden" 
             :color="(!showCompleted?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
-            <span class="hyphenate">
-              ☑ Abgeschlossene zeigen
+            <span class="inline-flex hyphenate items-center">
+              <icon class="mr-2" type="check"></icon>
+              Abgeschlossene zeigen
             </span>
           </app-button>
         </span>
@@ -233,7 +239,8 @@
   import Task from '~/components/Task.vue'
   import AppButton from '~/components/Button.vue'
   import Space from '~/components/Space.vue'
-  import Modal from '~/components/Space.vue'
+  import Modal from '~/components/Modal.vue'
+  import Icon from '~/components/Icon.vue'
 
   import config from '~/config.js';
 
@@ -244,7 +251,7 @@
   export default {
 
     components: {
-      Task, AppButton, Space, Modal
+      Task, AppButton, Space, Modal, Icon
     },
 
     data: function() {

@@ -6,13 +6,16 @@
 
       <div class="text-sm italic">{{points}} Punkte</div>
 
-      <div class="flex text-sm">
+      <div class="flex justify-end text-sm">
 
         <div 
+          class=""
           v-for="(tag) in filterTags" 
           :key="tag.key">
 
-          <span v-if="hasTag(this.tags, tag.key)" :title="tag.title">{{ tag.icon }}</span>
+          <span class="inline-block ml-2" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
+            <icon color="black" :type="tag.icon"></icon>
+          </span>
 
         </div>
 
@@ -91,7 +94,10 @@
         v-for="(tag) in filterTags" 
         :key="tag.key">
 
-        <li v-if="hasTag(this.tags, tag.key)" :title="tag.title">{{ tag.icon }} {{tag.title}}</li>
+        <li class="inline-flex items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
+          <icon class="mr-2" color="black" :type="tag.icon"></icon>
+          {{tag.title}}
+        </li>
 
       </ul>
 
@@ -108,11 +114,12 @@
   import Modal from '~/components/Modal.vue'
   import Space from '~/components/Space.vue'
   import AppButton from '~/components/Button.vue'
+  import Icon from '~/components/Icon.vue'
 
   export default {
 
     components: {
-      Modal, Space, AppButton
+      Modal, Space, AppButton, Icon
     },
 
     props: [
