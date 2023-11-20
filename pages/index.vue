@@ -70,7 +70,7 @@
             <div class="text-center">
 
               Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
-              <span class="font-bold text-2xl md:text-3xl">{{points}}</span> Punkte
+              <span class="font-bold text-2xl md:text-3xl">{{points.toLocaleString()}}</span> Punkte
 
             </div>
 
