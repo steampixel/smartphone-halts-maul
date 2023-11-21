@@ -2,7 +2,7 @@ export default {
 
   version: '1.10.0',
 
-  lastUpdated: '2023-11-20',
+  lastUpdated: '2023-11-21',
 
   pointsPerLevel: 800,
 
@@ -643,13 +643,18 @@ export default {
       showMore: true,
       links: [
         {
+          date: '2023-11-19',
+          title: 'Netzpolitik: Online-Werbung als „ernstes Sicherheitsrisiko“',
+          url: 'https://netzpolitik.org/2023/buergerrechtsorganisation-warnt-online-werbung-als-ernstes-sicherheitsrisiko/'
+        },
+        {
           date: '2023-07-06',
-          title: 'The adtech industry tracks most of what you do on the Internet. This file shows just how much.',
+          title: 'Netzpolitik: The adtech industry tracks most of what you do on the Internet. This file shows just how much.',
           url: 'https://netzpolitik.org/2023/surveillance-advertising-in-europe-the-adtech-industry-tracks-most-of-what-you-do-on-the-internet-this-file-shows-just-how-much/'
         },
         {
           date: '2021-10-26',
-          title: 'Für Anfänger/Bequeme: Werbung und Tracker unter iOS/Android systemweit verbannen',
+          title: 'Kuketz: Für Anfänger/Bequeme: Werbung und Tracker unter iOS/Android systemweit verbannen',
           url: 'https://www.kuketz-blog.de/fuer-anfaenger-bequeme-werbung-und-tracker-unter-ios-android-systemweit-verbannen/'
         },
       ],
