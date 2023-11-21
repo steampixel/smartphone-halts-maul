@@ -294,6 +294,11 @@
           // Percentage
           this.percentage = Math.floor(newValue / this.countPoints() * 100);
 
+          if(newValue>oldValue) {
+            let audio = new Audio('/sounds/coin.mp3');
+            audio.play();
+          }
+
         },
         deep: true,
       },
@@ -307,6 +312,9 @@
               jsConfetti.addConfetti({
                 emojis: ['🦄', '🍬', 'LEVEL UP'],
               })
+
+              let audio = new Audio('/sounds/yay.mp3');
+              audio.play();
 
             }
           }
