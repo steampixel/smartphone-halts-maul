@@ -67,7 +67,7 @@
           <div class="flex flex-wrap justify-between items-center">
 
             <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
-              <icon size="8" color="pink-500" type="candy"></icon>
+              <icon class="h-4 w-4 md:h-8 md:w-8" color="pink-500" type="candy"></icon>
             </button>
 
             <div class="text-center">
@@ -78,7 +78,7 @@
             </div>
 
             <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
-              <icon size="8" color="pink-500" type="candy"></icon>
+              <icon class="h-4 w-4 md:h-8 md:w-8" color="pink-500" type="candy"></icon>
             </button>
 
           </div>
@@ -112,7 +112,7 @@
             :color="(tag.enabled?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="inline-flex hyphenate items-center">
-              <icon class="mr-2" :type="tag.icon"></icon>
+              <icon class="mr-2 h-4 w-4" :type="tag.icon"></icon>
               {{ tag.title }}
             </span>
           </app-button>
@@ -126,7 +126,7 @@
             :color="(!showCompleted?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="inline-flex hyphenate items-center">
-              <icon class="mr-2" type="check"></icon>
+              <icon class="mr-2 h-4 w-4" type="check"></icon>
               Abgeschlossene zeigen
             </span>
           </app-button>
