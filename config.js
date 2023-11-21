@@ -597,7 +597,7 @@ export default {
       id: 'htdfk57a95tvt9lmf13dv9s38y6ldrmk',
       title: 'Du nutzt Rufnummernunterdrückung mit bedacht',
       shortText: 'Du bist dir im klaren darüber, dass das Unterdrücken der Rufnummer lediglich dazu führt, dass diese auf dem Telefon der Gegenstelle nicht angezeigt wird. In den Verkehrsdaten der beteiligten Provider*innen wird deine Nummer dennoch gespeichert. Nutze anonyme Simkarten, wenn du auf Anonymität angewiesen bist.',
-      tags: ['mobile', 'easy'],
+      tags: ['mobile', 'easy', 'uncomfortable'],
       points: 200
     },
 
@@ -614,7 +614,7 @@ export default {
           url: 'https://de.wikipedia.org/wiki/Advanced_Mobile_Location'
         },
       ],
-      tags: ['mobile', 'easy'],
+      tags: ['mobile', 'easy', 'uncomfortable'],
       points: 400
     },
 
