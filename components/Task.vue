@@ -95,7 +95,7 @@
         :key="tag.key">
 
         <li class="inline-flex items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
-          <icon class="mr-2" color="black" :type="tag.icon"></icon>
+          <icon class="mr-2 h-4 w-4" color="black" :type="tag.icon"></icon>
           {{tag.title}}
         </li>
 
@@ -144,8 +144,8 @@
       security: function () {
         return  this.tags.includes('security'); 
       },
-      uncomfortable: function () {
-        return  this.tags.includes('uncomfortable'); 
+      behavior: function () {
+        return  this.tags.includes('behavior'); 
       },
       expensive: function () {
         return  this.tags.includes('expensive'); 

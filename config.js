@@ -45,7 +45,7 @@ export default {
       enabled: false,
     },
     {
-      key: 'uncomfortable',
+      key: 'behavior',
       icon: 'clock',
       title: 'Ist mit Gewohnheitsänderungen verbunden',
       enabled: false,
@@ -214,7 +214,7 @@ export default {
           url: 'https://netzpolitik.org/2023/gerichtsbeschluss-polizei-darf-fingerabdruecke-nehmen-um-handy-zu-entsperren/'
         }
       ],
-      tags: ['physical', 'easy', 'security', 'uncomfortable'],
+      tags: ['physical', 'easy', 'security', 'behavior'],
       points: 600
     },
 
@@ -349,7 +349,7 @@ export default {
       id: 'ue4r5ahyan5cu3rkcuxp0wd2a4ls17aw',
       title: 'Deine Backups sind dezentral und auch außerhalb deiner Wohnung gelagert',
       shortText: 'Verschaffe dir einen Überblick über die Wichtigkeit deiner Daten für deinen Alltag und lagere sie entsprechend. Lagere z.B. eine Kopie deiner Musik- oder Bildersammlung weiter entfernt bei Freund*innen. Auf Backups von Passwortmanagern, 2-Faktor-Apps oder wichtigen Dokumenten solltest du eher schnell Zugriff haben.',
-      tags: ['physical', 'uncomfortable'],
+      tags: ['physical', 'behavior'],
       points: 400
     },
 
@@ -539,7 +539,7 @@ export default {
           url: 'https://en.wikipedia.org/wiki/Radio_resource_location_services_protocol'
         }
       ],
-      tags: ['mobile', 'knowledge', 'security', 'uncomfortable'],
+      tags: ['mobile', 'knowledge', 'security', 'behavior'],
       points: 800
     },
 
@@ -565,7 +565,7 @@ export default {
       id: '7afsd36t6fnjy7t9kl61qilodns5l8ry',
       title: 'Du beziehst dein Guthaben anonym',
       shortText: 'Du solltest auch das Guthaben für deine Simkarte anonym oder über Mittelspersonen beziehen. Verwende daher Simkarten für die du Guthaben bar an Kassen kaufen kannst oder bitte Freund*innen dir den Guthaben-Code zu senden.',
-      tags: ['mobile', 'knowledge'],
+      tags: ['mobile', 'knowledge', 'behavior'],
       points: 200
     },
 
@@ -573,7 +573,7 @@ export default {
       id: 'zb5k5o1xbl8ti16gl70osqyzq3kbto20',
       title: 'Du gibst deine Telefonnummer nicht weiter',
       shortText: 'Nur wenn du deine Nummer nicht in Verbindung mit deinem Namen weiter gibst bleibt deine anonyme Karte anonym. Um trotzdem erreichbar zu sein kannst du auf Messenger mit Anruffunktion ausweichen, die keine Nummer benötigen oder bei denen sich die Nummer verbergen lässt.',
-      tags: ['mobile', 'easy', 'security', 'uncomfortable'],
+      tags: ['mobile', 'easy', 'security', 'behavior'],
       points: 800
     },
 
@@ -581,7 +581,7 @@ export default {
       id: 'c4eimf6n0w8obpwgpjjsgxsh7mszaag5',
       title: 'Du telefonierst nicht mit deiner anonymen Karte',
       shortText: 'Nutze deine anonyme Simkarte/Telefon nicht für reguläre Telefonate oder SMS. In den Verkehrsdaten ist ersichtlich wer die Zielkontakte sind, wenn diese nicht auch eine anonyme Karte haben. Dadurch ist evtl. eingrenzbar wer du bist. Nutze die Karte wenn möglich nur mit anderen anonymen Karten oder weiche auf Internet-Messenger für Nachrichten und Telefonate aus.',
-      tags: ['mobile', 'security', 'easy', 'uncomfortable'],
+      tags: ['mobile', 'security', 'easy', 'behavior'],
       points: 400
     },
 
@@ -597,7 +597,7 @@ export default {
       id: 'htdfk57a95tvt9lmf13dv9s38y6ldrmk',
       title: 'Du nutzt Rufnummernunterdrückung mit bedacht',
       shortText: 'Du bist dir im klaren darüber, dass das Unterdrücken der Rufnummer lediglich dazu führt, dass diese auf dem Telefon der Gegenstelle nicht angezeigt wird. In den Verkehrsdaten der beteiligten Provider*innen wird deine Nummer dennoch gespeichert. Nutze anonyme Simkarten, wenn du auf Anonymität angewiesen bist.',
-      tags: ['mobile', 'easy', 'uncomfortable'],
+      tags: ['mobile', 'easy', 'behavior'],
       points: 200
     },
 
@@ -614,7 +614,7 @@ export default {
           url: 'https://de.wikipedia.org/wiki/Advanced_Mobile_Location'
         },
       ],
-      tags: ['mobile', 'easy', 'uncomfortable'],
+      tags: ['mobile', 'easy', 'behavior'],
       points: 400
     },
 
@@ -624,7 +624,7 @@ export default {
       id: '45yi4rb7n29xeg1ei60y1aznlp5zvun3900',
       title: 'Sind deine Apps und dein System aktuell?',
       shortText: 'Halte Apps und dein Betriebssystem aktuell. Malware und Staatstrojaner nutzen oft Schwachstellen in der Software aus. Aktuelle Apps und ein aktuelles Betriebssystem sind daher wichtig.',
-      tags: ['online', 'knowledge', 'security', 'uncomfortable'],
+      tags: ['online', 'knowledge', 'security', 'behavior'],
       points: 400
     },
 
@@ -632,7 +632,7 @@ export default {
       id: '4x79gthlqk49k5o4v5r9pzimofc7oskd',
       title: 'Nutzt du einen Passwortmanager?',
       shortText: 'Deine Sicherheit wird enorm erhöht, wenn du für alle Services im Internet ein anderes komplexes Passwort verwendest. Diese solltest du in einem Passwortmanager wie KeePass speichern.',
-      tags: ['online', 'knowledge', 'security', 'uncomfortable'],
+      tags: ['online', 'knowledge', 'security', 'behavior'],
       points: 400
     },
 
@@ -676,7 +676,7 @@ export default {
       id: 'zokh9ctwzdanhdqvbw4l2pv9h9l7f03r',
       title: 'Nutzt du verschiedene Pseudonyme und Mailadressen?',
       shortText: 'Du kannst deine Sicherheit verbessern, indem du auf allen Plattformen einen anderen Namen und andere Mailadressen bzw. Mobilnummern für die Registrierung verwendest. So können deine Accounts durch Datenlecks nicht zusammengeführt werden.',
-      tags: ['online', 'knowledge', 'uncomfortable'],
+      tags: ['online', 'knowledge', 'behavior'],
       points: 200
     },
 
@@ -714,7 +714,7 @@ export default {
           url: 'https://f-droid.org/de/'
         },
       ],
-      tags: ['online', 'security', 'knowledge', 'uncomfortable'],
+      tags: ['online', 'security', 'knowledge', 'behavior'],
       points: 600
     },
 
@@ -739,7 +739,7 @@ export default {
           url: 'https://netzpolitik.org/2023/innenministerium-bamf-soll-cloud-speicher-von-asylsuchenden-auslesen/'
         }
       ],
-      tags: ['online', 'security', 'knowledge', 'uncomfortable'],
+      tags: ['online', 'security', 'knowledge', 'behavior'],
       points: 600
     },
 
@@ -799,7 +799,7 @@ export default {
           url: 'https://f-droid.org/de/'
         },
       ],
-      tags: ['online', 'easy', 'uncomfortable'],
+      tags: ['online', 'easy', 'behavior'],
       points: 400
     },
 
@@ -807,7 +807,7 @@ export default {
       id: 'l6vgj7s7b376ld7ks7htepeaivnvfkac',
       title: 'Du ließt dir Datenschutzerklärungen durch',
       shortText: 'Nimmst du dir Zeit Datenschutzerklärungen von neuen Apps und Services bei denen du dich registrierst zu lesen? Interessiert es dich mit wem deine Daten geteilt werden und was damit passiert?',
-      tags: ['online', 'uncomfortable', 'knowledge' ],
+      tags: ['online', 'behavior', 'knowledge' ],
       points: 400
     },
 
