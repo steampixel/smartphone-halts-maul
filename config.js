@@ -471,7 +471,7 @@ export default {
     {
       id: 'ze8fnbeg8eskdnvwrapzcvmkm420baty',
       title: 'Du verwendest anonyme Simkarten',
-      shortText: 'Anonyme Simkarten erschweren Behörden die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, RRLP, RLF, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.',
+      shortText: 'Anonyme Simkarten erschweren Behörden die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, RRLP, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.',
       longText: 'Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietär Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten. Auf Seiten wie cell-track.com oder phone-location.info kann zum Beispiel einfach herausgefunden werden, ob sich ein Gerät im Ausland befindet oder nicht oder ob ein Gerät gerade eingeschaltet ist. Alles was du brauchst ist die Nummer. Du kannst nichts dagegen tun als deine Nummer geheim zu halten.',
       showMore: true,
       links: [
@@ -533,6 +533,10 @@ export default {
           date: '2023-09-14',
           title: 'Netzpolitik.org: Russische Exil-Journalistin mit Pegasus gehackt',
           url: 'https://netzpolitik.org/2023/meduza-russische-exil-journalistin-mit-pegasus-gehackt/'
+        },
+        {
+          title: 'Wikipedia: Was ist RRLP?',
+          url: 'https://en.wikipedia.org/wiki/Radio_resource_location_services_protocol'
         }
       ],
       tags: ['mobile', 'knowledge', 'security', 'uncomfortable'],
