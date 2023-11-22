@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.11.0',
+  version: '1.11.1',
 
-  lastUpdated: '2023-11-21',
+  lastUpdated: '2023-11-22',
 
   pointsPerLevel: 800,
 
@@ -821,16 +821,24 @@ export default {
 
     {
       id: '0blm4hke75axw4b9qrixkvpbterswatv',
-      title: 'Du nutzt Messenger mit verschlüsselter Kommunikation',
-      shortText: 'Du solltest unbedingt verschlüsselte Messenger wie Signal, Threema, Element oder SimpleX nutzen.',
-      tags: ['online', 'simple', 'security' ],
+      title: 'Du nutzt sichere Messenger',
+      shortText: 'Du solltest unbedingt quelloffene, verschlüsselte Messenger wie Briar, Signal, Threema, Element oder SimpleX nutzen. Verzichte auf unsichere kommerzielle Messenger wie WhatsApp und Co.',
+      longText: 'Wenn du dir unsicher bist welche Messenger gut sind oder wenn du Argumente brauchst, um Familie und Freud*innen zu überzeugen, solltest du dir unbedingt die Messenger-Matrix von Kuketz ansehen. Dort kannst du die einzelnen Messenger bequem nach Funktionen und Sicherheitsaspekten vergleichen.',
+      showMore: true,
+      links: [
+        {
+          title: 'Messenger-Matrix',
+          url: 'https://www.messenger-matrix.de/'
+        },
+      ],
+      tags: ['online', 'security', 'behavior', 'knowledge' ],
       points: 800
     },
 
     {
       id: 'kmebgdtj44opafsufh1maup3xblhe6m5',
       title: 'Lösche nicht genutzte Accounts',
-      shortText: 'Es ist wichtig nicht mehr benötigte Accounts zu löschen. Egal, ob du diese für eine Website oder eine App benötigt hast. Wenn du sie länger nicht mehr genutzt hast, solltest du sie schließen. Das minimiert das Risiko von Datenlecks enorm.',
+      shortText: 'Es ist wichtig nicht mehr benötigte Accounts zu löschen. Nimm dir einmal im Jahr Zeit dafür. Egal, ob du diese für eine Website oder eine App benötigt hast. Wenn du sie länger nicht mehr genutzt hast, solltest du sie schließen. Das minimiert das Risiko von Datenlecks.',
       tags: ['online', 'knowledge' ],
       points: 400
     },
