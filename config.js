@@ -1,6 +1,6 @@
 export default {
 
-  version: '1.12.0',
+  version: '1.13.0',
 
   lastUpdated: '2023-11-22',
 
@@ -114,6 +114,57 @@ export default {
       points: 400
     },
 
+    {
+      id: 'jwp2vuk2pm3hyvq9sagif84s1bacam4p',
+      title: 'Du verwendest ein freies Betriebssystem',
+      shortText: 'Freie Android-basierte Betriebssysteme wie grapheneOS, CalyxOS oder e/OS können dir helfen deine Privatsphäre zu schützen und sind nicht an Google, Apple oder Microsoft gebunden.',
+      longText: 'Wenn du dir unsicher bist welches System du installieren solltest so lautet die klare Empfehlung derzeit grapheneOS auf einem der kompatiblen Telefone zu installieren. Mehr Informationen findest du in den Links.',
+      showMore: true,
+      links: [
+        {
+          date: '2022-04-25',
+          title: 'Golem: Datenschutz gibt\'s nur mit alternativem Android',
+          url: 'https://www.golem.de/news/smartphone-ohne-google-datenschutz-gibt-s-nur-mit-alternativem-android-2204-164785.html'
+        },
+        {
+          date: '2020-11-17',
+          title: 'Kuketz: GrapheneOS: Das Android für Sicherheits- und Datenschutzfreaks',
+          url: 'https://www.kuketz-blog.de/grapheneos-das-android-fuer-sicherheits-und-datenschutzfreaks/'
+        },
+        {
+          title: 'GrapheneOS',
+          url: 'https://grapheneos.org/'
+        },
+        {
+          title: 'CalyxOS',
+          url: 'https://calyxos.org/'
+        },
+        {
+          title: 'e/os',
+          url: 'https://e.foundation/de/e-os/'
+        }
+      ],
+      tags: ['common', 'security', 'knowledge'],
+      points: 800
+    },
+
+    {
+      id: 'cl5098g8l7b3tzcgsof08nqn9bc9m2nv',
+      title: 'Du hast dein Telefon von Bloatware befreit',
+      shortText: 'Hersteller*innen von Smartphones erhalten von Google oder Apple Millionen bis Milliarden dafür, dass ihre Software fest auf euren Telefonen platziert wird. Du solltest diese Apps unbedingt entfernen.',
+      longText: 'Derartige Beträge lohnen sich natürlich nur wenn das einen Nutzen hat: Die vorinstallierte Software sammelt muter Daten und verwertet eure Gewohnheiten. Ihr solltet Bloatware daher entfernen (Manchmal ist das ohne Root-Berechtigungen nicht möglich) oder gleich ein sicheres Betriebssystem installieren.',
+      showMore: true,
+      links: [
+        {
+          date: '2023-02-21',
+          title: 'Google zahlt Milliarden für Chrome unter iOS',
+          url: 'https://www.onlinehaendler-news.de/digital-tech/unternehmen/137709-google-zahlt-milliarden-chrome-ios'
+        }
+      ],
+      tags: ['common', 'security', 'knowledge'],
+      points: 400
+    },
+
 
     
     {
@@ -134,6 +185,14 @@ export default {
       showMore: true,
       tags: ['physical', 'easy'],
       points: 200
+    },
+
+    {
+      id: '06cn52ozdybvxunerygmf1vauklkl2m6',
+      title: 'Du hast eine Displaysperre eingerichtet',
+      shortText: 'Der Display deines Gerätes schaltet sich nach einer Weile automatisch ab. Um diesen wieder zu entsperren nutzt du komplexe Muster oder alphanumerische Passworte.',
+      tags: ['physical', 'easy'],
+      points: 400
     },
 
     {
@@ -435,7 +494,16 @@ export default {
       id: '4k71ynnyxw2kqkiw6u9zxun0tjgoy9lt',
       title: 'Du nutzt datensparsame Telefon-Tarife',
       shortText: 'Eine Flatrate erzeugt in der Regel weniger Daten als ein Tarif mit minutengenauer Abrechnung oder Einzelverbindungsnachweisen. Denn diese müssen erfasst und gespeichert werden. Flatrates erzeugen weniger Daten. Prepaid-Tarife erzeugen in der Regel nicht mal Rechnungsdaten und sind daher sehr datensparsam.',
-      longText: 'Viele Netzbetreiber*innen verkaufen eure Bewegungsdaten an diverse Firmen weiter. Ihr könnt dieser Weitergabe wiedersprechen. Verzichte außerdem auf Einzelverbindungsnachweise oder minutengenaue Abrechnungen in deinem Tarif. Daten, die nicht gespeichert werden können auch nicht abgerufen werden. Frag bei den Provider*innen nach wie lange die Daten in den verschiedenen Tarifen gespeichert werden und mit wem sie geteilt werden. Es gibt auch extra datenschutzfreundliche Provider*innen wie z.B. "Wetell". Trotzdem schützen diese nicht vor den zahlreichen Überwachungsmöglichkeiten im Mobilfunknetz! Anonyme Simkarten sind daher immer zu bevorzugen.',
+      showMore: true,
+      tags: ['mobile', 'knowledge'],
+      points: 200
+    },
+
+    {
+      id: '8hb767m19i932x2gi0iejugv487ptoe6',
+      title: 'Du hast der Vermarktung deiner Bewegungsdaten widersprochen',
+      shortText: 'Viele Netzbetreiber*innen verkaufen eure Bewegungsdaten an diverse Werbefirmen weiter. Ihr könnt dieser Weitergabe widersprechen.',
+      longText: 'Frag bei den Provider*innen nach wie lange die Daten in den verschiedenen Tarifen gespeichert werden und mit wem sie geteilt werden. Es gibt auch extra datenschutzfreundliche Provider*innen wie z.B. "Wetell". Trotzdem schützen diese nicht vor den zahlreichen Überwachungsmöglichkeiten im Mobilfunknetz! Anonyme Simkarten sind daher immer zu bevorzugen.',
       showMore: true,
       links: [
         {
@@ -642,6 +710,23 @@ export default {
     },
 
     {
+      id: 'gbgx0u8jm9j6b2vsuo1db09ct76u1l7f',
+      title: 'Du nutzt Passkeys',
+      shortText: 'Passkeys können in manchen Anwendungen und Apps Passwörter ersetzen und machen diese komplett überflüssig. Sie können nicht wie Passwörter durch Pishing oder Datenleaks entwendet werden. Nutze sie, wenn sie angeboten werden!',
+      longText: 'Du solltest PassKeys nicht an eine biometrische Entsperrung binden. Denke außerdem daran deine Passkeys zu sichern für den Fall, dass du dein Gerät verlieren solltest.',
+      showMore: true,
+      links: [
+        {
+          date: '2023-10-19',
+          title: 't3n: Internet ohne Passwörter: Was ihr jetzt über Passkeys wissen müsst ',
+          url: 'https://t3n.de/news/passkeys-android-ios-mac-windows-1583254/'
+        }
+      ],
+      tags: ['online', 'easy', 'security', 'behavior'],
+      points: 600
+    },
+
+    {
       id: 'y0oa3gwukxe9egcyoiz6c8qsir5mtk6t',
       title: 'Du verwendest einen Werbeblocker',
       shortText: 'Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren. Schütze dich, indem du z.B. uBlock Origin für Firefox, Pi-Hole in deinem Netzwerk oder Blokada (kostenpflichtig) auf deinem Gerät installierst.',
@@ -686,6 +771,14 @@ export default {
     },
 
     {
+      id: 'okdh8x0gfswqboflssnnh0l4acoqw8ke',
+      title: 'Du nutzt deine Pseudonyme nicht zur gleichen Zeit',
+      shortText: 'Arbeite zeitversetzt wenn du in verschiedenen Kanälen oder Gruppen mit verschiedenen Pseudonymen die gleiche Nachricht teilen willst. Sonst ist ersichtlich dass eine Person hinter den diversen Pseudonymen steckt.',
+      tags: ['online', 'easy', 'behavior'],
+      points: 200
+    },
+
+    {
       id: 'pfjvsc5s12m97912lzslirixegh3f9u2',
       title: 'Du nutzt TOR oder den TOR-Browser',
       shortText: 'TOR (The Onion Router) kann dir helfen deine Anonymität im Internet stark zu verbessern. Nutze Websites über den Tor-Browser und leite Apps mit der Orbot-App über das Tor-Netzwerk um.',
@@ -694,11 +787,34 @@ export default {
     },
 
     {
-      id: 'gxcjyy61zysyt62a8ai0zb2gqjev3yo3',
-      title: 'Du nutzt ein Smartphone ohne Google oder Apple',
-      shortText: 'Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungs-behörden weiter. Verwende daher ein Google-freies Betriebssystem wie e/OS oder grapheneOS und nutze freie Appstores wie F-Droid und alternative Suchmaschinen wir DuckDuckGo.',
+      id: '9b3c2a6e82d9yijdm9w99vni4ouo9ebl',
+      title: 'Du nutzt datenschutzfreundliche Webbrowser',
+      shortText: 'Nutze Browser, wie DuckDuckGo-Browser oder Bromite, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.',
       showMore: true,
       links: [
+        {
+          title: 'How To Get the DuckDuckGo App on Android',
+          url: 'https://duckduckgo.com/duckduckgo-help-pages/mobile/android/'
+        },
+        {
+          title: 'Bromite',
+          url: 'https://www.bromite.org/'
+        }
+      ],
+      tags: ['online', 'behavior'],
+      points: 400
+    },
+
+    {
+      id: '7y9ra343asszyece2a9hip9m5g7408z3',
+      title: 'Du nutzt datenschutzfreundliche Suchmaschinen',
+      shortText: 'Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungsbehörden weiter. Verwende daher alternative Suchmaschinen wir DuckDuckGo.',
+      showMore: true,
+      links: [
+        {
+          title: 'duckduckgo.com',
+          url: 'https://duckduckgo.com/'
+        },
         {
           date: '2020-10-09',
           title: 'Heise: Inverssuche: Google liefert Polizei Nutzerdaten auf Basis von Suchbegriffen',
@@ -708,19 +824,34 @@ export default {
           date: '2020-10-13',
           title: 'Polizei erhält Liste aller Nutzer, die nach einem Schlagwort gegoogelt haben',
           url: 'https://netzpolitik.org/2020/ermittlungen-in-den-usa-polizei-erhaelt-liste-aller-nutzer-die-nach-einem-schlagwort-gegoogelt-haben/'
+        }
+      ],
+      tags: ['online', 'security', 'knowledge', 'behavior'],
+      points: 400
+    },
+
+    {
+      id: 'i0givx4x51kbh3djt72tf6xhmro2id89',
+      title: 'Du nutzt alternative App-Stores',
+      shortText: 'Über F-Droid oder Aurora Store kannst du die meisten Apps auch ohne Anmeldung in Google bzw. ohne Google-Services beziehen.',
+      showMore: true,
+      links: [
+        {
+          title: 'F-Droid herunterladen',
+          url: 'https://f-droid.org/de/'
+        },
+        {
+          title: 'Aurora Store über F-Droid herunterladen',
+          url: 'https://f-droid.org/de/packages/com.aurora.store/'
         },
         {
           date: '2023-04-12',
           title: 'Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware',
           url: 'https://tarnkappe.info/artikel/it-sicherheit/malware/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html'
-        },
-        {
-          title: 'F-Droid',
-          url: 'https://f-droid.org/de/'
-        },
+        }
       ],
       tags: ['online', 'security', 'knowledge', 'behavior'],
-      points: 600
+      points: 400
     },
 
     {
