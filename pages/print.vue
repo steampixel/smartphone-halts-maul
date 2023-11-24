@@ -119,7 +119,7 @@
 
             <div v-if="task.links&&task.links.length">
               <space></space>
-              <ul class="text-base list-disc list-inside">
+              <ol class="text-sm list-decimal list-inside">
 
                 <li v-for="(link, index) in sortLinks(task.links)" :key="index">
                   <a target="_blank" :href="link.url" class="underline">
@@ -129,7 +129,7 @@
                   </a>
                 </li>
 
-              </ul>
+              </ol>
             </div>
 
           </section>

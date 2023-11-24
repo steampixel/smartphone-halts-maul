@@ -71,7 +71,7 @@
 
         <space></space>
 
-        <ul class="text-base list-disc list-inside">
+        <ol class="text-sm list-decimal list-inside">
 
           <li v-for="(link, index) in sortedLinks" :key="index">
             <a target="_blank" :href="link.url" class="underline">
@@ -80,7 +80,7 @@
             </a>
           </li>
 
-        </ul>
+        </ol>
 
       </div>
 
@@ -94,7 +94,7 @@
         v-for="(tag) in filterTags" 
         :key="tag.key">
 
-        <li class="inline-flex items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
+        <li class="inline-flex text-sm items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
           <icon class="mr-2 h-4 w-4" color="black" :type="tag.icon"></icon>
           {{tag.title}}
         </li>
