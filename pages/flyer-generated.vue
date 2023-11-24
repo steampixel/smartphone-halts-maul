@@ -29,27 +29,47 @@
         <space></space>
 
         <div class="flex justify-center">
-            <img src="/qr.png" title="QR-Code der Website" description="QR-Code der Website Smartphone, halt's Maul!">
+            <vue-qrcode value="https://smartphone-halts-maul.de/" :options="{ width: 400 }"></vue-qrcode>
         </div>
 
         <div class="text-center">smartphone-halts-maul.de</div>
 
-        <print></print>
+        <div class="print:hidden">
+
+            <space></space>
+            <space></space>
+
+            <app-button @click="print">Drucken</app-button>
+        </div>
 
     </div>
 
        
 </template>
   
+<script setup>
+
+    import AppButton from '~/components/Button.vue'
+
+</script>
+
 <script>
 
-    import Print from '~/components/Print.vue'
+    import VueQrcode from '@chenfengyuan/vue-qrcode';
 
     export default {
 
         components: {
-            Print
+            VueQrcode, AppButton
         },
+
+        methods: {
+
+            print() {
+                window.print();
+            }
+
+        }
 
     }
 

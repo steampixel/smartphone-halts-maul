@@ -1,6 +1,6 @@
 export default {
 
-  version: '1.11.1',
+  version: '1.12.0',
 
   lastUpdated: '2023-11-22',
 
@@ -63,7 +63,7 @@ export default {
     {
       id: 'dl9iuhbp8ydestlaqxcpw1mar7t5p6lf',
       title: 'Du interessierst dich für deine Sicherheit',
-      shortText: 'Sehr gut! Offenbar ist dir deine Sicherheit wichtig. Sonst würdest du dich nicht damit beschäftigen. Deine ersten 100 Punkte sind dir sicher.',
+      shortText: 'Sehr gut! Offenbar ist dir deine Sicherheit wichtig. Sonst würdest du dich nicht damit beschäftigen. Deine ersten Punkte sind dir sicher.',
       tags: ['common'],
       points: 100,
       checked: true

@@ -19,28 +19,9 @@
       <space></space>
 
       <p>
-        Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
-        damit du ein Gefühl für die Thematik entwickeln kannst. 
-        Die Liste enthält <span class="font-bold">{{ tasks.length }}</span> konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
-        Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
-        Du kannst maximal  <span class="font-bold">{{ countLevels() }}</span> Level aufsteigen.
-      </p>
-
-      <space></space>
-
-      <p>
-        Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt.
-        Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus.
-        Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht.
-      </p>
-
-      <space></space>
-
-      <p>
+        Willkommen bei der interaktiven Variante! Sammle so viele Punkte und Level wie möglich!
         Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
         Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
-        Diese Liste ist ein "work in progress". 
-        Wenn du helfen möchtest findest du den <a class="underline" target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">Code auf GitHub</a>.
       </p>
 
       <space></space>
@@ -48,44 +29,15 @@
 
       <app-button @click="start">Starte jetzt</app-button>
 
-      <space></space>
-      <space></space>
-
     </div>
 
   </div>
 
-  
-
-  <div class="container">
-
-    <space></space>
-    <space></space>
-
-    <div v-for="(categoryTag) in categoryTags" :key="categoryTag.key">
-
-      <div class="container">
-
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-        <space></space>
-
-        <h2 class="text-2xl font-bold text-gray-800">{{categoryTag.title}}</h2>
-
-        <space></space>
-
-        <div v-for="(task) in tasks" :key="task.id" class="">
-
-          {{ task.title }}
-
-        </div>
-
-      </div>
-
-      <space></space>
-
-    </div>
-    
+  <div ref="mainsection">
+    <list></list>
   </div>
+
+  <app-footer></app-footer>
 
 </template>
 
@@ -119,28 +71,52 @@
 
 <script>
 
-
-
+  import List from '~/components/List.vue'
   import Space from '~/components/Space.vue'
-  import Icon from '~/components/Icon.vue'
-
+  import AppButton from '~/components/Button.vue'
+  import AppFooter from '~/components/Footer.vue'
   import config from '~/config.js';
 
   export default {
 
     components: {
-      Space, Icon
+      List, Space, AppButton, AppFooter
     },
 
     data: function() {
       return {
-        version: config.version,
-        lastUpdated: config.lastUpdated,
-        categoryTags: config.categoryTags,
         tasks: config.tasks,
+        points: 0,
+        level: 1,
       }
     },
 
+    
+
+    methods: {
+
+      countPoints() {
+        let points = 0;
+        this.tasks.forEach((task) => {
+          points = points + task.points;
+        });
+        return points;
+      },
+
+      countLevels() {
+        let points = this.countPoints();
+        return this.calculateLevel(points);;
+      },
+
+      calculateLevel(points) {
+        return Math.ceil(points / config.pointsPerLevel);
+      },
+
+      start() {
+        this.$refs["mainsection"].scrollIntoView({ behavior: "smooth" })
+      },
+
+    }
 
   }
 

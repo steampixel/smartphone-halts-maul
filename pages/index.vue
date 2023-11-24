@@ -37,172 +37,39 @@
       <space></space>
 
       <p>
-        Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
-        Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
-        Diese Liste ist ein "work in progress". 
+        Diese Liste ist ein "work in progress".
         Wenn du helfen möchtest findest du den <a class="underline" target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">Code auf GitHub</a>.
       </p>
 
       <space></space>
-      <space></space>
 
-      <app-button @click="start">Starte jetzt</app-button>
-
-      <space></space>
-      <space></space>
-
-    </div>
-
-  </div>
-
-  <div ref="mainsection">
-
-    <!-- Sticky bar -->
-    <div class="sticky top-0 z-10 text-white bg-gray-800 shadow-md">
-
-      <div class="p-2 md:p-4">
-
-        <div class="container">
-
-          <div class="flex flex-wrap justify-between items-center">
-
-            <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
-              <icon class="h-4 w-4 md:h-8 md:w-8" color="pink-500" type="candy"></icon>
-            </button>
-
-            <div class="text-center">
-
-              Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
-              <span class="font-bold text-2xl md:text-3xl">{{points.toLocaleString()}}</span> Punkte
-
-            </div>
-
-            <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
-              <icon class="h-4 w-4 md:h-8 md:w-8" color="pink-500" type="candy"></icon>
-            </button>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="h-1 bg-pink-600" :style="{width: percentage + '%'}"></div>
-
-    </div>
-
-    <div class="container">
-
-      <space></space>
-      <space></space>
-
-      <h2 class="text-2xl font-bold text-gray-800">Liste filtern</h2>
-
-      <space></space>
-      <space></space>
-
-      <div>
-        <span 
-          class="inline-block max-w-full"
-          v-for="(tag) in filterTags" 
-          @click="tag.enabled=!tag.enabled"
-          :key="tag.key">
-          <app-button 
-            :aria-label="tag.title" 
-            :color="(tag.enabled?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
-            class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
-            <span class="inline-flex hyphenate items-center">
-              <icon class="mr-2 h-4 w-4" :type="tag.icon"></icon>
-              {{ tag.title }}
-            </span>
-          </app-button>
-        </span>
-
-        <span 
-          class="inline-block max-w-full"
-          @click="showCompleted=!showCompleted">
-          <app-button 
-            aria-label="Abgeschlossene ausblenden" 
-            :color="(!showCompleted?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
-            class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
-            <span class="inline-flex hyphenate items-center">
-              <icon class="mr-2 h-4 w-4" type="check"></icon>
-              Abgeschlossene zeigen
-            </span>
-          </app-button>
-        </span>
-
-      </div>
-
-    </div>
-
-    <space></space>
-    <space></space>
-
-    <div v-for="(categoryTag) in categoryTags" :key="categoryTag.key">
-
-      <div class="container">
-
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-        <space></space>
-
-        <h2 class="text-2xl font-bold text-gray-800">{{categoryTag.title}}</h2>
-
-        <space></space>
-
-        <div v-for="(task) in tasks" :key="task.id" class="">
-
-          <task 
-            v-if="taskHasTag(task, categoryTag.key)"
-            :visible="(taskIsEnabled(task))"
-            :showCompleted="showCompleted"
-            :id="task.id" 
-            :title="task.title" 
-            :shortText="task.shortText" 
-            :longText="task.longText" 
-            :tags="task.tags"
-            :showMore="task.showMore"
-            :links="task.links"
-            :points="task.points"
-            :checked="task.checked"
-            @done="done"
-            @revoke="revoke">
-          </task>
-
-        </div>
-
-      </div>
-
-      <space></space>
-
-    </div>
-    
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-
-    <div class="container">
-
-      <app-button @click="clearAll">Lösche alle Daten aus meinem Browser</app-button>
-
-      <space></space>
-
-      <p class="text-sm">
-        Ein <a target="_blank" href="https://steampixel.de">steampixel</a> Projekt | 
-        Version: {{ version }} | 
-        Stand: {{ lastUpdated }} | 
-        Lizenz: MIT | 
-        <a target="_blank" href="https://smartphone-halts-maul.de/flyer">Flyer</a> |
-        <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">GitHub</a> |
-        <a target="_blank" href="https://steampixel.de/impressum/">Impressum</a> |
-        <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">Datenschutz</a>
+      <p>
+        Wenn dein Browser kein JavaScript unterstützt kannst du dir die Druckversion ansehen.
       </p>
 
       <space></space>
+      <space></space>
+
+      <a href="/list" aria-label="Druckversion" title="Druckversion">
+        <app-button>Interaktive Version starten</app-button>
+      </a>
+
+      <a href="/print" aria-label="Interaktive Version" title="Interaktive Version">
+        <app-button>Druckversion ansehen</app-button>
+      </a>
+
+      <a href="/flyer" aria-label="Flyer drucken" title="Flyer drucken">
+        <app-button>Flyer drucken</app-button>
+      </a>
 
     </div>
 
 
 
+
   </div>
+
+  <app-footer></app-footer>
 
 </template>
 
@@ -236,139 +103,26 @@
 
 <script>
 
-
-  import JSConfetti from 'js-confetti'
-
-  import Task from '~/components/Task.vue'
-  import AppButton from '~/components/Button.vue'
   import Space from '~/components/Space.vue'
-  import Modal from '~/components/Modal.vue'
-  import Icon from '~/components/Icon.vue'
-
+  import AppButton from '~/components/Button.vue'
+  import AppFooter from '~/components/Footer.vue'
   import config from '~/config.js';
-
-  var jsConfetti;
-
-  var enableConfetti = false;
 
   export default {
 
     components: {
-      Task, AppButton, Space, Modal, Icon
+      Space, AppButton, AppFooter
     },
 
     data: function() {
       return {
-        version: config.version,
-        lastUpdated: config.lastUpdated,
-        categoryTags: config.categoryTags,
-        filterTags: config.filterTags,
-        showCompleted: false,
         tasks: config.tasks,
         points: 0,
         level: 1,
-        percentage: 0
       }
     },
 
-    mounted: function () {
-
-      jsConfetti = new JSConfetti()
-
-      // Enable confetti after 2 seconds
-      // We don't want to fire confetti on loading from local storage...
-      enableConfetti = false;
-      setTimeout(() => {
-        enableConfetti = true;
-      }, 2000);
-      
-    },
-
-    watch: {
-      points: {
-        handler(newValue, oldValue) {
-
-          // Calculate level
-          this.level = this.calculateLevel(newValue);
-
-          // Percentage
-          this.percentage = Math.floor(newValue / this.countPoints() * 100);
-
-          if(newValue>oldValue) {
-            let audio = new Audio('/sounds/coin.mp3');
-            audio.play();
-          }
-
-        },
-        deep: true,
-      },
-      level: {
-        handler(newValue, oldValue) {
-
-          // Do we need confetti?
-          if(newValue>oldValue) {
-            if(enableConfetti) {
-
-              jsConfetti.addConfetti({
-                emojis: ['🦄', '🍬', 'LEVEL UP'],
-              })
-
-              let audio = new Audio('/sounds/yay.mp3');
-              audio.play();
-
-            }
-          }
-
-        },
-        deep: true,
-      },
-    },
-
     methods: {
-
-      taskHasTag(task, tag) {
-        if(task.tags.includes(tag)) {
-          return true;
-        }
-        return false;
-      },
-
-      taskIsEnabled(task) {
-
-        let found = false;
-        let filterEnabled = false;
-
-        // Check if a filter is enabled
-        this.filterTags.forEach((filterTag) => {
-          if(filterTag.enabled) {
-            filterEnabled = true;
-          }
-        });
-        
-        if(filterEnabled) {
-
-          task.tags.forEach((taskTag) => {
-
-            this.filterTags.forEach((filterTag) => {
-
-              if(
-                filterTag.enabled&&filterTag.key == taskTag
-                ) {
-                found = true;
-              }
-
-            });
-
-          });
-
-        } else {
-
-          found = true;
-
-        }
-       
-        return found;
-      },
 
       countPoints() {
         let points = 0;
@@ -387,44 +141,11 @@
         return Math.ceil(points / config.pointsPerLevel);
       },
 
-      candyConfetti() {
-        jsConfetti.addConfetti({
-          emojis: ['🍬'],
-          confettiNumber: this.level,
-        })
-      },
-
-      // rainbowConfetti() {
-      //   jsConfetti.addConfetti({
-      //     emojis: ['🌈'],
-      //     confettiNumber: this.level,
-      //   })
-      // },
-
-      done(points) {
-
-        this.points = this.points + points;
-
-      },
-
-      revoke(points) {
-
-        this.points = this.points - points;
-
-      },
-
-      clearAll() {
-        localStorage.clear();
-        location.reload(); 
-      },
-
       start() {
         this.$refs["mainsection"].scrollIntoView({ behavior: "smooth" })
       },
 
     }
-
-
 
   }
 
