@@ -10,5 +10,8 @@ export default defineNuxtConfig({
   },
   plugins: [
     { src: '~/plugins/matomo.js', mode: 'client' }
-  ]
+  ],
+  devServer: {
+    port: 10000
+  }
 })

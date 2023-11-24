@@ -97,12 +97,17 @@ export default {
       id: 'jppi11lg2e9s9s3uekxo3g7qls646ymf',
       title: 'Du hast schon mal an einer Cryptoparty teilgenommen',
       shortText: 'Cryptoparties sind Events auf denen du lernst deine Geräte und deine Kommunikation zu schützen.',
-      longText: 'Wenn du dich für Cryptoparties interessierst und Gleichgesinnte treffen möchtest kannst du dich zum Beispiel auf der Seite cryptoparty.in über bevorstehende Events informieren.',
+      longText: 'Wenn du dich für Cryptoparties interessierst und Gleichgesinnte treffen möchtest kannst du dich zum Beispiel auf der Seite cryptoparty.in über bevorstehende Events informieren. Oder du befolgst den Guide unten und veranstaltest gleich selbst eine.',
       showMore: true,
       links: [
         {
           title: 'Nächte Cryptoparties auf cryptoparty.in',
           url: 'https://www.cryptoparty.in/parties/upcoming'
+        },
+        {
+          date: '2019-12-21',
+          title: 'Digitalcourage: How To CryptoParty',
+          url: 'https://digitalcourage.de/digitale-selbstverteidigung/how-to-cryptoparty'
         }
       ],
       tags: ['common', 'easy'],
@@ -110,7 +115,7 @@ export default {
     },
 
 
-
+    
     {
       id: 'pt4y2j261kog00fs6iodjs9kz14kvgkv',
       title: 'Du verwendest kein Dumbphone',
