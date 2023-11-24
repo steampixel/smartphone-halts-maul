@@ -27,7 +27,7 @@
       <space></space>
       <space></space>
 
-      <app-button @click="start">Starte jetzt</app-button>
+      <app-button @click="start">Zur Liste</app-button>
 
     </div>
 

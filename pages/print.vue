@@ -9,7 +9,7 @@
 
       <h1 class="text-gray-800 hyphenate">
         <div class="text-5xl md:text-6xl font-bold mb-2">
-          <img class="inline-block unicorn h-20 w-20" src="/unicorn.png" />
+          <img class="inline-block h-20 w-20" src="/unicorn.png" />
           Smartphone, halt's Maul!
         </div>
         <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
@@ -22,7 +22,8 @@
         Diese Checkliste soll dir helfen deine Smartphone-Sicherheit zu überprüfen, 
         damit du ein Gefühl für die Thematik entwickeln kannst. 
         Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit.
-        Dies ist die Druckversion der Liste. Die interaktive Variante findest du <a class="underline" href="/list" title="Interaktive Version">hier</a>.
+        Dies ist die Druckversion der Liste. Du kannst die einzelnen Punkte mit einem Stift abhaken.
+        Die interaktive Variante findest du <a class="underline" href="/list" title="Interaktive Version">hier</a>.
       </p>
 
       <space></space>
