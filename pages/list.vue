@@ -22,6 +22,7 @@
         Willkommen bei der interaktiven Variante! Sammle so viele Punkte und Level wie möglich!
         Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
         Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
+        Die Druckversion findest du <a class="underline" href="/print" title="Interaktive Version">hier</a>.
       </p>
 
       <space></space>

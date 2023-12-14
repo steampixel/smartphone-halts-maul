@@ -1,8 +1,8 @@
 export default {
 
-  version: '1.13.0',
+  version: '1.14.0',
 
-  lastUpdated: '2023-11-22',
+  lastUpdated: '2023-12-11',
 
   pointsPerLevel: 800,
 
@@ -117,7 +117,7 @@ export default {
     {
       id: 'jwp2vuk2pm3hyvq9sagif84s1bacam4p',
       title: 'Du verwendest ein freies Betriebssystem',
-      shortText: 'Freie Android-basierte Betriebssysteme wie grapheneOS, CalyxOS oder e/OS können dir helfen deine Privatsphäre zu schützen und sind nicht an Google, Apple oder Microsoft gebunden.',
+      shortText: 'Freie Android-basierte Betriebssysteme wie grapheneOS, CalyxOS oder DivestOS können dir helfen deine Privatsphäre zu schützen und sind nicht an Google, Apple oder Microsoft gebunden.',
       longText: 'Wenn du dir unsicher bist welches System du installieren solltest so lautet die klare Empfehlung derzeit grapheneOS auf einem der kompatiblen Telefone zu installieren. Mehr Informationen findest du in den Links.',
       showMore: true,
       links: [
@@ -136,13 +136,17 @@ export default {
           url: 'https://grapheneos.org/'
         },
         {
+          title: 'DivestOS',
+          url: 'https://divestos.org/'
+        },
+        {
           title: 'CalyxOS',
           url: 'https://calyxos.org/'
         },
-        {
-          title: 'e/os',
-          url: 'https://e.foundation/de/e-os/'
-        }
+        // {
+        //   title: 'e/os',
+        //   url: 'https://e.foundation/de/e-os/'
+        // }
       ],
       tags: ['common', 'security', 'knowledge'],
       points: 800
@@ -199,7 +203,7 @@ export default {
       id: '80orohontx6p1hk9iq507gcwxli61686',
       title: 'Deine Smartphones sind verschlüsselt',
       shortText: 'Verschlüssel deine Smartphones mit einem starken alphanumerischen Passwort. Dies verhindert das Auslesen von Daten sehr effektiv.',
-      longText: 'Eine starke Verschlüsselung ist wichtig. Eine Bildschirmsperre ist nicht ausreichend. Software wie Cellebrite kann die meisten Bildschirmsperren einfach umgehen. Alle deine Daten, Kontakte, Anruflisten, Standortdaten, Login-Daten und vieles mehr können dann durch automatisierte Software wie Cellebrite Pathfinder via USB gesammelt und aufbereitet dargestellt werden. Dein Verschlüsselungspasswort sollte besonders stark sein. Nutze ein sehr komplexes Muster oder ein alphanumerisches Passwort zur Verschlüsselung.',
+      longText: 'Eine starke Verschlüsselung ist wichtig. Eine Bildschirmsperre ist nicht ausreichend. Software wie Cellebrite kann über die USB-Schnittstelle die meisten Bildschirmsperren einfach umgehen. Alle deine Daten, Kontakte, Anruflisten, Standortdaten, Login-Daten und vieles mehr können dann durch automatisierte Software wie Cellebrite Pathfinder via USB gesammelt und aufbereitet dargestellt werden. Dein Verschlüsselungspasswort sollte besonders stark sein. Nutze ein sehr komplexes Muster oder ein alphanumerisches Passwort zur Verschlüsselung.',
       showMore: true,
       links: [
         {
@@ -461,7 +465,7 @@ export default {
       id: 'jseo0a8ko4q5rnb3lyh55p1jzd42ldrr',
       title: 'Deaktiviere nicht genutzte Schnittstellen',
       shortText: 'Du solltest Positionierung, WiFi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst',
-      longText: 'Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen.',
+      longText: 'Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen. Aber auch Bluetooth und andere Schnittstellen bergen Gefahren.',
       showMore: true,
       links: [
         {
@@ -482,6 +486,54 @@ export default {
           date: '2023-09-01',
           title: 'Golem: Bluetooth-Spam gelingt jetzt auch per Android-App',
           url: 'https://www.golem.de/news/kein-flipper-zero-noetig-bluetooth-spam-gelingt-jetzt-auch-per-android-app-2311-178988.html'
+        },
+        {
+          date: '2023-12-11',
+          title: 'Heise: Bluetooth-Lücke: Tastenanschläge in Android, Linux, iOS und macOS einschleusbar ',
+          url: 'https://www.heise.de/news/Bluetooth-Luecke-erlaubt-Einschleusen-von-Tastenanschlaegen-9570583.html'
+        }
+      ],
+      tags: ['physical', 'easy'],
+      points: 400
+    },
+
+    {
+      id: 'rkdqexb1ghcgnod7g0rwgmvt0mmu6ojt',
+      title: 'Verzichte wenn möglich auf Bluetooth-Geräte wie Earbuds',
+      shortText: 'Wenn du dir sicher sein möchtest, dass du nicht über Bluetooth abgehört wirst, solltest du eine Kabelverbindung für deine Kopfhörer nutzen.',
+      longText: 'Bluetooth-Geräte wie Earbuds können möglicherweise beim Austausch ihrer geheimen Schlüssel belauscht werden. Angreifer*innen in Reichweite könnten so unbemerkt mithören.',
+      showMore: true,
+      links: [
+        {
+          date: '2023-11-30',
+          title: 'Heise: BLUFFS: Neue Angriffe gefährden Bluetooth-Datensicherheit auf Milliarden Geräten',
+          url: 'https://www.heise.de/news/BLUFFS-Neue-Angriffe-gefaehrden-Bluetooth-Datensicherheit-auf-Milliarden-Geraeten-9544862.html'
+        },
+        {
+          date: '2020-05-21',
+          title: 'Heise: Bluetooth-Sicherheitslücke ermöglicht unerkannte Angriffe ',
+          url: 'https://www.heise.de/news/Bluetooth-Sicherheitsluecke-ermoeglicht-unerkannte-Angriffe-4726211.html'
+        }
+      ],
+      tags: ['physical', 'easy'],
+      points: 200
+    },
+
+    {
+      id: '8e03f6tau77a9biyzsqs1j5nh63vorvg',
+      title: 'Nicht genutzte Kameras sind verdeckt',
+      shortText: 'Du solltest nicht genutze Kameras einfach mit Stickern abdecken. Zum Beispiel, wenn du die Selfie-Kamera nicht oder kaum nutzt.',
+      longText: 'Du kannst dir beim Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) kostenlos wiederablösbare Spezialaufkleber für deine Smartphone-Kameras bestellen. Achte darauf, dass du nicht den unscheinbaren Helligkeitssensor überklebst! Dies führt dazu dass einige Smartphones den Display abschalten, da diese sich in einer Hosentasche wähnen.',
+      showMore: true,
+      links: [
+        {
+          title: 'BMFSFJ: Webcamsticker-Karte TOP SECRET',
+          url: 'https://www.bmfsfj.de/bmfsfj/service/publikationen/webcamsticker-karte-top-secret-96100'
+        },
+        {
+          date: '2020-05-21',
+          title: 'Heise: Bluetooth-Sicherheitslücke ermöglicht unerkannte Angriffe ',
+          url: 'https://www.heise.de/news/Bluetooth-Sicherheitsluecke-ermoeglicht-unerkannte-Angriffe-4726211.html'
         }
       ],
       tags: ['physical', 'easy'],
@@ -494,7 +546,7 @@ export default {
       id: '4k71ynnyxw2kqkiw6u9zxun0tjgoy9lt',
       title: 'Du nutzt datensparsame Telefon-Tarife',
       shortText: 'Eine Flatrate erzeugt in der Regel weniger Daten als ein Tarif mit minutengenauer Abrechnung oder Einzelverbindungsnachweisen. Denn diese müssen erfasst und gespeichert werden. Flatrates erzeugen weniger Daten. Prepaid-Tarife erzeugen in der Regel nicht mal Rechnungsdaten und sind daher sehr datensparsam.',
-      showMore: true,
+      showMore: false,
       tags: ['mobile', 'knowledge'],
       points: 200
     },
@@ -519,7 +571,9 @@ export default {
     {
       id: 'rnv3klgi6c7iyx7jjjnguap730c7rat0',
       title: 'Du nimmst dein Handy nicht mit zur Demo',
-      shortText: 'Du solltest dein Telefon nicht mit zur Demo nehmen oder es einige Zeit vorher in den Flugmodus schalten und es auch nach der Demo noch einige Zeit im Flugmodus belassen. Auch dann, wenn du anonyme Simkarten nutzt. Durch die Verfolgung einzelner Personen mit sogenannten IMSI-Catchern lässt sich eine Telefonnummer einer Person zuordnen. Egal, ob die Simkarte anonym ist oder nicht.',
+      shortText: 'Du solltest dein Telefon nicht mit zur Demo nehmen oder es einige Zeit vorher in den Flugmodus schalten und es auch nach der Demo noch einige Zeit im Flugmodus belassen.',
+      longText: 'Das gilt auch dann, wenn du anonyme Simkarten nutzt. Durch die gezielte Verfolgung (zum Beipiel auf dem Heimweg) einzelner Personen mit sogenannten IMSI-Catchern lässt sich eine Telefonnummer einer Person zuordnen. Egal, ob die Simkarte anonym ist oder nicht.',
+      showMore: true,
       tags: ['mobile', 'easy', 'security'],
       points: 400
     },
@@ -545,9 +599,14 @@ export default {
       id: 'ze8fnbeg8eskdnvwrapzcvmkm420baty',
       title: 'Du verwendest anonyme Simkarten',
       shortText: 'Anonyme Simkarten erschweren Behörden die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, RRLP, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.',
-      longText: 'Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietär Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten. Auf Seiten wie cell-track.com oder phone-location.info kann zum Beispiel einfach herausgefunden werden, ob sich ein Gerät im Ausland befindet oder nicht oder ob ein Gerät gerade eingeschaltet ist. Alles was du brauchst ist die Nummer. Du kannst nichts dagegen tun als deine Nummer geheim zu halten.',
+      longText: 'Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietär Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten.',
       showMore: true,
       links: [
+        {
+          date: '2023-12-09',
+          title: 'Golem: Angreifer können 714 Smartphone-Modelle vom 5G-Netz trennen',
+          url: 'https://www.golem.de/news/dos-schwachstellen-angreifer-koennen-714-smartphone-modelle-vom-5g-netz-trennen-2312-180183.html'
+        },
         {
           date: '2023-10-27',
           title: 'Heise: Forscher: Sicherheitslücken beim Roaming bleiben auch bei 5G eine große Gefahr',
@@ -646,6 +705,7 @@ export default {
       id: 'zb5k5o1xbl8ti16gl70osqyzq3kbto20',
       title: 'Du gibst deine Telefonnummer nicht weiter',
       shortText: 'Nur wenn du deine Nummer nicht in Verbindung mit deinem Namen weiter gibst bleibt deine anonyme Karte anonym. Um trotzdem erreichbar zu sein kannst du auf Messenger mit Anruffunktion ausweichen, die keine Nummer benötigen oder bei denen sich die Nummer verbergen lässt.',
+      longText: 'Wer deine Telefonnummer kennt kann dich leicht angreifen. Auf Seiten wie cell-track.com oder phone-location.info kann zum Beispiel einfach herausgefunden werden, ob sich ein Gerät im Ausland befindet oder nicht oder ob ein Gerät gerade eingeschaltet ist. Alles was du brauchst ist die Nummer. Du kannst nichts dagegen tun als deine Nummer geheim zu halten. Das ist eventuell noch nicht wirklich gefährlich. Aber staatliche Akteure haben noch ganz andere Möglichkeiten wie z.B. die Infektion des Gerätes mit einem Zero-Click-Exploit. Nur eine anonyme Simkarte schützt dich effektiv vor staatlichen Übergriffen.',
       tags: ['mobile', 'easy', 'security', 'behavior'],
       points: 800
     },
@@ -855,12 +915,49 @@ export default {
     },
 
     {
+      id: '0k0m9fjhzzh7hqs1l5ui0qs3ozgcvxvd',
+      title: 'Du verzichtest auf Google-Play-Dienste und Apple-Services',
+      shortText: 'Google-Play-Services bzw. Apple-Services stellen zentrale Infrastrukturen für einige Apps bereit. Zum Beispiel werdern darüber Push-Nachrichten versendet. Staatliche Stellen nutzen diese Tatsache, um damit iPhone- bzw. Android-Geräte zu überwachen.',
+      longText: 'Du kannst dich davor schützen indem du Apps verwendest, die ohne Google bzw- Apple Services auskommen. Verzichte auch auf Alternativen wie microG, wenn du ein eigenes Betriebssystem installiert hast. Installiere zum Beispiel Apps aus F-Droid, die ohne diese Services auskommen. Messenger wie Telegram, Signal und Matrix bieten eigene Alternativen für zentralisierte Pushnachrichten an.',
+      showMore: true,
+      links: [
+        {
+          date: '2023-12-13',
+          title: 'Tarnkappe: Apple-Richtlinien: Gerichtliche Anordnung für Push-Daten Pflicht!',
+          link: 'https://tarnkappe.info/artikel/it-sicherheit/datenschutz/apple-richtlinien-gerichtliche-anordnung-fuer-push-benachrichtigungsdaten-erforderlich-284819.html'
+        },
+        {
+          date: '2023-12-07',
+          title: 'Kuketz: Android: Abhilfe gegen staatliche Überwachung durch Push-Nachrichten',
+          url: 'https://www.kuketz-blog.de/android-abhilfe-gegen-staatliche-ueberwachung-durch-push-nachrichten/'
+        },
+        {
+          date: '2023-12-07',
+          title: 'Golem: Behörden spionieren Nutzer über Push-Benachrichtigungen aus',
+          url: 'https://www.golem.de/news/apple-und-google-behoerden-spionieren-nutzer-ueber-push-benachrichtigungen-aus-2312-180106.html'
+        },
+        {
+          date: '2023-12-06',
+          title: 'Netzpolitik: Behörden fragen Apple und Google nach Nutzern von Messenger-Apps',
+          url: 'https://netzpolitik.org/2023/push-dienste-behoerden-fragen-apple-und-google-nach-nutzern-von-messenger-apps/'
+        }
+      ],
+      tags: ['online', 'security', 'knowledge', 'behavior'],
+      points: 800
+    },
+
+    {
       id: 'jo9w7hfcbumbjo18i4a0mzihqxjth4ad',
       title: 'Du nutzt Cloud-Speicher nur verschlüsselt',
       shortText: 'Viele Cloud-Anbieter arbeiten vollumfänglich mit Ermittlungsbehörden zusammen und werden nicht zögern deine Daten auszuliefern. Lege dort nur verschlüsselte Daten ab.',
       longText: 'Generell solltest du überlegen, ob du die entsprechenden Cloud-Dienste überhaupt brauchst. Du kannst zum Beispiel Apps wie "OpenKeychain" verwenden, um Dateien vor dem Upload in eine Cloud zu verschlüsseln. Für den Fall, dass du ein Apple-Gerät mit deiner iCloud nutzt aktiviere dort den erweiterten Datenschutz.',
       showMore: true,
       links: [
+        {
+          date: '2023-12-07',
+          title: 'Apple trommelt für Ende-zu-Ende-Verschlüsselung von Cloud-Daten',
+          url: 'https://www.heise.de/news/Apple-trommelt-fuer-Ende-zu-Ende-Verschluesselung-von-Cloud-Daten-9567657.html'
+        },
         {
           title: 'F-Droid: OpenKeychain: Easy PGP',
           url: 'https://f-droid.org/de/packages/org.sufficientlysecure.keychain/'
@@ -903,6 +1000,15 @@ export default {
       id: 'bsqnf4sy9e72t3hfw0f47nywgsbmfm3j',
       title: 'Du installierst Apps nur aus vertrauenswürdigen Quellen',
       shortText: 'Nutze nur offizielle App-Stores oder F-Droid, um deine Apps zu beziehen. Wenn du dich auskennst kannst du Apps auch direkt von den Websites der Hersteller*innen laden. Überlege immer, ob du eine App überhaupt brauchst.',
+      longText: 'Infizierte Apps haben viele Möglihkeiten dich anzugreifen. Sie können zum Beispiel Passworte stehlen.',
+      showMore: true,
+      links: [
+        {
+          date: '2023-12-10',
+          title: 'Heise: Black Hat Europe 2023: Neuer Angriff "AutoSpill" auf Android-Passwortmanager',
+          url: 'https://www.heise.de/news/Black-Hat-Europe-2023-Neuer-Angriff-AutoSpill-auf-Android-Passwortmanager-9569772.html'
+        }
+      ],
       tags: ['online', 'knowledge'],
       points: 200
     },
