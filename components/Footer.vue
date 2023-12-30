@@ -19,7 +19,8 @@
         <a target="_blank" href="https://smartphone-halts-maul.de/print">Druckversion</a> |
         <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">GitHub</a> |
         <a target="_blank" href="https://steampixel.de/impressum/">Impressum</a> |
-        <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">Datenschutz</a>
+        <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">Datenschutz</a> |
+        <a target="" href="/">Startseite</a>
       </p>
 
       <space></space>

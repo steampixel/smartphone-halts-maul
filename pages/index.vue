@@ -36,7 +36,7 @@
 
       <space></space>
 
-      <p>
+      <!-- <p>
         Diese Liste ist ein "work in progress".
         Wenn du helfen möchtest findest du den <a class="underline" target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">Code auf GitHub</a>.
       </p>
@@ -47,19 +47,23 @@
         Wenn dein Browser kein JavaScript unterstützt kannst du dir die Druckversion ansehen.
       </p>
 
-      <space></space>
+      <space></space> -->
       <space></space>
 
       <a href="/list" aria-label="Druckversion" title="Druckversion">
-        <app-button>Interaktive Version starten</app-button>
+        <app-button>Zur Checkliste</app-button>
       </a>
 
       <a href="/print" aria-label="Interaktive Version" title="Interaktive Version">
-        <app-button>Druckversion ansehen</app-button>
+        <app-button color="medium">Druckversion</app-button>
       </a>
 
       <a href="/flyer" aria-label="Flyer drucken" title="Flyer drucken">
-        <app-button>Flyer drucken</app-button>
+        <app-button color="medium">Flyer</app-button>
+      </a>
+
+      <a href="https://github.com/steampixel/smartphone-halts-maul" target="_blank" aria-label="GitHub" title="GitHub">
+        <app-button color="medium">GitHub</app-button>
       </a>
 
     </div>

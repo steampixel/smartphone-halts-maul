@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container min-h-screen flex justify-center items-center">
+  <!-- <div class="container min-h-screen flex justify-center items-center">
 
     <div class="w-full">
 
@@ -32,7 +32,7 @@
 
     </div>
 
-  </div>
+  </div> -->
 
   <div ref="mainsection">
     <list></list>
@@ -113,9 +113,9 @@
         return Math.ceil(points / config.pointsPerLevel);
       },
 
-      start() {
-        this.$refs["mainsection"].scrollIntoView({ behavior: "smooth" })
-      },
+      // start() {
+      //   this.$refs["mainsection"].scrollIntoView({ behavior: "smooth" })
+      // },
 
     }
 

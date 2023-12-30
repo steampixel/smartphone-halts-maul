@@ -34,13 +34,6 @@
         Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht.
       </p>
 
-      <space></space>
-
-      <p>
-        Diese Liste ist ein "work in progress". 
-        Wenn du helfen möchtest findest du den <a class="underline" target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">Code auf GitHub</a>.
-      </p>
-
     </section>
 
   </div>

@@ -54,7 +54,7 @@
           :key="tag.key">
           <app-button 
             :aria-label="tag.title" 
-            :color="(tag.enabled?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
+            :color="(tag.enabled?'pink':'dark')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="inline-flex hyphenate items-center">
               <icon class="mr-2 h-4 w-4" :type="tag.icon"></icon>
@@ -68,7 +68,7 @@
           @click="showCompleted=!showCompleted">
           <app-button 
             aria-label="Abgeschlossene ausblenden" 
-            :color="(!showCompleted?'bg-pink-600 hover:bg-pink-700':'bg-gray-800 hover:bg-gray-900')"
+            :color="(!showCompleted?'pink':'dark')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="inline-flex hyphenate items-center">
               <icon class="mr-2 h-4 w-4" type="check"></icon>

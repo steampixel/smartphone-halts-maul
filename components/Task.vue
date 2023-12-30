@@ -52,7 +52,7 @@
       <app-button 
         v-if="showMore" 
         @click="showModal=true" 
-        color="bg-gray-200 hover:bg-gray-300"
+        color="light"
         text="text-black">Mehr Informationen</app-button>
 
     </div>

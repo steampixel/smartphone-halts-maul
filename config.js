@@ -56,6 +56,12 @@ export default {
       title: 'Ist eher teurer',
       enabled: false,
     },
+    {
+      key: 'refugee',
+      icon: 'turn',
+      title: 'Wichtig bei Migration und Flucht',
+      enabled: false,
+    },
   ],
 
   tasks: [
@@ -169,6 +175,15 @@ export default {
       points: 400
     },
 
+    {
+      id: 'zefnefcgfbrnfrn7u9117l54jjjlrodk',
+      title: 'Du kennst deine wichtigsten Kontakte und Logins auswendig',
+      shortText: 'Du kennst die wichtigsten Nummern und Namen deiner Freund*innen, deiner Familie und deinen Bekannten auswendig. Du kannst dich außerdem in deine wichtigsten Accounts wie z.B. E-Mail auswendig einloggen. Solltest du dein Telefon oder sämtliche Geräte verlieren, hast du so eine Möglichkeit deine Kontakte wiederherzustellen.',
+      showMore: false,
+      tags: ['common', 'refugee'],
+      points: 400
+    },
+
 
     
     {
@@ -187,7 +202,7 @@ export default {
       shortText: 'Auf der Rückseite deiner Simkarte befindet sich eine unscheinbare Nummer. Zerkratze sie, damit du im Falle einer Beschlagnahmung nicht über sie und deinen Provider identifiziert werden kannst.',
       longText: 'Sei dabei bitte vorsichtig und achte darauf den Chip nicht zu zerstören. Kratze also nicht zu tief!',
       showMore: true,
-      tags: ['physical', 'easy'],
+      tags: ['physical', 'easy', 'refugee'],
       points: 200
     },
 
@@ -195,7 +210,7 @@ export default {
       id: '06cn52ozdybvxunerygmf1vauklkl2m6',
       title: 'Du hast eine Displaysperre eingerichtet',
       shortText: 'Der Display deines Gerätes schaltet sich nach einer Weile automatisch ab. Um diesen wieder zu entsperren nutzt du komplexe Muster oder alphanumerische Passworte.',
-      tags: ['physical', 'easy'],
+      tags: ['physical', 'easy', 'refugee'],
       points: 400
     },
 
@@ -217,7 +232,7 @@ export default {
           url: 'https://netzpolitik.org/2023/abschiebung-von-geduldeten-berlin-durchsucht-weiter-handys/'
         }
       ],
-      tags: ['physical', 'easy', 'security'],
+      tags: ['physical', 'easy', 'security', 'refugee'],
       points: 800
     },
 
@@ -239,7 +254,7 @@ export default {
           url: 'https://steampixel.de/ein-killswitch-fur-dein-smartphone/'
         }
       ],
-      tags: ['physical', 'easy'],
+      tags: ['physical', 'easy', 'refugee'],
       points: 200
     },
 
@@ -265,7 +280,7 @@ export default {
       id: 'eur6ctpfgyqk36otnor85vlx1pruxirk',
       title: 'Du verzichtest auf Speicherkarten',
       shortText: 'Nicht auf allen Geräten lassen sich Speicherkarten zuverlässig verschlüsseln. Zudem lassen sich Daten wiederherstellen, die bei einer früheren Nutzung mit anderen Geräten darauf gespeichert wurden. Nutze Speicherkarten daher nur, wenn du weißt was darauf gespeichert wird und wenn du diese vorher überschrieben hast.',
-      tags: ['physical', 'easy', 'security'],
+      tags: ['physical', 'easy', 'security', 'refugee'],
       points: 600
     },
 
@@ -282,7 +297,7 @@ export default {
           url: 'https://netzpolitik.org/2023/gerichtsbeschluss-polizei-darf-fingerabdruecke-nehmen-um-handy-zu-entsperren/'
         }
       ],
-      tags: ['physical', 'easy', 'security', 'behavior'],
+      tags: ['physical', 'easy', 'security', 'behavior', 'refugee'],
       points: 600
     },
 
@@ -298,7 +313,7 @@ export default {
           url: 'https://www.heise.de/tipps-tricks/Android-Entwickleroptionen-aktivieren-deaktivieren-4041510.html'
         }
       ],
-      tags: ['physical', 'knowledge', 'security'],
+      tags: ['physical', 'knowledge', 'security', 'refugee'],
       points: 600
     },
 
@@ -346,7 +361,7 @@ export default {
       id: 'n2qb3l1sgibjxou17orb089dp005x5yt',
       title: 'Du hast die eindeutigen Nummern deines Gerätes notiert',
       shortText: 'In den Einstellungen deines Telefons findest du eindeutige, unveränderliche Hardwarenummern wie Seriennummer, WiFi-Mac-Adresse, Bluetooth-Mac-Adresse und IMEI. Notiere diese Nummern. So kannst du dir jederzeit sicher sein, dass dein Gerät nicht heimlich ausgetauscht wurde.',
-      tags: ['physical', 'easy'],
+      tags: ['physical', 'easy', 'refugee'],
       points: 200
     },
 
@@ -366,7 +381,7 @@ export default {
           url: 'https://f-droid.org/de/packages/dk.jens.backup/'
         }
       ],
-      tags: ['physical', 'knowledge', 'security'],
+      tags: ['physical', 'knowledge', 'security', 'refugee'],
       points: 800
     },
 
@@ -441,7 +456,7 @@ export default {
       id: '255rov4bdircfn2ac5toavgq6jj99d42',
       title: 'Du entsperrst dein Smartphone nicht auf Verlangen',
       shortText: 'Bei Beschlagnahmungen auf richterliche Anordnung oder bei Sicherstellungen (freiwillige Herausgabe) eines Smartphones fragt die Polizei oft nach Pins und Passworten. Sage nichts. Entsperre nichts. Kontaktiere Anwält*innen.',
-      tags: ['physical', 'easy', 'security'],
+      tags: ['physical', 'easy', 'security', 'refugee'],
       points: 800
     },
 
@@ -599,7 +614,7 @@ export default {
       id: 'ze8fnbeg8eskdnvwrapzcvmkm420baty',
       title: 'Du verwendest anonyme Simkarten',
       shortText: 'Anonyme Simkarten erschweren Behörden die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, RRLP, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.',
-      longText: 'Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietär Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten.',
+      longText: 'Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietären Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten.',
       showMore: true,
       links: [
         {
@@ -1032,8 +1047,8 @@ export default {
     {
       id: 'z0meha5aadwsz3t2hpy6suymhi9u76qb',
       title: 'Du löschst Metadaten aus deinen Bildern',
-      shortText: 'Dein Smartphone heftet Metadaten wie Koordinaten, Kameratyp, Auflösung, Smartphone-Modell oder Betriebssystem unsichtbar an deine Bilder. Nutze Apps wie "Imagepipe" um deine Bilder zu bereinigen bevor du diese ins Internet lädst.',
-      longText: 'Imagepipe kannst du über den F-Droid auf deinem Android-Smartphone installieren. F-Droid ist ein installierbarer Katalog für freie und Open-Source-Software.',
+      shortText: 'Dein Smartphone heftet Metadaten wie Koordinaten, Kameratyp, Auflösung, Smartphone-Modell oder Betriebssystem unsichtbar an deine Bilder. Bei einigen Kamera-Apps lässt sich das teilweise oder ganz deaktivieren.',
+      longText: 'Wird dein Telefon entwendet können diese Daten aufschluss über deine Herkunft geben. Nutze Apps wie "Imagepipe" um deine Bilder zu bereinigen bevor du diese ins Internet lädst. Imagepipe kannst du über den F-Droid auf deinem Android-Smartphone installieren. F-Droid ist ein installierbarer Katalog für freie und Open-Source-Software.',
       showMore: true,
       links: [
         {
@@ -1041,7 +1056,7 @@ export default {
           url: 'https://f-droid.org/de/'
         },
       ],
-      tags: ['online', 'easy', 'behavior'],
+      tags: ['online', 'easy', 'behavior', 'refugee'],
       points: 400
     },
 
