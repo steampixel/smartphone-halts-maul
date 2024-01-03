@@ -4,7 +4,7 @@
 
     <div class="flex justify-between">
 
-      <div class="text-sm italic">{{points}} Punkte</div>
+      <div class="text-sm italic">{{points}} {{ $t('listPoints') }}</div>
 
       <div class="flex justify-end text-sm">
 
@@ -13,7 +13,7 @@
           v-for="(tag) in filterTags" 
           :key="tag.key">
 
-          <span class="inline-block ml-2" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
+          <span class="inline-block ml-2" v-if="hasTag(this.tags, tag.key)" :title="tag.title[$i18n.locale]">
             <icon color="black" :type="tag.icon"></icon>
           </span>
 
@@ -53,7 +53,7 @@
         v-if="showMore" 
         @click="showModal=true" 
         color="light"
-        text="text-black">Mehr Informationen</app-button>
+        text="text-black">{{ $t('listMoreInformation') }}</app-button>
 
     </div>
 
@@ -67,7 +67,7 @@
 
         <space></space>
         
-        <div class="text-base font-bold">Weiterführende Links</div>
+        <div class="text-base font-bold">{{ $t('listLinks') }}</div>
 
         <space></space>
 
@@ -86,7 +86,7 @@
 
       <space></space>
 
-      <div class="text-base font-bold">Tags</div>
+      <div class="text-base font-bold">{{ $t('listTags') }}</div>
 
       <space></space>
 
@@ -94,9 +94,9 @@
         v-for="(tag) in filterTags" 
         :key="tag.key">
 
-        <li class="inline-flex text-sm items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title">
+        <li class="inline-flex text-sm items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title[$i18n.locale]">
           <icon class="mr-2 h-4 w-4" color="black" :type="tag.icon"></icon>
-          {{tag.title}}
+          {{tag.title[$i18n.locale]}}
         </li>
 
       </ul>
@@ -109,7 +109,7 @@
 
 <script>
 
-  import config from '~/config.js';
+  import config from '~/config.json';
 
   import Modal from '~/components/Modal.vue'
   import Space from '~/components/Space.vue'

@@ -1,6 +1,6 @@
 <template>
        
-          
+    <navbar></navbar>
 
     <div class="container">
 
@@ -10,19 +10,16 @@
         <h1 class="text-gray-800 text-center">
             <div class="text-5xl md:text-6xl font-bold mb-2">
                 <img class="inline-block unicorn h-20 w-20" src="/unicorn.png" />
-                Smartphone, halt's Maul!
+                {{ $t('title') }}
             </div>
-            <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
+            <div class="text-2xl">{{ $t('subtitle') }}</div>
         </h1>
 
         <space></space>
         <space></space>
 
         <p class="text-center">
-            Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
-            damit du ein Gefühl für die Thematik entwickeln kannst. 
-            Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
-            Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
+            {{ $t('flyerText') }}
         </p>
 
         <space></space>
@@ -38,17 +35,20 @@
 
     </div>
 
+    <app-footer></app-footer>
        
 </template>
   
 <script>
 
     import Print from '~/components/Print.vue'
+    import AppFooter from '~/components/Footer.vue'
+    import Navbar from '~/components/Navbar.vue'
 
     export default {
 
         components: {
-            Print
+            Print, AppFooter, Navbar
         },
 
     }

@@ -27,7 +27,7 @@
 
         <!--Footer-->
         <div class="pt-4 flex justify-end" >
-          <app-button @click="$emit('close')">Schließen</app-button>
+          <app-button @click="$emit('close')">{{ $t('close') }}</app-button>
         </div>
 
       </div>

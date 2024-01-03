@@ -5,7 +5,9 @@
     <!-- Sticky bar -->
     <div class="sticky top-0 z-10 text-white bg-gray-800 shadow-md">
 
-      <div class="p-2 md:p-4">
+      <navbar></navbar>
+
+      <div class="px-2 pb-2 md:px-4 md:pb-4">
 
         <div class="container">
 
@@ -17,8 +19,8 @@
 
             <div class="text-center">
 
-              Level <span class="font-bold text-2xl md:text-3xl">{{level}}</span>,
-              <span class="font-bold text-2xl md:text-3xl">{{points.toLocaleString()}}</span> Punkte
+              {{ $t('listLevel') }} <span class="font-bold text-2xl md:text-3xl">{{level}}</span><span>, </span>
+              <span class="font-bold text-2xl md:text-3xl">{{points.toLocaleString()}}</span> {{ $t('listPoints') }}
 
             </div>
 
@@ -41,7 +43,7 @@
       <space></space>
       <space></space>
 
-      <h2 class="text-2xl font-bold text-gray-800">Liste filtern</h2>
+      <h2 class="text-2xl font-bold text-gray-800">{{ $t('listFilter') }}</h2>
 
       <space></space>
       <space></space>
@@ -53,12 +55,12 @@
           @click="tag.enabled=!tag.enabled"
           :key="tag.key">
           <app-button 
-            :aria-label="tag.title" 
+            :aria-label="tag.title[$i18n.locale]" 
             :color="(tag.enabled?'pink':'dark')"
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="inline-flex hyphenate items-center">
               <icon class="mr-2 h-4 w-4" :type="tag.icon"></icon>
-              {{ tag.title }}
+              {{ tag.title[$i18n.locale] }}
             </span>
           </app-button>
         </span>
@@ -72,7 +74,7 @@
             class="hover:scale-105 transition-all cursor-pointer mr-4 max-w-full">
             <span class="inline-flex hyphenate items-center">
               <icon class="mr-2 h-4 w-4" type="check"></icon>
-              Abgeschlossene zeigen
+              {{ $t('listFilterShowCompleted') }}
             </span>
           </app-button>
         </span>
@@ -91,7 +93,7 @@
         <seperator></seperator>
         <space></space>
 
-        <h2 class="text-2xl font-bold text-gray-800">{{categoryTag.title}}</h2>
+        <h2 class="text-2xl font-bold text-gray-800">{{categoryTag.title[$i18n.locale]}}</h2>
 
         <space></space>
 
@@ -102,9 +104,9 @@
             :visible="(taskIsEnabled(task))"
             :showCompleted="showCompleted"
             :id="task.id" 
-            :title="task.title" 
-            :shortText="task.shortText" 
-            :longText="task.longText" 
+            :title="task.title[$i18n.locale]" 
+            :shortText="task.shortText[$i18n.locale]" 
+            :longText="task.longText[$i18n.locale]" 
             :tags="task.tags"
             :showMore="task.showMore"
             :links="task.links"
@@ -123,7 +125,7 @@
     </div>
 
     <div class="container">
-      <app-button @click="clearAll">Lösche alle Daten aus meinem Browser</app-button>
+      <app-button @click="clearAll">{{ $t('listDeleteAllData') }}</app-button>
     </div>
 
   </div>
@@ -140,8 +142,9 @@ import Space from '~/components/Space.vue'
 import Seperator from '~/components/Seperator.vue'
 import Modal from '~/components/Modal.vue'
 import Icon from '~/components/Icon.vue'
+import Navbar from '~/components/Navbar.vue'
 
-import config from '~/config.js';
+import config from '~/config.json';
 
 var jsConfetti;
 
@@ -150,7 +153,7 @@ var enableConfetti = false;
 export default {
   
   components: {
-    Task, AppButton, Space, Modal, Icon, Seperator
+    Task, AppButton, Space, Modal, Icon, Seperator, Navbar
   },
 
   data: function() {

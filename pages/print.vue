@@ -1,5 +1,7 @@
 <template>
 
+  <navbar></navbar>
+
   <div class="container">
 
     <space></space>
@@ -10,28 +12,22 @@
       <h1 class="text-gray-800 hyphenate">
         <div class="text-5xl md:text-6xl font-bold mb-2">
           <img class="inline-block h-20 w-20" src="/unicorn.png" />
-          Smartphone, halt's Maul!
+          {{ $t('title') }}
         </div>
-        <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
+        <div class="text-2xl">{{ $t('subtitle') }}</div>
       </h1>
 
       <space></space>
       <space></space>
 
       <p>
-        Diese Checkliste soll dir helfen deine Smartphone-Sicherheit zu überprüfen, 
-        damit du ein Gefühl für die Thematik entwickeln kannst. 
-        Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit.
-        Dies ist die Druckversion der Liste. Du kannst die einzelnen Punkte mit einem Stift abhaken.
-        Die interaktive Variante findest du <a class="underline" href="/list" title="Interaktive Version">hier</a>.
+        {{ $t('introTextPrint') }}
       </p>
 
       <space></space>
 
       <p>
-        Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt.
-        Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus.
-        Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht.
+        {{ $t('introText2') }}
       </p>
 
     </section>
@@ -48,7 +44,7 @@
 
   <div class="container">
 
-    <h2 class="text-2xl font-bold text-gray-800">Legende</h2>
+    <h2 class="text-2xl font-bold text-gray-800">{{ $t('legend') }}</h2>
     <space></space>
 
     <span 
@@ -58,7 +54,7 @@
       
       <span class="flex items-center">
         <icon class="mr-2 h-4 w-4" color="gray-600" :type="tag.icon"></icon>
-        {{ tag.title }}
+        {{ tag.title[$i18n.locale] }}
       </span>
     </span>
 
@@ -70,7 +66,7 @@
         <seperator></seperator>
         <space></space>
 
-        <h2 class="text-2xl font-bold text-gray-800">{{ categoryIndex+1 }} {{categoryTag.title}}</h2>
+        <h2 class="text-2xl font-bold text-gray-800">{{ categoryIndex+1 }} {{categoryTag.title[$i18n.locale]}}</h2>
         <space></space>
 
         <div v-for="(task, taskIndex) in categoryTasks(categoryTag.key)" :key="task.id" class="">
@@ -80,7 +76,7 @@
             <div class="flex justify-between items-center">
               <h3 class="text-base xs:text-lg sm:text-xl font-bold text-gray-800 hyphenate flex items-center">
                 <icon class="h-4 w-4 md:h-6 md:w-6 mr-2" color="gray-600" type="square"></icon>
-                <div>{{ categoryIndex+1 }}.{{ taskIndex+1 }} {{ task.title }}</div>
+                <div>{{ categoryIndex+1 }}.{{ taskIndex+1 }} {{ task.title[$i18n.locale] }}</div>
               </h3>
 
               <div class="flex">
@@ -89,7 +85,7 @@
                 v-for="(tag) in filterTags" 
                 :key="tag.key">
 
-                  <span class="inline-block ml-2" v-if="hasTag(task.tags, tag.key)" :title="tag.title">
+                  <span class="inline-block ml-2" v-if="hasTag(task.tags, tag.key)" :title="tag.title[$i18n.locale]">
                     <icon color="gray-600" :type="tag.icon"></icon>
                   </span>
 
@@ -100,13 +96,13 @@
             </div>
 
             <p class="text-base">
-              {{ task.shortText }}
+              {{ task.shortText[$i18n.locale] }}
             </p>
 
-            <div v-if="task.longText">
+            <div v-if="task.longText[$i18n.locale]">
               <space></space>
               <p class="text-base">
-                {{ task.longText }}
+                {{ task.longText[$i18n.locale] }}
               </p>
             </div>
 
@@ -179,13 +175,15 @@
   import Print from '~/components/Print.vue'
   import FooterPrint from '~/components/FooterPrint.vue'
   import Seperator from '~/components/Seperator.vue'
+  import AppFooter from '~/components/Footer.vue'
+  import Navbar from '~/components/Navbar.vue'
 
-  import config from '~/config.js';
+  import config from '~/config.json';
 
   export default {
 
     components: {
-      Space, Icon, Print, FooterPrint, Seperator
+      Space, Icon, Print, FooterPrint, Seperator, AppFooter, Navbar
     },
 
     data: function() {

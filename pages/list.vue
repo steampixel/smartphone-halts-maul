@@ -76,7 +76,7 @@
   import Space from '~/components/Space.vue'
   import AppButton from '~/components/Button.vue'
   import AppFooter from '~/components/Footer.vue'
-  import config from '~/config.js';
+  import config from '~/config.json';
 
   export default {
 

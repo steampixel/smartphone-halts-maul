@@ -27,3 +27,5 @@ logs
 todo.md
 *.sh
 nginx.conf
+*.php
+_old

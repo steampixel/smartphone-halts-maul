@@ -1,0 +1,1833 @@
+{
+    "version": "1.15.0",
+    "lastUpdated": "2024-01-03",
+    "pointsPerLevel": 800,
+    "categoryTags": [
+        {
+            "key": "common",
+            "title": {
+                "de": "Allgemeine Hinweise und Tipps",
+                "en": "General information and tips"
+            }
+        },
+        {
+            "key": "physical",
+            "title": {
+                "de": "Physische Gefahren durch direkte Zugriffe",
+                "en": "Physical hazards due to direct access"
+            }
+        },
+        {
+            "key": "mobile",
+            "title": {
+                "de": "Gefahren im Mobilfunknetz",
+                "en": "Dangers in the mobile network"
+            }
+        },
+        {
+            "key": "online",
+            "title": {
+                "de": "Gefahren im Internet",
+                "en": "Dangers on the Internet"
+            }
+        }
+    ],
+    "filterTags": [
+        {
+            "key": "easy",
+            "icon": "star",
+            "title": {
+                "de": "Meist schnell und leicht umzusetzen",
+                "en": "Usually quick and easy to implement"
+            },
+            "enabled": false
+        },
+        {
+            "key": "security",
+            "icon": "lock",
+            "title": {
+                "de": "Bringt vergleichsweise viel Sicherheit",
+                "en": "Provides a comparatively high level of safety"
+            },
+            "enabled": false
+        },
+        {
+            "key": "knowledge",
+            "icon": "book",
+            "title": {
+                "de": "Benötigt Fachwissen oder Recherche",
+                "en": "Requires specialist knowledge or research"
+            },
+            "enabled": false
+        },
+        {
+            "key": "behavior",
+            "icon": "clock",
+            "title": {
+                "de": "Ist mit Gewohnheitsänderungen verbunden",
+                "en": "Is associated with habit changes"
+            },
+            "enabled": false
+        },
+        {
+            "key": "expensive",
+            "icon": "dollar",
+            "title": {
+                "de": "Ist eher teurer",
+                "en": "Is rather more expensive"
+            },
+            "enabled": false
+        },
+        {
+            "key": "refugee",
+            "icon": "turn",
+            "title": {
+                "de": "Wichtig bei Migration und Flucht",
+                "en": "Important for migration and flight"
+            },
+            "enabled": false
+        }
+
+    ],
+    "tasks": [
+        {
+            "id": "dl9iuhbp8ydestlaqxcpw1mar7t5p6lf",
+            "title": {
+                "de": "Du interessierst dich für deine Sicherheit",
+                "en": "You care about your safety"
+            },
+            "shortText": {
+                "de": "Sehr gut! Offenbar ist dir deine Sicherheit wichtig. Sonst würdest du dich nicht damit beschäftigen. Deine ersten Punkte sind dir sicher.",
+                "en": "Very good! Your safety is obviously important to you. Otherwise you wouldn't bother with it. Your first points are safe."
+            },
+            "tags": [
+                "common"
+            ],
+            "points": 100,
+            "checked": true,
+            "longText": []
+        },
+        {
+            "id": "a2t3l5ehl2x96hbk35ua0u71hoxoklax",
+            "title": {
+                "de": "Du teilst diese Liste mit anderen",
+                "en": "You share this list with others"
+            },
+            "shortText": {
+                "de": "Wenn wir es schaffen die Sicherheit aller Menschen zu erhöhen werden sich staatliche Überwachungsmaßnahmen weniger lohnen. Das kommt auch deiner Sicherheit zugute. Teile diese Liste daher in deinen Kanälen oder drucke den Flyer aus.",
+                "en": "If we manage to increase the security of all people, state surveillance measures will be less worthwhile. This will also benefit your safety. So share this list on your channels or print out the flyer."
+            },
+            "tags": [
+                "common",
+                "easy"
+            ],
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Flyer: Smartphone, halt's Maul!",
+                    "url": "https:\/\/smartphone-halts-maul.de\/flyer"
+                }
+            ],
+            "points": 100,
+            "checked": false,
+            "longText": []
+        },
+        {
+            "id": "rdo96phefsb396oe5vkg1mmbdynq8nnj",
+            "title": {
+                "de": "Du prüfst diese Liste von Zeit zu Zeit",
+                "en": "You check this list from time to time"
+            },
+            "shortText": {
+                "de": "Genauso, wie sich die Technologie und diese Liste ständig wandelt wird sich dein Leben, deine Gewohnheiten und deine Geräte in Zukunft ändern. Nimm dir daher gelegentlich Zeit und prüfe diese Liste.",
+                "en": "Just as technology and this list are constantly changing, your life, your habits and your devices will change in the future. So take time to review this list from time to time."
+            },
+            "tags": [
+                "common",
+                "easy"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "jppi11lg2e9s9s3uekxo3g7qls646ymf",
+            "title": {
+                "de": "Du hast schon mal an einer Cryptoparty teilgenommen",
+                "en": "You have already taken part in a cryptoparty"
+            },
+            "shortText": {
+                "de": "Cryptoparties sind Events auf denen du lernst deine Geräte und deine Kommunikation zu schützen.",
+                "en": "Cryptoparties are events where you learn how to protect your devices and your communication."
+            },
+            "longText": {
+                "de": "Wenn du dich für Cryptoparties interessierst und Gleichgesinnte treffen möchtest kannst du dich zum Beispiel auf der Seite cryptoparty.in über bevorstehende Events informieren. Oder du befolgst den Guide unten und veranstaltest gleich selbst eine.",
+                "en": "If you are interested in cryptoparties and want to meet like-minded people, you can find out about upcoming events on cryptoparty.in, for example. Or you can follow the guide below and organize one yourself."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Nächte Cryptoparties auf cryptoparty.in",
+                    "url": "https:\/\/www.cryptoparty.in\/parties\/upcoming"
+                },
+                {
+                    "date": "2019-12-21",
+                    "title": "Digitalcourage: How To CryptoParty",
+                    "url": "https:\/\/digitalcourage.de\/digitale-selbstverteidigung\/how-to-cryptoparty"
+                }
+            ],
+            "tags": [
+                "common",
+                "easy"
+            ],
+            "points": 400
+        },
+        {
+            "id": "jwp2vuk2pm3hyvq9sagif84s1bacam4p",
+            "title": {
+                "de": "Du verwendest ein freies Betriebssystem",
+                "en": "You are using a free operating system"
+            },
+            "shortText": {
+                "de": "Freie Android-basierte Betriebssysteme wie grapheneOS, CalyxOS oder DivestOS können dir helfen deine Privatsphäre zu schützen und sind nicht an Google, Apple oder Microsoft gebunden.",
+                "en": "Free Android-based operating systems such as grapheneOS, CalyxOS or DivestOS can help you protect your privacy and are not tied to Google, Apple or Microsoft."
+            },
+            "longText": {
+                "de": "Wenn du dir unsicher bist welches System du installieren solltest so lautet die klare Empfehlung derzeit grapheneOS auf einem der kompatiblen Telefone zu installieren. Mehr Informationen findest du in den Links.",
+                "en": "If you are unsure which system you should install, the clear recommendation is currently to install grapheneOS on one of the compatible phones. You can find more information in the links."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2022-04-25",
+                    "title": "Golem: Datenschutz gibt's nur mit alternativem Android",
+                    "url": "https:\/\/www.golem.de\/news\/smartphone-ohne-google-datenschutz-gibt-s-nur-mit-alternativem-android-2204-164785.html"
+                },
+                {
+                    "date": "2020-11-17",
+                    "title": "Kuketz: GrapheneOS: Das Android für Sicherheits- und Datenschutzfreaks",
+                    "url": "https:\/\/www.kuketz-blog.de\/grapheneos-das-android-fuer-sicherheits-und-datenschutzfreaks\/"
+                },
+                {
+                    "title": "GrapheneOS",
+                    "url": "https:\/\/grapheneos.org\/"
+                },
+                {
+                    "title": "DivestOS",
+                    "url": "https:\/\/divestos.org\/"
+                },
+                {
+                    "title": "CalyxOS",
+                    "url": "https:\/\/calyxos.org\/"
+                }
+            ],
+            "tags": [
+                "common",
+                "security",
+                "knowledge"
+            ],
+            "points": 800
+        },
+        {
+            "id": "cl5098g8l7b3tzcgsof08nqn9bc9m2nv",
+            "title": {
+                "de": "Du hast dein Telefon von Bloatware befreit",
+                "en": "You have freed your phone from bloatware"
+            },
+            "shortText": {
+                "de": "Hersteller*innen von Smartphones erhalten von Google oder Apple Millionen bis Milliarden dafür, dass ihre Software fest auf euren Telefonen platziert wird. Du solltest diese Apps unbedingt entfernen.",
+                "en": "Smartphone manufacturers receive millions to billions from Google or Apple for placing their software on your phone. You should definitely remove these apps."
+            },
+            "longText": {
+                "de": "Derartige Beträge lohnen sich natürlich nur wenn das einen Nutzen hat: Die vorinstallierte Software sammelt muter Daten und verwertet eure Gewohnheiten. Ihr solltet Bloatware daher entfernen (Manchmal ist das ohne Root-Berechtigungen nicht möglich) oder gleich ein sicheres Betriebssystem installieren.",
+                "en": "Of course, such amounts are only worthwhile if there is a benefit: The pre-installed software collects data and exploits your habits. You should therefore remove bloatware (sometimes this is not possible without root permissions) or install a secure operating system straight away."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-02-21",
+                    "title": "Google zahlt Milliarden für Chrome unter iOS",
+                    "url": "https:\/\/www.onlinehaendler-news.de\/digital-tech\/unternehmen\/137709-google-zahlt-milliarden-chrome-ios"
+                }
+            ],
+            "tags": [
+                "common",
+                "security",
+                "knowledge"
+            ],
+            "points": 400
+        },
+        {
+            "id": "zefnefcgfbrnfrn7u9117l54jjjlrodk",
+            "title": {
+                "de": "Du kennst deine wichtigsten Kontakte und Logins auswendig",
+                "en": "You know your most important contacts and logins by heart"
+            },
+            "shortText": {
+                "de": "Du kennst die wichtigsten Nummern und Namen deiner Freund*innen, deiner Familie und deinen Bekannten auswendig. Du kannst dich außerdem in deine wichtigsten Accounts wie z.B. E-Mail auswendig einloggen. Solltest du dein Telefon oder sämtliche Geräte verlieren, hast du so eine Möglichkeit deine Kontakte wiederherzustellen.",
+                "en": "You know the most important numbers and names of your friends, family and acquaintances by heart. You can also log into your most important accounts, such as email, by heart. If you lose your phone or all your devices, you have the option of restoring your contacts."
+            },
+            "showMore": false,
+            "tags": [
+                "common",
+                "refugee"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "pt4y2j261kog00fs6iodjs9kz14kvgkv",
+            "title": {
+                "de": "Du verwendest kein Dumbphone",
+                "en": "You are not using a dumbphone"
+            },
+            "shortText": {
+                "de": "Nicht smarte Tasten-Geräte werden oft leichtfertig als \"sicher\" eingestuft. Diese lassen sich aber oft nicht verschlüsseln und bieten keine sichere Kommunikation.",
+                "en": "Non-smart push-button devices are often carelessly classified as \"secure\". However, these often cannot be encrypted and do not offer secure communication."
+            },
+            "longText": {
+                "de": "Bei Beschlagnahmungen oder Diebstahl können Kontakte, SMS und Anruflisten ausgelesen werden. Darüber hinaus sind Dumbphones ohne weitere Schutzmaßnahmen genauso anfällig für Angriffe im Mobilfunknetz. Dumbphones lassen sich nicht verschlüsseln, du kannst keine Apps wie Passwortmanager darauf installieren, du kannst deine Bilder nicht von Metadaten bereinigen und kannst keine sicheren Messenger nutzen. Auf der einen Seite haben diese Telefone also Nachteile. Auf der anderen Seite muss aber auch festgehalten werden, dass nicht smarte Geräte einige Gefahren komplett ausschließen. Zum Beispiel ist hier die Gefahr durch Infektionen mit Malware sehr viel geringer. Verschlüsselung und sichere Kommunikation erscheint aber angesichts inflationärer Beschlagnahmungen und Überwachung so wichtig, dass ein smartes Gerät unbedingt zu bevorzugen ist.",
+                "en": "In the event of confiscation or theft, contacts, text messages and call lists can be read. In addition, dumbphones are just as susceptible to attacks on the mobile network without further protective measures. Dumbphones cannot be encrypted, you cannot install apps such as password managers on them, you cannot clean your pictures of metadata and you cannot use secure messengers. So on the one hand, these phones have disadvantages. On the other hand, however, it should also be noted that non-smart devices completely rule out some dangers. For example, the risk of malware infections is much lower here. However, encryption and secure communication seem so important in the face of inflationary confiscation and surveillance that a smart device is definitely preferable."
+            },
+            "showMore": true,
+            "tags": [
+                "physical",
+                "easy",
+                "expensive"
+            ],
+            "points": 400
+        },
+        {
+            "id": "0yt9pse51qn4u7wznlkzyix3vz9184nu",
+            "title": {
+                "de": "Du hast deine Simkartennummer entfernt",
+                "en": "You have removed your SIM card number"
+            },
+            "shortText": {
+                "de": "Auf der Rückseite deiner Simkarte befindet sich eine unscheinbare Nummer. Zerkratze sie, damit du im Falle einer Beschlagnahmung nicht über sie und deinen Provider identifiziert werden kannst.",
+                "en": "There is an inconspicuous number on the back of your SIM card. Scratch it so that you cannot be identified by it and your provider in the event of confiscation."
+            },
+            "longText": {
+                "de": "Sei dabei bitte vorsichtig und achte darauf den Chip nicht zu zerstören. Kratze also nicht zu tief!",
+                "en": "Please be careful not to destroy the chip. Do not scratch too deeply!"
+            },
+            "showMore": true,
+            "tags": [
+                "physical",
+                "easy",
+                "refugee"
+            ],
+            "points": 200
+        },
+        {
+            "id": "06cn52ozdybvxunerygmf1vauklkl2m6",
+            "title": {
+                "de": "Du hast eine Displaysperre eingerichtet",
+                "en": "You have set up a screen lock"
+            },
+            "shortText": {
+                "de": "Der Display deines Gerätes schaltet sich nach einer Weile automatisch ab. Um diesen wieder zu entsperren nutzt du komplexe Muster oder alphanumerische Passworte.",
+                "en": "The display on your device switches off automatically after a while. To unlock it again, use complex patterns or alphanumeric passwords."
+            },
+            "tags": [
+                "physical",
+                "easy",
+                "refugee"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "80orohontx6p1hk9iq507gcwxli61686",
+            "title": {
+                "de": "Deine Smartphones sind verschlüsselt",
+                "en": "Your smartphones are encrypted"
+            },
+            "shortText": {
+                "de": "Verschlüssel deine Smartphones mit einem starken alphanumerischen Passwort. Dies verhindert das Auslesen von Daten sehr effektiv.",
+                "en": "Encrypt your smartphones with a strong alphanumeric password. This effectively prevents data from being read."
+            },
+            "longText": {
+                "de": "Eine starke Verschlüsselung ist wichtig. Eine Bildschirmsperre ist nicht ausreichend. Software wie Cellebrite kann über die USB-Schnittstelle die meisten Bildschirmsperren einfach umgehen. Alle deine Daten, Kontakte, Anruflisten, Standortdaten, Login-Daten und vieles mehr können dann durch automatisierte Software wie Cellebrite Pathfinder via USB gesammelt und aufbereitet dargestellt werden. Dein Verschlüsselungspasswort sollte besonders stark sein. Nutze ein sehr komplexes Muster oder ein alphanumerisches Passwort zur Verschlüsselung.",
+                "en": "Strong encryption is important. A screen lock is not sufficient. Software like Cellebrite can easily bypass most screen locks via the USB interface. All your data, contacts, call logs, location data, login data and much more can then be collected and displayed by automated software such as Cellebrite Pathfinder via USB. Your encryption password should be particularly strong. Use a very complex pattern or an alphanumeric password for encryption."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2016-12-08",
+                    "title": "Phone-Cracking Cellebrite Software Used to Prosecute Tortured Dissident",
+                    "url": "https:\/\/theintercept.com\/2016\/12\/08\/phone-cracking-cellebrite-software-used-to-prosecute-tortured-dissident"
+                },
+                {
+                    "date": "2023-06-28",
+                    "title": "Netzpolitik: Abschiebung von Geduldeten: Berlin durchsucht weiter Handys",
+                    "url": "https:\/\/netzpolitik.org\/2023\/abschiebung-von-geduldeten-berlin-durchsucht-weiter-handys\/"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy",
+                "security",
+                "refugee"
+            ],
+            "points": 800
+        },
+        {
+            "id": "1y9t0s94ukh4vmw1uxff1jrqii0wahot",
+            "title": {
+                "de": "Du kannst deine Geräte schnell abschalten",
+                "en": "You can switch off your devices quickly"
+            },
+            "shortText": {
+                "de": "Eine Verschlüsselung ist nur effektiv, wenn das Telefon ausgeschaltet ist. Übe daher wie du dein Telefon in Stresssituationen schnell abschalten kannst.",
+                "en": "Encryption is only effective when the phone is switched off. Therefore, practise how to switch off your phone quickly in stressful situations."
+            },
+            "longText": {
+                "de": "Auch wenn dein Telefon verschlüsselt ist kann Software wie Cellebrite via USB darauf zugreifen. Solange dein Telefon eingeschaltet ist, ist die Verschlüsselung wirkungslos. Erst wenn es abgeschaltet ist, ist Verschlüsselung wirklich effektiv. Schalte dein Telefon unbedingt ab, bevor du es in fremde Hände gibst! Wenn du auf Nummer sicher gehen willst kannst du auch einen Killswitch an deinem Telefon anbringen. So lässt sich der Akku in Gefahrensituationen schnell entfernen. Damit verschwindet dann der Schlüssel vom Speicher deines Geräts.",
+                "en": "Even if your phone is encrypted, software such as Cellebrite can access it via USB. As long as your phone is switched on, encryption is ineffective. Encryption is only really effective when it is switched off. Be sure to switch off your phone before you give it into someone else's hands! If you want to be on the safe side, you can also attach a killswitch to your phone. This allows you to quickly remove the battery in dangerous situations. The key will then disappear from your device's memory."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-10-30",
+                    "title": "Netzpolitik: Beschlagnahmte Smartphones: Ein Grundrechtseingriff unbekannten Ausmaßes",
+                    "url": "https:\/\/netzpolitik.org\/2023\/beschlagnahmte-smartphones-ein-grundrechtseingriff-unbekannten-ausmasses\/"
+                },
+                {
+                    "date": "2020-01-26",
+                    "title": "Ein Killswitch für dein Smartphone",
+                    "url": "https:\/\/steampixel.de\/ein-killswitch-fur-dein-smartphone\/"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy",
+                "refugee"
+            ],
+            "points": 200
+        },
+        {
+            "id": "rww9tk85988s9p24s88rwrj1iow8m1nf",
+            "title": {
+                "de": "Du verwendest eine Blickschutzfolie",
+                "en": "You are using a privacy film"
+            },
+            "shortText": {
+                "de": "Du kannst eine spezielle Folie auf deinen Display kleben, die verhindert, dass umstehende Personen oder Kameras mitlesen können. Diese Folien gibt es für viele Modelle.",
+                "en": "You can stick a special film on your display to prevent bystanders or cameras from being able to read it. These films are available for many models."
+            },
+            "tags": [
+                "physical",
+                "easy",
+                "expensive"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "lfhjs76x86fzxc5436w7cereu50btbh0",
+            "title": {
+                "de": "Deine Simkarte ist mit einer Pin geschützt",
+                "en": "Your SIM card is protected with a PIN"
+            },
+            "shortText": {
+                "de": "Du solltest den Pin-Schutz deiner Simkarte niemals deaktivieren. Bei deaktiviertem Pin können Behörden oder andere Personen die Karte selbst nutzen, um sich beispielsweise Zugriff auf Messenger zu verschaffen.",
+                "en": "You should never deactivate the PIN protection on your SIM card. If the PIN is deactivated, authorities or other persons can use the card themselves to gain access to messengers, for example."
+            },
+            "longText": {
+                "de": "Wenn du anonyme Simkarten verwendest kannst du die Pin-Sperre oft nicht aktivieren, da du die zur Karte gehörige Pin \/ PUK oft nicht kennst. Du erhälst diese Karten oft mit deaktiviertem Pin. Du solltest in diesem Fall darauf achten, dass alle deine Messenger mit einem zweiten Faktor (z.B. Pin) abgesichert sind und dass du die Karte nicht selbst für eine Zwei-Faktor-Authentifizierung nutzt.",
+                "en": "If you use anonymous SIM cards, you often cannot activate the pin lock as you often do not know the pin \/ PUK associated with the card. You often receive these cards with the pin deactivated. In this case, you should make sure that all your messengers are secured with a second factor (e.g. PIN) and that you do not use the card itself for two-factor authentication."
+            },
+            "showMore": true,
+            "tags": [
+                "physical",
+                "easy",
+                "security"
+            ],
+            "points": 400
+        },
+        {
+            "id": "eur6ctpfgyqk36otnor85vlx1pruxirk",
+            "title": {
+                "de": "Du verzichtest auf Speicherkarten",
+                "en": "You do without memory cards"
+            },
+            "shortText": {
+                "de": "Nicht auf allen Geräten lassen sich Speicherkarten zuverlässig verschlüsseln. Zudem lassen sich Daten wiederherstellen, die bei einer früheren Nutzung mit anderen Geräten darauf gespeichert wurden. Nutze Speicherkarten daher nur, wenn du weißt was darauf gespeichert wird und wenn du diese vorher überschrieben hast.",
+                "en": "Memory cards cannot be reliably encrypted on all devices. It is also possible to restore data that was saved on them when they were previously used with other devices. Therefore, only use memory cards if you know what is stored on them and if you have overwritten them beforehand."
+            },
+            "tags": [
+                "physical",
+                "easy",
+                "security",
+                "refugee"
+            ],
+            "points": 600,
+            "longText": []
+        },
+        {
+            "id": "kw9bjghrjadzbtyc6ktszoycw98t5ym8",
+            "title": {
+                "de": "Du nutzt keine biometrische Freischaltung",
+                "en": "You do not use biometric activation"
+            },
+            "shortText": {
+                "de": "Du solltest nie deinen Fingerabdruck oder dein Gesicht nutzen, um dein Telefon freizuschalten. Behörden mit Zugriff auf Fingerabdrücke oder Bildmaterial können das Gerät sonst entsperren. Nutze daher komplexe Muster oder alphanumerische Passworte.",
+                "en": "You should never use your fingerprint or face to unlock your phone. Authorities with access to fingerprints or images can otherwise unlock the device. Therefore, use complex patterns or alphanumeric passwords."
+            },
+            "longText": {
+                "de": "Fingerabdrücke und Gesichtserkennung sind keine sicheren Methoden, um das eigene Gerät zu entsperren. Sie sind wie Passwörter, die du niemals ändern kannst. Durch Datenlecks oder Malware könnten diese sensiblen Informationen abhanden kommen und dir so zum Nachteil werden. Zudem darf auch die Polizei deine Fingerabdrücke nutzen, um dein Gerät zu entsperren.",
+                "en": "Fingerprints and facial recognition are not secure methods of unlocking your device. They are like passwords that you can never change. Data leaks or malware could cause this sensitive information to be lost and put you at a disadvantage. The police can also use your fingerprints to unlock your device."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-03-10",
+                    "title": "Polizei darf Fingerabdrücke nehmen, um Handy zu entsperren",
+                    "url": "https:\/\/netzpolitik.org\/2023\/gerichtsbeschluss-polizei-darf-fingerabdruecke-nehmen-um-handy-zu-entsperren\/"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy",
+                "security",
+                "behavior",
+                "refugee"
+            ],
+            "points": 600
+        },
+        {
+            "id": "ayxfh1s1po8m097tqj5lkde27ttkpeuj",
+            "title": {
+                "de": "Du hast die Entwickler*innen-Features deaktiviert",
+                "en": "You have deactivated the developer features"
+            },
+            "shortText": {
+                "de": "Deaktiviere unbedingt USB-Debugging, wenn du dich damit auskennst. Normalerweise ist diese Funktion auf allen Geräten standardmäßig deaktiviert und muss von dir bewusst aktiviert werden.",
+                "en": "Be sure to deactivate USB debugging if you are familiar with it. Normally, this function is deactivated by default on all devices and must be consciously activated by you."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2022-02-14",
+                    "title": "Heise: Android: Entwickleroptionen aktivieren\/deaktivieren ",
+                    "url": "https:\/\/www.heise.de\/tipps-tricks\/Android-Entwickleroptionen-aktivieren-deaktivieren-4041510.html"
+                }
+            ],
+            "tags": [
+                "physical",
+                "knowledge",
+                "security",
+                "refugee"
+            ],
+            "points": 600,
+            "longText": []
+        },
+        {
+            "id": "3xg9ol61sc1gywog7m91k7ynyqsm5u62",
+            "title": {
+                "de": "Du verwendest nur dein eigenes Ladekabel ",
+                "en": "You only use your own charging cable"
+            },
+            "shortText": {
+                "de": "Verwende nur Netzteile und Kabel zum laden, denen du vertraust. Markiere Kabel und Netzteil, um ein Austauschen zu verhindern. Wenn möglich nutze ein USB-Kabel ohne Datenfunktion zum Laden. Manipulierte Kabel oder öffentliche Ladepunkte könnten Daten auslesen oder unerwünschte Software installieren.",
+                "en": "Only use power supply units and cables for charging that you trust. Mark the cable and power supply unit to prevent them from being replaced. If possible, use a USB cable without data function for charging. Tampered cables or public charging points could read out data or install unwanted software."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-04-12",
+                    "title": "Tarnkappe: FBI warnt vor der Nutzung öffentlicher Handy-Ladestationen",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/fbi-warnt-vor-der-nutzung-oeffentlicher-handy-ladestationen-272873.html"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy",
+                "expensive"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "6re0wpjpfllc485n2t6rzqe5xt50a9ku",
+            "title": {
+                "de": "Dein Betriebssystem verfügt über verified Boot",
+                "en": "Your operating system has verified boot"
+            },
+            "shortText": {
+                "de": "Verified Boot verhindert Manipulationen an deinem Betriebssystem. Du solltest dich vergewissern, dass dein Gerät damit abgesichert ist. Wenn du selbst ein eigenes System installiert hast, solltest du verified Boot aktivieren.",
+                "en": "Verified Boot prevents tampering with your operating system. You should make sure that your device is secured with it. If you have installed your own system, you should activate verified boot."
+            },
+            "tags": [
+                "physical",
+                "knowledge"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "1p48age63ez4bimmj70g4dn5wuyc4fc1",
+            "title": {
+                "de": "Du hast dein Gerät versiegelt",
+                "en": "You have sealed your device"
+            },
+            "shortText": {
+                "de": "Eine Versiegelung kann dir helfen nach einer Rückgabe deines Gerätes festzustellen, ob Hardware manipuliert wurde. Gib z.B einen Tropfen speziellen Siegellack oder Nagellack auf die Nahtstellen deines Geräts. So kannst du feststellen, ob es geöffnet wurde.",
+                "en": "Sealing can help you to determine whether hardware has been tampered with after returning your device. For example, put a drop of special sealing wax or nail polish on the seams of your device. This way you can determine whether it has been opened."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2020-08-09",
+                    "title": "Steampixel: Schon mal über Hardware-Versiegelungen nachgedacht?",
+                    "url": "https:\/\/steampixel.de\/schon-mal-uber-hardware-versiegelungen-nachgedacht\/"
+                }
+            ],
+            "tags": [
+                "physical",
+                "knowledge",
+                "expensive"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "n2qb3l1sgibjxou17orb089dp005x5yt",
+            "title": {
+                "de": "Du hast die eindeutigen Nummern deines Gerätes notiert",
+                "en": "You have noted the unique numbers of your device"
+            },
+            "shortText": {
+                "de": "In den Einstellungen deines Telefons findest du eindeutige, unveränderliche Hardwarenummern wie Seriennummer, WiFi-Mac-Adresse, Bluetooth-Mac-Adresse und IMEI. Notiere diese Nummern. So kannst du dir jederzeit sicher sein, dass dein Gerät nicht heimlich ausgetauscht wurde.",
+                "en": "In your phone's settings, you will find unique, unchangeable hardware numbers such as the serial number, WiFi Mac address, Bluetooth Mac address and IMEI. Make a note of these numbers. This way, you can always be sure that your device has not been secretly replaced."
+            },
+            "tags": [
+                "physical",
+                "easy",
+                "refugee"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "aq4hbvo8yvmm5uq7544qxl7ww9zogqyy",
+            "title": {
+                "de": "Du fertigst regelmäßig Backups an",
+                "en": "You make regular backups"
+            },
+            "shortText": {
+                "de": "Erstelle von deinen wichtigsten Daten regelmäßig Backups. Dein Backup muss nicht perfekt sein. Ein schlechtes Backup ist besser als kein Backup!",
+                "en": "Make regular backups of your most important data. Your backup doesn't have to be perfect. A bad backup is better than no backup!"
+            },
+            "longText": {
+                "de": "Du solltest bei deinem Backup auch an wichtige Apps wie 2-Faktor-Apps oder Passwortmanager denken. Die Einstellungen lassen sich daraus meist leicht exportieren. Nutze wenn möglich quelloffene Backup-Software wie \"oandbackup\" oder \"Neo Backup\". Diese benötigen allerdings Root-Rechte. Eine einfache regelmäßige Kopie deiner wichtigsten Daten auf einen USB-Stick ist aber auch ein guter Anfang! Denke daran, dass \"No Backup, No Mercy\" eine arrogante Haltung ist. Nicht alle Menschen haben das Wissen und die technischen Möglichkeiten für Backups. Helft euch gegenseitig!",
+                "en": "You should also think about important apps such as 2-factor apps or password managers when making your backup. The settings can usually be easily exported from these. If possible, use open source backup software such as \"oandbackup\" or \"Neo Backup\". However, these require root rights. A simple regular copy of your most important data on a USB stick is also a good start! Remember that \"No Backup, No Mercy\" is an arrogant attitude. Not everyone has the knowledge and technical capabilities for backups. Help each other!"
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "F-Droid: Neo Backup",
+                    "url": "https:\/\/f-droid.org\/de\/packages\/com.machiav3lli.backup\/"
+                },
+                {
+                    "title": "F-Droid: oandbackup",
+                    "url": "https:\/\/f-droid.org\/de\/packages\/dk.jens.backup\/"
+                }
+            ],
+            "tags": [
+                "physical",
+                "knowledge",
+                "security",
+                "refugee"
+            ],
+            "points": 800
+        },
+        {
+            "id": "15ts0bg9cuc51qzua6ecz7zgmg1e0tss",
+            "title": {
+                "de": "Deine Backups sind verschlüsselt",
+                "en": "Your backups are encrypted"
+            },
+            "shortText": {
+                "de": "Wenn du die Möglichkeit hast solltest du deine Backups unbedingt verschlüsseln, um diese vor ungewollten Zugriffen zu schützen.",
+                "en": "If you have the option, you should definitely encrypt your backups to protect them from unauthorized access."
+            },
+            "longText": {
+                "de": "Die Android-App Neo Backup unterstützt Verschlüsselung von Haus aus. Du kannst aber auch verschlüsselte Zip-Archive von Hand erstellen oder gleich ganze USB-Sticks verschlüsseln. Unter Linux, MacOS und einigen Windows-Versionen geht das ganz einfach über eine grafische Oberfläche. Du kannst aber auch eine Verschlüsselungssoftware für deine Sticks wie VeraCrypt einsetzen, die auf den meisten Betriebssystemen funktioniert. Wenn du dich tiefer mit der Materie befassen möchtest und die Kommandozeile nicht scheust kannst du dir professionelle Software wie Restic (Linux) oder duplicity (Linux) ansehen.",
+                "en": "The Android app Neo Backup supports encryption out of the box. However, you can also create encrypted zip archives manually or encrypt entire USB sticks. Under Linux, MacOS and some versions of Windows, this can be done very easily via a graphical interface. You can also use encryption software for your sticks, such as VeraCrypt, which works on most operating systems. If you want to delve deeper into the matter and are not afraid of the command line, you can take a look at professional software such as Restic (Linux) or duplicity (Linux)."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2022-03-30",
+                    "title": "Windows: How to password protect ZIP files and folders on PC",
+                    "url": "https:\/\/nordvpn.com\/de\/blog\/how-to-password-protect-a-zip-file\/"
+                },
+                {
+                    "date": "2021-09-01",
+                    "title": "Linux: How to encrypt a USB disk",
+                    "url": "https:\/\/medium.com\/tech-notes-and-geek-stuff\/how-to-encrypt-a-usb-disk-47f6a4166f03"
+                },
+                {
+                    "title": "MacOS: Verschlüsseln und Schützen eines Speichermediums mit einem Passwort mit dem Festplattendienstprogramm auf dem Mac",
+                    "url": "https:\/\/support.apple.com\/de-de\/guide\/disk-utility\/dskutl35612\/mac"
+                },
+                {
+                    "date": "2022-12-29",
+                    "title": "Windows: How to encrypt a USB flash drive—and why you should",
+                    "url": "https:\/\/www.microsoft.com\/en-us\/microsoft-365-life-hacks\/privacy-and-safety\/how-and-why-to-encrypt-usb-flash-drive"
+                },
+                {
+                    "title": "VeraCrypt",
+                    "url": "https:\/\/veracrypt.fr\/en\/Downloads.html"
+                },
+                {
+                    "title": "duplicity",
+                    "url": "https:\/\/duplicity.us\/"
+                },
+                {
+                    "title": "restic",
+                    "url": "https:\/\/restic.net\/"
+                }
+            ],
+            "tags": [
+                "physical",
+                "knowledge",
+                "security"
+            ],
+            "points": 400
+        },
+        {
+            "id": "ue4r5ahyan5cu3rkcuxp0wd2a4ls17aw",
+            "title": {
+                "de": "Deine Backups sind dezentral und auch außerhalb deiner Wohnung gelagert",
+                "en": "Your backups are stored decentrally and also outside your home"
+            },
+            "shortText": {
+                "de": "Verschaffe dir einen Überblick über die Wichtigkeit deiner Daten für deinen Alltag und lagere sie entsprechend. Lagere z.B. eine Kopie deiner Musik- oder Bildersammlung weiter entfernt bei Freund*innen. Auf Backups von Passwortmanagern, 2-Faktor-Apps oder wichtigen Dokumenten solltest du eher schnell Zugriff haben.",
+                "en": "Get an overview of the importance of your data for your everyday life and store it accordingly. For example, store a copy of your music or picture collection further away with friends. You should have quick access to backups of password managers, 2-factor apps or important documents."
+            },
+            "tags": [
+                "physical",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "198wym1kqg9oyfjd1g7hr71e5ar91c45",
+            "title": {
+                "de": "Du übst die Wiederherstellung deiner Backups",
+                "en": "You practise restoring your backups"
+            },
+            "shortText": {
+                "de": "Die Wiederherstellung deiner Daten ist das Wichtigste an einem Backup. Übe diese Situation. So kannst du sehen, ob dein Backup intakt ist. Stelle sicher, dass du dein Backup ohne Zugriff auf Passwortmanager und Zwei-Faktor-Apps wiederherstellen kannst.",
+                "en": "Restoring your data is the most important part of a backup. Practice this situation. This way you can see if your backup is intact. Make sure you can restore your backup without access to password managers and two-factor apps."
+            },
+            "tags": [
+                "physical",
+                "easy"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "pyvc9a2nvlq0ukuxpkhf1hn7mfuhj9ld",
+            "title": {
+                "de": "Du lagerst nicht genutzte Geräte nicht in deiner Wohnung",
+                "en": "You do not store unused appliances in your home"
+            },
+            "shortText": {
+                "de": "Im Falle einer Hausdurchsuchung oder eines Einbruchs werden oft alle Geräte entwendet. Bereite dich darauf vor indem du nicht genutzte Geräte bei deinen Freund*innen lagerst. So hast du schnell Ersatz.",
+                "en": "In the event of a house search or break-in, all devices are often stolen. Prepare for this by storing unused devices with your friends. That way you'll have a quick replacement."
+            },
+            "tags": [
+                "physical",
+                "easy",
+                "security"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "255rov4bdircfn2ac5toavgq6jj99d42",
+            "title": {
+                "de": "Du entsperrst dein Smartphone nicht auf Verlangen",
+                "en": "You do not unlock your smartphone on demand"
+            },
+            "shortText": {
+                "de": "Bei Beschlagnahmungen auf richterliche Anordnung oder bei Sicherstellungen (freiwillige Herausgabe) eines Smartphones fragt die Polizei oft nach Pins und Passworten. Sage nichts. Entsperre nichts. Kontaktiere Anwält*innen.",
+                "en": "When a smartphone is confiscated by court order or seized (voluntary surrender), the police often ask for pins and passwords. Say nothing. Do not unlock anything. Contact a lawyer."
+            },
+            "tags": [
+                "physical",
+                "easy",
+                "security",
+                "refugee"
+            ],
+            "points": 800,
+            "longText": []
+        },
+        {
+            "id": "98rgv22iqrocb3e55w90anh5rtoni492",
+            "title": {
+                "de": "Du hast dein Telefon einmal überschrieben",
+                "en": "You have overwritten your phone once"
+            },
+            "shortText": {
+                "de": "Du hast das Telefon gebraucht gekauft? Dann solltest du einmal den kompletten Speicher überschreiben, um zu vermeiden, dass ungewollte Daten auf deinem Gerät gefunden werden.",
+                "en": "Did you buy the phone second-hand? Then you should overwrite the entire memory once to avoid unwanted data being found on your device."
+            },
+            "longText": {
+                "de": "Gebrauchte Telefone könnten illegale Daten enthalten haben, die wiederhergestellt und ausgewertet werden könnten. Um zu vermeiden, dass dir das zum Verhängnis wird solltest du das Telefon einmal komplett überschreiben. Wenn du die Möglichkeit hast generiere dir große Zufallsdateien und kopiere diese auf dein Telefon, bis es voll ist. Andernfalls kannst du dir auch große Testdaten aus dem Internet herunterladen und damit den Speicher deines Telefons überschreiben.",
+                "en": "Used phones may contain illegal data that could be recovered and analyzed. To avoid this becoming your downfall, you should completely overwrite the phone once. If you have the possibility, generate large random files and copy them to your phone until it is full. Otherwise, you can also download large test files from the Internet and overwrite your phone's memory with them."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Hier findest du große Test-Dateien",
+                    "url": "https:\/\/fastest.fish\/test-files"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy"
+            ],
+            "points": 200
+        },
+        {
+            "id": "jseo0a8ko4q5rnb3lyh55p1jzd42ldrr",
+            "title": {
+                "de": "Deaktiviere nicht genutzte Schnittstellen",
+                "en": "Deactivate unused interfaces"
+            },
+            "shortText": {
+                "de": "Du solltest Positionierung, WiFi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst",
+                "en": "You should only activate positioning, WiFi, Bluetooth or NFC if you really need it"
+            },
+            "longText": {
+                "de": "Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen. Aber auch Bluetooth und andere Schnittstellen bergen Gefahren.",
+                "en": "In certain cases, you can be recognized via WiFi. In the most extreme cases, even your home address can be determined. Some devices reveal the unique hardware number of your WiFi interface as well as the list of your known WiFi networks. On websites such as wigle.net, you can easily search for the physical locations of the networks. But Bluetooth and other interfaces also harbor dangers."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Wigle.net - All the networks. Found by Everyone.",
+                    "url": "https:\/\/wigle.net\/"
+                },
+                {
+                    "title": "Warum eine versteckte SSID keine Sicherheit bringt, sondern sogar Bewegungsprofile ermöglicht",
+                    "date": "2020-06-28",
+                    "url": "https:\/\/www.wlan-blog.com\/sicherheit\/warum-eine-versteckte-ssid-keine-sicherheit-bringt-sondern-sogar-bewegungsprofile-ermoeglicht"
+                },
+                {
+                    "title": "Heise: Von wegen privat: iPhones verrieten physische MAC-Adresse",
+                    "date": "2023-10-30",
+                    "url": "https:\/\/www.heise.de\/news\/iPhone-Datenschutzpanne-Private-WLAN-Adresse-war-gar-nicht-so-privat-9349123.html"
+                },
+                {
+                    "date": "2023-09-01",
+                    "title": "Golem: Bluetooth-Spam gelingt jetzt auch per Android-App",
+                    "url": "https:\/\/www.golem.de\/news\/kein-flipper-zero-noetig-bluetooth-spam-gelingt-jetzt-auch-per-android-app-2311-178988.html"
+                },
+                {
+                    "date": "2023-12-11",
+                    "title": "Heise: Bluetooth-Lücke: Tastenanschläge in Android, Linux, iOS und macOS einschleusbar ",
+                    "url": "https:\/\/www.heise.de\/news\/Bluetooth-Luecke-erlaubt-Einschleusen-von-Tastenanschlaegen-9570583.html"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy"
+            ],
+            "points": 400
+        },
+        {
+            "id": "rkdqexb1ghcgnod7g0rwgmvt0mmu6ojt",
+            "title": {
+                "de": "Verzichte wenn möglich auf Bluetooth-Geräte wie Earbuds",
+                "en": "Avoid Bluetooth devices such as earbuds if possible"
+            },
+            "shortText": {
+                "de": "Wenn du dir sicher sein möchtest, dass du nicht über Bluetooth abgehört wirst, solltest du eine Kabelverbindung für deine Kopfhörer nutzen.",
+                "en": "If you want to be sure that you are not being monitored via Bluetooth, you should use a wired connection for your headphones."
+            },
+            "longText": {
+                "de": "Bluetooth-Geräte wie Earbuds können möglicherweise beim Austausch ihrer geheimen Schlüssel belauscht werden. Angreifer*innen in Reichweite könnten so unbemerkt mithören.",
+                "en": "Bluetooth devices such as earbuds can potentially be overheard when exchanging their secret keys. Attackers within range could listen in unnoticed."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-11-30",
+                    "title": "Heise: BLUFFS: Neue Angriffe gefährden Bluetooth-Datensicherheit auf Milliarden Geräten",
+                    "url": "https:\/\/www.heise.de\/news\/BLUFFS-Neue-Angriffe-gefaehrden-Bluetooth-Datensicherheit-auf-Milliarden-Geraeten-9544862.html"
+                },
+                {
+                    "date": "2020-05-21",
+                    "title": "Heise: Bluetooth-Sicherheitslücke ermöglicht unerkannte Angriffe ",
+                    "url": "https:\/\/www.heise.de\/news\/Bluetooth-Sicherheitsluecke-ermoeglicht-unerkannte-Angriffe-4726211.html"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy"
+            ],
+            "points": 200
+        },
+        {
+            "id": "8e03f6tau77a9biyzsqs1j5nh63vorvg",
+            "title": {
+                "de": "Nicht genutzte Kameras sind verdeckt",
+                "en": "Unused cameras are concealed"
+            },
+            "shortText": {
+                "de": "Du solltest nicht genutze Kameras einfach mit Stickern abdecken. Zum Beispiel, wenn du die Selfie-Kamera nicht oder kaum nutzt.",
+                "en": "You should simply cover unused cameras with stickers. For example, if you don't or hardly ever use the selfie camera."
+            },
+            "longText": {
+                "de": "Du kannst dir beim Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) kostenlos wiederablösbare Spezialaufkleber für deine Smartphone-Kameras bestellen. Achte darauf, dass du nicht den unscheinbaren Helligkeitssensor überklebst! Dies führt dazu dass einige Smartphones den Display abschalten, da diese sich in einer Hosentasche wähnen.",
+                "en": "You can order special removable stickers for your smartphone cameras free of charge from the Federal Ministry for Family Affairs, Senior Citizens, Women and Youth (BMFSFJ). Make sure that you don't stick over the inconspicuous brightness sensor! This causes some smartphones to switch off the display because they think they are in a trouser pocket."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "BMFSFJ: Webcamsticker-Karte TOP SECRET",
+                    "url": "https:\/\/www.bmfsfj.de\/bmfsfj\/service\/publikationen\/webcamsticker-karte-top-secret-96100"
+                },
+                {
+                    "date": "2020-05-21",
+                    "title": "Heise: Bluetooth-Sicherheitslücke ermöglicht unerkannte Angriffe ",
+                    "url": "https:\/\/www.heise.de\/news\/Bluetooth-Sicherheitsluecke-ermoeglicht-unerkannte-Angriffe-4726211.html"
+                }
+            ],
+            "tags": [
+                "physical",
+                "easy"
+            ],
+            "points": 400
+        },
+        {
+            "id": "4k71ynnyxw2kqkiw6u9zxun0tjgoy9lt",
+            "title": {
+                "de": "Du nutzt datensparsame Telefon-Tarife",
+                "en": "You use data-saving telephone tariffs"
+            },
+            "shortText": {
+                "de": "Eine Flatrate erzeugt in der Regel weniger Daten als ein Tarif mit minutengenauer Abrechnung oder Einzelverbindungsnachweisen. Denn diese müssen erfasst und gespeichert werden. Flatrates erzeugen weniger Daten. Prepaid-Tarife erzeugen in der Regel nicht mal Rechnungsdaten und sind daher sehr datensparsam.",
+                "en": "A flat rate generally generates less data than a tariff with minute-based billing or itemized bills. This is because these have to be recorded and stored. Flat rates generate less data. Prepaid tariffs generally do not even generate billing data and are therefore very data-efficient."
+            },
+            "showMore": false,
+            "tags": [
+                "mobile",
+                "knowledge"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "8hb767m19i932x2gi0iejugv487ptoe6",
+            "title": {
+                "de": "Du hast der Vermarktung deiner Bewegungsdaten widersprochen",
+                "en": "You have objected to the marketing of your transaction data"
+            },
+            "shortText": {
+                "de": "Viele Netzbetreiber*innen verkaufen eure Bewegungsdaten an diverse Werbefirmen weiter. Ihr könnt dieser Weitergabe widersprechen.",
+                "en": "Many network operators sell your movement data to various advertising companies. You can object to this transfer."
+            },
+            "longText": {
+                "de": "Frag bei den Provider*innen nach wie lange die Daten in den verschiedenen Tarifen gespeichert werden und mit wem sie geteilt werden. Es gibt auch extra datenschutzfreundliche Provider*innen wie z.B. \"Wetell\". Trotzdem schützen diese nicht vor den zahlreichen Überwachungsmöglichkeiten im Mobilfunknetz! Anonyme Simkarten sind daher immer zu bevorzugen.",
+                "en": "Ask the providers how long the data is stored in the various tariffs and with whom it is shared. There are also extra data protection-friendly providers such as \"Wetell\". Nevertheless, these do not protect against the numerous monitoring possibilities in the mobile network! Anonymous SIM cards are therefore always preferable."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2018-02-09",
+                    "title": "Mobilfunkanbieter: Widerspruch gegen Erhebung von Bewegungsdaten",
+                    "url": "https:\/\/www.kuketz-blog.de\/mobilfunkanbieter-widerspruch-gegen-erhebung-von-bewegungsdaten\/"
+                }
+            ],
+            "tags": [
+                "mobile",
+                "knowledge"
+            ],
+            "points": 200
+        },
+        {
+            "id": "rnv3klgi6c7iyx7jjjnguap730c7rat0",
+            "title": {
+                "de": "Du nimmst dein Handy nicht mit zur Demo",
+                "en": "You don't take your cell phone to the demo"
+            },
+            "shortText": {
+                "de": "Du solltest dein Telefon nicht mit zur Demo nehmen oder es einige Zeit vorher in den Flugmodus schalten und es auch nach der Demo noch einige Zeit im Flugmodus belassen.",
+                "en": "You should not take your phone with you to the demo or switch it to flight mode some time beforehand and leave it in flight mode for some time after the demo."
+            },
+            "longText": {
+                "de": "Das gilt auch dann, wenn du anonyme Simkarten nutzt. Durch die gezielte Verfolgung (zum Beipiel auf dem Heimweg) einzelner Personen mit sogenannten IMSI-Catchern lässt sich eine Telefonnummer einer Person zuordnen. Egal, ob die Simkarte anonym ist oder nicht.",
+                "en": "This also applies if you use anonymous SIM cards. Targeted tracking (e.g. on the way home) of individual persons with so-called IMSI catchers allows a telephone number to be assigned to a person. Regardless of whether the SIM card is anonymous or not."
+            },
+            "showMore": true,
+            "tags": [
+                "mobile",
+                "easy",
+                "security"
+            ],
+            "points": 400
+        },
+        {
+            "id": "5x8vsbxo48iqofgpps1ghako37wngg8j",
+            "title": {
+                "de": "Du verzichtest auf Apps wie \"SnoopSnitch\"",
+                "en": "You don't use apps like \"SnoopSnitch\""
+            },
+            "shortText": {
+                "de": "Apps, die potentiell IMSI-Catcher oder Stille SMS detektieren können werden dir in den allermeisten Fällen nichts bringen. Du solltest auf diese Apps verzichten und stattdessen lernen warum sie nicht viel bringen und was die Alternative ist.",
+                "en": "Apps that can potentially detect IMSI catchers or silent text messages will not help you in the vast majority of cases. You should avoid these apps and instead learn why they don't do much and what the alternative is."
+            },
+            "longText": {
+                "de": "Zunächst einmal ist an Apps wie \"SnoopSnitch\" generell nichts verkehrt. Wir können froh sein, dass es Menschen gibt, die sich mit dieser Materie befassen und solche Apps bauen. Trotzdem musst du verstehen, dass derartige Apps in den allermeisten Fällen völlig wirkungslos sind. SnoopSnitch zum Beispiel funktioniert nur in 2G und 3G Netzen, wenn dein Telefon Root hat und wenn auf dem Mainboard deines Gerätes ein ganz spezieller Chip verbaut ist. Du musst verstehen, dass die Kommunikation mit dem Mobilfunknetz für dein Betriebssystem eine völlig intransparente Blackbox ist. Dein Betriebssystem und deine Apps sind nicht in der Lage die Kommunikation mit einem Funkturm (Basisstation) im Detail zu steuern oder zu überwachen. Das bedeutet das Funknetzwerk kann mit dem Chip auf deinem Gerät kommunizieren ohne, dass dieses etwas davon mitbekommt. Schuld daran ist proprietäre, kommerzielle Hardware, die nicht quelloffen ist. So kommt es auch, dass du durch Stille SMS (Stealth Ping) grob geortet werden kannst. Der Funkchip in deinem Telefon registriert das zwar, meldet das aber nicht an dein Betriebssystem weiter. Nur einige wenige Chips haben Schnittstellen, die dem Betriebssystem eine Beobachtung erlauben. Nur dafür gibt es SnoopSnitch. Die einzig sinnvolle Verteidigung ist eine anonyme Simkarte.",
+                "en": "First of all, there is nothing wrong with apps like \"SnoopSnitch\" in general. We can be glad that there are people who deal with this matter and build such apps. Nevertheless, you have to understand that such apps are completely ineffective in the vast majority of cases. SnoopSnitch, for example, only works on 2G and 3G networks if your phone is rooted and if a very special chip is installed on the mainboard of your device. You need to understand that communication with the mobile network is a completely opaque black box for your operating system. Your operating system and your apps are not able to control or monitor communication with a radio tower (base station) in detail. This means that the wireless network can communicate with the chip on your device without it being aware of it. This is due to proprietary, commercial hardware that is not open source. This is also why you can be roughly located by silent SMS (stealth ping). The radio chip in your phone registers this, but does not report it to your operating system. Only a few chips have interfaces that allow the operating system to monitor them. SnoopSnitch only exists for this purpose. The only sensible defense is an anonymous SIM card."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2018-08-07",
+                    "title": "Süddeutsche Zeitung: Alle eineinhalb Minuten pingt der Staat",
+                    "url": "https:\/\/www.sueddeutsche.de\/digital\/stille-sms-alle-eineinhalb-minuten-pingt-der-staat-1.4085229"
+                }
+            ],
+            "tags": [
+                "mobile",
+                "easy",
+                "security"
+            ],
+            "points": 400
+        },
+        {
+            "id": "ze8fnbeg8eskdnvwrapzcvmkm420baty",
+            "title": {
+                "de": "Du verwendest anonyme Simkarten",
+                "en": "You use anonymous SIM cards"
+            },
+            "shortText": {
+                "de": "Anonyme Simkarten erschweren Behörden die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, RRLP, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.",
+                "en": "Anonymous SIM cards make it considerably more difficult for authorities to select their targets. Be it silent SMS, IMSI catcher, RRLP, inventory data information, traffic data information, radio cell evaluations, source monitoring, state trojans or location monitoring. An anonymous SIM card is often the only sensible defense against such surveillance."
+            },
+            "longText": {
+                "de": "Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietären Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten.",
+                "en": "The topic of mobile phone monitoring is complex and cannot be covered in full in this article. However, it is important to understand that security apps cannot do anything about such monitoring because, for example, data is affected that is already stored by your provider and not on your phone. Or because the apps themselves do not have access to your phone's proprietary radio chip and therefore cannot see silent text messages, for example. Or because the attack takes place in the wireless network between network providers. Or because your mobile provider simply sells your data on. So relying on apps or changes in behavior won't help. The only defense is anonymous SIM cards."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-12-09",
+                    "title": "Golem: Angreifer können 714 Smartphone-Modelle vom 5G-Netz trennen",
+                    "url": "https:\/\/www.golem.de\/news\/dos-schwachstellen-angreifer-koennen-714-smartphone-modelle-vom-5g-netz-trennen-2312-180183.html"
+                },
+                {
+                    "date": "2023-10-27",
+                    "title": "Heise: Forscher: Sicherheitslücken beim Roaming bleiben auch bei 5G eine große Gefahr",
+                    "url": "https:\/\/www.heise.de\/news\/Forscher-Sicherheitsluecken-beim-Roaming-bleiben-auch-bei-5G-eine-grosse-Gefahr-9347577.html"
+                },
+                {
+                    "date": "2022-06-21",
+                    "title": "Netzpolitik.org: Behörden fragen jede Sekunde, wem eine Telefonnummer gehört",
+                    "url": "https:\/\/netzpolitik.org\/2022\/bestandsdatenauskunft-2021-behoerden-fragen-jede-sekunde-wem-eine-telefonnummer-gehoert\/"
+                },
+                {
+                    "title": "Bundesnetzagentur: Häu­fig ge­stell­te Fra­gen: All­ge­mein und SI­NA-An­bin­dung",
+                    "url": "https:\/\/www.bundesnetzagentur.de\/DE\/Fachthemen\/Telekommunikation\/OeffentlicheSicherheit\/Autom_Auskunftsverfahren\/FAQ\/start.html"
+                },
+                {
+                    "date": "2017-07-11",
+                    "title": "Süddeutsche Zeitung: Das Ende der Anonymität",
+                    "url": "https:\/\/www.sueddeutsche.de\/digital\/prepaid-sim-karten-das-ende-der-anonymitaet-1.3564334"
+                },
+                {
+                    "date": "2017-08-02",
+                    "title": "Interaktive Karte: Registrierungspflicht für Prepaid-SIM-Karten in Europa weit verbreitet",
+                    "url": "https:\/\/netzpolitik.org\/2017\/interaktive-karte-registrierungspflicht-fuer-prepaid-sim-karten-in-europa-weit-verbreitet\/"
+                },
+                {
+                    "date": "2016-09-20",
+                    "title": "Informatik-Gutachten: Eine Telefonnummer ist ausreichend, um eine Person mit einer Drohnen-Rakete zu treffen",
+                    "url": "https:\/\/netzpolitik.org\/2016\/informatik-gutachten-eine-telefonnummer-ist-ausreichend-um-eine-person-mit-einer-drohnen-rakete-zu-treffen\/"
+                },
+                {
+                    "date": "2018-12-29",
+                    "title": "35C3 - Die verborgene Seite des Mobilfunks",
+                    "url": "https:\/\/yt.artemislena.eu\/watch?v=CSZWTaTu9As"
+                },
+                {
+                    "date": "2014-12-28",
+                    "title": "Tobias Engel: SS7: Locate. Track. Manipulate",
+                    "url": "https:\/\/yt.oelrichsgarcia.de\/watch?v=-wu_pO5Z7Pk"
+                },
+                {
+                    "date": "2019-08-28",
+                    "title": "Die 5-G Überwachungsstandards",
+                    "url": "https:\/\/invidious.lunar.icu\/watch?v=_2HOcuH5rKc"
+                },
+                {
+                    "date": "2023-09-16",
+                    "title": "Tarnkappe: Mobilfunkanbieter gaben erneut Daten illegal an die Schufa",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/rechtssachen\/mobilfunkanbieter-gaben-erneut-daten-illegal-an-die-schufa-280583.html"
+                },
+                {
+                    "date": "2023-06-27",
+                    "title": "Netzpolitik.org: Firma legt Scoring-Profile der Hälfte aller weltweiten Handynutzer an",
+                    "url": "https:\/\/netzpolitik.org\/2023\/datenschutzbeschwerde-gegen-telesign-firma-legt-scoring-profile-der-haelfte-aller-weltweiten-handynutzer-an\/"
+                },
+                {
+                    "date": "2023-09-14",
+                    "title": "Netzpolitik.org: Russische Exil-Journalistin mit Pegasus gehackt",
+                    "url": "https:\/\/netzpolitik.org\/2023\/meduza-russische-exil-journalistin-mit-pegasus-gehackt\/"
+                },
+                {
+                    "title": "Wikipedia: Was ist RRLP?",
+                    "url": "https:\/\/en.wikipedia.org\/wiki\/Radio_resource_location_services_protocol"
+                }
+            ],
+            "tags": [
+                "mobile",
+                "knowledge",
+                "security",
+                "behavior"
+            ],
+            "points": 800
+        },
+        {
+            "id": "1q8g1pq0k9mzkqgidwwquz3bxtz2u9wl",
+            "title": {
+                "de": "Du nutzt dein Smartphone exklusiv für eine Simkarte",
+                "en": "You use your smartphone exclusively for one SIM card"
+            },
+            "shortText": {
+                "de": "Nutze deine anonyme Simkarte nur in einem bestimmten Telefon. Verwende nie das gleiche Telefon für eine andere Simkarte. Denn die eindeutige Nummer der Sim und die eindeutige Nummer deines Telefons werden immer zusammen in den Verkehrsdaten des Providers gespeichert.",
+                "en": "Only use your anonymous SIM card in a specific phone. Never use the same phone for another SIM card. This is because the unique number of the SIM and the unique number of your phone are always stored together in the provider's traffic data."
+            },
+            "tags": [
+                "mobile",
+                "knowledge",
+                "security"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "4p8gqb65l41xh9deftujubar4ak870ay",
+            "title": {
+                "de": "Du verwendest oft andere Simkarten und ein Proxy-Telefon",
+                "en": "You often use other SIM cards and a proxy phone"
+            },
+            "shortText": {
+                "de": "Um die Sicherheit weiter zu erhöhen kannst du oft deine anonymen Simkarten wechseln. Bei jedem Wechsel solltest du auch das dafür verwendete Telefon wechseln.",
+                "en": "To further increase security, you can often change your anonymous SIM cards. Each time you switch, you should also change the phone used for this purpose."
+            },
+            "longText": {
+                "de": "Da in den Verkehrsdaten deiner Netzanbieter*in immer die IMSI zusammen mit der IMEI auftaucht solltest du beim Wechsel deiner Simkarte auch dein Telefon wechseln. Wie du dir sicher vorstellen kannst ist es aufwändig und auch teuer das Telefon von Zeit zu Zeit zu wechseln. Du müsstest ja ständig deine Apps neu einrichten und viel Geld für ein neues Telefon ausgeben. Um die Kosten gering zu halten kannst du mit Proxy-Telefonen arbeiten. Und das geht so: Du hast ein teureres Gerät für deine reguläre Nutzung auf dem all deine Apps installiert sind. In diesem Telefon befindet sich keine Simkarte. Es ist also für das Mobilfunknetzwerk unsichtbar. Internet bekommst du über ein günstiges Zweitgerät, in welches eine Simkarte eingelegt ist. Dieses Telefon braucht nicht viel Leistung. Dieses kann dir aber einen WiFi Hotspot und damit Internet bereitstellen. Außerdem kannst du damit ganz normal telefonieren, wenn du willst. Dieses Telefon lässt sich mit samt der eingelegten Simkarte schnell austauschen. Einziger Nachteil: Du hast immer zwei Smartphones dabei.",
+                "en": "Since the IMSI always appears together with the IMEI in the traffic data of your network provider, you should also change your phone when you change your SIM card. As you can imagine, it is time-consuming and expensive to change your phone from time to time. You would have to constantly set up your apps again and spend a lot of money on a new phone. To keep costs down, you can work with proxy phones. And this is how it works: You have a more expensive device for your regular use on which all your apps are installed. There is no SIM card in this phone. It is therefore invisible to the mobile network. You get Internet access via an inexpensive second device with a SIM card inserted. This phone does not need much power. However, it can provide you with a WiFi hotspot and therefore Internet. You can also use it to make normal phone calls if you want. This phone can be replaced quickly with the SIM card inserted. The only disadvantage is that you always have two smartphones with you."
+            },
+            "showMore": true,
+            "tags": [
+                "mobile",
+                "knowledge",
+                "expensive"
+            ],
+            "points": 200
+        },
+        {
+            "id": "7afsd36t6fnjy7t9kl61qilodns5l8ry",
+            "title": {
+                "de": "Du beziehst dein Guthaben anonym",
+                "en": "You withdraw your credit anonymously"
+            },
+            "shortText": {
+                "de": "Du solltest auch das Guthaben für deine Simkarte anonym oder über Mittelspersonen beziehen. Verwende daher Simkarten für die du Guthaben bar an Kassen kaufen kannst oder bitte Freund*innen dir den Guthaben-Code zu senden.",
+                "en": "You should also obtain the credit for your SIM card anonymously or via intermediaries. Therefore, use sim cards for which you can buy credit in cash at cash registers or ask friends to send you the credit code."
+            },
+            "tags": [
+                "mobile",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "zb5k5o1xbl8ti16gl70osqyzq3kbto20",
+            "title": {
+                "de": "Du gibst deine Telefonnummer nicht weiter",
+                "en": "You don't give out your phone number"
+            },
+            "shortText": {
+                "de": "Nur wenn du deine Nummer nicht in Verbindung mit deinem Namen weiter gibst bleibt deine anonyme Karte anonym. Um trotzdem erreichbar zu sein kannst du auf Messenger mit Anruffunktion ausweichen, die keine Nummer benötigen oder bei denen sich die Nummer verbergen lässt.",
+                "en": "Your anonymous card will only remain anonymous if you do not give your number in connection with your name. In order to still be reachable, you can switch to messengers with a call function that do not require a number or where the number can be hidden."
+            },
+            "longText": {
+                "de": "Wer deine Telefonnummer kennt kann dich leicht angreifen. Auf Seiten wie cell-track.com oder phone-location.info kann zum Beispiel einfach herausgefunden werden, ob sich ein Gerät im Ausland befindet oder nicht oder ob ein Gerät gerade eingeschaltet ist. Alles was du brauchst ist die Nummer. Du kannst nichts dagegen tun als deine Nummer geheim zu halten. Das ist eventuell noch nicht wirklich gefährlich. Aber staatliche Akteure haben noch ganz andere Möglichkeiten wie z.B. die Infektion des Gerätes mit einem Zero-Click-Exploit. Nur eine anonyme Simkarte schützt dich effektiv vor staatlichen Übergriffen.",
+                "en": "Anyone who knows your phone number can easily attack you. On sites such as cell-track.com or phone-location.info, for example, it is easy to find out whether a device is abroad or not, or whether a device is currently switched on. All you need is the number. There's nothing you can do about it except keep your number secret. That may not be really dangerous yet. But state actors have other possibilities, such as infecting the device with a zero-click exploit. Only an anonymous SIM card can effectively protect you from state attacks."
+            },
+            "tags": [
+                "mobile",
+                "easy",
+                "security",
+                "behavior"
+            ],
+            "points": 800
+        },
+        {
+            "id": "c4eimf6n0w8obpwgpjjsgxsh7mszaag5",
+            "title": {
+                "de": "Du telefonierst nicht mit deiner anonymen Karte",
+                "en": "You don't make calls with your anonymous card"
+            },
+            "shortText": {
+                "de": "Nutze deine anonyme Simkarte\/Telefon nicht für reguläre Telefonate oder SMS. In den Verkehrsdaten ist ersichtlich wer die Zielkontakte sind, wenn diese nicht auch eine anonyme Karte haben. Dadurch ist evtl. eingrenzbar wer du bist. Nutze die Karte wenn möglich nur mit anderen anonymen Karten oder weiche auf Internet-Messenger für Nachrichten und Telefonate aus.",
+                "en": "Do not use your anonymous SIM card\/phone for regular phone calls or text messages. You can see who the target contacts are in the traffic data if they do not also have an anonymous card. This may make it possible to narrow down who you are. If possible, only use the card with other anonymous cards or switch to Internet messengers for messages and phone calls."
+            },
+            "tags": [
+                "mobile",
+                "security",
+                "easy",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "0sh38fz58qiq4pfs73sjkww6yzx7kz56",
+            "title": {
+                "de": "Du hast Simkarten und Telefone anonym bezogen",
+                "en": "You have purchased SIM cards and phones anonymously"
+            },
+            "shortText": {
+                "de": "Du solltest Simkarten und Telefone nie direkt an deine Adresse bestellen oder von deinen Konten bezahlen. Um keine Spuren zu hinterlassen kannst du Freund*innen bitten diese für dich zu bestellen oder abzuholen. Zahle in bar.",
+                "en": "You should never order SIM cards and phones directly to your address or pay from your accounts. To leave no trace, you can ask friends to order or collect them for you. Pay in cash."
+            },
+            "tags": [
+                "mobile",
+                "easy"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "htdfk57a95tvt9lmf13dv9s38y6ldrmk",
+            "title": {
+                "de": "Du nutzt Rufnummernunterdrückung mit bedacht",
+                "en": "You use number suppression wisely"
+            },
+            "shortText": {
+                "de": "Du bist dir im klaren darüber, dass das Unterdrücken der Rufnummer lediglich dazu führt, dass diese auf dem Telefon der Gegenstelle nicht angezeigt wird. In den Verkehrsdaten der beteiligten Provider*innen wird deine Nummer dennoch gespeichert. Nutze anonyme Simkarten, wenn du auf Anonymität angewiesen bist.",
+                "en": "You are aware that suppressing the phone number only means that it is not displayed on the other party's phone. Your number will still be stored in the traffic data of the providers involved. Use anonymous SIM cards if you need to remain anonymous."
+            },
+            "tags": [
+                "mobile",
+                "easy",
+                "behavior"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "sqdf8gqi8sttil068u2mwb7jxa3p5ldn",
+            "title": {
+                "de": "Du wählst die 110 und die 112 mit bedacht",
+                "en": "You dial 110 and 112 carefully"
+            },
+            "shortText": {
+                "de": "Seit 2019 wird in Deutschland Advances Mobile Location (AML) eingesetzt und schrittweise ausgebaut, um Personen in Notsituationen zu orten. Wenn du das nicht möchtest solltest du dich darauf vorbereiten.",
+                "en": "Advances Mobile Location (AML) has been used in Germany since 2019 and is gradually being expanded to locate people in emergency situations. If you don't want this, you should prepare for it."
+            },
+            "longText": {
+                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und WiFi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist.",
+                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern phones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and WiFi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Wikipedia: Advanced Mobile Location",
+                    "url": "https:\/\/de.wikipedia.org\/wiki\/Advanced_Mobile_Location"
+                },
+                {
+                    "date": "2023-12-31",
+                    "title": "Heise: Notruf 112: Android kann im Notfall mehr Daten an Leitstelle senden ​ ",
+                    "url": "https:\/\/www.heise.de\/hintergrund\/Notruf-112-Android-kann-im-Notfall-mehr-Daten-an-Leitstelle-senden-9583718.html"
+                }
+            ],
+            "tags": [
+                "mobile",
+                "easy",
+                "behavior"
+            ],
+            "points": 400
+        },
+        {
+            "id": "45yi4rb7n29xeg1ei60y1aznlp5zvun3900",
+            "title": {
+                "de": "Sind deine Apps und dein System aktuell?",
+                "en": "Are your apps and system up to date?"
+            },
+            "shortText": {
+                "de": "Halte Apps und dein Betriebssystem aktuell. Malware und Staatstrojaner nutzen oft Schwachstellen in der Software aus. Aktuelle Apps und ein aktuelles Betriebssystem sind daher wichtig.",
+                "en": "Keep apps and your operating system up to date. Malware and state trojans often exploit vulnerabilities in software. Up-to-date apps and an up-to-date operating system are therefore important."
+            },
+            "tags": [
+                "online",
+                "knowledge",
+                "security",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "4x79gthlqk49k5o4v5r9pzimofc7oskd",
+            "title": {
+                "de": "Nutzt du einen Passwortmanager?",
+                "en": "Do you use a password manager?"
+            },
+            "shortText": {
+                "de": "Deine Sicherheit wird enorm erhöht, wenn du für alle Services im Internet ein anderes komplexes Passwort verwendest. Diese solltest du in einem Passwortmanager wie KeePass speichern.",
+                "en": "Your security is increased enormously if you use a different complex password for all services on the Internet. You should save these in a password manager such as KeePass."
+            },
+            "tags": [
+                "online",
+                "knowledge",
+                "security",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "gbgx0u8jm9j6b2vsuo1db09ct76u1l7f",
+            "title": {
+                "de": "Du nutzt Passkeys",
+                "en": "You use passkeys"
+            },
+            "shortText": {
+                "de": "Passkeys können in manchen Anwendungen und Apps Passwörter ersetzen und machen diese komplett überflüssig. Sie können nicht wie Passwörter durch Pishing oder Datenleaks entwendet werden. Nutze sie, wenn sie angeboten werden!",
+                "en": "Passkeys can replace passwords in some applications and apps and make them completely superfluous. Unlike passwords, they cannot be stolen through phishing or data leaks. Use them when they are offered!"
+            },
+            "longText": {
+                "de": "Du solltest PassKeys nicht an eine biometrische Entsperrung binden. Denke außerdem daran deine Passkeys zu sichern für den Fall, dass du dein Gerät verlieren solltest.",
+                "en": "You should not bind PassKeys to a biometric unlock. Also remember to back up your PassKeys in case you lose your device."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-10-19",
+                    "title": "t3n: Internet ohne Passwörter: Was ihr jetzt über Passkeys wissen müsst ",
+                    "url": "https:\/\/t3n.de\/news\/passkeys-android-ios-mac-windows-1583254\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "easy",
+                "security",
+                "behavior"
+            ],
+            "points": 600
+        },
+        {
+            "id": "y0oa3gwukxe9egcyoiz6c8qsir5mtk6t",
+            "title": {
+                "de": "Du verwendest einen Werbeblocker",
+                "en": "You are using an ad blocker"
+            },
+            "shortText": {
+                "de": "Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren. Schütze dich, indem du z.B. uBlock Origin für Firefox, Pi-Hole in deinem Netzwerk oder Blokada (kostenpflichtig) auf deinem Gerät installierst.",
+                "en": "Targeted advertising campaigns (microtargeting) are used by intelligence services, among others, to infect individual devices with malware. Protect yourself by installing e.g. uBlock Origin for Firefox, Pi-Hole in your network or Blokada (for a fee) on your device."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-11-19",
+                    "title": "Netzpolitik: Online-Werbung als „ernstes Sicherheitsrisiko“",
+                    "url": "https:\/\/netzpolitik.org\/2023\/buergerrechtsorganisation-warnt-online-werbung-als-ernstes-sicherheitsrisiko\/"
+                },
+                {
+                    "date": "2023-07-06",
+                    "title": "Netzpolitik: The adtech industry tracks most of what you do on the Internet. This file shows just how much.",
+                    "url": "https:\/\/netzpolitik.org\/2023\/surveillance-advertising-in-europe-the-adtech-industry-tracks-most-of-what-you-do-on-the-internet-this-file-shows-just-how-much\/"
+                },
+                {
+                    "date": "2021-10-26",
+                    "title": "Kuketz: Für Anfänger\/Bequeme: Werbung und Tracker unter iOS\/Android systemweit verbannen",
+                    "url": "https:\/\/www.kuketz-blog.de\/fuer-anfaenger-bequeme-werbung-und-tracker-unter-ios-android-systemweit-verbannen\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "knowledge"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "sy8okumsb3a9hjwwg4kp6zkktfrjayg5",
+            "title": {
+                "de": "Du verzichtest auf Root-Rechte",
+                "en": "You waive root rights"
+            },
+            "shortText": {
+                "de": "Root-Rechte ermöglichen dir viele einzigartige Apps. Diese Rechte gelten dann aber eventuell auch für schadhafte Apps, weswegen du auf Root generell verzichten solltest.",
+                "en": "Root rights allow you to use many unique apps. However, these rights may also apply to malicious apps, which is why you should generally avoid root."
+            },
+            "longText": {
+                "de": "Wenn du nicht weißt was Root ist, hast du es vermutlich nicht. Root muss bei den meisten Geräten aufwändig aktiviert werden. Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie \"Neo Backup\" aber auch Apps wie \"SnoopSnitch\", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. \"SnoopSnitch\" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.",
+                "en": "If you don't know what root is, you probably don't have it. Root has to be activated on most devices. Unfortunately, some apps that can potentially increase your security often require root rights. Examples include backup applications such as \"Neo Backup\", but also apps such as \"SnoopSnitch\", which try to detect IMSI catchers or silent text messages. You should always carefully consider whether you really need superuser rights on your device. In the vast majority of cases, there is no good reason for this. Apps such as \"SnoopSnitch\" only work in very few software and hardware constellations anyway. Setting up root for this reason is out of all proportion."
+            },
+            "showMore": true,
+            "tags": [
+                "online",
+                "easy"
+            ],
+            "points": 200
+        },
+        {
+            "id": "zokh9ctwzdanhdqvbw4l2pv9h9l7f03r",
+            "title": {
+                "de": "Nutzt du verschiedene Pseudonyme und Mailadressen?",
+                "en": "Do you use different pseudonyms and e-mail addresses?"
+            },
+            "shortText": {
+                "de": "Du kannst deine Sicherheit verbessern, indem du auf allen Plattformen einen anderen Namen und andere Mailadressen bzw. Mobilnummern für die Registrierung verwendest. So können deine Accounts durch Datenlecks nicht zusammengeführt werden.",
+                "en": "You can improve your security by using a different name and different email addresses or mobile numbers for registration on all platforms. This way, your accounts cannot be merged through data leaks."
+            },
+            "tags": [
+                "online",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "okdh8x0gfswqboflssnnh0l4acoqw8ke",
+            "title": {
+                "de": "Du nutzt deine Pseudonyme nicht zur gleichen Zeit",
+                "en": "You do not use your pseudonyms at the same time"
+            },
+            "shortText": {
+                "de": "Arbeite zeitversetzt wenn du in verschiedenen Kanälen oder Gruppen mit verschiedenen Pseudonymen die gleiche Nachricht teilen willst. Sonst ist ersichtlich dass eine Person hinter den diversen Pseudonymen steckt.",
+                "en": "Work with a time delay if you want to share the same message in different channels or groups with different pseudonyms. Otherwise it will be obvious that one person is behind the various pseudonyms."
+            },
+            "tags": [
+                "online",
+                "easy",
+                "behavior"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "pfjvsc5s12m97912lzslirixegh3f9u2",
+            "title": {
+                "de": "Du nutzt TOR oder den TOR-Browser",
+                "en": "You use TOR or the TOR browser"
+            },
+            "shortText": {
+                "de": "TOR (The Onion Router) kann dir helfen deine Anonymität im Internet stark zu verbessern. Nutze Websites über den Tor-Browser und leite Apps mit der Orbot-App über das Tor-Netzwerk um.",
+                "en": "TOR (The Onion Router) can help you greatly improve your anonymity on the Internet. Use websites via the Tor browser and redirect apps with the Orbot app via the Tor network."
+            },
+            "tags": [
+                "online",
+                "easy",
+                "security"
+            ],
+            "points": 800,
+            "longText": []
+        },
+        {
+            "id": "9b3c2a6e82d9yijdm9w99vni4ouo9ebl",
+            "title": {
+                "de": "Du nutzt datenschutzfreundliche Webbrowser",
+                "en": "You use privacy-friendly web browsers"
+            },
+            "shortText": {
+                "de": "Nutze Browser, wie DuckDuckGo-Browser oder Bromite, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.",
+                "en": "Use browsers such as DuckDuckGo browser or Bromite, which do not collect any data about you and at the same time actively protect your privacy."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "How To Get the DuckDuckGo App on Android",
+                    "url": "https:\/\/duckduckgo.com\/duckduckgo-help-pages\/mobile\/android\/"
+                },
+                {
+                    "title": "Bromite",
+                    "url": "https:\/\/www.bromite.org\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "7y9ra343asszyece2a9hip9m5g7408z3",
+            "title": {
+                "de": "Du nutzt datenschutzfreundliche Suchmaschinen",
+                "en": "You use privacy-friendly search engines"
+            },
+            "shortText": {
+                "de": "Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungsbehörden weiter. Verwende daher alternative Suchmaschinen wir DuckDuckGo.",
+                "en": "Google, Apple and other manufacturers pass on data to investigating authorities without hesitation. Therefore, use alternative search engines such as DuckDuckGo."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "duckduckgo.com",
+                    "url": "https:\/\/duckduckgo.com\/"
+                },
+                {
+                    "date": "2020-10-09",
+                    "title": "Heise: Inverssuche: Google liefert Polizei Nutzerdaten auf Basis von Suchbegriffen",
+                    "url": "https:\/\/www.heise.de\/news\/Inverssuche-Google-liefert-Polizei-Nutzerdaten-auf-Basis-von-Suchbegriffen-4925754.html"
+                },
+                {
+                    "date": "2020-10-13",
+                    "title": "Polizei erhält Liste aller Nutzer, die nach einem Schlagwort gegoogelt haben",
+                    "url": "https:\/\/netzpolitik.org\/2020\/ermittlungen-in-den-usa-polizei-erhaelt-liste-aller-nutzer-die-nach-einem-schlagwort-gegoogelt-haben\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "security",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "i0givx4x51kbh3djt72tf6xhmro2id89",
+            "title": {
+                "de": "Du nutzt alternative App-Stores",
+                "en": "You use alternative app stores"
+            },
+            "shortText": {
+                "de": "Über F-Droid oder Aurora Store kannst du die meisten Apps auch ohne Anmeldung in Google bzw. ohne Google-Services beziehen.",
+                "en": "You can obtain most apps via F-Droid or Aurora Store without logging into Google or without Google services."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "F-Droid herunterladen",
+                    "url": "https:\/\/f-droid.org\/de\/"
+                },
+                {
+                    "title": "Aurora Store über F-Droid herunterladen",
+                    "url": "https:\/\/f-droid.org\/de\/packages\/com.aurora.store\/"
+                },
+                {
+                    "date": "2023-04-12",
+                    "title": "Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/malware\/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html"
+                }
+            ],
+            "tags": [
+                "online",
+                "security",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "0k0m9fjhzzh7hqs1l5ui0qs3ozgcvxvd",
+            "title": {
+                "de": "Du verzichtest auf Google-Play-Dienste und Apple-Services",
+                "en": "You do without Google Play services and Apple services"
+            },
+            "shortText": {
+                "de": "Google-Play-Services bzw. Apple-Services stellen zentrale Infrastrukturen für einige Apps bereit. Zum Beispiel werdern darüber Push-Nachrichten versendet. Staatliche Stellen nutzen diese Tatsache, um damit iPhone- bzw. Android-Geräte zu überwachen.",
+                "en": "Google Play services and Apple services provide central infrastructures for some apps. For example, push messages are sent via these services. Government agencies use this fact to monitor iPhone and Android devices."
+            },
+            "longText": {
+                "de": "Du kannst dich davor schützen indem du Apps verwendest, die ohne Google bzw- Apple Services auskommen. Verzichte auch auf Alternativen wie microG, wenn du ein eigenes Betriebssystem installiert hast. Installiere zum Beispiel Apps aus F-Droid, die ohne diese Services auskommen. Messenger wie Telegram, Signal und Matrix bieten eigene Alternativen für zentralisierte Pushnachrichten an.",
+                "en": "You can protect yourself from this by using apps that do not require Google or Apple services. Also avoid alternatives such as microG if you have installed your own operating system. For example, install apps from F-Droid that do not require these services. Messengers such as Telegram, Signal and Matrix offer their own alternatives for centralized push messages."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-12-13",
+                    "title": "Tarnkappe: Apple-Richtlinien: Gerichtliche Anordnung für Push-Daten Pflicht!",
+                    "link": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/datenschutz\/apple-richtlinien-gerichtliche-anordnung-fuer-push-benachrichtigungsdaten-erforderlich-284819.html"
+                },
+                {
+                    "date": "2023-12-07",
+                    "title": "Kuketz: Android: Abhilfe gegen staatliche Überwachung durch Push-Nachrichten",
+                    "url": "https:\/\/www.kuketz-blog.de\/android-abhilfe-gegen-staatliche-ueberwachung-durch-push-nachrichten\/"
+                },
+                {
+                    "date": "2023-12-07",
+                    "title": "Golem: Behörden spionieren Nutzer über Push-Benachrichtigungen aus",
+                    "url": "https:\/\/www.golem.de\/news\/apple-und-google-behoerden-spionieren-nutzer-ueber-push-benachrichtigungen-aus-2312-180106.html"
+                },
+                {
+                    "date": "2023-12-06",
+                    "title": "Netzpolitik: Behörden fragen Apple und Google nach Nutzern von Messenger-Apps",
+                    "url": "https:\/\/netzpolitik.org\/2023\/push-dienste-behoerden-fragen-apple-und-google-nach-nutzern-von-messenger-apps\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "security",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 800
+        },
+        {
+            "id": "jo9w7hfcbumbjo18i4a0mzihqxjth4ad",
+            "title": {
+                "de": "Du nutzt Cloud-Speicher nur verschlüsselt",
+                "en": "You only use encrypted cloud storage"
+            },
+            "shortText": {
+                "de": "Viele Cloud-Anbieter arbeiten vollumfänglich mit Ermittlungsbehörden zusammen und werden nicht zögern deine Daten auszuliefern. Lege dort nur verschlüsselte Daten ab.",
+                "en": "Many cloud providers cooperate fully with investigating authorities and will not hesitate to hand over your data. Only store encrypted data there."
+            },
+            "longText": {
+                "de": "Generell solltest du überlegen, ob du die entsprechenden Cloud-Dienste überhaupt brauchst. Du kannst zum Beispiel Apps wie \"OpenKeychain\" verwenden, um Dateien vor dem Upload in eine Cloud zu verschlüsseln. Für den Fall, dass du ein Apple-Gerät mit deiner iCloud nutzt aktiviere dort den erweiterten Datenschutz.",
+                "en": "In general, you should consider whether you need the relevant cloud services at all. For example, you can use apps such as \"OpenKeychain\" to encrypt files before uploading them to a cloud. If you use an Apple device with your iCloud, activate extended data protection there."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-12-07",
+                    "title": "Apple trommelt für Ende-zu-Ende-Verschlüsselung von Cloud-Daten",
+                    "url": "https:\/\/www.heise.de\/news\/Apple-trommelt-fuer-Ende-zu-Ende-Verschluesselung-von-Cloud-Daten-9567657.html"
+                },
+                {
+                    "title": "F-Droid: OpenKeychain: Easy PGP",
+                    "url": "https:\/\/f-droid.org\/de\/packages\/org.sufficientlysecure.keychain\/"
+                },
+                {
+                    "title": "So aktivierst du den erweiterten Datenschutz für iCloud",
+                    "url": "https:\/\/support.apple.com\/de-de\/HT212520"
+                },
+                {
+                    "date": "2023-08-04",
+                    "title": "BAMF soll Cloud-Speicher von Asylsuchenden auslesen",
+                    "url": "https:\/\/netzpolitik.org\/2023\/innenministerium-bamf-soll-cloud-speicher-von-asylsuchenden-auslesen\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "security",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 600
+        },
+        {
+            "id": "7uz2t0588ipgha7teyuhsf18xdk9q6zk",
+            "title": {
+                "de": "Du nutzt VPNs mit Bedacht",
+                "en": "You use VPNs wisely"
+            },
+            "shortText": {
+                "de": "Bedenke, dass du VPN-Anbieter*innen vertrauen musst. Du bezahlt sie, also kennen Sie deine Identität. Viele VPN-Dienste arbeiten vollumfänglich mit Ermittlungsbehörden zusammen. Wenn du kannst, nutze stattdessen das TOR-Netzwerk.",
+                "en": "Remember that you have to trust VPN providers. You pay them, so they know your identity. Many VPN services cooperate fully with investigative authorities. If you can, use the TOR network instead."
+            },
+            "tags": [
+                "online",
+                "knowledge"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "bsqnf4sy9e72t3hfw0f47nywgsbmfm3j",
+            "title": {
+                "de": "Du installierst Apps nur aus vertrauenswürdigen Quellen",
+                "en": "You only install apps from trustworthy sources"
+            },
+            "shortText": {
+                "de": "Nutze nur offizielle App-Stores oder F-Droid, um deine Apps zu beziehen. Wenn du dich auskennst kannst du Apps auch direkt von den Websites der Hersteller*innen laden. Überlege immer, ob du eine App überhaupt brauchst.",
+                "en": "Only use official app stores or F-Droid to obtain your apps. If you know your way around, you can also download apps directly from the manufacturers' websites. Always consider whether you need an app at all."
+            },
+            "longText": {
+                "de": "Infizierte Apps haben viele Möglihkeiten dich anzugreifen. Sie können zum Beispiel Passworte stehlen.",
+                "en": "Infected apps have many ways of attacking you. For example, they can steal passwords."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-12-10",
+                    "title": "Heise: Black Hat Europe 2023: Neuer Angriff \"AutoSpill\" auf Android-Passwortmanager",
+                    "url": "https:\/\/www.heise.de\/news\/Black-Hat-Europe-2023-Neuer-Angriff-AutoSpill-auf-Android-Passwortmanager-9569772.html"
+                }
+            ],
+            "tags": [
+                "online",
+                "knowledge"
+            ],
+            "points": 200
+        },
+        {
+            "id": "zokgwvdiqcizcpyrc9y4a83u3s8rn9lh",
+            "title": {
+                "de": "Du prüfst Zugriffsrechte sorgfältig",
+                "en": "You check access rights carefully"
+            },
+            "shortText": {
+                "de": "Deine Taschenlampen-App will auf den Speicher zugreifen? Keine gute Idee! Frage dich immer wozu eine App Berechtigungen benötigt und gib diese nur schrittweise oder bei Bedarf frei.",
+                "en": "Your flashlight app wants to access the memory? Not a good idea! Always ask yourself why an app needs permissions and only grant them gradually or when necessary."
+            },
+            "tags": [
+                "online",
+                "easy"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "z0meha5aadwsz3t2hpy6suymhi9u76qb",
+            "title": {
+                "de": "Du löschst Metadaten aus deinen Bildern",
+                "en": "You delete metadata from your images"
+            },
+            "shortText": {
+                "de": "Dein Smartphone heftet Metadaten wie Koordinaten, Kameratyp, Auflösung, Smartphone-Modell oder Betriebssystem unsichtbar an deine Bilder. Bei einigen Kamera-Apps lässt sich das teilweise oder ganz deaktivieren.",
+                "en": "Your smartphone invisibly attaches metadata such as coordinates, camera type, resolution, smartphone model or operating system to your pictures. With some camera apps, this can be partially or completely deactivated."
+            },
+            "longText": {
+                "de": "Wird dein Telefon entwendet können diese Daten Aufschluss über deine Herkunft geben. Nutze Apps wie \"Imagepipe\" um deine Bilder zu bereinigen bevor du diese ins Internet lädst. Imagepipe kannst du über den F-Droid auf deinem Android-Smartphone installieren. F-Droid ist ein installierbarer Katalog für freie und Open-Source-Software.",
+                "en": "If your phone is stolen, this data can provide information about your origin. Use apps such as \"Imagepipe\" to clean up your pictures before you upload them to the internet. You can install Imagepipe on your Android smartphone via F-Droid. F-Droid is an installable catalog for free and open source software."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "F-Droid",
+                    "url": "https:\/\/f-droid.org\/de\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "easy",
+                "behavior",
+                "refugee"
+            ],
+            "points": 400
+        },
+        {
+            "id": "l6vgj7s7b376ld7ks7htepeaivnvfkac",
+            "title": {
+                "de": "Du ließt dir Datenschutzerklärungen durch",
+                "en": "You read through data protection declarations"
+            },
+            "shortText": {
+                "de": "Nimmst du dir Zeit Datenschutzerklärungen von neuen Apps und Services bei denen du dich registrierst zu lesen? Interessiert es dich mit wem deine Daten geteilt werden und was damit passiert?",
+                "en": "Do you take the time to read the privacy policies of new apps and services you register with? Do you care who your data is shared with and what happens to it?"
+            },
+            "tags": [
+                "online",
+                "behavior",
+                "knowledge"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "dlj81mgwv9w4i1eyca06znn8lf7wn28i",
+            "title": {
+                "de": "Du verschlüsselst deine E-Mails",
+                "en": "You encrypt your emails"
+            },
+            "shortText": {
+                "de": "Nutzt du E-Mails? Dann solltest du unbedingt über Verschlüsselung wie GPG\/OpenPGP nachdenken.",
+                "en": "Do you use email? Then you should definitely think about encryption such as GPG\/OpenPGP."
+            },
+            "tags": [
+                "online",
+                "security",
+                "knowledge"
+            ],
+            "points": 800,
+            "longText": []
+        },
+        {
+            "id": "0blm4hke75axw4b9qrixkvpbterswatv",
+            "title": {
+                "de": "Du nutzt sichere Messenger",
+                "en": "You use secure messengers"
+            },
+            "shortText": {
+                "de": "Du solltest unbedingt quelloffene, verschlüsselte Messenger wie Briar, Signal, Threema, Element oder SimpleX nutzen. Verzichte auf unsichere kommerzielle Messenger wie WhatsApp und Co.",
+                "en": "You should definitely use open-source, encrypted messengers such as Briar, Signal, Threema, Element or SimpleX. Avoid insecure commercial messengers such as WhatsApp and co."
+            },
+            "longText": {
+                "de": "Wenn du dir unsicher bist welche Messenger gut sind oder wenn du Argumente brauchst, um Familie und Freud*innen zu überzeugen, solltest du dir unbedingt die Messenger-Matrix von Kuketz ansehen. Dort kannst du die einzelnen Messenger bequem nach Funktionen und Sicherheitsaspekten vergleichen.",
+                "en": "If you are unsure which messengers are good or if you need arguments to convince family and friends, you should definitely take a look at Kuketz's messenger matrix. There you can easily compare the individual messengers according to functions and security aspects."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Messenger-Matrix",
+                    "url": "https:\/\/www.messenger-matrix.de\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "security",
+                "behavior",
+                "knowledge"
+            ],
+            "points": 800
+        },
+        {
+            "id": "kmebgdtj44opafsufh1maup3xblhe6m5",
+            "title": {
+                "de": "Lösche nicht genutzte Accounts",
+                "en": "Delete unused accounts"
+            },
+            "shortText": {
+                "de": "Es ist wichtig nicht mehr benötigte Accounts zu löschen. Nimm dir einmal im Jahr Zeit dafür. Egal, ob du diese für eine Website oder eine App benötigt hast. Wenn du sie länger nicht mehr genutzt hast, solltest du sie schließen. Das minimiert das Risiko von Datenlecks.",
+                "en": "It is important to delete accounts that you no longer need. Take the time to do this once a year. Regardless of whether you needed them for a website or an app. If you haven't used them for a while, you should close them. This minimizes the risk of data leaks."
+            },
+            "tags": [
+                "online",
+                "knowledge"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "skjd0f1s35xqsuutwtfcfjmwbakciggh",
+            "title": {
+                "de": "Du prüfst, ob du von Datenlecks betroffen bist",
+                "en": "You check whether you are affected by data leaks"
+            },
+            "shortText": {
+                "de": "Täglich leaken persönliche Daten aus Websites, Portalen und Onlineshops. Betroffne werden dabei selten informiert. Die Daten werden verkauft, gehandelt oder sind oft auch völlig frei zugänglich.",
+                "en": "Personal data is leaked from websites, portals and online stores every day. Those affected are rarely informed. The data is sold, traded or is often freely accessible."
+            },
+            "longText": {
+                "de": "Auf der Website haveibeenpwned.com kannst du schnell und unkompliziert feststellen, ob deine Mailadresse in Datenlecks auftaucht. Du kannst dir dort auch einen Account zulegen, und dich bei neuen Funden automatisch benachrichtigen lassen.",
+                "en": "On the website haveibeenpwned.com you can quickly and easily find out whether your email address appears in data leaks. You can also create an account there and be notified automatically when new findings are made."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "';--have i been pwned?",
+                    "url": "https:\/\/haveibeenpwned.com\/"
+                }
+            ],
+            "tags": [
+                "online",
+                "easy"
+            ],
+            "points": 400
+        }
+    ]
+}

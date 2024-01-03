@@ -12,10 +12,10 @@
 
       <div class="text-sm">
 
-        Ein steampixel.de Projekt |
-        Version: {{ version }} |
-        Stand: {{ lastUpdated }} |
-        Lizenz: MIT
+        {{ $t('footerCopyright') }} | 
+        {{ $t('footerVersion') }} {{ version }} | 
+        {{ $t('footerFrom') }} {{ lastUpdated }} | 
+        {{ $t('footerLicense') }}
 
       </div>
 
@@ -31,7 +31,7 @@
 
 import Space from '~/components/Space.vue'
 import Seperator from '~/components/Seperator.vue'
-import config from '~/config.js';
+import config from '~/config.json';
 
 
 export default {

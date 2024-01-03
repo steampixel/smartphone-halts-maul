@@ -10,28 +10,22 @@
       <h1 class="text-gray-800 hyphenate">
         <div class="text-5xl md:text-6xl font-bold mb-2">
           <img class="inline-block unicorn h-20 w-20" src="/unicorn.png" />
-          Smartphone, halt's Maul!
+          {{ $t('title') }}
         </div>
-        <div class="text-2xl">✔ Eine Checkliste für deine mobile Sicherheit</div>
+        <div class="text-2xl">{{ $t('subtitle') }}</div>
       </h1>
 
       <space></space>
       <space></space>
 
       <p>
-        Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, 
-        damit du ein Gefühl für die Thematik entwickeln kannst. 
-        Die Liste enthält <span class="font-bold">{{ tasks.length }}</span> konkrete Vorschläge zur Verbesserung deiner Sicherheit. 
-        Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. 
-        Du kannst maximal  <span class="font-bold">{{ countLevels() }}</span> Level aufsteigen.
+        {{ $t('introText', {count: tasks.length, levels: countLevels()}) }}
       </p>
 
       <space></space>
 
       <p>
-        Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt.
-        Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus.
-        Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht.
+        {{ $t('introText2') }}
       </p>
 
       <space></space>
@@ -50,20 +44,20 @@
       <space></space> -->
       <space></space>
 
-      <a href="/list" aria-label="Druckversion" title="Druckversion">
-        <app-button>Zur Checkliste</app-button>
-      </a>
+      <NuxtLink :to="localePath('list')" :aria-label="$t('buttonChecklist')">
+        <app-button>{{ $t('buttonChecklist') }}</app-button>
+      </NuxtLink>
 
-      <a href="/print" aria-label="Interaktive Version" title="Interaktive Version">
-        <app-button color="medium">Druckversion</app-button>
-      </a>
+      <NuxtLink :to="localePath('print')" :aria-label="$t('buttonPrintVersion')">
+        <app-button color="medium">{{ $t('buttonPrintVersion') }}</app-button>
+      </NuxtLink>
 
-      <a href="/flyer" aria-label="Flyer drucken" title="Flyer drucken">
-        <app-button color="medium">Flyer</app-button>
-      </a>
+      <NuxtLink :to="localePath('flyer')" :aria-label="$t('buttonFlyer')">
+        <app-button color="medium">{{ $t('buttonFlyer') }}</app-button>
+      </NuxtLink>
 
-      <a href="https://github.com/steampixel/smartphone-halts-maul" target="_blank" aria-label="GitHub" title="GitHub">
-        <app-button color="medium">GitHub</app-button>
+      <a href="https://github.com/steampixel/smartphone-halts-maul" target="_blank" aria-label="GitHub">
+        <app-button color="medium">{{ $t('buttonGitHub') }}</app-button>
       </a>
 
     </div>
@@ -78,6 +72,8 @@
 </template>
 
 <script setup>
+
+  const { locale } = useI18n()
 
   useHead({
       title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
@@ -110,7 +106,7 @@
   import Space from '~/components/Space.vue'
   import AppButton from '~/components/Button.vue'
   import AppFooter from '~/components/Footer.vue'
-  import config from '~/config.js';
+  import config from '~/config.json';
 
   export default {
 
