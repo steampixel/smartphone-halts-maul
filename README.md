@@ -3,7 +3,7 @@ Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu übe
 
 ## Welche Dateien sind in diesem Projekt wichtig?
 
-Alle Aufgaben der Checkliste, die Texte und Tags findest du in der Datei config.js
+Alle Aufgaben der Checkliste, die Texte und Tags findest du in der Datei config.json
 Alle sonstigen Texte findest du in der Datei app.vue
 
 Happy coding :-)
