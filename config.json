@@ -1,7 +1,89 @@
 {
-    "version": "1.15.0",
-    "lastUpdated": "2024-01-03",
+    "version": "1.16.0",
+    "lastUpdated": "2024-01-09",
     "pointsPerLevel": 800,
+    "messages": {
+        "de": {
+            "seoTitle": "Smartphone, halt's Maul! - Eine Checkliste für deine mobile Sicherheit",
+            "seoDescription": "Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.",
+            "title": "Smartphone, halt's Maul!",
+            "subtitle": "✔ Eine Checkliste für deine mobile Sicherheit",
+            "introText": "Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält {count} konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. Du kannst maximal {levels} Level aufsteigen.",
+            "introText2": "Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt. Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus. Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht. ",
+            "buttonChecklist": "Zur Checkliste",
+            "buttonPrintVersion": "Druckversion",
+            "buttonFlyer": "Flyer",
+            "buttonGitHub": "GitHub",
+            "footerCopyright": "Ein steampixel Projekt",
+            "footerVersion": "Version:",
+            "footerFrom": "Zuletzt aktualisiert:",
+            "footerLicense": "Lizenz: MIT",
+            "footerFlyer": "Flyer",
+            "footerPrintVersion": "Druckversion",
+            "footerGitHub": "GitHub",
+            "footerImprint": "Impressum",
+            "footerPrivacy": "Datenschutz",
+            "footerHomepage": "Startseite",
+            "navbarHomepage": "Home",
+            "navbarChecklist": "Checkliste",
+            "navbarFlyer": "Flyer",
+            "navbarPrintVersion": "Druckversion",
+            "flyerText": "Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.",
+            "buttonPrint": "Drucken",
+            "introTextPrint": "Diese Checkliste soll dir helfen deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Dies ist die Druckversion der Liste. Du kannst die einzelnen Punkte mit einem Stift abhaken.",
+            "legend": "Legende",
+            "listPoints": "Punkte",
+            "listLevel": "Level",
+            "listFilter": "Liste filtern",
+            "listFilterShowCompleted": "Abgeschlossene zeigen",
+            "listPrivacyStatement": "Die abgeschlossenen Aufgaben werden in deinem Browser (Local Storage) gespeichert. Du kannst diese Daten hier aus deinem Browser löschen.",
+            "listDeleteAllData": "Lösche alle Daten aus meinem Browser",
+            "listMoreInformation": "Mehr Informationen",
+            "listLinks": "Weiterführende Links",
+            "listTags": "Tags",
+            "close": "schließen"
+        },
+        "en": {
+            "seoTitle": "Smartphone, shut up! - A checklist for your mobile security",
+            "seoDescription": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains concrete suggestions for improving your safety. Points and levels are designed to encourage you to tick off as many items as possible.",
+            "title": "Smartphone, shut up!",
+            "subtitle": "✔ A checklist for your mobile security",
+            "introText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains {count} concrete suggestions for improving your security. Points and levels are intended to encourage you to tick off as many items as possible. You can move up a maximum of {levels}.",
+            "introText2": "Please be aware that safety always depends on individual risks. Some of the tasks described here may be mutually exclusive. In the end, safety is always a trade-off. There is no such thing as absolute safety.",
+            "buttonChecklist": "To the checklist",
+            "buttonPrintVersion": "Print version",
+            "buttonFlyer": "Flyer",
+            "buttonGitHub": "GitHub",
+            "footerCopyright": "A steampixel project",
+            "footerVersion": "Version:",
+            "footerLicense": "License: MIT",
+            "footerFlyer": "Flyer",
+            "footerPrintVersion": "Print version",
+            "footerGitHub": "GitHub",
+            "footerImprint": "Imprint",
+            "footerPrivacy": "Data protection",
+            "navbarHomepage": "Home",
+            "navbarChecklist": "Checklist",
+            "navbarFlyer": "Flyer",
+            "navbarPrintVersion": "Print version",
+            "flyerText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains concrete suggestions for improving your safety. Points and levels are designed to encourage you to tick off as many items as possible.",
+            "buttonPrint": "Print",
+            "introTextPrint": "This checklist is designed to help you review your smartphone security so that you can develop a feel for the subject. The list contains concrete suggestions for improving your security. This is the print version of the list. You can tick off the individual points with a pen.",
+            "legend": "Legend",
+            "listPoints": "Points",
+            "listLevel": "Level",
+            "listFilter": "Filter list",
+            "listFilterShowCompleted": "Show completed",
+            "listPrivacyStatement": "The completed tasks are saved in your browser (local storage). You can delete this data from your browser here.",
+            "listDeleteAllData": "Delete all data from my browser",
+            "listMoreInformation": "More information",
+            "listLinks": "Further links",
+            "listTags": "Tags",
+            "close": "close",
+            "footerFrom": "Last updated:",
+            "footerHomepage": "Home page"
+        }
+    },
     "categoryTags": [
         {
             "key": "common",
@@ -22,6 +104,13 @@
             "title": {
                 "de": "Gefahren im Mobilfunknetz",
                 "en": "Dangers in the mobile network"
+            }
+        },
+        {
+            "key": "system",
+            "title": {
+                "de": "Apps und Betriebssystem",
+                "en": "Apps and operating system"
             }
         },
         {
@@ -55,8 +144,8 @@
             "key": "knowledge",
             "icon": "book",
             "title": {
-                "de": "Benötigt Fachwissen oder Recherche",
-                "en": "Requires specialist knowledge or research"
+                "de": "Benötigt evtl. Fachwissen oder Recherche",
+                "en": "May require specialist knowledge or research"
             },
             "enabled": false
         },
@@ -64,7 +153,7 @@
             "key": "behavior",
             "icon": "clock",
             "title": {
-                "de": "Ist mit Gewohnheitsänderungen verbunden",
+                "de": "Ist evtl. mit Gewohnheitsänderungen verbunden",
                 "en": "Is associated with habit changes"
             },
             "enabled": false
@@ -86,8 +175,16 @@
                 "en": "Important for migration and flight"
             },
             "enabled": false
+        },
+        {
+            "key": "journalist",
+            "icon": "news",
+            "title": {
+                "de": "Wichtig für Journalismus und Regimekritik",
+                "en": "Important for journalism and criticism of the regime"
+            },
+            "enabled": false
         }
-
     ],
     "tasks": [
         {
@@ -178,81 +275,6 @@
             "tags": [
                 "common",
                 "easy"
-            ],
-            "points": 400
-        },
-        {
-            "id": "jwp2vuk2pm3hyvq9sagif84s1bacam4p",
-            "title": {
-                "de": "Du verwendest ein freies Betriebssystem",
-                "en": "You are using a free operating system"
-            },
-            "shortText": {
-                "de": "Freie Android-basierte Betriebssysteme wie grapheneOS, CalyxOS oder DivestOS können dir helfen deine Privatsphäre zu schützen und sind nicht an Google, Apple oder Microsoft gebunden.",
-                "en": "Free Android-based operating systems such as grapheneOS, CalyxOS or DivestOS can help you protect your privacy and are not tied to Google, Apple or Microsoft."
-            },
-            "longText": {
-                "de": "Wenn du dir unsicher bist welches System du installieren solltest so lautet die klare Empfehlung derzeit grapheneOS auf einem der kompatiblen Telefone zu installieren. Mehr Informationen findest du in den Links.",
-                "en": "If you are unsure which system you should install, the clear recommendation is currently to install grapheneOS on one of the compatible phones. You can find more information in the links."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "date": "2022-04-25",
-                    "title": "Golem: Datenschutz gibt's nur mit alternativem Android",
-                    "url": "https:\/\/www.golem.de\/news\/smartphone-ohne-google-datenschutz-gibt-s-nur-mit-alternativem-android-2204-164785.html"
-                },
-                {
-                    "date": "2020-11-17",
-                    "title": "Kuketz: GrapheneOS: Das Android für Sicherheits- und Datenschutzfreaks",
-                    "url": "https:\/\/www.kuketz-blog.de\/grapheneos-das-android-fuer-sicherheits-und-datenschutzfreaks\/"
-                },
-                {
-                    "title": "GrapheneOS",
-                    "url": "https:\/\/grapheneos.org\/"
-                },
-                {
-                    "title": "DivestOS",
-                    "url": "https:\/\/divestos.org\/"
-                },
-                {
-                    "title": "CalyxOS",
-                    "url": "https:\/\/calyxos.org\/"
-                }
-            ],
-            "tags": [
-                "common",
-                "security",
-                "knowledge"
-            ],
-            "points": 800
-        },
-        {
-            "id": "cl5098g8l7b3tzcgsof08nqn9bc9m2nv",
-            "title": {
-                "de": "Du hast dein Telefon von Bloatware befreit",
-                "en": "You have freed your phone from bloatware"
-            },
-            "shortText": {
-                "de": "Hersteller*innen von Smartphones erhalten von Google oder Apple Millionen bis Milliarden dafür, dass ihre Software fest auf euren Telefonen platziert wird. Du solltest diese Apps unbedingt entfernen.",
-                "en": "Smartphone manufacturers receive millions to billions from Google or Apple for placing their software on your phone. You should definitely remove these apps."
-            },
-            "longText": {
-                "de": "Derartige Beträge lohnen sich natürlich nur wenn das einen Nutzen hat: Die vorinstallierte Software sammelt muter Daten und verwertet eure Gewohnheiten. Ihr solltet Bloatware daher entfernen (Manchmal ist das ohne Root-Berechtigungen nicht möglich) oder gleich ein sicheres Betriebssystem installieren.",
-                "en": "Of course, such amounts are only worthwhile if there is a benefit: The pre-installed software collects data and exploits your habits. You should therefore remove bloatware (sometimes this is not possible without root permissions) or install a secure operating system straight away."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "date": "2023-02-21",
-                    "title": "Google zahlt Milliarden für Chrome unter iOS",
-                    "url": "https:\/\/www.onlinehaendler-news.de\/digital-tech\/unternehmen\/137709-google-zahlt-milliarden-chrome-ios"
-                }
-            ],
-            "tags": [
-                "common",
-                "security",
-                "knowledge"
             ],
             "points": 400
         },
@@ -434,8 +456,8 @@
                 "en": "You should never deactivate the PIN protection on your SIM card. If the PIN is deactivated, authorities or other persons can use the card themselves to gain access to messengers, for example."
             },
             "longText": {
-                "de": "Wenn du anonyme Simkarten verwendest kannst du die Pin-Sperre oft nicht aktivieren, da du die zur Karte gehörige Pin \/ PUK oft nicht kennst. Du erhälst diese Karten oft mit deaktiviertem Pin. Du solltest in diesem Fall darauf achten, dass alle deine Messenger mit einem zweiten Faktor (z.B. Pin) abgesichert sind und dass du die Karte nicht selbst für eine Zwei-Faktor-Authentifizierung nutzt.",
-                "en": "If you use anonymous SIM cards, you often cannot activate the pin lock as you often do not know the pin \/ PUK associated with the card. You often receive these cards with the pin deactivated. In this case, you should make sure that all your messengers are secured with a second factor (e.g. PIN) and that you do not use the card itself for two-factor authentication."
+                "de": "Hinweis für anonyme Simkarten: Wenn du anonyme Simkarten verwendest kannst du die Pin-Sperre oft nicht aktivieren, da du die zur Karte gehörige Pin \/ PUK oft nicht kennst. Du erhältst diese Karten oft mit deaktiviertem Pin. Du solltest in diesem Fall darauf achten, dass alle deine Messenger mit einem zweiten Faktor (z.B. Pin) abgesichert sind und dass du die Karte nicht selbst für eine Zwei-Faktor-Authentifizierung nutzt.",
+                "en": "Note for anonymous SIM cards: If you use anonymous SIM cards, you often cannot activate the pin lock as you often do not know the pin \/ PUK associated with the card. You often receive these cards with the pin deactivated. In this case, you should make sure that all your messengers are secured with a second factor (e.g. PIN) and that you do not use the card itself for two-factor authentication."
             },
             "showMore": true,
             "tags": [
@@ -455,14 +477,18 @@
                 "de": "Nicht auf allen Geräten lassen sich Speicherkarten zuverlässig verschlüsseln. Zudem lassen sich Daten wiederherstellen, die bei einer früheren Nutzung mit anderen Geräten darauf gespeichert wurden. Nutze Speicherkarten daher nur, wenn du weißt was darauf gespeichert wird und wenn du diese vorher überschrieben hast.",
                 "en": "Memory cards cannot be reliably encrypted on all devices. It is also possible to restore data that was saved on them when they were previously used with other devices. Therefore, only use memory cards if you know what is stored on them and if you have overwritten them beforehand."
             },
+            "longText": {
+                "de": "Einige ältere Android-Geräte erzeugen auch eine Signatur über verwendete Apps auf deiner Speicherkarte indem sie dort für verwendete Apps eigene Ordner anlegen. Dadurch können Rückschlüsse auf deine verwendeten Apps gezogen werden. Achtung! Das Überschreiben von Flash-Speichern ist oft nicht zu 100% möglich. Es können trotzdem Daten zurück bleiben.",
+                "en": "Some older Android devices also create a signature of apps used on your memory card by creating separate folders for apps used. This allows conclusions to be drawn about the apps you are using. Caution! Overwriting flash memory is often not 100% possible. Data can still be left behind."
+            },
+            "showMore": true,
             "tags": [
                 "physical",
                 "easy",
                 "security",
                 "refugee"
             ],
-            "points": 600,
-            "longText": []
+            "points": 600
         },
         {
             "id": "kw9bjghrjadzbtyc6ktszoycw98t5ym8",
@@ -636,7 +662,6 @@
             ],
             "tags": [
                 "physical",
-                "knowledge",
                 "security",
                 "refugee"
             ],
@@ -653,8 +678,8 @@
                 "en": "If you have the option, you should definitely encrypt your backups to protect them from unauthorized access."
             },
             "longText": {
-                "de": "Die Android-App Neo Backup unterstützt Verschlüsselung von Haus aus. Du kannst aber auch verschlüsselte Zip-Archive von Hand erstellen oder gleich ganze USB-Sticks verschlüsseln. Unter Linux, MacOS und einigen Windows-Versionen geht das ganz einfach über eine grafische Oberfläche. Du kannst aber auch eine Verschlüsselungssoftware für deine Sticks wie VeraCrypt einsetzen, die auf den meisten Betriebssystemen funktioniert. Wenn du dich tiefer mit der Materie befassen möchtest und die Kommandozeile nicht scheust kannst du dir professionelle Software wie Restic (Linux) oder duplicity (Linux) ansehen.",
-                "en": "The Android app Neo Backup supports encryption out of the box. However, you can also create encrypted zip archives manually or encrypt entire USB sticks. Under Linux, MacOS and some versions of Windows, this can be done very easily via a graphical interface. You can also use encryption software for your sticks, such as VeraCrypt, which works on most operating systems. If you want to delve deeper into the matter and are not afraid of the command line, you can take a look at professional software such as Restic (Linux) or duplicity (Linux)."
+                "de": "Die Android-App Neo Backup unterstützt Verschlüsselung von Haus aus. Du kannst aber auch verschlüsselte Zip-Archive von Hand erstellen oder gleich ganze USB-Sticks verschlüsseln. Unter Linux, MacOS und einigen Windows-Versionen geht das ganz einfach über eine grafische Oberfläche. Du kannst aber auch eine Verschlüsselungssoftware für deine Sticks wie VeraCrypt einsetzen, die auf den meisten Betriebssystemen funktioniert. Wenn du dich tiefer mit der Materie befassen möchtest und die Kommandozeile nicht scheust kannst du dir professionelle Software wie Restic (Linux) oder duplicity (Linux) ansehen. Dafür musst du dein Gerät dann mit einem Computer verbinden.",
+                "en": "The Android app Neo Backup supports encryption out of the box. However, you can also create encrypted zip archives manually or encrypt entire USB sticks. Under Linux, MacOS and some versions of Windows, this can be done very easily via a graphical interface. You can also use encryption software for your sticks, such as VeraCrypt, which works on most operating systems. If you want to delve deeper into the matter and are not afraid of the command line, you can take a look at professional software such as Restic (Linux) or duplicity (Linux). You will then need to connect your device to a computer."
             },
             "showMore": true,
             "links": [
@@ -779,8 +804,8 @@
                 "en": "Did you buy the phone second-hand? Then you should overwrite the entire memory once to avoid unwanted data being found on your device."
             },
             "longText": {
-                "de": "Gebrauchte Telefone könnten illegale Daten enthalten haben, die wiederhergestellt und ausgewertet werden könnten. Um zu vermeiden, dass dir das zum Verhängnis wird solltest du das Telefon einmal komplett überschreiben. Wenn du die Möglichkeit hast generiere dir große Zufallsdateien und kopiere diese auf dein Telefon, bis es voll ist. Andernfalls kannst du dir auch große Testdaten aus dem Internet herunterladen und damit den Speicher deines Telefons überschreiben.",
-                "en": "Used phones may contain illegal data that could be recovered and analyzed. To avoid this becoming your downfall, you should completely overwrite the phone once. If you have the possibility, generate large random files and copy them to your phone until it is full. Otherwise, you can also download large test files from the Internet and overwrite your phone's memory with them."
+                "de": "Gebrauchte Telefone könnten illegale Daten enthalten haben, die wiederhergestellt und ausgewertet werden könnten. Um zu vermeiden, dass dir das zum Verhängnis wird solltest du das Telefon einmal komplett überschreiben. Wenn du die Möglichkeit hast generiere dir große Zufallsdateien und kopiere diese auf dein Telefon, bis es voll ist. Andernfalls kannst du dir auch große Testdaten aus dem Internet herunterladen und damit den Speicher deines Telefons überschreiben. Achtung! Das Überschreiben von Flash-Speichern ist oft nicht zu 100% möglich. Es können trotzdem Daten zurück bleiben.",
+                "en": "Used phones may contain illegal data that can be recovered and analyzed. To avoid this becoming your downfall, you should completely overwrite the phone once. If you have the possibility, generate large random files and copy them to your phone until it is full. Otherwise, you can also download large test files from the Internet and overwrite your phone's memory with them. Caution! Overwriting flash memory is often not 100% possible. Data may still be left behind."
             },
             "showMore": true,
             "links": [
@@ -878,16 +903,16 @@
         {
             "id": "8e03f6tau77a9biyzsqs1j5nh63vorvg",
             "title": {
-                "de": "Nicht genutzte Kameras sind verdeckt",
-                "en": "Unused cameras are concealed"
+                "de": "Nicht genutzte Kameras sind abgedeckt",
+                "en": "Cameras that are not in use are covered"
             },
             "shortText": {
-                "de": "Du solltest nicht genutze Kameras einfach mit Stickern abdecken. Zum Beispiel, wenn du die Selfie-Kamera nicht oder kaum nutzt.",
-                "en": "You should simply cover unused cameras with stickers. For example, if you don't or hardly ever use the selfie camera."
+                "de": "Du solltest nicht genutze Kameras einfach mit Stickern abdecken. Zum Beispiel, wenn du die Selfie-Kamera nicht oder nur kaum nutzt.",
+                "en": "You should simply cover unused cameras with stickers. For example, if you don't use the selfie camera or only use it rarely."
             },
             "longText": {
-                "de": "Du kannst dir beim Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) kostenlos wiederablösbare Spezialaufkleber für deine Smartphone-Kameras bestellen. Achte darauf, dass du nicht den unscheinbaren Helligkeitssensor überklebst! Dies führt dazu dass einige Smartphones den Display abschalten, da diese sich in einer Hosentasche wähnen.",
-                "en": "You can order special removable stickers for your smartphone cameras free of charge from the Federal Ministry for Family Affairs, Senior Citizens, Women and Youth (BMFSFJ). Make sure that you don't stick over the inconspicuous brightness sensor! This causes some smartphones to switch off the display because they think they are in a trouser pocket."
+                "de": "Wenn du in Deutschland wohnst kannst du dir beim Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) kostenlos wiederablösbare Spezialaufkleber für deine Smartphone-Kameras bestellen. Achte darauf, dass du nicht den unscheinbaren Helligkeitssensor überklebst! Dies führt dazu dass einige Smartphones den Display abschalten, da diese sich in einer Hosentasche wähnen.",
+                "en": "If you live in Germany, you can order special removable stickers for your smartphone cameras free of charge from the Federal Ministry for Family Affairs, Senior Citizens, Women and Youth (BMFSFJ). Make sure that you do not stick over the inconspicuous brightness sensor! This causes some smartphones to switch off the display because they think they are in a trouser pocket."
             },
             "showMore": true,
             "links": [
@@ -936,8 +961,8 @@
                 "en": "Many network operators sell your movement data to various advertising companies. You can object to this transfer."
             },
             "longText": {
-                "de": "Frag bei den Provider*innen nach wie lange die Daten in den verschiedenen Tarifen gespeichert werden und mit wem sie geteilt werden. Es gibt auch extra datenschutzfreundliche Provider*innen wie z.B. \"Wetell\". Trotzdem schützen diese nicht vor den zahlreichen Überwachungsmöglichkeiten im Mobilfunknetz! Anonyme Simkarten sind daher immer zu bevorzugen.",
-                "en": "Ask the providers how long the data is stored in the various tariffs and with whom it is shared. There are also extra data protection-friendly providers such as \"Wetell\". Nevertheless, these do not protect against the numerous monitoring possibilities in the mobile network! Anonymous SIM cards are therefore always preferable."
+                "de": "Frag bei den Provider*innen nach wie lange die Daten in den verschiedenen Tarifen gespeichert werden und mit wem sie geteilt werden. Es gibt auch extra datenschutzfreundliche Provider*innen wie z.B. \"Wetell\" in Deutschland. Trotzdem schützen diese nicht vor den zahlreichen Überwachungsmöglichkeiten im Mobilfunknetz! Anonyme Simkarten sind daher immer zu bevorzugen.",
+                "en": "Ask the providers how long the data is stored in the various tariffs and with whom it is shared. There are also extra data protection-friendly providers such as \"Wetell\" in Germany. Nevertheless, these do not protect against the numerous monitoring possibilities in the mobile network! Anonymous SIM cards are therefore always preferable."
             },
             "showMore": true,
             "links": [
@@ -950,6 +975,34 @@
             "tags": [
                 "mobile",
                 "knowledge"
+            ],
+            "points": 200
+        },
+        {
+            "id": "cywfeb2z0yq8liiwgfcwi0jh8bbgvp03",
+            "title": {
+                "de": "Du hast deine mobile Datenverbindung nicht durchgehend aktiviert",
+                "en": "You have not activated your mobile data connection continuously"
+            },
+            "shortText": {
+                "de": "Deaktiviere mobile Daten, wenn du diese nicht brauchst. Eine aktivierte mobile Internetverbindung hinterlässt eine durchgehende Aufzeichnung deiner genutzten Funkzellen in den Verkehrsdaten deines Providers.",
+                "en": "Deactivate mobile data if you don't need it. An activated mobile internet connection leaves a continuous record of the cellular data you use in your provider's traffic data."
+            },
+            "longText": {
+                "de": "Wenn du gerade weder telefonierst, keine SMS schreibst bzw. empfängst und die mobilen Daten nicht nutzt, ist dein Telefon im sogenannten \"idle state\". Es entsteht dann keine Historie über deine Funkzellen-Position bei deinem Provider. Will dich eine Behörde oder eine Angreifer*in dann finden, sind diese oft auf stille SMS (silent pings) angewiesen.",
+                "en": "If you are not making calls, sending or receiving text messages and not using mobile data, your phone is in an idle state. No history of your radio cell position is then kept by your provider. If an authority or an attacker then wants to find you, they often rely on silent text messages (silent pings)."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Location Area",
+                    "url": "https:\/\/de.wikipedia.org\/wiki\/Location_Area"
+                }
+            ],
+            "tags": [
+                "mobile",
+                "easy",
+                "behavior"
             ],
             "points": 200
         },
@@ -1011,8 +1064,8 @@
                 "en": "You use anonymous SIM cards"
             },
             "shortText": {
-                "de": "Anonyme Simkarten erschweren Behörden die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, RRLP, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.",
-                "en": "Anonymous SIM cards make it considerably more difficult for authorities to select their targets. Be it silent SMS, IMSI catcher, RRLP, inventory data information, traffic data information, radio cell evaluations, source monitoring, state trojans or location monitoring. An anonymous SIM card is often the only sensible defense against such surveillance."
+                "de": "Anonyme Simkarten erschweren staatlichen Akteuren und anderen Angreifer*innen die Auswahl ihrer Ziele erheblich. Ob stille SMS, IMSI-Catcher, Bestandsdatenauskunft, Verkehrsdatenauskunft, Funkzellenauswertungen, Quellen-TKÜ, Staatstrojaner oder Standortüberwachung. Eine anonyme Simkarte ist oft die einzig sinnvolle Verteidigung gegen derartige Überwachung.",
+                "en": "Anonymous SIM cards make it much more difficult for state actors and other attackers to choose their targets. Whether silent text messages, IMSI catchers, inventory data information, traffic data information, radio cell evaluations, source monitoring, state trojans or location monitoring. An anonymous SIM card is often the only sensible defense against such surveillance."
             },
             "longText": {
                 "de": "Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietären Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten.",
@@ -1093,7 +1146,8 @@
                 "mobile",
                 "knowledge",
                 "security",
-                "behavior"
+                "behavior",
+                "journalist"
             ],
             "points": 800
         },
@@ -1133,7 +1187,8 @@
             "tags": [
                 "mobile",
                 "knowledge",
-                "expensive"
+                "expensive",
+                "journalist"
             ],
             "points": 200
         },
@@ -1226,7 +1281,8 @@
             "tags": [
                 "mobile",
                 "easy",
-                "behavior"
+                "behavior",
+                "journalist"
             ],
             "points": 200,
             "longText": []
@@ -1238,12 +1294,12 @@
                 "en": "You dial 110 and 112 carefully"
             },
             "shortText": {
-                "de": "Seit 2019 wird in Deutschland Advances Mobile Location (AML) eingesetzt und schrittweise ausgebaut, um Personen in Notsituationen zu orten. Wenn du das nicht möchtest solltest du dich darauf vorbereiten.",
-                "en": "Advances Mobile Location (AML) has been used in Germany since 2019 and is gradually being expanded to locate people in emergency situations. If you don't want this, you should prepare for it."
+                "de": "Seit 2019 wird in Deutschland und vielen anderen Ländern Advanced Mobile Location (AML) eingesetzt und schrittweise ausgebaut, um Personen in Notsituationen zu orten. Wenn du das nicht möchtest solltest du dich darauf vorbereiten.",
+                "en": "Advanced Mobile Location (AML) has been used in Germany and many other countries since 2019 and is gradually being expanded to locate people in emergency situations. If you don't want this, you should prepare yourself for it."
             },
             "longText": {
-                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und WiFi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist.",
-                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern phones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and WiFi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary."
+                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und WiFi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist. Auf Wikipedia findest du eine Liste mit allen Ländern in denen es AML gibt.",
+                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern telephones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and WiFi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary. You can find a list of all countries with AML on Wikipedia."
             },
             "showMore": true,
             "links": [
@@ -1265,6 +1321,120 @@
             "points": 400
         },
         {
+            "id": "jwp2vuk2pm3hyvq9sagif84s1bacam4p",
+            "title": {
+                "de": "Du verwendest ein freies Betriebssystem",
+                "en": "You are using a free operating system"
+            },
+            "shortText": {
+                "de": "Freie Android-basierte Betriebssysteme wie grapheneOS, CalyxOS oder DivestOS können dir helfen deine Privatsphäre zu schützen und sind nicht an Google, Apple oder Microsoft gebunden.",
+                "en": "Free Android-based operating systems such as grapheneOS, CalyxOS or DivestOS can help you protect your privacy and are not tied to Google, Apple or Microsoft."
+            },
+            "longText": {
+                "de": "Wenn du dir unsicher bist welches System du installieren solltest so lautet die klare Empfehlung derzeit grapheneOS auf einem der kompatiblen Telefone zu installieren. Mehr Informationen findest du in den Links.",
+                "en": "If you are unsure which system you should install, the clear recommendation is currently to install grapheneOS on one of the compatible phones. You can find more information in the links."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2022-04-25",
+                    "title": "Golem: Datenschutz gibt's nur mit alternativem Android",
+                    "url": "https:\/\/www.golem.de\/news\/smartphone-ohne-google-datenschutz-gibt-s-nur-mit-alternativem-android-2204-164785.html"
+                },
+                {
+                    "date": "2020-11-17",
+                    "title": "Kuketz: GrapheneOS: Das Android für Sicherheits- und Datenschutzfreaks",
+                    "url": "https:\/\/www.kuketz-blog.de\/grapheneos-das-android-fuer-sicherheits-und-datenschutzfreaks\/"
+                },
+                {
+                    "title": "GrapheneOS",
+                    "url": "https:\/\/grapheneos.org\/"
+                },
+                {
+                    "title": "DivestOS",
+                    "url": "https:\/\/divestos.org\/"
+                },
+                {
+                    "title": "CalyxOS",
+                    "url": "https:\/\/calyxos.org\/"
+                }
+            ],
+            "tags": [
+                "system",
+                "security",
+                "knowledge"
+            ],
+            "points": 800
+        },
+        {
+            "id": "cl5098g8l7b3tzcgsof08nqn9bc9m2nv",
+            "title": {
+                "de": "Du hast dein Telefon von Bloatware befreit",
+                "en": "You have freed your phone from bloatware"
+            },
+            "shortText": {
+                "de": "Hersteller*innen von Smartphones erhalten von Google oder Apple Millionen bis Milliarden dafür, dass ihre Software fest auf deinem Telefonen platziert wird. Du solltest diese Apps unbedingt entfernen.",
+                "en": "Smartphone manufacturers receive millions to billions from Google or Apple for placing their software on your phone. You should definitely remove these apps."
+            },
+            "longText": {
+                "de": "Derartige Beträge lohnen sich natürlich nur wenn das einen Nutzen hat: Die vorinstallierte Software sammelt muter Daten und verwertet eure Gewohnheiten. Ihr solltet Bloatware daher entfernen (Manchmal ist das ohne Root-Berechtigungen nicht möglich) oder gleich ein custom Betriebssystem wie GrapheneOS installieren.",
+                "en": "Of course, this is only worthwhile if it has a benefit: The pre-installed software collects data and analyzes your habits. You should therefore remove bloatware (sometimes this is not possible without root permissions) or install a custom operating system such as GrapheneOS."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-02-21",
+                    "title": "Google zahlt Milliarden für Chrome unter iOS",
+                    "url": "https:\/\/www.onlinehaendler-news.de\/digital-tech\/unternehmen\/137709-google-zahlt-milliarden-chrome-ios"
+                }
+            ],
+            "tags": [
+                "system",
+                "security",
+                "knowledge"
+            ],
+            "points": 400
+        },
+        {
+            "id": "phu2vhy5pb5n34ahbc0kjliajllh45yj",
+            "title": {
+                "de": "Du hast deine Werbe-ID deaktiviert oder gelöscht",
+                "en": "You have deactivated or deleted your advertising ID"
+            },
+            "shortText": {
+                "de": "Du solltest unbedingt deine Werbe-ID löschen, öfters ändern (Android) oder deinen Apps das Tracking verbieten (iOS), wenn du nicht möchtest, dass die Daten aus verschiedenen Apps durch sogenannte Datenbroker wieder zusammengeführt und verkauft werden.",
+                "en": "You should definitely delete your advertising ID, change it frequently (Android) or prohibit your apps from tracking (iOS) if you do not want the data from different apps to be merged and sold again by so-called data brokers."
+            },
+            "longText": {
+                "de": "Wenn du iOS oder Android verwendest überträgt dein Betriebssystem im Hintergrund eine Werbe-ID an deine Apps. Diese ID können an die Datensätze einzelner Apps gehangen werden. Wenn die Anbieter*in deiner Apps diese Daten dann verkauft können Broker diese mit anderen Datensätzen von dir zusammenführen. Dadurch entstehen regelrechte Halden aus deinen persönlichen Daten und Interessen, die online gehandelt werden.",
+                "en": "If you use iOS or Android, your operating system transmits an advertising ID to your apps in the background. This ID can be attached to the data records of individual apps. If the provider of your apps then sells this data, brokers can merge it with other data sets of yours. This creates veritable stockpiles of your personal data and interests that are traded online."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2024-01-12",
+                    "title": "Heise: Sicherheitsrisiko: So einfach können Handy-Nutzer heimlich verfolgt werden​",
+                    "url": "https:\/\/www.heise.de\/news\/Sicherheitsrisiko-So-einfach-koennen-Handy-Nutzer-heimlich-verfolgt-werden-9596230.html"
+                },
+                {
+                    "date": "2020-05-18",
+                    "title": "Heise: DSGVO-Beschwerde: Datenschützer hält Android-Tracking für hochproblematisch",
+                    "url": "https:\/\/www.heise.de\/news\/DSGVO-Beschwerde-Datenschuetzer-haelt-Android-Tracking-fuer-hochproblematisch-4722862.html"
+                },
+                {
+                    "date": "2022-01-24",
+                    "title": "Mobilsicher: Werbe-ID: So funktioniert das Nummernschild fürs Smartphone",
+                    "url": "https:\/\/mobilsicher.de\/ratgeber\/smartphone-nutzer-sollten-jetzt-ihre-werbe-id-aendern"
+                }
+            ],
+            "tags": [
+                "system",
+                "easy",
+                "security"
+            ],
+            "points": 600
+        },
+        {
             "id": "45yi4rb7n29xeg1ei60y1aznlp5zvun3900",
             "title": {
                 "de": "Sind deine Apps und dein System aktuell?",
@@ -1275,10 +1445,11 @@
                 "en": "Keep apps and your operating system up to date. Malware and state trojans often exploit vulnerabilities in software. Up-to-date apps and an up-to-date operating system are therefore important."
             },
             "tags": [
-                "online",
+                "system",
                 "knowledge",
                 "security",
-                "behavior"
+                "behavior",
+                "journalist"
             ],
             "points": 400,
             "longText": []
@@ -1294,13 +1465,265 @@
                 "en": "Your security is increased enormously if you use a different complex password for all services on the Internet. You should save these in a password manager such as KeePass."
             },
             "tags": [
-                "online",
+                "system",
                 "knowledge",
                 "security",
                 "behavior"
             ],
             "points": 400,
             "longText": []
+        },
+        {
+            "id": "bsqnf4sy9e72t3hfw0f47nywgsbmfm3j",
+            "title": {
+                "de": "Du installierst Apps nur aus vertrauenswürdigen Quellen",
+                "en": "You only install apps from trustworthy sources"
+            },
+            "shortText": {
+                "de": "Nutze nur offizielle App-Stores oder F-Droid, um deine Apps zu beziehen. Wenn du dich auskennst kannst du Apps auch direkt von den Websites der Hersteller*innen laden. Überlege immer, ob du eine App überhaupt brauchst.",
+                "en": "Only use official app stores or F-Droid to obtain your apps. If you know your way around, you can also download apps directly from the manufacturers' websites. Always consider whether you need an app at all."
+            },
+            "longText": {
+                "de": "Infizierte Apps haben viele Möglihkeiten dich anzugreifen. Sie können zum Beispiel Passworte stehlen.",
+                "en": "Infected apps have many ways of attacking you. For example, they can steal passwords."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-12-10",
+                    "title": "Heise: Black Hat Europe 2023: Neuer Angriff \"AutoSpill\" auf Android-Passwortmanager",
+                    "url": "https:\/\/www.heise.de\/news\/Black-Hat-Europe-2023-Neuer-Angriff-AutoSpill-auf-Android-Passwortmanager-9569772.html"
+                }
+            ],
+            "tags": [
+                "system",
+                "knowledge"
+            ],
+            "points": 200
+        },
+        {
+            "id": "zokgwvdiqcizcpyrc9y4a83u3s8rn9lh",
+            "title": {
+                "de": "Du prüfst Zugriffsrechte sorgfältig",
+                "en": "You check access rights carefully"
+            },
+            "shortText": {
+                "de": "Deine Taschenlampen-App will auf den Speicher zugreifen? Keine gute Idee! Frage dich immer wozu eine App Berechtigungen benötigt und gib diese nur schrittweise oder bei Bedarf frei.",
+                "en": "Your flashlight app wants to access the memory? Not a good idea! Always ask yourself why an app needs permissions and only grant them gradually or when necessary."
+            },
+            "tags": [
+                "system",
+                "easy"
+            ],
+            "points": 200,
+            "longText": []
+        },
+        {
+            "id": "i0givx4x51kbh3djt72tf6xhmro2id89",
+            "title": {
+                "de": "Du nutzt alternative App-Stores",
+                "en": "You use alternative app stores"
+            },
+            "shortText": {
+                "de": "Über F-Droid oder Aurora Store kannst du die meisten Apps auch ohne Anmeldung in Google bzw. ohne Google-Services beziehen.",
+                "en": "You can obtain most apps via F-Droid or Aurora Store without logging into Google or without Google services."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "F-Droid herunterladen",
+                    "url": "https:\/\/f-droid.org\/de\/"
+                },
+                {
+                    "title": "Aurora Store über F-Droid herunterladen",
+                    "url": "https:\/\/f-droid.org\/de\/packages\/com.aurora.store\/"
+                },
+                {
+                    "date": "2023-04-12",
+                    "title": "Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/malware\/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html"
+                }
+            ],
+            "tags": [
+                "system",
+                "security",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "0k0m9fjhzzh7hqs1l5ui0qs3ozgcvxvd",
+            "title": {
+                "de": "Du verzichtest auf Google-Play-Dienste und Apple-Services",
+                "en": "You do without Google Play services and Apple services"
+            },
+            "shortText": {
+                "de": "Google-Play-Services bzw. Apple-Services stellen zentrale Infrastrukturen für einige Apps bereit. Zum Beispiel werdern darüber Push-Nachrichten versendet. Staatliche Stellen nutzen diese Tatsache, um damit iPhone- bzw. Android-Geräte zu überwachen.",
+                "en": "Google Play services and Apple services provide central infrastructures for some apps. For example, push messages are sent via these services. Government agencies use this fact to monitor iPhone and Android devices."
+            },
+            "longText": {
+                "de": "Du kannst dich davor schützen indem du Apps verwendest, die ohne Google bzw- Apple Services auskommen. Verzichte auch auf Alternativen wie microG, wenn du ein eigenes Betriebssystem installiert hast. Installiere zum Beispiel Apps aus F-Droid, die ohne diese Services auskommen. Messenger wie Telegram, Signal und Matrix bieten eigene Alternativen für zentralisierte Pushnachrichten an.",
+                "en": "You can protect yourself from this by using apps that do not require Google or Apple services. Also avoid alternatives such as microG if you have installed your own operating system. For example, install apps from F-Droid that do not require these services. Messengers such as Telegram, Signal and Matrix offer their own alternatives for centralized push messages."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2023-12-13",
+                    "title": "Tarnkappe: Apple-Richtlinien: Gerichtliche Anordnung für Push-Daten Pflicht!",
+                    "link": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/datenschutz\/apple-richtlinien-gerichtliche-anordnung-fuer-push-benachrichtigungsdaten-erforderlich-284819.html"
+                },
+                {
+                    "date": "2023-12-07",
+                    "title": "Kuketz: Android: Abhilfe gegen staatliche Überwachung durch Push-Nachrichten",
+                    "url": "https:\/\/www.kuketz-blog.de\/android-abhilfe-gegen-staatliche-ueberwachung-durch-push-nachrichten\/"
+                },
+                {
+                    "date": "2023-12-07",
+                    "title": "Golem: Behörden spionieren Nutzer über Push-Benachrichtigungen aus",
+                    "url": "https:\/\/www.golem.de\/news\/apple-und-google-behoerden-spionieren-nutzer-ueber-push-benachrichtigungen-aus-2312-180106.html"
+                },
+                {
+                    "date": "2023-12-06",
+                    "title": "Netzpolitik: Behörden fragen Apple und Google nach Nutzern von Messenger-Apps",
+                    "url": "https:\/\/netzpolitik.org\/2023\/push-dienste-behoerden-fragen-apple-und-google-nach-nutzern-von-messenger-apps\/"
+                }
+            ],
+            "tags": [
+                "system",
+                "security",
+                "knowledge",
+                "behavior"
+            ],
+            "points": 800
+        },
+        {
+            "id": "9b3c2a6e82d9yijdm9w99vni4ouo9ebl",
+            "title": {
+                "de": "Du nutzt datenschutzfreundliche Webbrowser",
+                "en": "You use privacy-friendly web browsers"
+            },
+            "shortText": {
+                "de": "Nutze Browser, wie DuckDuckGo-Browser oder Bromite, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.",
+                "en": "Use browsers such as DuckDuckGo browser or Bromite, which do not collect any data about you and at the same time actively protect your privacy."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "How To Get the DuckDuckGo App on Android",
+                    "url": "https:\/\/duckduckgo.com\/duckduckgo-help-pages\/mobile\/android\/"
+                },
+                {
+                    "title": "Bromite",
+                    "url": "https:\/\/www.bromite.org\/"
+                }
+            ],
+            "tags": [
+                "system",
+                "behavior"
+            ],
+            "points": 400,
+            "longText": []
+        },
+        {
+            "id": "sy8okumsb3a9hjwwg4kp6zkktfrjayg5",
+            "title": {
+                "de": "Du verzichtest auf Root-Rechte",
+                "en": "You waive root rights"
+            },
+            "shortText": {
+                "de": "Root-Rechte ermöglichen dir viele einzigartige Apps. Diese Rechte gelten dann aber eventuell auch für schadhafte Apps, weswegen du auf Root generell verzichten solltest.",
+                "en": "Root rights allow you to use many unique apps. However, these rights may also apply to malicious apps, which is why you should generally avoid root."
+            },
+            "longText": {
+                "de": "Wenn du nicht weißt was Root ist, hast du es vermutlich nicht. Root muss bei den meisten Geräten aufwändig aktiviert werden. Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie \"Neo Backup\" aber auch Apps wie \"SnoopSnitch\", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. \"SnoopSnitch\" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.",
+                "en": "If you don't know what root is, you probably don't have it. Root has to be activated on most devices. Unfortunately, some apps that can potentially increase your security often require root rights. Examples include backup applications such as \"Neo Backup\", but also apps such as \"SnoopSnitch\", which try to detect IMSI catchers or silent text messages. You should always carefully consider whether you really need superuser rights on your device. In the vast majority of cases, there is no good reason for this. Apps such as \"SnoopSnitch\" only work in very few software and hardware constellations anyway. Setting up root for this reason is out of all proportion."
+            },
+            "showMore": true,
+            "tags": [
+                "system",
+                "easy"
+            ],
+            "points": 200
+        },
+        {
+            "id": "0blm4hke75axw4b9qrixkvpbterswatv",
+            "title": {
+                "de": "Du nutzt sichere Messenger",
+                "en": "You use secure messengers"
+            },
+            "shortText": {
+                "de": "Du solltest unbedingt quelloffene, verschlüsselte Messenger wie Briar, Signal, Threema, Element oder SimpleX nutzen. Verzichte auf unsichere kommerzielle Messenger wie WhatsApp und Co.",
+                "en": "You should definitely use open-source, encrypted messengers such as Briar, Signal, Threema, Element or SimpleX. Avoid insecure commercial messengers such as WhatsApp and co."
+            },
+            "longText": {
+                "de": "Wenn du dir unsicher bist welche Messenger gut sind oder wenn du Argumente brauchst, um Familie und Freud*innen zu überzeugen, solltest du dir unbedingt die Messenger-Matrix von Kuketz ansehen. Dort kannst du die einzelnen Messenger bequem nach Funktionen und Sicherheitsaspekten vergleichen.",
+                "en": "If you are unsure which messengers are good or if you need arguments to convince family and friends, you should definitely take a look at Kuketz's messenger matrix. There you can easily compare the individual messengers according to functions and security aspects."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Messenger-Matrix",
+                    "url": "https:\/\/www.messenger-matrix.de\/"
+                }
+            ],
+            "tags": [
+                "system",
+                "security",
+                "behavior",
+                "knowledge",
+                "journalist"
+            ],
+            "points": 800
+        },
+        {
+            "id": "dc1xhjsd9p32tgm24x6cjfrp4kzmh5xx",
+            "title": {
+                "de": "Du gibst deine Apple-ID nicht weiter und deaktivierst iMessage",
+                "en": "Do not share your Apple ID and deactivate iMessage"
+            },
+            "shortText": {
+                "de": "Du solltest iMessage nicht nutzen und deine Apple-ID geheim halten. iMessage wurde in den vergangenen Jahren immer wieder Ziel sogenannter Zero-Click-Angriffe.",
+                "en": "You should not use iMessage and keep your Apple ID secret. iMessage has repeatedly been the target of so-called zero-click attacks in recent years."
+            },
+            "longText": {
+                "de": "Durch speziell präparierte Nachrichten für iMessage konnten in der Vergangenheit immer wieder Staatstrojaner auf iPhones installiert wedern. Du solltest diese Software daher meiden.",
+                "en": "In the past, specially prepared messages for iMessage have repeatedly been used to install government Trojans on iPhones. You should therefore avoid this software."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "Was ist eine Zero-Click-Malware und wie funktioniert sie?",
+                    "url": "https:\/\/www.kaspersky.de\/resource-center\/definitions\/what-is-zero-click-malware"
+                }
+            ],
+            "tags": [
+                "system",
+                "behavior",
+                "journalist"
+            ],
+            "points": 400
+        },
+        {
+            "id": "7op6jj5qxe7ner93bu8pc02bzonpzudi",
+            "title": {
+                "de": "Du startest dein Telefon oft neu",
+                "en": "You restart your phone often"
+            },
+            "shortText": {
+                "de": "Du solltest dein Telefon öfter neu starten. Zum Beispiel jeden Morgen oder vor kritischen Gesprächen. Einige Staatstrojaner überleben Neustarts nicht, da diese oft nicht persistent sind. Obwohl später Neuinfektionen möglich sind, kann dir diese Strategie private Zeitfenster verschaffen.",
+                "en": "You should restart your phone more often. For example, every morning or before critical conversations. Some state trojans do not survive restarts as they are often not persistent. Although new infections are possible later, this strategy can give you a private window of opportunity."
+            },
+            "longText": [],
+            "showMore": false,
+            "links": [],
+            "tags": [
+                "system",
+                "easy",
+                "journalist"
+            ],
+            "points": 200
         },
         {
             "id": "gbgx0u8jm9j6b2vsuo1db09ct76u1l7f",
@@ -1362,31 +1785,11 @@
             ],
             "tags": [
                 "online",
-                "knowledge"
+                "knowledge",
+                "journalist"
             ],
             "points": 400,
             "longText": []
-        },
-        {
-            "id": "sy8okumsb3a9hjwwg4kp6zkktfrjayg5",
-            "title": {
-                "de": "Du verzichtest auf Root-Rechte",
-                "en": "You waive root rights"
-            },
-            "shortText": {
-                "de": "Root-Rechte ermöglichen dir viele einzigartige Apps. Diese Rechte gelten dann aber eventuell auch für schadhafte Apps, weswegen du auf Root generell verzichten solltest.",
-                "en": "Root rights allow you to use many unique apps. However, these rights may also apply to malicious apps, which is why you should generally avoid root."
-            },
-            "longText": {
-                "de": "Wenn du nicht weißt was Root ist, hast du es vermutlich nicht. Root muss bei den meisten Geräten aufwändig aktiviert werden. Leider benötigen auch einige Apps, die deine Sicherheit potentiell erhöhen können oft Root-Rechte. Zu nennen wären da zum Beispiel Backup-Anwendungen wie \"Neo Backup\" aber auch Apps wie \"SnoopSnitch\", die versuchen IMSI-Catcher oder Stille SMS zu erkennen. Du solltest immer genau abwägen, ob du wirklich Superuser-Rechte auf deinem Gerät benötigst. In den allermeisten Fällen gibt es dafür keine gute Begründung. Apps wie z.B. \"SnoopSnitch\" funktionieren sowieso nur in wirklich wenigen Software- und Hardwarekonstellationen. Deswegen Root einzurichten steht in keinem Verhältnis.",
-                "en": "If you don't know what root is, you probably don't have it. Root has to be activated on most devices. Unfortunately, some apps that can potentially increase your security often require root rights. Examples include backup applications such as \"Neo Backup\", but also apps such as \"SnoopSnitch\", which try to detect IMSI catchers or silent text messages. You should always carefully consider whether you really need superuser rights on your device. In the vast majority of cases, there is no good reason for this. Apps such as \"SnoopSnitch\" only work in very few software and hardware constellations anyway. Setting up root for this reason is out of all proportion."
-            },
-            "showMore": true,
-            "tags": [
-                "online",
-                "easy"
-            ],
-            "points": 200
         },
         {
             "id": "zokh9ctwzdanhdqvbw4l2pv9h9l7f03r",
@@ -1437,37 +1840,10 @@
             "tags": [
                 "online",
                 "easy",
-                "security"
+                "security",
+                "journalist"
             ],
             "points": 800,
-            "longText": []
-        },
-        {
-            "id": "9b3c2a6e82d9yijdm9w99vni4ouo9ebl",
-            "title": {
-                "de": "Du nutzt datenschutzfreundliche Webbrowser",
-                "en": "You use privacy-friendly web browsers"
-            },
-            "shortText": {
-                "de": "Nutze Browser, wie DuckDuckGo-Browser oder Bromite, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.",
-                "en": "Use browsers such as DuckDuckGo browser or Bromite, which do not collect any data about you and at the same time actively protect your privacy."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "title": "How To Get the DuckDuckGo App on Android",
-                    "url": "https:\/\/duckduckgo.com\/duckduckgo-help-pages\/mobile\/android\/"
-                },
-                {
-                    "title": "Bromite",
-                    "url": "https:\/\/www.bromite.org\/"
-                }
-            ],
-            "tags": [
-                "online",
-                "behavior"
-            ],
-            "points": 400,
             "longText": []
         },
         {
@@ -1505,86 +1881,6 @@
             ],
             "points": 400,
             "longText": []
-        },
-        {
-            "id": "i0givx4x51kbh3djt72tf6xhmro2id89",
-            "title": {
-                "de": "Du nutzt alternative App-Stores",
-                "en": "You use alternative app stores"
-            },
-            "shortText": {
-                "de": "Über F-Droid oder Aurora Store kannst du die meisten Apps auch ohne Anmeldung in Google bzw. ohne Google-Services beziehen.",
-                "en": "You can obtain most apps via F-Droid or Aurora Store without logging into Google or without Google services."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "title": "F-Droid herunterladen",
-                    "url": "https:\/\/f-droid.org\/de\/"
-                },
-                {
-                    "title": "Aurora Store über F-Droid herunterladen",
-                    "url": "https:\/\/f-droid.org\/de\/packages\/com.aurora.store\/"
-                },
-                {
-                    "date": "2023-04-12",
-                    "title": "Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware",
-                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/malware\/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html"
-                }
-            ],
-            "tags": [
-                "online",
-                "security",
-                "knowledge",
-                "behavior"
-            ],
-            "points": 400,
-            "longText": []
-        },
-        {
-            "id": "0k0m9fjhzzh7hqs1l5ui0qs3ozgcvxvd",
-            "title": {
-                "de": "Du verzichtest auf Google-Play-Dienste und Apple-Services",
-                "en": "You do without Google Play services and Apple services"
-            },
-            "shortText": {
-                "de": "Google-Play-Services bzw. Apple-Services stellen zentrale Infrastrukturen für einige Apps bereit. Zum Beispiel werdern darüber Push-Nachrichten versendet. Staatliche Stellen nutzen diese Tatsache, um damit iPhone- bzw. Android-Geräte zu überwachen.",
-                "en": "Google Play services and Apple services provide central infrastructures for some apps. For example, push messages are sent via these services. Government agencies use this fact to monitor iPhone and Android devices."
-            },
-            "longText": {
-                "de": "Du kannst dich davor schützen indem du Apps verwendest, die ohne Google bzw- Apple Services auskommen. Verzichte auch auf Alternativen wie microG, wenn du ein eigenes Betriebssystem installiert hast. Installiere zum Beispiel Apps aus F-Droid, die ohne diese Services auskommen. Messenger wie Telegram, Signal und Matrix bieten eigene Alternativen für zentralisierte Pushnachrichten an.",
-                "en": "You can protect yourself from this by using apps that do not require Google or Apple services. Also avoid alternatives such as microG if you have installed your own operating system. For example, install apps from F-Droid that do not require these services. Messengers such as Telegram, Signal and Matrix offer their own alternatives for centralized push messages."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "date": "2023-12-13",
-                    "title": "Tarnkappe: Apple-Richtlinien: Gerichtliche Anordnung für Push-Daten Pflicht!",
-                    "link": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/datenschutz\/apple-richtlinien-gerichtliche-anordnung-fuer-push-benachrichtigungsdaten-erforderlich-284819.html"
-                },
-                {
-                    "date": "2023-12-07",
-                    "title": "Kuketz: Android: Abhilfe gegen staatliche Überwachung durch Push-Nachrichten",
-                    "url": "https:\/\/www.kuketz-blog.de\/android-abhilfe-gegen-staatliche-ueberwachung-durch-push-nachrichten\/"
-                },
-                {
-                    "date": "2023-12-07",
-                    "title": "Golem: Behörden spionieren Nutzer über Push-Benachrichtigungen aus",
-                    "url": "https:\/\/www.golem.de\/news\/apple-und-google-behoerden-spionieren-nutzer-ueber-push-benachrichtigungen-aus-2312-180106.html"
-                },
-                {
-                    "date": "2023-12-06",
-                    "title": "Netzpolitik: Behörden fragen Apple und Google nach Nutzern von Messenger-Apps",
-                    "url": "https:\/\/netzpolitik.org\/2023\/push-dienste-behoerden-fragen-apple-und-google-nach-nutzern-von-messenger-apps\/"
-                }
-            ],
-            "tags": [
-                "online",
-                "security",
-                "knowledge",
-                "behavior"
-            ],
-            "points": 800
         },
         {
             "id": "jo9w7hfcbumbjo18i4a0mzihqxjth4ad",
@@ -1642,51 +1938,6 @@
             "tags": [
                 "online",
                 "knowledge"
-            ],
-            "points": 200,
-            "longText": []
-        },
-        {
-            "id": "bsqnf4sy9e72t3hfw0f47nywgsbmfm3j",
-            "title": {
-                "de": "Du installierst Apps nur aus vertrauenswürdigen Quellen",
-                "en": "You only install apps from trustworthy sources"
-            },
-            "shortText": {
-                "de": "Nutze nur offizielle App-Stores oder F-Droid, um deine Apps zu beziehen. Wenn du dich auskennst kannst du Apps auch direkt von den Websites der Hersteller*innen laden. Überlege immer, ob du eine App überhaupt brauchst.",
-                "en": "Only use official app stores or F-Droid to obtain your apps. If you know your way around, you can also download apps directly from the manufacturers' websites. Always consider whether you need an app at all."
-            },
-            "longText": {
-                "de": "Infizierte Apps haben viele Möglihkeiten dich anzugreifen. Sie können zum Beispiel Passworte stehlen.",
-                "en": "Infected apps have many ways of attacking you. For example, they can steal passwords."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "date": "2023-12-10",
-                    "title": "Heise: Black Hat Europe 2023: Neuer Angriff \"AutoSpill\" auf Android-Passwortmanager",
-                    "url": "https:\/\/www.heise.de\/news\/Black-Hat-Europe-2023-Neuer-Angriff-AutoSpill-auf-Android-Passwortmanager-9569772.html"
-                }
-            ],
-            "tags": [
-                "online",
-                "knowledge"
-            ],
-            "points": 200
-        },
-        {
-            "id": "zokgwvdiqcizcpyrc9y4a83u3s8rn9lh",
-            "title": {
-                "de": "Du prüfst Zugriffsrechte sorgfältig",
-                "en": "You check access rights carefully"
-            },
-            "shortText": {
-                "de": "Deine Taschenlampen-App will auf den Speicher zugreifen? Keine gute Idee! Frage dich immer wozu eine App Berechtigungen benötigt und gib diese nur schrittweise oder bei Bedarf frei.",
-                "en": "Your flashlight app wants to access the memory? Not a good idea! Always ask yourself why an app needs permissions and only grant them gradually or when necessary."
-            },
-            "tags": [
-                "online",
-                "easy"
             ],
             "points": 200,
             "longText": []
@@ -1751,39 +2002,11 @@
             "tags": [
                 "online",
                 "security",
-                "knowledge"
+                "knowledge",
+                "journalist"
             ],
             "points": 800,
             "longText": []
-        },
-        {
-            "id": "0blm4hke75axw4b9qrixkvpbterswatv",
-            "title": {
-                "de": "Du nutzt sichere Messenger",
-                "en": "You use secure messengers"
-            },
-            "shortText": {
-                "de": "Du solltest unbedingt quelloffene, verschlüsselte Messenger wie Briar, Signal, Threema, Element oder SimpleX nutzen. Verzichte auf unsichere kommerzielle Messenger wie WhatsApp und Co.",
-                "en": "You should definitely use open-source, encrypted messengers such as Briar, Signal, Threema, Element or SimpleX. Avoid insecure commercial messengers such as WhatsApp and co."
-            },
-            "longText": {
-                "de": "Wenn du dir unsicher bist welche Messenger gut sind oder wenn du Argumente brauchst, um Familie und Freud*innen zu überzeugen, solltest du dir unbedingt die Messenger-Matrix von Kuketz ansehen. Dort kannst du die einzelnen Messenger bequem nach Funktionen und Sicherheitsaspekten vergleichen.",
-                "en": "If you are unsure which messengers are good or if you need arguments to convince family and friends, you should definitely take a look at Kuketz's messenger matrix. There you can easily compare the individual messengers according to functions and security aspects."
-            },
-            "showMore": true,
-            "links": [
-                {
-                    "title": "Messenger-Matrix",
-                    "url": "https:\/\/www.messenger-matrix.de\/"
-                }
-            ],
-            "tags": [
-                "online",
-                "security",
-                "behavior",
-                "knowledge"
-            ],
-            "points": 800
         },
         {
             "id": "kmebgdtj44opafsufh1maup3xblhe6m5",

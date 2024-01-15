@@ -124,7 +124,18 @@
 
     </div>
 
+    <space></space>
+
     <div class="container">
+
+      <div class="w-full sm:w-1/2">
+        <p class="text-sm">
+          {{ $t('listPrivacyStatement') }}
+        </p>
+      </div>
+
+      <space></space>
+
       <app-button @click="clearAll">{{ $t('listDeleteAllData') }}</app-button>
     </div>
 
@@ -299,15 +310,11 @@ export default {
     // },
 
     done(points) {
-
       this.points = this.points + points;
-
     },
 
     revoke(points) {
-
       this.points = this.points - points;
-
     },
 
     clearAll() {
