@@ -1,6 +1,6 @@
 {
-    "version": "1.17.0",
-    "lastUpdated": "2024-01-15",
+    "version": "1.17.1",
+    "lastUpdated": "2024-01-23",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -28,7 +28,7 @@
             "navbarChecklist": "Checkliste",
             "navbarFlyer": "Flyer",
             "navbarPrintVersion": "Druckversion",
-            "flyerText": "Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.",
+            "flyerText": "Du liebst direkte Aktionen oder musst dich verstecken? Du bist auf der Flucht oder willst Asyl beantragen? Du bist Journalist*in oder kritisierst das Regime? Dann kümmere dich jetzt um dein Smartphone! Diese Checkliste soll dir helfen spielerisch deine Sicherheit zu überprüfen. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.",
             "buttonPrint": "Drucken",
             "introTextPrint": "Diese Checkliste soll dir helfen deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Dies ist die Druckversion der Liste. Du kannst die einzelnen Punkte mit einem Stift abhaken.",
             "legend": "Legende",
@@ -66,7 +66,6 @@
             "navbarChecklist": "Checklist",
             "navbarFlyer": "Flyer",
             "navbarPrintVersion": "Print version",
-            "flyerText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains concrete suggestions for improving your safety. Points and levels are designed to encourage you to tick off as many items as possible.",
             "buttonPrint": "Print",
             "introTextPrint": "This checklist is designed to help you review your smartphone security so that you can develop a feel for the subject. The list contains concrete suggestions for improving your security. This is the print version of the list. You can tick off the individual points with a pen.",
             "legend": "Legend",
@@ -81,7 +80,8 @@
             "listTags": "Tags",
             "close": "close",
             "footerFrom": "Last updated:",
-            "footerHomepage": "Home page"
+            "footerHomepage": "Home page",
+            "flyerText": "Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible."
         }
     },
     "categoryTags": [
@@ -383,6 +383,11 @@
                     "date": "2023-06-28",
                     "title": "Netzpolitik: Abschiebung von Geduldeten: Berlin durchsucht weiter Handys",
                     "url": "https:\/\/netzpolitik.org\/2023\/abschiebung-von-geduldeten-berlin-durchsucht-weiter-handys\/"
+                },
+                {
+                    "date": "2023-12-29",
+                    "title": "37c3:  Gläserne Geflüchtete - Mit Computern das Leben zum Schlechteren verändern",
+                    "url": "https://media.ccc.de/v/37c3-12306-glaserne_gefluchtete"
                 }
             ],
             "tags": [
@@ -1926,7 +1931,8 @@
                 "online",
                 "security",
                 "knowledge",
-                "behavior"
+                "behavior",
+                "refugee"
             ],
             "points": 600
         },
