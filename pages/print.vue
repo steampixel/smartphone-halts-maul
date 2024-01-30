@@ -90,6 +90,8 @@
                   </span>
 
                 </div>
+
+                <div class="pl-2 text-sm">{{ task.points }} Punkte</div>
                 
               </div>
               
@@ -108,9 +110,9 @@
 
             <div v-if="task.links&&task.links.length">
               <space></space>
-              <ol class="text-sm list-decimal list-inside">
+              <ol class="text-sm list-decimal list-inside-out">
 
-                <li v-for="(link, index) in sortLinks(task.links)" :key="index">
+                <li v-for="(link, index) in sortLinks(task.links)" :key="index" class="">
                   <a target="_blank" :href="link.url" class="underline">
                     <span v-if="link.date">{{ link.date }} - </span>
                     <span>{{ link.title }}</span> - 

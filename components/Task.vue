@@ -71,7 +71,7 @@
 
         <space></space>
 
-        <ol class="text-sm list-decimal list-inside">
+        <ol class="text-sm list-decimal list-inside-out">
 
           <li v-for="(link, index) in sortedLinks" :key="index">
             <a target="_blank" :href="link.url" class="underline">

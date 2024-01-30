@@ -27,6 +27,32 @@ html {
 }
 
 /*
+    Bullet Lists that combine inside and outside
+*/
+ol.list-inside-out {
+  list-style-type: none;
+  padding: 0;
+  counter-reset: list-item;
+}
+
+ol.list-inside-out li {
+  padding-left: 1.5rem; /* Abstand für die Zahl */
+  position: relative;
+  counter-increment: list-item; /* Zähler erhöhen */
+}
+
+ol.list-inside-out-2 li {
+  padding-left: 2rem; /* Abstand für die Zahl */
+}
+
+ol.list-inside-out li::before {
+  content: counter(list-item) "."; /* Aktuelle Listennummer verwenden */
+  position: absolute;
+  left: 0;
+  font-size: inherit; /* Skaliert die Zahlen-Größe mit der Schriftgröße des li-Elements */
+}
+
+/*
   Unicorn
 */
 .unicorn {

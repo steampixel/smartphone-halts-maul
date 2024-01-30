@@ -1,13 +1,30 @@
-# 🦄 Smartphone, halt's Maul!
+# 🦄 Smartphone, shut up!
 Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible.
 
-## Welche Dateien sind in diesem Projekt wichtig?
+## Which files are important in this project?
 
 You can find all tasks of the checklist as well as all texts and tags in the config.json file
 
 Happy coding :-)
 
-## Changelog
+## Changelog 1.18.0
+Moved to new version 1.18.0: Are you worried about house searches? You can then filter the tasks accordingly. A general search function has also been added. Other updates:
+
+* Added general task for two factor authentication
+* Added two factor authentication for messengers
+* Added new information on adblockers
+* Added some state Trojan news
+* New WhatsApp security flaw
+* New information on charging stations
+* Added full text search function
+* Fixed print button translation
+* Added mastodon verification
+* Added points to print view
+* Optimized link lists
+* Created literature list
+* Moved threat scenario filters to top
+* Added filter "house search"
+* Removed security filter
 
 ### Changelog 1.17.1
 * Refugees should encrypt their cloud storage

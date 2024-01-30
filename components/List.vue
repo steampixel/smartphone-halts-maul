@@ -78,6 +78,12 @@
             </span>
           </app-button>
         </span>
+        
+        <input class="
+        shadow-md hover:scale-105 transition-all focus:outline-none focus:ring-4 
+        font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2
+        bg-gray-200 hover:bg-gray-300 focus:ring-gray-300
+        " :placeholder="$t('search')" v-model="search">
 
       </div>
 
@@ -175,7 +181,8 @@ export default {
       tasks: config.tasks,
       points: 0,
       level: 1,
-      percentage: 0
+      percentage: 0,
+      search: ''
     }
   },
 
@@ -253,6 +260,12 @@ export default {
         }
       });
       
+      if(this.search) {
+        if(JSON.stringify(task).toLowerCase().includes(this.search.toLowerCase())) {
+          found = true;
+        }
+      }
+
       if(filterEnabled) {
 
         task.tags.forEach((taskTag) => {
@@ -270,9 +283,9 @@ export default {
         });
 
       } else {
-
-        found = true;
-
+        if(!this.search) {
+          found = true;
+        }
       }
     
       return found;

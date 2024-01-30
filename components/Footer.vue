@@ -19,18 +19,26 @@
 
       <p class="text-sm">
 
-        <a target="_blank" href="https://steampixel.de">{{ $t('footerCopyright') }}</a> | 
-        {{ $t('footerVersion') }} {{ version }} | 
-        {{ $t('footerFrom') }} {{ lastUpdated }} | 
-        {{ $t('footerLicense') }} |
-
         <NuxtLink :to="localePath('flyer')" :aria-label="$t('footerFlyer')">{{ $t('footerFlyer') }}</NuxtLink> |
         <NuxtLink :to="localePath('print')" :aria-label="$t('footerPrintVersion')">{{ $t('footerPrintVersion') }}</NuxtLink> |
+        <NuxtLink :to="localePath('literature')" :aria-label="$t('footerLiterature')">{{ $t('footerLiterature') }}</NuxtLink> |
         <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">{{ $t('footerGitHub') }}</a> |
         <a target="_blank" href="https://steampixel.de/impressum/">{{ $t('footerImprint') }}</a> |
         <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">{{ $t('footerPrivacy') }}</a> |
-        <NuxtLink :to="localePath('/')" :aria-label="$t('footerHomepage')">{{ $t('footerHomepage') }}</NuxtLink>
+        <NuxtLink :to="localePath('/')" :aria-label="$t('footerHomepage')">{{ $t('footerHomepage') }}</NuxtLink> |
+        <a target="_blank" rel="me" href="https://digitalcourage.social/@smartphone">Mastodon</a>
 
+      </p>
+
+      <space></space>
+
+      <p class="text-sm">
+
+        <a target="_blank" href="https://steampixel.de">{{ $t('footerCopyright') }}</a> | 
+        {{ $t('footerVersion') }} {{ version }} | 
+        {{ $t('footerFrom') }} {{ lastUpdated }} | 
+        {{ $t('footerLicense') }}
+      
       </p>
 
       <space></space>

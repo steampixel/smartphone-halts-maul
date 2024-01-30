@@ -1,6 +1,6 @@
 {
-    "version": "1.17.1",
-    "lastUpdated": "2024-01-23",
+    "version": "1.18.0",
+    "lastUpdated": "2024-01-30",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -24,6 +24,7 @@
             "footerImprint": "Impressum",
             "footerPrivacy": "Datenschutz",
             "footerHomepage": "Startseite",
+            "footerLiterature": "Literaturliste",
             "navbarHomepage": "Home",
             "navbarChecklist": "Checkliste",
             "navbarFlyer": "Flyer",
@@ -41,14 +42,15 @@
             "listMoreInformation": "Mehr Informationen",
             "listLinks": "Weiterführende Links",
             "listTags": "Tags",
-            "close": "schließen"
+            "close": "schließen",
+            "search": "suchen"
         },
         "en": {
             "seoTitle": "Smartphone, shut up! - A checklist for your mobile security",
             "seoDescription": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains concrete suggestions for improving your safety. Points and levels are designed to encourage you to tick off as many items as possible.",
             "title": "Smartphone, shut up!",
             "subtitle": "✔ A checklist for your mobile security",
-            "introText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains {count} concrete suggestions for improving your security. Points and levels are intended to encourage you to tick off as many items as possible. You can move up a maximum of {levels}.",
+            "introText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains {count} concrete suggestions for improving your security. Points and levels are intended to encourage you to tick off as many items as possible. You can move up a maximum of {levels} levels.",
             "introText2": "Please be aware that safety always depends on individual risks. Some of the tasks described here may be mutually exclusive. In the end, safety is always a trade-off. There is no such thing as absolute safety.",
             "buttonChecklist": "To the checklist",
             "buttonPrintVersion": "Print version",
@@ -62,6 +64,7 @@
             "footerGitHub": "GitHub",
             "footerImprint": "Imprint",
             "footerPrivacy": "Data protection",
+            "footerLiterature": "Literature",
             "navbarHomepage": "Home",
             "navbarChecklist": "Checklist",
             "navbarFlyer": "Flyer",
@@ -81,7 +84,8 @@
             "close": "close",
             "footerFrom": "Last updated:",
             "footerHomepage": "Home page",
-            "flyerText": "Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible."
+            "flyerText": "Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible.",
+            "search": "search"
         }
     },
     "categoryTags": [
@@ -123,20 +127,38 @@
     ],
     "filterTags": [
         {
+            "key": "journalist",
+            "icon": "news",
+            "title": {
+                "de": "Wichtig für Journalismus und Regimekritik",
+                "en": "Important for journalism and criticism of the regime"
+            },
+            "enabled": false
+        },
+        {
+            "key": "refugee",
+            "icon": "turn",
+            "title": {
+                "de": "Wichtig bei Migration und Flucht",
+                "en": "Important for migration and flight"
+            },
+            "enabled": false
+        },
+        {
+            "key": "house",
+            "icon": "house",
+            "title": {
+                "de": "Du rechnest mit Hausdurchsuchungen",
+                "en": "You expect house searches"
+            },
+            "enabled": false
+        },
+        {
             "key": "easy",
             "icon": "star",
             "title": {
                 "de": "Meist schnell und leicht umzusetzen",
                 "en": "Usually quick and easy to implement"
-            },
-            "enabled": false
-        },
-        {
-            "key": "security",
-            "icon": "lock",
-            "title": {
-                "de": "Bringt vergleichsweise viel Sicherheit",
-                "en": "Provides a comparatively high level of safety"
             },
             "enabled": false
         },
@@ -164,24 +186,6 @@
             "title": {
                 "de": "Ist eher teurer",
                 "en": "Is rather more expensive"
-            },
-            "enabled": false
-        },
-        {
-            "key": "refugee",
-            "icon": "turn",
-            "title": {
-                "de": "Wichtig bei Migration und Flucht",
-                "en": "Important for migration and flight"
-            },
-            "enabled": false
-        },
-        {
-            "key": "journalist",
-            "icon": "news",
-            "title": {
-                "de": "Wichtig für Journalismus und Regimekritik",
-                "en": "Important for journalism and criticism of the regime"
             },
             "enabled": false
         }
@@ -291,7 +295,8 @@
             "showMore": false,
             "tags": [
                 "common",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 400,
             "longText": []
@@ -387,14 +392,15 @@
                 {
                     "date": "2023-12-29",
                     "title": "37c3:  Gläserne Geflüchtete - Mit Computern das Leben zum Schlechteren verändern",
-                    "url": "https://media.ccc.de/v/37c3-12306-glaserne_gefluchtete"
+                    "url": "https:\/\/media.ccc.de\/v\/37c3-12306-glaserne_gefluchtete"
                 }
             ],
             "tags": [
                 "physical",
                 "easy",
                 "security",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 800
         },
@@ -428,7 +434,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 200
         },
@@ -468,7 +475,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "security"
+                "security",
+                "house"
             ],
             "points": 400
         },
@@ -491,7 +499,8 @@
                 "physical",
                 "easy",
                 "security",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 600
         },
@@ -515,6 +524,11 @@
                     "date": "2023-03-10",
                     "title": "Polizei darf Fingerabdrücke nehmen, um Handy zu entsperren",
                     "url": "https:\/\/netzpolitik.org\/2023\/gerichtsbeschluss-polizei-darf-fingerabdruecke-nehmen-um-handy-zu-entsperren\/"
+                },
+                {
+                    "date": "2024-01-11",
+                    "title": "Heise: Grundannahme widerlegt: KI findet Muster bei Fingerabdrücken einer Person",
+                    "url": "https:\/\/www.heise.de\/news\/Mit-KI-ermittelt-Mehrere-Fingerabdruecke-einer-Person-haben-doch-Gemeinsamkeiten-9594962.html"
                 }
             ],
             "tags": [
@@ -522,7 +536,8 @@
                 "easy",
                 "security",
                 "behavior",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 600
         },
@@ -548,7 +563,8 @@
                 "physical",
                 "knowledge",
                 "security",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 600,
             "longText": []
@@ -556,12 +572,16 @@
         {
             "id": "3xg9ol61sc1gywog7m91k7ynyqsm5u62",
             "title": {
-                "de": "Du verwendest nur dein eigenes Ladekabel ",
+                "de": "Du verwendest nur dein eigenes Ladekabel",
                 "en": "You only use your own charging cable"
             },
             "shortText": {
-                "de": "Verwende nur Netzteile und Kabel zum laden, denen du vertraust. Markiere Kabel und Netzteil, um ein Austauschen zu verhindern. Wenn möglich nutze ein USB-Kabel ohne Datenfunktion zum Laden. Manipulierte Kabel oder öffentliche Ladepunkte könnten Daten auslesen oder unerwünschte Software installieren.",
-                "en": "Only use power supply units and cables for charging that you trust. Mark the cable and power supply unit to prevent them from being replaced. If possible, use a USB cable without data function for charging. Tampered cables or public charging points could read out data or install unwanted software."
+                "de": "Verwende nur Netzteile und Kabel zum laden, denen du vertraust. Markiere Kabel und Netzteil, um ein Austauschen zu verhindern.",
+                "en": "Only use power adapters and cables for charging that you trust. Mark the cable and power adapter to prevent them from being replaced."
+            },
+            "longText": {
+                "de": "Wenn möglich nutze ein USB-Kabel ohne Datenfunktion zum Laden. Manipulierte Kabel oder öffentliche Ladepunkte könnten Daten auslesen oder unerwünschte Software installieren. Wenn du dir nicht sicher bist kannst du dein Telefon für den Ladevorgang einfach abschalten. So kann nichts installiert werden und es wird trotzdem geladen.",
+                "en": "If possible, use a USB cable without data function for charging. Tampered cables or public charging points could read data or install unwanted software. If you are not sure, you can simply switch off your phone for the charging process. This way, nothing can be installed and it will still charge."
             },
             "showMore": true,
             "links": [
@@ -576,8 +596,7 @@
                 "easy",
                 "expensive"
             ],
-            "points": 200,
-            "longText": []
+            "points": 200
         },
         {
             "id": "6re0wpjpfllc485n2t6rzqe5xt50a9ku",
@@ -591,7 +610,8 @@
             },
             "tags": [
                 "physical",
-                "knowledge"
+                "knowledge",
+                "house"
             ],
             "points": 200,
             "longText": []
@@ -617,7 +637,8 @@
             "tags": [
                 "physical",
                 "knowledge",
-                "expensive"
+                "expensive",
+                "house"
             ],
             "points": 200,
             "longText": []
@@ -635,7 +656,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 200,
             "longText": []
@@ -668,7 +690,8 @@
             "tags": [
                 "physical",
                 "security",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 800
         },
@@ -723,7 +746,8 @@
             "tags": [
                 "physical",
                 "knowledge",
-                "security"
+                "security",
+                "house"
             ],
             "points": 400
         },
@@ -739,7 +763,8 @@
             },
             "tags": [
                 "physical",
-                "behavior"
+                "behavior",
+                "house"
             ],
             "points": 400,
             "longText": []
@@ -756,7 +781,8 @@
             },
             "tags": [
                 "physical",
-                "easy"
+                "easy",
+                "house"
             ],
             "points": 400,
             "longText": []
@@ -774,7 +800,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "security"
+                "security",
+                "house"
             ],
             "points": 400,
             "longText": []
@@ -793,7 +820,8 @@
                 "physical",
                 "easy",
                 "security",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 800,
             "longText": []
@@ -1073,11 +1101,21 @@
                 "en": "Anonymous SIM cards make it much more difficult for state actors and other attackers to choose their targets. Whether silent text messages, IMSI catchers, inventory data information, traffic data information, radio cell evaluations, source monitoring, state trojans or location monitoring. An anonymous SIM card is often the only sensible defense against such surveillance."
             },
             "longText": {
-                "de": "Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietären Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten.",
-                "en": "The topic of mobile phone monitoring is complex and cannot be covered in full in this article. However, it is important to understand that security apps cannot do anything about such monitoring because, for example, data is affected that is already stored by your provider and not on your phone. Or because the apps themselves do not have access to your phone's proprietary radio chip and therefore cannot see silent text messages, for example. Or because the attack takes place in the wireless network between network providers. Or because your mobile provider simply sells your data on. So relying on apps or changes in behavior won't help. The only defense is anonymous SIM cards."
+                "de": "Das Thema der Mobilfunküberwachung ist komplex und kann in diesem Rahmen nicht komplett behandelt werden. Wichtig zu verstehen ist aber, dass Security-Apps gegen derartige Überwachung nichts ausrichten können, weil z.B. Daten betroffen sind, die ohnehin bei deinem Provider liegen und nicht auf deinem Telefon. Oder weil die Apps selbst keinen Zugriff auf den proprietären Funkchip deines Telefons haben und so z.B. stille SMS nicht sehen können. Oder weil sich der Angriff im Funknetzwerk zwischen Netzanbieter*innen abspielt. Oder weil deine Mobilfunkanbieter*in deine Daten einfach weiter verkauft. Hier auf Apps oder Verhaltensänderungen zu setzen bringt also nichts. Die einzige Verteidigung sind anonyme Simkarten. Bedenke auch, dass in Deutschland über 100 staatliche Stellen die Personen zu Telefonnummern und andersherum ohne Gerichtsbeschluss abfragen können.",
+                "en": "The subject of mobile phone surveillance is complex and cannot be dealt with in full within this framework. However, it is important to understand that security apps cannot do anything about such surveillance because, for example, it affects data that is already stored by your provider and not on your phone. Or because the apps themselves do not have access to your phone's proprietary radio chip and therefore cannot see silent text messages, for example. Or because the attack takes place in the wireless network between network providers. Or because your mobile provider simply sells your data on. So relying on apps or changes in behavior won't help. The only defense is anonymous SIM cards. Also bear in mind that in Germany, over 100 government agencies can access people's phone numbers and vice versa without a court order."
             },
             "showMore": true,
             "links": [
+                {
+                    "date": "2024-01-18",
+                    "title": "Netzpolitik.org: Staatstrojaner bedrohen Grundrechte in der EU",
+                    "url": "https:\/\/netzpolitik.org\/2024\/eu-parlament-staatstrojaner-bedrohen-grundrechte-in-der-eu\/"
+                },
+                {
+                    "date": "2024-01-23",
+                    "title": "Netzpolitik.org: Erstmals Pegasus-Infektionen in Togo enthüllt",
+                    "url": "https:\/\/netzpolitik.org\/2024\/ueberwachung-mit-staatstrojanern-erstmals-pegasus-infektionen-in-togo-enthuellt\/"
+                },
                 {
                     "date": "2023-12-09",
                     "title": "Golem: Angreifer können 714 Smartphone-Modelle vom 5G-Netz trennen",
@@ -1648,7 +1686,8 @@
             "showMore": true,
             "tags": [
                 "system",
-                "easy"
+                "easy",
+                "house"
             ],
             "points": 200
         },
@@ -1671,6 +1710,11 @@
                 {
                     "title": "Messenger-Matrix",
                     "url": "https:\/\/www.messenger-matrix.de\/"
+                },
+                {
+                    "date": "2024-01-18",
+                    "title": "Golem: Whatsapp lässt fremde Nutzer Geräteinformationen abgreifen",
+                    "url": "https:\/\/www.golem.de\/news\/missbrauch-moeglich-whatsapp-laesst-fremde-nutzer-geraeteinformationen-abgreifen-2401-181313.html"
                 }
             ],
             "tags": [
@@ -1681,6 +1725,29 @@
                 "journalist"
             ],
             "points": 800
+        },
+        {
+            "id": "oo6mxsh2gc0r4vt1m813s7bdnipb85li",
+            "title": {
+                "de": "Aktiviere die zweistufige Bestätigung in deinen Messengern",
+                "en": "Activate two-step verification in your messengers"
+            },
+            "shortText": {
+                "de": "Die zweistufige Bestätigung (Zwei-Faktor-Authentisierung) verhindert, dass deine Simkarte oder Kopien davon genutzt werden können, um an deinse Nachrichten zu kommen.",
+                "en": "The two-step confirmation (two-factor authentication) prevents your SIM card or copies of it from being used to access your messages."
+            },
+            "longText": {
+                "de": "In einigen Messengern funktioniert das über Mails. In anderen kannst du eine zusätzliche Pin vergeben. Wenn du deine Telefonnummer verlierst oder andere Menschen bzw. Behörden an deine Simkarte oder eine Kopie davon gelangen (Sim-Swapping), können sie sich mit der Telefonnummer anmelden und deine Nachrichten lesen bzw. in deinem Namen schreiben.",
+                "en": "In some messengers, this works via email. In others, you can assign an additional pin. If you lose your phone number or other people or authorities get hold of your SIM card or a copy of it (sim swapping), they can log in with the phone number and read your messages or write in your name."
+            },
+            "showMore": true,
+            "tags": [
+                "system",
+                "easy",
+                "house",
+                "refugee"
+            ],
+            "points": 400
         },
         {
             "id": "dc1xhjsd9p32tgm24x6cjfrp4kzmh5xx",
@@ -1753,7 +1820,7 @@
             "links": [
                 {
                     "date": "2023-10-19",
-                    "title": "t3n: Internet ohne Passwörter: Was ihr jetzt über Passkeys wissen müsst ",
+                    "title": "t3n: Internet ohne Passwörter: Was ihr jetzt über Passkeys wissen müsst",
                     "url": "https:\/\/t3n.de\/news\/passkeys-android-ios-mac-windows-1583254\/"
                 }
             ],
@@ -1766,17 +1833,65 @@
             "points": 600
         },
         {
+            "id": "b3aih63digmq2o9ich1a2zmsv7w7tznh",
+            "title": {
+                "de": "Du sicherst deine Accounts mit Zwei-Faktor-Authentifizierung",
+                "en": "You secure your accounts with two-factor authentication"
+            },
+            "shortText": {
+                "de": "Viele Dienste und Plattformen im Internet bieten eine Absicherung der Logins mit einem zweiten Faktor an. Nutze diese Möglichkeit wann immer es geht.",
+                "en": "Many services and platforms on the internet offer to secure logins with a second factor. Use this option whenever possible."
+            },
+            "longText": {
+                "de": "Bedenke dabei bitte auch, dass es möglich sein muss ein Backup von deinem zweiten Faktor zu erzeugen. Eine Handynummer ist kein wirklich guter zweiter Faktor. Erstens kannst du deine Nummer potentiell verlieren. Es kann aber auch sein, dass andere Menschen oder Behörden Zugriff auf deine Nummer erlangen können. Im Falle eins Verlustes deiner Simkarte kommst du erst mal nicht an deine Accounts. Solltest du einen Hardware-Token als zweiten Faktor nutzen, stelle bitte sicher, dass es für Notfälle noch einen zweiten gibt! Solltest du Softwarelösungen wie Time-Based-One-Time-Passwords nutzen, fertige bitte Backups in deinen OTP-Apps an!",
+                "en": "Please also bear in mind that it must be possible to create a backup of your second factor. A cell phone number is not really a good second factor. Firstly, you can potentially lose your number. But it is also possible that other people or authorities can gain access to your number. If you lose your SIM card, you won't be able to access your accounts for the time being. If you use a hardware token as a second factor, please make sure that there is a second one for emergencies! If you use software solutions such as Time-Based-One-Time-Passwords, please make backups in your OTP apps!"
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2024-01-23",
+                    "title": "Heise: Gefälschter Tweet zur Freigabe von Bitcoin-ETFs: SEC Opfer von SIM-Swapping ",
+                    "url": "https:\/\/www.heise.de\/news\/Gefaelschter-Tweet-zur-Freigabe-von-Bitcoin-ETFs-SEC-Opfer-von-SIM-Swapping-9605332.html"
+                }
+            ],
+            "tags": [
+                "online",
+                "easy",
+                "security",
+                "behavior",
+                "house"
+            ],
+            "points": 600
+        },
+        {
             "id": "y0oa3gwukxe9egcyoiz6c8qsir5mtk6t",
             "title": {
                 "de": "Du verwendest einen Werbeblocker",
                 "en": "You are using an ad blocker"
             },
             "shortText": {
-                "de": "Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren. Schütze dich, indem du z.B. uBlock Origin für Firefox, Pi-Hole in deinem Netzwerk oder Blokada (kostenpflichtig) auf deinem Gerät installierst.",
-                "en": "Targeted advertising campaigns (microtargeting) are used by intelligence services, among others, to infect individual devices with malware. Protect yourself by installing e.g. uBlock Origin for Firefox, Pi-Hole in your network or Blokada (for a fee) on your device."
+                "de": "Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren.",
+                "en": "Targeted advertising campaigns (microtargeting) are used by intelligence services, among others, to infect individual devices with malware."
             },
+            "longText": [],
             "showMore": true,
             "links": [
+                {
+                    "title": "eBlocker",
+                    "url": "https:\/\/eblocker.org"
+                },
+                {
+                    "title": "Pi-hole",
+                    "url": "https:\/\/pi-hole.net\/"
+                },
+                {
+                    "title": "AdAway for Android",
+                    "url": "https:\/\/adaway.org\/"
+                },
+                {
+                    "title": "uBlock Origin for Firefox",
+                    "url": "https:\/\/addons.mozilla.org\/de\/firefox\/addon\/ublock-origin\/"
+                },
                 {
                     "date": "2023-11-19",
                     "title": "Netzpolitik: Online-Werbung als „ernstes Sicherheitsrisiko“",
@@ -1795,11 +1910,11 @@
             ],
             "tags": [
                 "online",
+                "easy",
                 "knowledge",
                 "journalist"
             ],
-            "points": 400,
-            "longText": []
+            "points": 600
         },
         {
             "id": "zokh9ctwzdanhdqvbw4l2pv9h9l7f03r",
@@ -1932,7 +2047,8 @@
                 "security",
                 "knowledge",
                 "behavior",
-                "refugee"
+                "refugee",
+                "house"
             ],
             "points": 600
         },

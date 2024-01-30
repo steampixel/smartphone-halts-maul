@@ -5,7 +5,7 @@
     <space></space>
     <space></space>
 
-    <app-button @click="print">Drucken</app-button>
+    <app-button @click="print">{{ $t('buttonPrint') }}</app-button>
     
   </div>
 
