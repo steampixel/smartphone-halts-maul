@@ -91,7 +91,7 @@
 
                 </div>
 
-                <div class="pl-2 text-sm">{{ task.points }} Punkte</div>
+                <div class="pl-2 text-sm">{{ task.points }} {{ $t('listPoints') }}</div>
                 
               </div>
               

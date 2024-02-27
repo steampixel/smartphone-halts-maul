@@ -529,6 +529,11 @@
                     "date": "2024-01-11",
                     "title": "Heise: Grundannahme widerlegt: KI findet Muster bei Fingerabdrücken einer Person",
                     "url": "https:\/\/www.heise.de\/news\/Mit-KI-ermittelt-Mehrere-Fingerabdruecke-einer-Person-haben-doch-Gemeinsamkeiten-9594962.html"
+                },
+                {
+                    "date": "2024-02-21",
+                    "title": "Golem: Forscher erzeugen Fingerabdrücke aus Wischgeräuschen",
+                    "url": "https:\/\/www.golem.de\/news\/security-forscher-erzeugen-fingerabdruecke-aus-wischgeraeuschen-2402-182449.html"
                 }
             ],
             "tags": [
@@ -864,8 +869,8 @@
                 "en": "You should only activate positioning, WiFi, Bluetooth or NFC if you really need it"
             },
             "longText": {
-                "de": "Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen. Aber auch Bluetooth und andere Schnittstellen bergen Gefahren.",
-                "en": "In certain cases, you can be recognized via WiFi. In the most extreme cases, even your home address can be determined. Some devices reveal the unique hardware number of your WiFi interface as well as the list of your known WiFi networks. On websites such as wigle.net, you can easily search for the physical locations of the networks. But Bluetooth and other interfaces also harbor dangers."
+                "de": "Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen. Aber auch Bluetooth und andere Schnittstellen bergen Gefahren. Bluetooth ist zum Beispiel Anfällig für Bluesnarfing (Öffnung eigentlich geschlossener Ports durch Befehle von Außen), Bluejacking (Zusendung unerwünschter Nachrichten), Bluebugging (Ausnutzen einer Backdoor), Bluesmacking (Denial of Service) oder Car Whispering (Abhören der Freisprecheinrichtung).",
+                "en": "In certain cases, you can be recognized via WiFi. In the most extreme cases, even your home address can be determined. Some devices reveal the unique hardware number of your WiFi interface as well as the list of your known WiFi networks. On websites such as wigle.net, you can easily search for the physical locations of the networks. However, Bluetooth and other interfaces also harbor dangers. Bluetooth, for example, is susceptible to bluesnarfing (opening ports that are actually closed by commands from outside), bluejacking (sending unwanted messages), bluebugging (exploiting a backdoor), bluesmacking (denial of service) or car whispering (eavesdropping on the hands-free system)."
             },
             "showMore": true,
             "links": [
@@ -892,6 +897,11 @@
                     "date": "2023-12-11",
                     "title": "Heise: Bluetooth-Lücke: Tastenanschläge in Android, Linux, iOS und macOS einschleusbar ",
                     "url": "https:\/\/www.heise.de\/news\/Bluetooth-Luecke-erlaubt-Einschleusen-von-Tastenanschlaegen-9570583.html"
+                },
+                {
+                    "date": "2024-01-26",
+                    "title": "Heise: Bluetooth zu unsicher: US Navy sucht Alternative ",
+                    "url": "https:\/\/www.heise.de\/news\/Bluetooth-zu-unsicher-US-Navy-sucht-Alternative-9609217.html"
                 }
             ],
             "tags": [
@@ -1360,6 +1370,34 @@
                 "mobile",
                 "easy",
                 "behavior"
+            ],
+            "points": 400
+        },
+        {
+            "id": "cwexxl1inayqrv2hj2yg1b8zh15856xn",
+            "title": {
+                "de": "Du hast eine Sperre für Drittanbieter*innen eingerichtet",
+                "en": "You have set up a block for third-party providers"
+            },
+            "shortText": {
+                "de": "Mit einer Drittanbieter*innensperre kannst du verhindern, dass Apps, Websites oder Betrüger*innen Kosten für Abos oder sonstige Käufe über deine Telefonrechnung abbuchen können.",
+                "en": "With a third-party block, you can prevent apps, websites or scammers from charging costs for subscriptions or other purchases to your phone bill."
+            },
+            "longText": {
+                "de": "Wenn du eine solche Sperre einrichten möchtest kannst du dich online oder telefonisch an deinen Provider wenden.",
+                "en": "If you would like to set up such a block, you can contact your provider online or by telephone."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2024-02-19",
+                    "title": "Mimikama: Smartphone-Fallen: Schutz vor Abofallen mit Drittanbietersperre",
+                    "url": "https:\/\/www.mimikama.org\/drittanbietersperre-schutz-abofalle-smartphone\/"
+                }
+            ],
+            "tags": [
+                "mobile",
+                "easy"
             ],
             "points": 400
         },
@@ -1873,7 +1911,10 @@
                 "de": "Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren.",
                 "en": "Targeted advertising campaigns (microtargeting) are used by intelligence services, among others, to infect individual devices with malware."
             },
-            "longText": [],
+            "longText": {
+                "de": "Aber nicht nur Geheimdienste nutzen Werbung, um Menschen zu verfolgen. Datenbroker verkaufen aggregierte Daten über dich weiter und legen Profile von dir an.",
+                "en": "But it's not just intelligence agencies that use advertising to track people. Data brokers resell aggregated data about you and create profiles of you."
+            },
             "showMore": true,
             "links": [
                 {
@@ -1906,6 +1947,11 @@
                     "date": "2021-10-26",
                     "title": "Kuketz: Für Anfänger\/Bequeme: Werbung und Tracker unter iOS\/Android systemweit verbannen",
                     "url": "https:\/\/www.kuketz-blog.de\/fuer-anfaenger-bequeme-werbung-und-tracker-unter-ios-android-systemweit-verbannen\/"
+                },
+                {
+                    "date": "2024-01-26",
+                    "title": "Heise: Personalisierte Überwachung statt Werbung: Handydaten ausgewertet und verkauft ",
+                    "url": "https:\/\/www.heise.de\/news\/Gezielte-Werbung-Israelischer-Verein-wirbt-mit-5-Milliarden-ueberwachten-Geraeten-9609259.html"
                 }
             ],
             "tags": [
@@ -1978,14 +2024,16 @@
                 "en": "You use privacy-friendly search engines"
             },
             "shortText": {
-                "de": "Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungsbehörden weiter. Verwende daher alternative Suchmaschinen wir DuckDuckGo.",
-                "en": "Google, Apple and other manufacturers pass on data to investigating authorities without hesitation. Therefore, use alternative search engines such as DuckDuckGo."
-            },
+                "de": "Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungsbehörden weiter. Verwende daher alternative Suchmaschinen wir duckduckgo.com oder stract.com"            },
             "showMore": true,
             "links": [
                 {
                     "title": "duckduckgo.com",
                     "url": "https:\/\/duckduckgo.com\/"
+                },
+                {
+                    "title": "stract.com",
+                    "url": "https:\/\/stract.com\/"
                 },
                 {
                     "date": "2020-10-09",
@@ -2001,7 +2049,6 @@
             "tags": [
                 "online",
                 "security",
-                "knowledge",
                 "behavior"
             ],
             "points": 400,

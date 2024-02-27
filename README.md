@@ -7,6 +7,14 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 
 Happy coding :-)
 
+## Changelog new release candidate
+* Added information on third party blocking
+* News on unlocking by finger print
+* Added details on Bluetooth security
+* New information on surveillance through advertising
+* Fixed "points" label in print version
+* Added stract.com
+
 ## Changelog 1.18.0
 Moved to new version 1.18.0: Are you worried about house searches? You can then filter the tasks accordingly. A general search function has also been added. Other updates:
 
