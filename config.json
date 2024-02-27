@@ -1,6 +1,6 @@
 {
     "version": "1.18.0",
-    "lastUpdated": "2024-01-30",
+    "lastUpdated": "2024-02-27",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -2024,7 +2024,9 @@
                 "en": "You use privacy-friendly search engines"
             },
             "shortText": {
-                "de": "Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungsbehörden weiter. Verwende daher alternative Suchmaschinen wir duckduckgo.com oder stract.com"            },
+                "de": "Google, Apple und andere Hersteller*innen geben Daten ohne zu zögern an Ermittlungsbehörden weiter. Verwende daher alternative Suchmaschinen wir duckduckgo.com oder stract.com",
+                "en": "Google, Apple and other manufacturers pass on data to investigating authorities without hesitation. Therefore, use alternative search engines such as duckduckgo.com or stract.com"
+            },
             "showMore": true,
             "links": [
                 {
