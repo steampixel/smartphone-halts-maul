@@ -8,12 +8,20 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
+
+## Changelog 1.19.0
 * Added information on third party blocking
 * News on unlocking by finger print
 * Added details on Bluetooth security
 * New information on surveillance through advertising
 * Fixed "points" label in print version
-* Added stract.com
+* Added stract.com search engine
+* The police search a smartphone every 3.5 hours
+* Turn off AML on Android 
+* iOS: push notifications leak user data
+* Hide your signal number!
+* Don't say your name when you answer the phone
+* Use seperate devices for second factors
 
 ## Changelog 1.18.0
 Moved to new version 1.18.0: Are you worried about house searches? You can then filter the tasks accordingly. A general search function has also been added. Other updates:

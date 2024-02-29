@@ -1,6 +1,6 @@
 {
-    "version": "1.18.0",
-    "lastUpdated": "2024-02-27",
+    "version": "1.19.0",
+    "lastUpdated": "2024-02-29",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -393,6 +393,11 @@
                     "date": "2023-12-29",
                     "title": "37c3:  Gläserne Geflüchtete - Mit Computern das Leben zum Schlechteren verändern",
                     "url": "https:\/\/media.ccc.de\/v\/37c3-12306-glaserne_gefluchtete"
+                },
+                {
+                    "date": "2024-02-12",
+                    "title": "Netzpolitik: Sachsen-Anhalt - Alle 3,5 Stunden durchsucht die Polizei ein Smartphone",
+                    "url": "https:\/\/netzpolitik.org\/2024\/sachsen-anhalt-alle-35-stunden-durchsucht-die-polizei-ein-smartphone\/"
                 }
             ],
             "tags": [
@@ -1351,11 +1356,19 @@
                 "en": "Advanced Mobile Location (AML) has been used in Germany and many other countries since 2019 and is gradually being expanded to locate people in emergency situations. If you don't want this, you should prepare yourself for it."
             },
             "longText": {
-                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und WiFi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist. Auf Wikipedia findest du eine Liste mit allen Ländern in denen es AML gibt.",
-                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern telephones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and WiFi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary. You can find a list of all countries with AML on Wikipedia."
+                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und WiFi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist. Auf Wikipedia findest du eine Liste mit allen Ländern in denen es AML gibt. AML ist auf Android Teil der Play-Services und kann über die Notfalleinstellungen deaktiviert werden.",
+                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern telephones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and WiFi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary. You can find a list of all countries with AML on Wikipedia. AML is part of the Play services on Android and can be deactivated via the emergency settings."
             },
             "showMore": true,
             "links": [
+                {
+                    "title": "Der Notfall-Standortdienst liefert schnell genaue Standortinformationen",
+                    "url": "https:\/\/www.android.com\/intl\/de_de\/safety\/emergency-help\/emergency-location-service\/how-it-works\/"
+                },
+                {
+                    "title": "ILS Freiburg: Standortdaten beim Notruf 112",
+                    "url": "https:\/\/ils-freiburg.de\/standortdaten.php"
+                },
                 {
                     "title": "Wikipedia: Advanced Mobile Location",
                     "url": "https:\/\/de.wikipedia.org\/wiki\/Advanced_Mobile_Location"
@@ -1400,6 +1413,24 @@
                 "easy"
             ],
             "points": 400
+        },
+        {
+            "id": "wc218sunelv0j46izqd2q8rsha4kke1s",
+            "title": {
+                "de": "Du nennst nicht sofort deinen Namen, wenn du ans Telefon gehst",
+                "en": "You don't give your name immediately when you answer the phone"
+            },
+            "shortText": {
+                "de": "Du solltest nicht deinen Namen nutzen, um ein Gespräch anzunehmen. Nutze stattdessen allgemeine Floskeln wie 'Hallo'.",
+                "en": "You should not use your name to accept a call. Use generic phrases like 'hello' instead."
+            },
+            "longText": [],
+            "showMore": false,
+            "tags": [
+                "mobile",
+                "easy"
+            ],
+            "points": 200
         },
         {
             "id": "jwp2vuk2pm3hyvq9sagif84s1bacam4p",
@@ -1651,6 +1682,11 @@
             "showMore": true,
             "links": [
                 {
+                    "date": "2024-01-24",
+                    "title": "Golem: Prominente iOS-Apps spähen heimlich Gerätedaten aus",
+                    "url": "https:\/\/www.golem.de\/news\/ueber-push-benachrichtigungen-prominente-ios-apps-spaehen-heimlich-geraetedaten-aus-2401-181574.html"
+                },
+                {
                     "date": "2023-12-13",
                     "title": "Tarnkappe: Apple-Richtlinien: Gerichtliche Anordnung für Push-Daten Pflicht!",
                     "link": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/datenschutz\/apple-richtlinien-gerichtliche-anordnung-fuer-push-benachrichtigungsdaten-erforderlich-284819.html"
@@ -1753,6 +1789,11 @@
                     "date": "2024-01-18",
                     "title": "Golem: Whatsapp lässt fremde Nutzer Geräteinformationen abgreifen",
                     "url": "https:\/\/www.golem.de\/news\/missbrauch-moeglich-whatsapp-laesst-fremde-nutzer-geraeteinformationen-abgreifen-2401-181313.html"
+                },
+                {
+                    "date": "2024-02-21",
+                    "title": "Netzpolitik: Signal erlaubt bald Verbergen der Telefonnummer",
+                    "url": "https:\/\/netzpolitik.org\/2024\/messenger-signal-erlaubt-bald-verbergen-der-telefonnummer\/"
                 }
             ],
             "tags": [
@@ -1836,6 +1877,26 @@
             "tags": [
                 "system",
                 "easy",
+                "journalist"
+            ],
+            "points": 200
+        },
+        {
+            "id": "muzyklbhvog62myh5cpmk7wzmce5fff9",
+            "title": {
+                "de": "Deine zweiter Faktor für Anmeldungen liegt auf einem separaten Gerät",
+                "en": "Your second factor for logins is on a separate device"
+            },
+            "shortText": {
+                "de": "Deine Zwei-Faktor-App ist auf einem separaten Gerät installiert. So kann dein zweiter Faktor bei einer Kompromittierung deines Geräts nicht zum Einloggen in deine Accounts genutzt werden.",
+                "en": "Your two-factor app is installed on a separate device. This means that your second factor cannot be used to log into your accounts if your device is compromised."
+            },
+            "longText": [],
+            "showMore": false,
+            "links": [],
+            "tags": [
+                "system",
+                "expensive",
                 "journalist"
             ],
             "points": 200
