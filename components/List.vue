@@ -92,45 +92,35 @@
     <space></space>
     <space></space>
 
-    <div v-for="(categoryTag) in categoryTags" :key="categoryTag.key">
+    <space></space>
+    <space></space>
 
-      <div class="container">
+    <div class="container">
 
-        <seperator></seperator>
-        <space></space>
+      <div v-for="(task) in tasks" :key="task.id" class="">
 
-        <h2 class="text-2xl font-bold text-gray-800">{{categoryTag.title[$i18n.locale]}}</h2>
-
-        <space></space>
-
-        <div v-for="(task) in tasks" :key="task.id" class="">
-
-          <task 
-            v-if="taskHasTag(task, categoryTag.key)"
-            :visible="(taskIsEnabled(task))"
-            :showCompleted="showCompleted"
-            :id="task.id" 
-            :title="task.title[$i18n.locale]" 
-            :shortText="task.shortText[$i18n.locale]" 
-            :longText="task.longText[$i18n.locale]" 
-            :tags="task.tags"
-            :showMore="task.showMore"
-            :links="task.links"
-            :points="task.points"
-            :checked="task.checked"
-            :slug="task.slug"
-            @done="done"
-            @revoke="revoke">
-          </task>
-
-        </div>
+        <task 
+          :visible="(taskIsEnabled(task))"
+          :showCompleted="showCompleted"
+          :id="task.id" 
+          :title="task.title[$i18n.locale]" 
+          :shortText="task.shortText[$i18n.locale]" 
+          :longText="task.longText[$i18n.locale]" 
+          :tags="task.tags"
+          :showMore="task.showMore"
+          :links="task.links"
+          :points="task.points"
+          :checked="task.checked"
+          :slug="task.slug"
+          @done="done"
+          @revoke="revoke">
+        </task>
 
       </div>
 
-      <space></space>
-
     </div>
 
+    <space></space>
     <space></space>
 
     <div class="container">

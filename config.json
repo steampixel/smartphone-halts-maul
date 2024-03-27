@@ -1,5 +1,5 @@
 {
-    "version": "1.19.0",
+    "version": "1.20.0",
     "lastUpdated": "2024-03-26",
     "pointsPerLevel": 800,
     "messages": {
@@ -124,6 +124,42 @@
         }
     ],
     "filterTags": [
+        {
+            "key": "physical",
+            "icon": "hand",
+            "title": {
+                "de": "Physische Gefahren durch direkte Zugriffe",
+                "en": "Physical hazards due to direct access"
+            },
+            "enabled": false
+        },
+        {
+            "key": "mobile",
+            "icon": "radiotower",
+            "title": {
+                "de": "Gefahren im Mobilfunknetz",
+                "en": "Dangers in the mobile network"
+            },
+            "enabled": false
+        },
+        {
+            "key": "system",
+            "icon": "gear",
+            "title": {
+                "de": "Apps und Betriebssystem",
+                "en": "Apps and operating system"
+            },
+            "enabled": false
+        },
+        {
+            "key": "online",
+            "icon": "online",
+            "title": {
+                "de": "Gefahren im Internet",
+                "en": "Dangers on the Internet"
+            },
+            "enabled": false
+        },
         {
             "key": "journalist",
             "icon": "news",
@@ -1564,6 +1600,11 @@
                     "url": "https:\/\/de.wikipedia.org\/wiki\/Advanced_Mobile_Location"
                 },
                 {
+                    "date": "2024-03-20",
+                    "title": "Heise: Datenschützer erlauben bundesweite Notruf-Ortung ",
+                    "url": "https:\/\/www.heise.de\/news\/Streit-um-110-Datenschuetzer-erlauben-bundesweite-Notruf-Ortung-9659860.html"
+                },
+                {
                     "date": "2023-12-31",
                     "title": "Heise: Notruf 112: Android kann im Notfall mehr Daten an Leitstelle senden ​ ",
                     "url": "https:\/\/www.heise.de\/hintergrund\/Notruf-112-Android-kann-im-Notfall-mehr-Daten-an-Leitstelle-senden-9583718.html"
@@ -2170,6 +2211,43 @@
             }
         },
         {
+            "id": "7yuliffn9pwju8dogxlwvsaedlnl3q4v",
+            "title": {
+                "de": "Nutze alternative Frontends",
+                "en": "Use alternative frontends"
+            },
+            "shortText": {
+                "de": "Alternative Frontends für Webservices wie YouTube, Twitter, TikTok und andere Websites können dir helfen deine Daten zu schützen.",
+                "en": "Alternative frontends for web services such as YouTube, Twitter, TikTok and other websites can help you protect your data."
+            },
+            "longText": {
+                "de": "Anstelle von Youtube kannst du zum Beispiel eine der zahlreichen Invidious-Instanzen wie yewtu.be nutzen. So kannst du Werbung vermeiden und gleichzeitig deine Privatsphäre schüzen. Du kannst auch LibRedirect für FireFox installieren. Dieses Plugin leitet dich beim Surfen im Internet automatisch auf ein alternatives Frontend um.",
+                "en": "Instead of YouTube, for example, you can use one of the many Invidious instances such as yewtu.be. This way you can avoid advertising and protect your privacy at the same time. You can also install LibRedirect for FireFox. This plugin automatically redirects you to an alternative frontend when surfing the Internet."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "title": "LibRedirect",
+                    "url": "https:\/\/libredirect.github.io\/"
+                },
+                {
+                    "date": "2024-03-25",
+                    "title": "Heise: USA: Polizei will Daten zu allen, die bestimmte YouTube-Videos angesehen haben ",
+                    "url": "https:\/\/www.heise.de\/news\/USA-Polizei-will-Daten-zu-allen-die-oeffentliche-YouTube-Videos-angesehen-haben-9664535.html"
+                }
+            ],
+            "tags": [
+                "online",
+                "easy",
+                "behavior"
+            ],
+            "points": 600,
+            "slug": {
+                "de": "nutze-alternative-frontends",
+                "en": "use-alternative-frontends"
+            }
+        },
+        {
             "id": "gbgx0u8jm9j6b2vsuo1db09ct76u1l7f",
             "title": {
                 "de": "Du nutzt Passkeys",
@@ -2287,8 +2365,13 @@
                 },
                 {
                     "date": "2024-01-26",
-                    "title": "Heise: Personalisierte Überwachung statt Werbung: Handydaten ausgewertet und verkauft ",
+                    "title": "Heise: Personalisierte Überwachung statt Werbung: Handydaten ausgewertet und verkauft",
                     "url": "https:\/\/www.heise.de\/news\/Gezielte-Werbung-Israelischer-Verein-wirbt-mit-5-Milliarden-ueberwachten-Geraeten-9609259.html"
+                },
+                {
+                    "date": "2024-03-18",
+                    "title": "Golem: Der Spion aus dem Werbebanner",
+                    "url": "https:\/\/www.golem.de\/news\/standortdaten-aus-der-onlinewerbung-der-spion-aus-dem-werbebanner-2403-183217-2.html"
                 }
             ],
             "tags": [
@@ -2553,6 +2636,10 @@
                 "de": "Nutzt du E-Mails? Dann solltest du unbedingt über Verschlüsselung wie GPG\/OpenPGP nachdenken.",
                 "en": "Do you use email? Then you should definitely think about encryption such as GPG\/OpenPGP."
             },
+            "longText": {
+                "de": "Hast du gewusst, dass zum Beispiel in Deutschland viele E-Mail-Provider als Telekommunikationsdienst gelten? Damit dürfen Behörden deine Bestandsdaten und E-Mails anfordern. Aber auch ohne behördliche Überwachung sind E-Mails vielen Gefahren ausgesetzt. Eine E-Mail passiert beim Weg in ein Postfach viele Knotenpunkte und kann an zahlreichen Stellen mitgelesen werden.",
+                "en": "Did you know that in Germany, for example, many email providers are considered telecommunications services? This means that authorities can request your inventory data and emails. But even without official surveillance, emails are exposed to many dangers. An email passes through many nodes on its way to a mailbox and can be read at numerous points."
+            },
             "tags": [
                 "online",
                 "security",
@@ -2560,12 +2647,18 @@
                 "journalist"
             ],
             "points": 800,
-            "longText": [],
             "slug": {
                 "de": "du-verschlsselst-deine-e-mails",
                 "en": "you-encrypt-your-emails"
             },
-            "links": []
+            "links": [
+                {
+                    "date": "2024-02-27",
+                    "url": "https:\/\/www.heise.de\/news\/Mailbox-org-Rechtswidrige-behoerdliche-Auskunftsanfragen-stark-angestiegen-9640860.html",
+                    "title": "Heise: Mailbox.org: Rechtswidrige behördliche Auskunftsanfragen stark angestiegen"
+                }
+            ],
+            "showMore": true
         },
         {
             "id": "kmebgdtj44opafsufh1maup3xblhe6m5",
