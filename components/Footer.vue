@@ -19,13 +19,14 @@
 
       <p class="text-sm">
 
-        <NuxtLink :to="localePath('flyer')" :aria-label="$t('footerFlyer')">{{ $t('footerFlyer') }}</NuxtLink> |
-        <NuxtLink :to="localePath('print')" :aria-label="$t('footerPrintVersion')">{{ $t('footerPrintVersion') }}</NuxtLink> |
-        <NuxtLink :to="localePath('literature')" :aria-label="$t('footerLiterature')">{{ $t('footerLiterature') }}</NuxtLink> |
-        <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">{{ $t('footerGitHub') }}</a> |
+        <NuxtLink :to="localePath('flyer')" :aria-label="$t('flyer')">{{ $t('flyer') }}</NuxtLink> |
+        <NuxtLink :to="localePath('handout')" :aria-label="$t('handout')">{{ $t('handout') }}</NuxtLink> |
+        <NuxtLink :to="localePath('sitemap')" :aria-label="$t('sitemap')">{{ $t('sitemap') }}</NuxtLink> |
+        <NuxtLink :to="localePath('literature')" :aria-label="$t('literature')">{{ $t('literature') }}</NuxtLink> |
+        <a target="_blank" href="https://github.com/steampixel/smartphone-halts-maul">{{ $t('github') }}</a> |
         <a target="_blank" href="https://steampixel.de/impressum/">{{ $t('footerImprint') }}</a> |
         <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">{{ $t('footerPrivacy') }}</a> |
-        <NuxtLink :to="localePath('/')" :aria-label="$t('footerHomepage')">{{ $t('footerHomepage') }}</NuxtLink> |
+        <NuxtLink :to="localePath('/')" :aria-label="$t('home')">{{ $t('home') }}</NuxtLink> |
         <a target="_blank" rel="me" href="https://digitalcourage.social/@smartphone">Mastodon</a>
 
       </p>

@@ -8,6 +8,11 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
+* First version of multi lingual SEO titles and descriptions
+* Simplified some translations
+* Separate routes for tasks
+* Added a sitemap
+* Removed Bromite Browser from recommendations
 
 ## Changelog 1.19.0
 * Added information on third party blocking

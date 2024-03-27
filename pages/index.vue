@@ -44,21 +44,25 @@
       <space></space> -->
       <space></space>
 
-      <NuxtLink :to="localePath('list')" :aria-label="$t('buttonChecklist')">
-        <app-button>{{ $t('buttonChecklist') }}</app-button>
+      <NuxtLink :to="localePath('list')" :aria-label="$t('checklist')">
+        <app-button>{{ $t('checklist') }}</app-button>
       </NuxtLink>
 
-      <NuxtLink :to="localePath('print')" :aria-label="$t('buttonPrintVersion')">
-        <app-button color="medium">{{ $t('buttonPrintVersion') }}</app-button>
+      <!-- <NuxtLink :to="localePath('tasks')" :aria-label="$t('buttonTasklist')">
+        <app-button color="medium">{{ $t('buttonTasklist') }}</app-button>
+      </NuxtLink> -->
+
+      <NuxtLink :to="localePath('handout')" :aria-label="$t('handout')">
+        <app-button color="medium">{{ $t('handout') }}</app-button>
       </NuxtLink>
 
-      <NuxtLink :to="localePath('flyer')" :aria-label="$t('buttonFlyer')">
-        <app-button color="medium">{{ $t('buttonFlyer') }}</app-button>
+      <NuxtLink :to="localePath('flyer')" :aria-label="$t('flyer')">
+        <app-button color="medium">{{ $t('flyer') }}</app-button>
       </NuxtLink>
 
-      <a href="https://github.com/steampixel/smartphone-halts-maul" target="_blank" aria-label="GitHub">
-        <app-button color="medium">{{ $t('buttonGitHub') }}</app-button>
-      </a>
+      <!-- <a href="https://github.com/steampixel/smartphone-halts-maul" target="_blank" aria-label="GitHub">
+        <app-button color="medium">{{ $t('github') }}</app-button>
+      </a> -->
 
     </div>
 
@@ -73,31 +77,26 @@
 
 <script setup>
 
-  const { locale } = useI18n()
+  const { t } = useI18n()
 
   useHead({
-      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      meta: [
-        { 
-          name: 'description', 
-          content: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-        }
-      ],
-      // noscript: [{ children: "Sorry :-( Momentan ist Javascript für diese Website erforderlich. Es wird an einer Lösung gebastelt. Wenn du dich für die einzelnen Tipps interessierst kannst du dir diese auch gerne direkt aus dem Git-Repository ziehen: https://github.com/steampixel/smartphone-halts-maul/blob/main/config.js" }],
-      // bodyAttrs: {
-      //   class: 'test'
-      // },
-      // script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
-    })
+    title: t('seoTitle'),
+    meta: [
+      { 
+        name: 'description', 
+        content: t('seoDescription'),
+      }
+    ],
+  })
 
-    useSeoMeta({
-      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      ogTitle: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      description: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogDescription: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogImage: 'https://smartphone-halts-maul.de/icon.png',
-      // twitterCard: 'summary_large_image',
-    })
+  useSeoMeta({
+    title: t('seoTitle'),
+    ogTitle: t('seoTitle'),
+    description: t('seoDescription'),
+    ogDescription: t('seoDescription'),
+    ogImage: 'https://smartphone-halts-maul.de/icon.png',
+    // twitterCard: 'summary_large_image',
+  })
 
 </script>
 

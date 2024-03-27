@@ -22,7 +22,7 @@
         Willkommen bei der interaktiven Variante! Sammle so viele Punkte und Level wie möglich!
         Dein persönlicher Fortschritt wird ausschließlich in deinem Browser gespeichert.
         Du kannst alle Daten jeder Zeit mit dem Button ganz am Ende der Liste löschen.
-        Die Druckversion findest du <a class="underline" href="/print" title="Interaktive Version">hier</a>.
+        Die Druckversion findest du <a class="underline" href="/handout" title="Interaktive Version">hier</a>.
       </p>
 
       <space></space>
@@ -44,29 +44,22 @@
 
 <script setup>
 
-  useHead({
-      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      meta: [
-        { 
-          name: 'description', 
-          content: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-        }
-      ],
-      // noscript: [{ children: "Sorry :-( Momentan ist Javascript für diese Website erforderlich. Es wird an einer Lösung gebastelt. Wenn du dich für die einzelnen Tipps interessierst kannst du dir diese auch gerne direkt aus dem Git-Repository ziehen: https://github.com/steampixel/smartphone-halts-maul/blob/main/config.js" }],
-      // bodyAttrs: {
-      //   class: 'test'
-      // },
-      // script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
-    })
+  import config from '~/config.json';
 
-    useSeoMeta({
-      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      ogTitle: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      description: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogDescription: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogImage: 'https://smartphone-halts-maul.de/icon.png',
-      // twitterCard: 'summary_large_image',
-    })
+  // Warning! For some strange reason tasks is an object here with strings as numeric keys!
+  // let canonicals = [];
+  // for (let i in config.tasks) {
+  //   canonicals.push({
+  //     rel: 'canonical',
+  //     href: 'https://smartphone-halts-maul.de/' + config.tasks[i].slug['de'],
+  //   });
+  // }
+
+  const { t } = useI18n()
+
+  useHead({
+    title: t('checklist')+' - '+t('seoTitle'),
+  })
 
 </script>
 

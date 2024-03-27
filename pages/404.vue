@@ -35,6 +35,12 @@
         });
     };
 
+    const { t } = useI18n()
+
+    useHead({
+        title: '404 - '+t('seoTitle'),
+    })
+
 </script>
 
 <script>

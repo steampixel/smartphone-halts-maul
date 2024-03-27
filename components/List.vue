@@ -118,6 +118,7 @@
             :links="task.links"
             :points="task.points"
             :checked="task.checked"
+            :slug="task.slug"
             @done="done"
             @revoke="revoke">
           </task>
@@ -242,7 +243,7 @@ export default {
   methods: {
 
     taskHasTag(task, tag) {
-      if(task.tags.includes(tag)) {
+      if(task && task.tags && task.tags.includes(tag)) {
         return true;
       }
       return false;
@@ -268,19 +269,21 @@ export default {
 
       if(filterEnabled) {
 
-        task.tags.forEach((taskTag) => {
+        if(task && task.tags) {
+          task.tags.forEach((taskTag) => {
 
-          this.filterTags.forEach((filterTag) => {
+            this.filterTags.forEach((filterTag) => {
 
-            if(
-              filterTag.enabled&&filterTag.key == taskTag
-              ) {
-              found = true;
-            }
+              if(
+                filterTag.enabled&&filterTag.key == taskTag
+                ) {
+                found = true;
+              }
+
+            });
 
           });
-
-        });
+        }
 
       } else {
         if(!this.search) {

@@ -32,29 +32,18 @@
 
   <div class="container">
 
-
     <space></space>
 
     <space></space>
 
-    
+    <div v-for="(task) in tasks" :key="task.id" class="mb-2">
 
+      <a class="underline" :href="($i18n.locale=='de'?'':'/'+$i18n.locale)+'/list/'+task.slug[$i18n.locale]">
+        {{ task.title[$i18n.locale] }}
+      </a>
 
-      <ol class="text-base list-decimal list-inside-out list-inside-out-2">
-
-        <li v-for="(link, index) in allLinks()" :key="index" class="pb-2">
-          <a target="_blank" :href="link.url" class="underline">
-            <span v-if="link.date">{{ link.date }} - </span>
-            <span>{{ link.title }}</span> - 
-            <span>{{ link.url }}</span>
-          </a>
-        </li>
-
-      </ol>
-
+    </div>
   
-
-
   </div>
 
   <app-footer></app-footer>
@@ -66,7 +55,7 @@
   const { t } = useI18n()
 
   useHead({
-    title: t('literature')+' - '+t('seoTitle'),
+    title: t('sitemap')+' - '+t('seoTitle'),
   })
 
 </script>
@@ -99,38 +88,7 @@
 
     methods: {
 
-      allLinks() {
-
-        let allLinks = [];
-
-        for (const task of this.tasks) {
-          if(task.links) {
-            for (const link of task.links) {
-              allLinks.push(link);
-            }
-          }
-        }
-
-        return allLinks
-          .sort((a, b) => {
-
-            if(!a.date) {a.date = '';}
-            if(!b.date) {b.date = '';}
-
-            if (a.date < b.date) {
-              return 1;
-            }
-            if (a.date > b.date) {
-              return -1;
-            }
-            return 0;
-          }
-        );
-
-
-      }
-
-
+      
 
     },
 

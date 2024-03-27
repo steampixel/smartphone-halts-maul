@@ -1,6 +1,6 @@
 {
     "version": "1.19.0",
-    "lastUpdated": "2024-02-29",
+    "lastUpdated": "2024-03-26",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -10,25 +10,21 @@
             "subtitle": "✔ Eine Checkliste für deine mobile Sicherheit",
             "introText": "Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält {count} konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. Du kannst maximal {levels} Level aufsteigen.",
             "introText2": "Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt. Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus. Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht. ",
-            "buttonChecklist": "Zur Checkliste",
-            "buttonPrintVersion": "Druckversion",
-            "buttonFlyer": "Flyer",
-            "buttonGitHub": "GitHub",
+            "buttonTasklist": "Liste",
+            "handout": "Handout",
+            "flyer": "Flyer",
+            "github": "GitHub",
             "footerCopyright": "Ein steampixel Projekt",
             "footerVersion": "Version:",
             "footerFrom": "Zuletzt aktualisiert:",
             "footerLicense": "Lizenz: MIT",
-            "footerFlyer": "Flyer",
-            "footerPrintVersion": "Druckversion",
-            "footerGitHub": "GitHub",
             "footerImprint": "Impressum",
             "footerPrivacy": "Datenschutz",
-            "footerHomepage": "Startseite",
-            "footerLiterature": "Literaturliste",
-            "navbarHomepage": "Home",
-            "navbarChecklist": "Checkliste",
-            "navbarFlyer": "Flyer",
-            "navbarPrintVersion": "Druckversion",
+            "literature": "Literaturliste",
+            "footerAllTasks": "Alle Tipps",
+            "home": "Startseite",
+            "sitemap": "Sitemap",
+            "checklist": "Checkliste",
             "flyerText": "Du liebst direkte Aktionen oder musst dich verstecken? Du bist auf der Flucht oder willst Asyl beantragen? Du bist Journalist*in oder kritisierst das Regime? Dann kümmere dich jetzt um dein Smartphone! Diese Checkliste soll dir helfen spielerisch deine Sicherheit zu überprüfen. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.",
             "buttonPrint": "Drucken",
             "introTextPrint": "Diese Checkliste soll dir helfen deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Dies ist die Druckversion der Liste. Du kannst die einzelnen Punkte mit einem Stift abhaken.",
@@ -43,7 +39,10 @@
             "listLinks": "Weiterführende Links",
             "listTags": "Tags",
             "close": "schließen",
-            "search": "suchen"
+            "search": "suchen",
+            "nextTask": "nächster Tipp",
+            "prevTask": "vorheriger Tipp",
+            "backToList": "Ganze Liste anzeigen"
         },
         "en": {
             "seoTitle": "Smartphone, shut up! - A checklist for your mobile security",
@@ -52,23 +51,20 @@
             "subtitle": "✔ A checklist for your mobile security",
             "introText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains {count} concrete suggestions for improving your security. Points and levels are intended to encourage you to tick off as many items as possible. You can move up a maximum of {levels} levels.",
             "introText2": "Please be aware that safety always depends on individual risks. Some of the tasks described here may be mutually exclusive. In the end, safety is always a trade-off. There is no such thing as absolute safety.",
-            "buttonChecklist": "To the checklist",
-            "buttonPrintVersion": "Print version",
-            "buttonFlyer": "Flyer",
-            "buttonGitHub": "GitHub",
+            "checklist": "Checklist",
+            "buttonTasklist": "List",
+            "handout": "Handout",
+            "github": "GitHub",
             "footerCopyright": "A steampixel project",
             "footerVersion": "Version:",
             "footerLicense": "License: MIT",
-            "footerFlyer": "Flyer",
-            "footerPrintVersion": "Print version",
-            "footerGitHub": "GitHub",
             "footerImprint": "Imprint",
             "footerPrivacy": "Data protection",
-            "footerLiterature": "Literature",
-            "navbarHomepage": "Home",
-            "navbarChecklist": "Checklist",
-            "navbarFlyer": "Flyer",
-            "navbarPrintVersion": "Print version",
+            "literature": "Literature",
+            "footerAllTasks": "All tips",
+            "home": "Home",
+            "sitemap": "Sitemap",
+            "flyer": "Flyer",
             "buttonPrint": "Print",
             "introTextPrint": "This checklist is designed to help you review your smartphone security so that you can develop a feel for the subject. The list contains concrete suggestions for improving your security. This is the print version of the list. You can tick off the individual points with a pen.",
             "legend": "Legend",
@@ -83,9 +79,11 @@
             "listTags": "Tags",
             "close": "close",
             "footerFrom": "Last updated:",
-            "footerHomepage": "Home page",
             "flyerText": "Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible.",
-            "search": "search"
+            "search": "search",
+            "nextTask": "next tip",
+            "prevTask": "previous tip",
+            "backToList": "Show complete list"
         }
     },
     "categoryTags": [
@@ -206,7 +204,12 @@
             ],
             "points": 100,
             "checked": true,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-interessierst-dich-fr-deine-sicherheit",
+                "en": "you-care-about-your-safety"
+            },
+            "links": []
         },
         {
             "id": "a2t3l5ehl2x96hbk35ua0u71hoxoklax",
@@ -231,7 +234,11 @@
             ],
             "points": 100,
             "checked": false,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-teilst-diese-liste-mit-anderen",
+                "en": "you-share-this-list-with-others"
+            }
         },
         {
             "id": "rdo96phefsb396oe5vkg1mmbdynq8nnj",
@@ -248,7 +255,12 @@
                 "easy"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-prfst-diese-liste-von-zeit-zu-zeit",
+                "en": "you-check-this-list-from-time-to-time"
+            },
+            "links": []
         },
         {
             "id": "jppi11lg2e9s9s3uekxo3g7qls646ymf",
@@ -280,7 +292,11 @@
                 "common",
                 "easy"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-hast-schon-mal-an-einer-cryptoparty-teilgenommen",
+                "en": "you-have-already-taken-part-in-a-cryptoparty"
+            }
         },
         {
             "id": "zefnefcgfbrnfrn7u9117l54jjjlrodk",
@@ -299,7 +315,12 @@
                 "house"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-kennst-deine-wichtigsten-kontakte-und-logins-auswendig",
+                "en": "you-know-your-most-important-contacts-and-logins-by-heart"
+            },
+            "links": []
         },
         {
             "id": "pt4y2j261kog00fs6iodjs9kz14kvgkv",
@@ -321,7 +342,12 @@
                 "easy",
                 "expensive"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-verwendest-kein-dumbphone",
+                "en": "you-are-not-using-a-dumbphone"
+            },
+            "links": []
         },
         {
             "id": "0yt9pse51qn4u7wznlkzyix3vz9184nu",
@@ -343,7 +369,12 @@
                 "easy",
                 "refugee"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-hast-deine-simkartennummer-entfernt",
+                "en": "you-have-removed-your-sim-card-number"
+            },
+            "links": []
         },
         {
             "id": "06cn52ozdybvxunerygmf1vauklkl2m6",
@@ -361,7 +392,12 @@
                 "refugee"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-hast-eine-displaysperre-eingerichtet",
+                "en": "you-have-set-up-a-screen-lock"
+            },
+            "links": []
         },
         {
             "id": "80orohontx6p1hk9iq507gcwxli61686",
@@ -407,7 +443,11 @@
                 "refugee",
                 "house"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "deine-smartphones-sind-verschlsselt",
+                "en": "your-smartphones-are-encrypted"
+            }
         },
         {
             "id": "1y9t0s94ukh4vmw1uxff1jrqii0wahot",
@@ -442,7 +482,11 @@
                 "refugee",
                 "house"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-kannst-deine-gerte-schnell-abschalten",
+                "en": "you-can-switch-off-your-devices-quickly"
+            }
         },
         {
             "id": "rww9tk85988s9p24s88rwrj1iow8m1nf",
@@ -460,7 +504,12 @@
                 "expensive"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-verwendest-eine-blickschutzfolie",
+                "en": "you-are-using-a-privacy-film"
+            },
+            "links": []
         },
         {
             "id": "lfhjs76x86fzxc5436w7cereu50btbh0",
@@ -483,7 +532,12 @@
                 "security",
                 "house"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "deine-simkarte-ist-mit-einer-pin-geschtzt",
+                "en": "your-sim-card-is-protected-with-a-pin"
+            },
+            "links": []
         },
         {
             "id": "eur6ctpfgyqk36otnor85vlx1pruxirk",
@@ -507,7 +561,12 @@
                 "refugee",
                 "house"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-verzichtest-auf-speicherkarten",
+                "en": "you-do-without-memory-cards"
+            },
+            "links": []
         },
         {
             "id": "kw9bjghrjadzbtyc6ktszoycw98t5ym8",
@@ -549,7 +608,11 @@
                 "refugee",
                 "house"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-nutzt-keine-biometrische-freischaltung",
+                "en": "you-do-not-use-biometric-activation"
+            }
         },
         {
             "id": "ayxfh1s1po8m097tqj5lkde27ttkpeuj",
@@ -577,7 +640,11 @@
                 "house"
             ],
             "points": 600,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-hast-die-entwickler-innen-features-deaktiviert",
+                "en": "you-have-deactivated-the-developer-features"
+            }
         },
         {
             "id": "3xg9ol61sc1gywog7m91k7ynyqsm5u62",
@@ -606,7 +673,11 @@
                 "easy",
                 "expensive"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-verwendest-nur-dein-eigenes-ladekabel",
+                "en": "you-only-use-your-own-charging-cable"
+            }
         },
         {
             "id": "6re0wpjpfllc485n2t6rzqe5xt50a9ku",
@@ -624,7 +695,12 @@
                 "house"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "dein-betriebssystem-verfgt-ber-verified-boot",
+                "en": "your-operating-system-has-verified-boot"
+            },
+            "links": []
         },
         {
             "id": "1p48age63ez4bimmj70g4dn5wuyc4fc1",
@@ -651,7 +727,11 @@
                 "house"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-hast-dein-gert-versiegelt",
+                "en": "you-have-sealed-your-device"
+            }
         },
         {
             "id": "n2qb3l1sgibjxou17orb089dp005x5yt",
@@ -670,7 +750,12 @@
                 "house"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-hast-die-eindeutigen-nummern-deines-gertes-notiert",
+                "en": "you-have-noted-the-unique-numbers-of-your-device"
+            },
+            "links": []
         },
         {
             "id": "aq4hbvo8yvmm5uq7544qxl7ww9zogqyy",
@@ -703,7 +788,11 @@
                 "refugee",
                 "house"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "du-fertigst-regelmssig-backups-an",
+                "en": "you-make-regular-backups"
+            }
         },
         {
             "id": "15ts0bg9cuc51qzua6ecz7zgmg1e0tss",
@@ -759,7 +848,11 @@
                 "security",
                 "house"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "deine-backups-sind-verschlsselt",
+                "en": "your-backups-are-encrypted"
+            }
         },
         {
             "id": "ue4r5ahyan5cu3rkcuxp0wd2a4ls17aw",
@@ -777,7 +870,12 @@
                 "house"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "deine-backups-sind-dezentral-und-auch-ausserhalb-deiner-wohnung-gelagert",
+                "en": "your-backups-are-stored-decentrally-and-also-outside-your-home"
+            },
+            "links": []
         },
         {
             "id": "198wym1kqg9oyfjd1g7hr71e5ar91c45",
@@ -795,7 +893,12 @@
                 "house"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-bst-die-wiederherstellung-deiner-backups",
+                "en": "you-practise-restoring-your-backups"
+            },
+            "links": []
         },
         {
             "id": "pyvc9a2nvlq0ukuxpkhf1hn7mfuhj9ld",
@@ -814,7 +917,12 @@
                 "house"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-lagerst-nicht-genutzte-gerte-nicht-in-deiner-wohnung",
+                "en": "you-do-not-store-unused-appliances-in-your-home"
+            },
+            "links": []
         },
         {
             "id": "255rov4bdircfn2ac5toavgq6jj99d42",
@@ -834,7 +942,12 @@
                 "house"
             ],
             "points": 800,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-entsperrst-dein-smartphone-nicht-auf-verlangen",
+                "en": "you-do-not-unlock-your-smartphone-on-demand"
+            },
+            "links": []
         },
         {
             "id": "98rgv22iqrocb3e55w90anh5rtoni492",
@@ -861,7 +974,11 @@
                 "physical",
                 "easy"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-hast-dein-telefon-einmal-berschrieben",
+                "en": "you-have-overwritten-your-phone-once"
+            }
         },
         {
             "id": "jseo0a8ko4q5rnb3lyh55p1jzd42ldrr",
@@ -913,7 +1030,11 @@
                 "physical",
                 "easy"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "deaktiviere-nicht-genutzte-schnittstellen",
+                "en": "deactivate-unused-interfaces"
+            }
         },
         {
             "id": "rkdqexb1ghcgnod7g0rwgmvt0mmu6ojt",
@@ -946,7 +1067,11 @@
                 "physical",
                 "easy"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "verzichte-wenn-mglich-auf-bluetooth-gerte-wie-earbuds",
+                "en": "avoid-bluetooth-devices-such-as-earbuds-if-possible"
+            }
         },
         {
             "id": "8e03f6tau77a9biyzsqs1j5nh63vorvg",
@@ -978,7 +1103,11 @@
                 "physical",
                 "easy"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "nicht-genutzte-kameras-sind-abgedeckt",
+                "en": "cameras-that-are-not-in-use-are-covered"
+            }
         },
         {
             "id": "4k71ynnyxw2kqkiw6u9zxun0tjgoy9lt",
@@ -996,7 +1125,12 @@
                 "knowledge"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-datensparsame-telefon-tarife",
+                "en": "you-use-data-saving-telephone-tariffs"
+            },
+            "links": []
         },
         {
             "id": "8hb767m19i932x2gi0iejugv487ptoe6",
@@ -1024,7 +1158,11 @@
                 "mobile",
                 "knowledge"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-hast-der-vermarktung-deiner-bewegungsdaten-widersprochen",
+                "en": "you-have-objected-to-the-marketing-of-your-transaction-data"
+            }
         },
         {
             "id": "cywfeb2z0yq8liiwgfcwi0jh8bbgvp03",
@@ -1052,7 +1190,11 @@
                 "easy",
                 "behavior"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-hast-deine-mobile-datenverbindung-nicht-durchgehend-aktiviert",
+                "en": "you-have-not-activated-your-mobile-data-connection-continuously"
+            }
         },
         {
             "id": "rnv3klgi6c7iyx7jjjnguap730c7rat0",
@@ -1074,7 +1216,12 @@
                 "easy",
                 "security"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-nimmst-dein-handy-nicht-mit-zur-demo",
+                "en": "you-don-t-take-your-cell-phone-to-the-demo"
+            },
+            "links": []
         },
         {
             "id": "5x8vsbxo48iqofgpps1ghako37wngg8j",
@@ -1103,7 +1250,11 @@
                 "easy",
                 "security"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-verzichtest-auf-apps-wie-snoopsnitch",
+                "en": "you-don-t-use-apps-like-snoopsnitch"
+            }
         },
         {
             "id": "ze8fnbeg8eskdnvwrapzcvmkm420baty",
@@ -1207,7 +1358,11 @@
                 "behavior",
                 "journalist"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "du-verwendest-anonyme-simkarten",
+                "en": "you-use-anonymous-sim-cards"
+            }
         },
         {
             "id": "1q8g1pq0k9mzkqgidwwquz3bxtz2u9wl",
@@ -1225,7 +1380,12 @@
                 "security"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-dein-smartphone-exklusiv-fr-eine-simkarte",
+                "en": "you-use-your-smartphone-exclusively-for-one-sim-card"
+            },
+            "links": []
         },
         {
             "id": "4p8gqb65l41xh9deftujubar4ak870ay",
@@ -1248,7 +1408,12 @@
                 "expensive",
                 "journalist"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-verwendest-oft-andere-simkarten-und-ein-proxy-telefon",
+                "en": "you-often-use-other-sim-cards-and-a-proxy-phone"
+            },
+            "links": []
         },
         {
             "id": "7afsd36t6fnjy7t9kl61qilodns5l8ry",
@@ -1266,7 +1431,12 @@
                 "behavior"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-beziehst-dein-guthaben-anonym",
+                "en": "you-withdraw-your-credit-anonymously"
+            },
+            "links": []
         },
         {
             "id": "zb5k5o1xbl8ti16gl70osqyzq3kbto20",
@@ -1288,7 +1458,12 @@
                 "security",
                 "behavior"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "du-gibst-deine-telefonnummer-nicht-weiter",
+                "en": "you-don-t-give-out-your-phone-number"
+            },
+            "links": []
         },
         {
             "id": "c4eimf6n0w8obpwgpjjsgxsh7mszaag5",
@@ -1307,7 +1482,12 @@
                 "behavior"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-telefonierst-nicht-mit-deiner-anonymen-karte",
+                "en": "you-don-t-make-calls-with-your-anonymous-card"
+            },
+            "links": []
         },
         {
             "id": "0sh38fz58qiq4pfs73sjkww6yzx7kz56",
@@ -1324,7 +1504,12 @@
                 "easy"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-hast-simkarten-und-telefone-anonym-bezogen",
+                "en": "you-have-purchased-sim-cards-and-phones-anonymously"
+            },
+            "links": []
         },
         {
             "id": "htdfk57a95tvt9lmf13dv9s38y6ldrmk",
@@ -1343,7 +1528,12 @@
                 "journalist"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-rufnummernunterdrckung-mit-bedacht",
+                "en": "you-use-number-suppression-wisely"
+            },
+            "links": []
         },
         {
             "id": "sqdf8gqi8sttil068u2mwb7jxa3p5ldn",
@@ -1384,7 +1574,11 @@
                 "easy",
                 "behavior"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-whlst-die-110-und-die-112-mit-bedacht",
+                "en": "you-dial-110-and-112-carefully"
+            }
         },
         {
             "id": "cwexxl1inayqrv2hj2yg1b8zh15856xn",
@@ -1412,7 +1606,11 @@
                 "mobile",
                 "easy"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-hast-eine-sperre-fr-drittanbieter-innen-eingerichtet",
+                "en": "you-have-set-up-a-block-for-third-party-providers"
+            }
         },
         {
             "id": "wc218sunelv0j46izqd2q8rsha4kke1s",
@@ -1430,7 +1628,12 @@
                 "mobile",
                 "easy"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-nennst-nicht-sofort-deinen-namen-wenn-du-ans-telefon-gehst",
+                "en": "you-don-t-give-your-name-immediately-when-you-answer-the-phone"
+            },
+            "links": []
         },
         {
             "id": "jwp2vuk2pm3hyvq9sagif84s1bacam4p",
@@ -1476,7 +1679,11 @@
                 "security",
                 "knowledge"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "du-verwendest-ein-freies-betriebssystem",
+                "en": "you-are-using-a-free-operating-system"
+            }
         },
         {
             "id": "cl5098g8l7b3tzcgsof08nqn9bc9m2nv",
@@ -1505,7 +1712,11 @@
                 "security",
                 "knowledge"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-hast-dein-telefon-von-bloatware-befreit",
+                "en": "you-have-freed-your-phone-from-bloatware"
+            }
         },
         {
             "id": "phu2vhy5pb5n34ahbc0kjliajllh45yj",
@@ -1544,7 +1755,11 @@
                 "easy",
                 "security"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-hast-deine-werbe-id-deaktiviert-oder-gelscht",
+                "en": "you-have-deactivated-or-deleted-your-advertising-id"
+            }
         },
         {
             "id": "45yi4rb7n29xeg1ei60y1aznlp5zvun3900",
@@ -1564,7 +1779,12 @@
                 "journalist"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "sind-deine-apps-und-dein-system-aktuell",
+                "en": "are-your-apps-and-system-up-to-date"
+            },
+            "links": []
         },
         {
             "id": "4x79gthlqk49k5o4v5r9pzimofc7oskd",
@@ -1583,7 +1803,12 @@
                 "behavior"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "nutzt-du-einen-passwortmanager",
+                "en": "do-you-use-a-password-manager"
+            },
+            "links": []
         },
         {
             "id": "bsqnf4sy9e72t3hfw0f47nywgsbmfm3j",
@@ -1611,7 +1836,11 @@
                 "system",
                 "knowledge"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-installierst-apps-nur-aus-vertrauenswrdigen-quellen",
+                "en": "you-only-install-apps-from-trustworthy-sources"
+            }
         },
         {
             "id": "zokgwvdiqcizcpyrc9y4a83u3s8rn9lh",
@@ -1628,7 +1857,12 @@
                 "easy"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-prfst-zugriffsrechte-sorgfltig",
+                "en": "you-check-access-rights-carefully"
+            },
+            "links": []
         },
         {
             "id": "i0givx4x51kbh3djt72tf6xhmro2id89",
@@ -1663,7 +1897,11 @@
                 "behavior"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-alternative-app-stores",
+                "en": "you-use-alternative-app-stores"
+            }
         },
         {
             "id": "0k0m9fjhzzh7hqs1l5ui0qs3ozgcvxvd",
@@ -1713,7 +1951,11 @@
                 "knowledge",
                 "behavior"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "du-verzichtest-auf-google-play-dienste-und-apple-services",
+                "en": "you-do-without-google-play-services-and-apple-services"
+            }
         },
         {
             "id": "9b3c2a6e82d9yijdm9w99vni4ouo9ebl",
@@ -1722,18 +1964,14 @@
                 "en": "You use privacy-friendly web browsers"
             },
             "shortText": {
-                "de": "Nutze Browser, wie DuckDuckGo-Browser oder Bromite, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.",
-                "en": "Use browsers such as DuckDuckGo browser or Bromite, which do not collect any data about you and at the same time actively protect your privacy."
+                "de": "Nutze Browser, wie DuckDuckGo-Browser, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.",
+                "en": "Use browsers such as DuckDuckGo browser, which do not collect any data about you and at the same time actively protect your privacy."
             },
             "showMore": true,
             "links": [
                 {
                     "title": "How To Get the DuckDuckGo App on Android",
                     "url": "https:\/\/duckduckgo.com\/duckduckgo-help-pages\/mobile\/android\/"
-                },
-                {
-                    "title": "Bromite",
-                    "url": "https:\/\/www.bromite.org\/"
                 }
             ],
             "tags": [
@@ -1741,7 +1979,11 @@
                 "behavior"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-datenschutzfreundliche-webbrowser",
+                "en": "you-use-privacy-friendly-web-browsers"
+            }
         },
         {
             "id": "sy8okumsb3a9hjwwg4kp6zkktfrjayg5",
@@ -1763,7 +2005,12 @@
                 "easy",
                 "house"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-verzichtest-auf-root-rechte",
+                "en": "you-waive-root-rights"
+            },
+            "links": []
         },
         {
             "id": "0blm4hke75axw4b9qrixkvpbterswatv",
@@ -1803,7 +2050,11 @@
                 "knowledge",
                 "journalist"
             ],
-            "points": 800
+            "points": 800,
+            "slug": {
+                "de": "du-nutzt-sichere-messenger",
+                "en": "you-use-secure-messengers"
+            }
         },
         {
             "id": "oo6mxsh2gc0r4vt1m813s7bdnipb85li",
@@ -1826,7 +2077,12 @@
                 "house",
                 "refugee"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "aktiviere-die-zweistufige-besttigung-in-deinen-messengern",
+                "en": "activate-two-step-verification-in-your-messengers"
+            },
+            "links": []
         },
         {
             "id": "dc1xhjsd9p32tgm24x6cjfrp4kzmh5xx",
@@ -1859,7 +2115,11 @@
                 "behavior",
                 "journalist"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-gibst-deine-apple-id-nicht-weiter-und-deaktivierst-imessage",
+                "en": "do-not-share-your-apple-id-and-deactivate-imessage"
+            }
         },
         {
             "id": "7op6jj5qxe7ner93bu8pc02bzonpzudi",
@@ -1879,7 +2139,11 @@
                 "easy",
                 "journalist"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "du-startest-dein-telefon-oft-neu",
+                "en": "you-restart-your-phone-often"
+            }
         },
         {
             "id": "muzyklbhvog62myh5cpmk7wzmce5fff9",
@@ -1899,7 +2163,11 @@
                 "expensive",
                 "journalist"
             ],
-            "points": 200
+            "points": 200,
+            "slug": {
+                "de": "deine-zweiter-faktor-fr-anmeldungen-liegt-auf-einem-separaten-gert",
+                "en": "your-second-factor-for-logins-is-on-a-separate-device"
+            }
         },
         {
             "id": "gbgx0u8jm9j6b2vsuo1db09ct76u1l7f",
@@ -1929,7 +2197,11 @@
                 "security",
                 "behavior"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-nutzt-passkeys",
+                "en": "you-use-passkeys"
+            }
         },
         {
             "id": "b3aih63digmq2o9ich1a2zmsv7w7tznh",
@@ -1960,7 +2232,11 @@
                 "behavior",
                 "house"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-sicherst-deine-accounts-mit-zwei-faktor-authentifizierung",
+                "en": "you-secure-your-accounts-with-two-factor-authentication"
+            }
         },
         {
             "id": "y0oa3gwukxe9egcyoiz6c8qsir5mtk6t",
@@ -2021,7 +2297,11 @@
                 "knowledge",
                 "journalist"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-verwendest-einen-werbeblocker",
+                "en": "you-are-using-an-ad-blocker"
+            }
         },
         {
             "id": "zokh9ctwzdanhdqvbw4l2pv9h9l7f03r",
@@ -2039,7 +2319,12 @@
                 "behavior"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "nutzt-du-verschiedene-pseudonyme-und-mailadressen",
+                "en": "do-you-use-different-pseudonyms-and-e-mail-addresses"
+            },
+            "links": []
         },
         {
             "id": "okdh8x0gfswqboflssnnh0l4acoqw8ke",
@@ -2057,7 +2342,12 @@
                 "behavior"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-deine-pseudonyme-nicht-zur-gleichen-zeit",
+                "en": "you-do-not-use-your-pseudonyms-at-the-same-time"
+            },
+            "links": []
         },
         {
             "id": "pfjvsc5s12m97912lzslirixegh3f9u2",
@@ -2076,7 +2366,12 @@
                 "journalist"
             ],
             "points": 800,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-tor-oder-den-tor-browser",
+                "en": "you-use-tor-or-the-tor-browser"
+            },
+            "links": []
         },
         {
             "id": "7y9ra343asszyece2a9hip9m5g7408z3",
@@ -2115,7 +2410,11 @@
                 "behavior"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-datenschutzfreundliche-suchmaschinen",
+                "en": "you-use-privacy-friendly-search-engines"
+            }
         },
         {
             "id": "jo9w7hfcbumbjo18i4a0mzihqxjth4ad",
@@ -2160,7 +2459,11 @@
                 "refugee",
                 "house"
             ],
-            "points": 600
+            "points": 600,
+            "slug": {
+                "de": "du-nutzt-cloud-speicher-nur-verschlsselt",
+                "en": "you-only-use-encrypted-cloud-storage"
+            }
         },
         {
             "id": "7uz2t0588ipgha7teyuhsf18xdk9q6zk",
@@ -2177,7 +2480,12 @@
                 "knowledge"
             ],
             "points": 200,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-nutzt-vpns-mit-bedacht",
+                "en": "you-use-vpns-wisely"
+            },
+            "links": []
         },
         {
             "id": "z0meha5aadwsz3t2hpy6suymhi9u76qb",
@@ -2206,7 +2514,11 @@
                 "behavior",
                 "refugee"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-lschst-metadaten-aus-deinen-bildern",
+                "en": "you-delete-metadata-from-your-images"
+            }
         },
         {
             "id": "l6vgj7s7b376ld7ks7htepeaivnvfkac",
@@ -2224,7 +2536,12 @@
                 "knowledge"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-liesst-dir-datenschutzerklrungen-durch",
+                "en": "you-read-through-data-protection-declarations"
+            },
+            "links": []
         },
         {
             "id": "dlj81mgwv9w4i1eyca06znn8lf7wn28i",
@@ -2243,7 +2560,12 @@
                 "journalist"
             ],
             "points": 800,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "du-verschlsselst-deine-e-mails",
+                "en": "you-encrypt-your-emails"
+            },
+            "links": []
         },
         {
             "id": "kmebgdtj44opafsufh1maup3xblhe6m5",
@@ -2260,7 +2582,12 @@
                 "knowledge"
             ],
             "points": 400,
-            "longText": []
+            "longText": [],
+            "slug": {
+                "de": "lsche-nicht-genutzte-accounts",
+                "en": "delete-unused-accounts"
+            },
+            "links": []
         },
         {
             "id": "skjd0f1s35xqsuutwtfcfjmwbakciggh",
@@ -2287,7 +2614,11 @@
                 "online",
                 "easy"
             ],
-            "points": 400
+            "points": 400,
+            "slug": {
+                "de": "du-prfst-ob-du-von-datenlecks-betroffen-bist",
+                "en": "you-check-whether-you-are-affected-by-data-leaks"
+            }
         }
     ]
 }

@@ -142,29 +142,11 @@
 
 <script setup>
 
-  useHead({
-      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      meta: [
-        { 
-          name: 'description', 
-          content: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-        }
-      ],
-      // noscript: [{ children: "Sorry :-( Momentan ist Javascript für diese Website erforderlich. Es wird an einer Lösung gebastelt. Wenn du dich für die einzelnen Tipps interessierst kannst du dir diese auch gerne direkt aus dem Git-Repository ziehen: https://github.com/steampixel/smartphone-halts-maul/blob/main/config.js" }],
-      // bodyAttrs: {
-      //   class: 'test'
-      // },
-      // script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
-    })
+  const { t } = useI18n()
 
-    useSeoMeta({
-      title: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      ogTitle: 'Smartphone, halt\'s Maul! - Eine Checkliste für deine mobile Sicherheit',
-      description: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogDescription: 'Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält konkrete Vorschläge zur Verbesserung deiner Sicherheit. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken.',
-      ogImage: 'https://smartphone-halts-maul.de/icon.png',
-      // twitterCard: 'summary_large_image',
-    })
+  useHead({
+    title: t('handout')+' - '+t('seoTitle'),
+  })
 
 </script>
 
@@ -202,14 +184,14 @@
     methods: {
 
       taskHasTag(task, tag) {
-        if(task.tags.includes(tag)) {
+        if(task && task.tags && task.tags.includes(tag)) {
           return true;
         }
         return false;
       },
 
       hasTag(tags, tag) {
-        if(tags.includes(tag)) {
+        if(tags && tags.includes(tag)) {
           return true;
         }
         return false;

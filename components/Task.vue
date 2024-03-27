@@ -49,16 +49,22 @@
 
       <space></space>
 
+      <a :href="($i18n.locale=='de'?'':'/'+$i18n.locale)+'/list/'+slug[$i18n.locale]">
       <app-button 
         v-if="showMore" 
-        @click="showModal=true" 
         color="light"
         text="text-black">{{ $t('listMoreInformation') }}</app-button>
+      </a>
 
     </div>
 
     <!-- Modal -->
-    <modal @close="showModal=false" :show="showModal" :title="title">
+    <!-- 
+      
+      @click="showModal=true" 
+
+
+      <modal @close="showModal=false" :show="showModal" :title="title">
       <div class="text-base">
           {{longText}}
       </div>
@@ -101,7 +107,7 @@
 
       </ul>
 
-    </modal>
+    </modal> -->
 
   </div>
 
@@ -123,7 +129,7 @@
     },
 
     props: [
-      'visible', 'id', 'title', 'shortText', 'longText', 'tags', 'showMore', 'links', 'points', 'checked', 'showCompleted'
+      'visible', 'id', 'title', 'shortText', 'longText', 'tags', 'showMore', 'links', 'points', 'checked', 'showCompleted', 'slug'
     ],
 
     data: function() {
@@ -136,19 +142,34 @@
 
     computed: {
       easy: function () {
-        return  this.tags.includes('easy'); 
+        if(this.tags) {
+          return  this.tags.includes('easy'); 
+        }
+        return false;
       },
       knowledge: function () {
-        return  this.tags.includes('knowledge'); 
+        if(this.tags) {
+          return  this.tags.includes('knowledge'); 
+        }
+        return false;
       },
       security: function () {
-        return  this.tags.includes('security'); 
+        if(this.tags) {
+          return  this.tags.includes('security'); 
+        }
+        return false;
       },
       behavior: function () {
-        return  this.tags.includes('behavior'); 
+        if(this.tags) {
+          return  this.tags.includes('behavior'); 
+        }
+        return false;
       },
       expensive: function () {
-        return  this.tags.includes('expensive'); 
+        if(this.tags) {
+          return  this.tags.includes('expensive'); 
+        }
+        return false;
       },
       sortedLinks() {        
         return this.links
@@ -222,7 +243,7 @@
     methods: {
 
       hasTag(tags, tag) {
-        if(tags.includes(tag)) {
+        if(tags && tags.includes(tag)) {
           return true;
         }
         return false;

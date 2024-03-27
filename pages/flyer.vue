@@ -39,6 +39,16 @@
        
 </template>
   
+<script setup>
+
+  const { t } = useI18n()
+
+  useHead({
+    title: t('flyer')+' - '+t('seoTitle'),
+  })
+
+</script>
+
 <script>
 
     import Print from '~/components/Print.vue'
