@@ -14,7 +14,7 @@
           <div class="flex flex-wrap justify-between items-center">
 
             <button aria-label="Regenbogen-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
-              <icon class="h-4 w-4 md:h-8 md:w-8" color="pink-500" type="candy"></icon>
+              <img class="inline-block unicorn h-10 w-10" src="/unicorn.png" />
             </button>
 
             <div class="text-center">
@@ -24,9 +24,7 @@
 
             </div>
 
-            <button aria-label="Candy-Konfetti" class="hidden xs:block text-3xl cursor-pointer hover:scale-125 transition-all" @click="candyConfetti()">
-              <icon class="h-4 w-4 md:h-8 md:w-8" color="pink-500" type="candy"></icon>
-            </button>
+            <div class="hidden md:block"></div>
 
           </div>
 
@@ -111,7 +109,7 @@
           :links="task.links"
           :points="task.points"
           :checked="task.checked"
-          :slug="task.slug"
+          :slug="task.slug[$i18n.locale]"
           @done="done"
           @revoke="revoke">
         </task>

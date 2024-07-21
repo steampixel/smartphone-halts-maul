@@ -1,6 +1,6 @@
 <template>
 
-  <div v-if="!(completed&&showCompleted) && visible" :class="'relative mb-4 block p-4 md:p-8 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(false?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
+  <div @mouseover="setHash()" :id="slug" v-if="!(completed&&showCompleted) && visible" :class="'relative mb-4 block p-4 md:p-8 hover:scale-105 transition-all border border-gray-200 rounded-lg shadow '+(false?'bg-green-100 hover:bg-green-200':'bg-white hover:bg-gray-100')">
 
     <div class="flex justify-between">
 
@@ -10,10 +10,10 @@
 
         <div 
           class=""
-          v-for="(tag) in filterTags" 
+          v-for="(tag) in filterTags"  
           :key="tag.key">
 
-          <span class="inline-block ml-2" v-if="hasTag(this.tags, tag.key)" :title="tag.title[$i18n.locale]">
+          <span class="inline-block ml-2" v-if="hasTag(tags, tag.key)" :title="tag.title[$i18n.locale]">
             <icon color="black" :type="tag.icon"></icon>
           </span>
 
@@ -49,7 +49,7 @@
 
       <space></space>
 
-      <a :href="($i18n.locale=='de'?'':'/'+$i18n.locale)+'/list/'+slug[$i18n.locale]">
+      <a :href="($i18n.locale=='de'?'':'/'+$i18n.locale)+'/list/'+slug">
       <app-button 
         v-if="showMore" 
         color="light"
@@ -100,7 +100,7 @@
         v-for="(tag) in filterTags" 
         :key="tag.key">
 
-        <li class="inline-flex text-sm items-center" v-if="hasTag(this.tags, tag.key)" :title="tag.title[$i18n.locale]">
+        <li class="inline-flex text-sm items-center" v-if="hasTag(tags, tag.key)" :title="tag.title[$i18n.locale]">
           <icon class="mr-2 h-4 w-4" color="black" :type="tag.icon"></icon>
           {{tag.title[$i18n.locale]}}
         </li>
@@ -192,8 +192,6 @@
 
     mounted: function () {
 
-      const component = this;
-
       // Load checkbox value from local storage
       if (localStorage.getItem('task-'+this.id) !== null) {
 
@@ -241,6 +239,12 @@
     },
 
     methods: {
+
+      setHash() {
+        if(this.slug) {
+          history.replaceState(undefined, undefined, "#"+this.slug)
+        }
+      },
 
       hasTag(tags, tag) {
         if(tags && tags.includes(tag)) {

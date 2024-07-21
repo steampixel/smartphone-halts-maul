@@ -8,6 +8,22 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
+* To be filled...
+
+## Changelog 1.21.0
+* New task: Anonymous sim cards and traveling with friends or acquaintances
+* New task: Remove the battery from your phone before sensitive meetings
+* New task: You are careful with your personal data
+* iPhone lockdown mode
+* News about facial rekognition and finger prints
+* Forensic companies will use security flaws to dump data on android pixel devices
+* Information about stealth pings and IMSI catchers are now top secret in germany
+* News about infected apps on Google Play
+* Changed the wording WiFi to Wi-Fi
+* Added slugs to hash on hover
+* Shorter filter labels
+* New list header
+* Corrected typos
 
 ## Changelog 1.20.0
 * First version of multi lingual SEO titles and descriptions

@@ -1,6 +1,6 @@
 {
-    "version": "1.20.0",
-    "lastUpdated": "2024-03-26",
+    "version": "1.21.0",
+    "lastUpdated": "2024-07-21",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -90,15 +90,15 @@
         {
             "key": "common",
             "title": {
-                "de": "Allgemeine Hinweise und Tipps",
-                "en": "General information and tips"
+                "de": "Allgemeine Tipps",
+                "en": "General tips"
             }
         },
         {
             "key": "physical",
             "title": {
-                "de": "Physische Gefahren durch direkte Zugriffe",
-                "en": "Physical hazards due to direct access"
+                "de": "Gefahren durch direkte Zugriffe",
+                "en": "Dangers due to direct access"
             }
         },
         {
@@ -128,8 +128,8 @@
             "key": "physical",
             "icon": "hand",
             "title": {
-                "de": "Physische Gefahren durch direkte Zugriffe",
-                "en": "Physical hazards due to direct access"
+                "de": "Gefahren durch direkte Zugriffe",
+                "en": "Dangers due to direct access"
             },
             "enabled": false
         },
@@ -164,8 +164,8 @@
             "key": "journalist",
             "icon": "news",
             "title": {
-                "de": "Wichtig für Journalismus und Regimekritik",
-                "en": "Important for journalism and criticism of the regime"
+                "de": "Journalismus, Regimekritik und Exil",
+                "en": "Journalism, criticism of the regime and exile"
             },
             "enabled": false
         },
@@ -173,8 +173,8 @@
             "key": "refugee",
             "icon": "turn",
             "title": {
-                "de": "Wichtig bei Migration und Flucht",
-                "en": "Important for migration and flight"
+                "de": "Migration, Flucht und Asyl",
+                "en": "Migration, flight and asylum"
             },
             "enabled": false
         },
@@ -182,8 +182,8 @@
             "key": "house",
             "icon": "house",
             "title": {
-                "de": "Du rechnest mit Hausdurchsuchungen",
-                "en": "You expect house searches"
+                "de": "Hausdurchsuchungen und Beschlagnahmungen",
+                "en": "House searches and confiscations"
             },
             "enabled": false
         },
@@ -191,8 +191,8 @@
             "key": "easy",
             "icon": "star",
             "title": {
-                "de": "Meist schnell und leicht umzusetzen",
-                "en": "Usually quick and easy to implement"
+                "de": "Eher einfach",
+                "en": "Rather simple"
             },
             "enabled": false
         },
@@ -200,8 +200,8 @@
             "key": "knowledge",
             "icon": "book",
             "title": {
-                "de": "Benötigt evtl. Fachwissen oder Recherche",
-                "en": "May require specialist knowledge or research"
+                "de": "Eher komplizierter",
+                "en": "Rather more complicated"
             },
             "enabled": false
         },
@@ -209,8 +209,8 @@
             "key": "behavior",
             "icon": "clock",
             "title": {
-                "de": "Ist evtl. mit Gewohnheitsänderungen verbunden",
-                "en": "Is associated with habit changes"
+                "de": "Benötigt evtl. Gewohnheitsveränderungen",
+                "en": "May require changes in habits"
             },
             "enabled": false
         },
@@ -258,8 +258,7 @@
                 "en": "If we manage to increase the security of all people, state surveillance measures will be less worthwhile. This will also benefit your safety. So share this list on your channels or print out the flyer."
             },
             "tags": [
-                "common",
-                "easy"
+                "common"
             ],
             "showMore": true,
             "links": [
@@ -357,6 +356,33 @@
                 "en": "you-know-your-most-important-contacts-and-logins-by-heart"
             },
             "links": []
+        },
+        {
+            "id": "lco8obg3goffsozshg0nbwldo1sldybo",
+            "title": {
+                "de": "Entferne vor sensiblen Besprechungen den Akku aus deinem Telefon",
+                "en": "Remove the battery from your phone before sensitive meetings"
+            },
+            "shortText": {
+                "de": "Entferne den Akku aus deinem Gerät oder lagere es etwas entfernt, um vertrauliche Besprechungen zu schützen.",
+                "en": "Remove the battery from your device or store it away to protect confidential meetings."
+            },
+            "showMore": true,
+            "tags": [
+                "common",
+                "easy",
+                "journalist"
+            ],
+            "points": 400,
+            "longText": {
+                "de": "Bedenke, dass andere Personen nicht wissen können wie gut du dich selbst mit deinem Telefon auskennst. Es ist daher immer ein Zeichen des gegenseitigen Vertrauens Telefone aus sensiblen Gesprächen heraus zu halten. Grundsätzlich sollte gelten: Vertraue Personen eher als ihren Geräten.",
+                "en": "Remember that other people cannot know how well you know your own phone. It is therefore always a sign of mutual trust to keep phones out of sensitive conversations. The general rule should be: Trust people rather than their devices."
+            },
+            "links": [],
+            "slug": {
+                "de": "entferne-vor-sensiblen-gesprchen-den-akku-aus-deinem-telefon",
+                "en": "remove-the-battery-from-your-phone-before-making-sensitive-calls"
+            }
         },
         {
             "id": "pt4y2j261kog00fs6iodjs9kz14kvgkv",
@@ -470,6 +496,11 @@
                     "date": "2024-02-12",
                     "title": "Netzpolitik: Sachsen-Anhalt - Alle 3,5 Stunden durchsucht die Polizei ein Smartphone",
                     "url": "https:\/\/netzpolitik.org\/2024\/sachsen-anhalt-alle-35-stunden-durchsucht-die-polizei-ein-smartphone\/"
+                },
+                {
+                    "date": "2024-04-03",
+                    "title": "Google Warns: Android Zero-Day Flaws in Pixel Phones Exploited by Forensic Companies",
+                    "url": "https:\/\/thehackernews.com\/2024\/04\/google-warns-android-zero-day-flaws-in.html"
                 }
             ],
             "tags": [
@@ -501,6 +532,11 @@
             },
             "showMore": true,
             "links": [
+                {
+                    "date": "2024-05-24",
+                    "title": "Netzpolitik: Hunderttausende Euro, um Handys von Geflüchteten zu knacken",
+                    "url": "https:\/\/netzpolitik.org\/2024\/abschiebungen-hunderttausende-euro-um-handys-von-gefluechteten-zu-knacken\/"
+                },
                 {
                     "date": "2023-10-30",
                     "title": "Netzpolitik: Beschlagnahmte Smartphones: Ein Grundrechtseingriff unbekannten Ausmaßes",
@@ -607,22 +643,37 @@
         {
             "id": "kw9bjghrjadzbtyc6ktszoycw98t5ym8",
             "title": {
-                "de": "Du nutzt keine biometrische Freischaltung",
-                "en": "You do not use biometric activation"
+                "de": "Verzichte auf biometrische Freischaltung",
+                "en": "Do not use biometric unlocking"
             },
             "shortText": {
                 "de": "Du solltest nie deinen Fingerabdruck oder dein Gesicht nutzen, um dein Telefon freizuschalten. Behörden mit Zugriff auf Fingerabdrücke oder Bildmaterial können das Gerät sonst entsperren. Nutze daher komplexe Muster oder alphanumerische Passworte.",
                 "en": "You should never use your fingerprint or face to unlock your phone. Authorities with access to fingerprints or images can otherwise unlock the device. Therefore, use complex patterns or alphanumeric passwords."
             },
             "longText": {
-                "de": "Fingerabdrücke und Gesichtserkennung sind keine sicheren Methoden, um das eigene Gerät zu entsperren. Sie sind wie Passwörter, die du niemals ändern kannst. Durch Datenlecks oder Malware könnten diese sensiblen Informationen abhanden kommen und dir so zum Nachteil werden. Zudem darf auch die Polizei deine Fingerabdrücke nutzen, um dein Gerät zu entsperren.",
-                "en": "Fingerprints and facial recognition are not secure methods of unlocking your device. They are like passwords that you can never change. Data leaks or malware could cause this sensitive information to be lost and put you at a disadvantage. The police can also use your fingerprints to unlock your device."
+                "de": "Fingerabdrücke und Gesichtserkennung sind keine sicheren Methoden, um das eigene Gerät zu entsperren. Sie sind wie Passwörter, die du niemals ändern kannst. Durch Datenlecks oder Malware könnten diese sensiblen Informationen abhanden kommen und dir so zum Nachteil werden. Zudem darf auch die Polizei deine Fingerabdrücke nutzen, um dein Gerät zu entsperren. In Deutschland und den USA gab es dazu bereits Gerichtsurteile. Wenn du ein iPhone hast kannst du durch das betätigen einer speziellen Tastenkombination Face ID und Fingerabdruck temporär sperren. Für Android ist auf einigen Geräten der Lockdown-Mode verfügbar mit dem du diese Funktionen im Notfall schnell abschalten kannst.",
+                "en": "Fingerprints and facial recognition are not secure methods for unlocking your device. They are like passwords that you can never change. Data leaks or malware could cause this sensitive information to be lost and put you at a disadvantage. The police can also use your fingerprints to unlock your device. There have already been court rulings on this in Germany and the USA. If you have an iPhone, you can temporarily lock Face ID and your fingerprint by pressing a special key combination. For Android, lockdown mode is available on some devices, allowing you to quickly disable these functions in an emergency."
             },
             "showMore": true,
             "links": [
                 {
+                    "date": "2023-06-29",
+                    "title": "How to use Android's lockdown mode (and why)",
+                    "url": "https:\/\/www.zdnet.com\/article\/how-to-use-the-android-lockdown-mode-and-why-you-should\/"
+                },
+                {
+                    "date": "2017-09-15",
+                    "title": "Heise: Face ID: Not-Tastenkombination deaktiviert Gesichtserkennung",
+                    "url": "https:\/\/www.heise.de\/news\/Face-ID-Not-Tastenkombination-deaktiviert-Gesichtserkennung-3833463.html"
+                },
+                {
+                    "date": "2024-04-19",
+                    "title": "Heise: US-Gericht billigt erzwungenen Fingerabdruck zum Entsperren des Smartphones",
+                    "url": "https:\/\/www.heise.de\/news\/US-Gericht-billigt-erzwungenen-Fingerabdruck-zum-Entsperren-des-Smartphones-9691611.html"
+                },
+                {
                     "date": "2023-03-10",
-                    "title": "Polizei darf Fingerabdrücke nehmen, um Handy zu entsperren",
+                    "title": "Netzpolitik: Polizei darf Fingerabdrücke nehmen, um Handy zu entsperren",
                     "url": "https:\/\/netzpolitik.org\/2023\/gerichtsbeschluss-polizei-darf-fingerabdruecke-nehmen-um-handy-zu-entsperren\/"
                 },
                 {
@@ -776,8 +827,8 @@
                 "en": "You have noted the unique numbers of your device"
             },
             "shortText": {
-                "de": "In den Einstellungen deines Telefons findest du eindeutige, unveränderliche Hardwarenummern wie Seriennummer, WiFi-Mac-Adresse, Bluetooth-Mac-Adresse und IMEI. Notiere diese Nummern. So kannst du dir jederzeit sicher sein, dass dein Gerät nicht heimlich ausgetauscht wurde.",
-                "en": "In your phone's settings, you will find unique, unchangeable hardware numbers such as the serial number, WiFi Mac address, Bluetooth Mac address and IMEI. Make a note of these numbers. This way, you can always be sure that your device has not been secretly replaced."
+                "de": "In den Einstellungen deines Telefons findest du eindeutige, unveränderliche Hardwarenummern wie Seriennummer, Wi-Fi-Mac-Adresse, Bluetooth-Mac-Adresse und IMEI. Notiere diese Nummern. So kannst du dir jederzeit sicher sein, dass dein Gerät nicht heimlich ausgetauscht wurde.",
+                "en": "In your phone's settings, you will find unique, unchangeable hardware numbers such as the serial number, Wi-Fi Mac address, Bluetooth Mac address and IMEI. Make a note of these numbers. This way, you can always be sure that your device has not been secretly replaced."
             },
             "tags": [
                 "physical",
@@ -1023,12 +1074,12 @@
                 "en": "Deactivate unused interfaces"
             },
             "shortText": {
-                "de": "Du solltest Positionierung, WiFi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst",
-                "en": "You should only activate positioning, WiFi, Bluetooth or NFC if you really need it"
+                "de": "Du solltest Positionierung, Wi-Fi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst",
+                "en": "You should only activate positioning, Wi-Fi, Bluetooth or NFC if you really need it"
             },
             "longText": {
-                "de": "Über WiFi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner WiFi-Schnittstelle sowie die Liste deiner bekannten WiFi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen. Aber auch Bluetooth und andere Schnittstellen bergen Gefahren. Bluetooth ist zum Beispiel Anfällig für Bluesnarfing (Öffnung eigentlich geschlossener Ports durch Befehle von Außen), Bluejacking (Zusendung unerwünschter Nachrichten), Bluebugging (Ausnutzen einer Backdoor), Bluesmacking (Denial of Service) oder Car Whispering (Abhören der Freisprecheinrichtung).",
-                "en": "In certain cases, you can be recognized via WiFi. In the most extreme cases, even your home address can be determined. Some devices reveal the unique hardware number of your WiFi interface as well as the list of your known WiFi networks. On websites such as wigle.net, you can easily search for the physical locations of the networks. However, Bluetooth and other interfaces also harbor dangers. Bluetooth, for example, is susceptible to bluesnarfing (opening ports that are actually closed by commands from outside), bluejacking (sending unwanted messages), bluebugging (exploiting a backdoor), bluesmacking (denial of service) or car whispering (eavesdropping on the hands-free system)."
+                "de": "Über Wi-Fi kannst du in bestimmten Fällen wiedererkannt werden. Im extremsten Fall kann sogar deine Wohnadresse ermittelt werden. Einige Geräte verraten die eindeutige Hardwarenummer deiner Wi-Fi-Schnittstelle sowie die Liste deiner bekannten Wi-Fi-Netze. Auf Websites wie wigle.net kannst du einfach nach den physischen Standorten der Netze suchen. Aber auch Bluetooth und andere Schnittstellen bergen Gefahren. Bluetooth ist zum Beispiel Anfällig für Bluesnarfing (Öffnung eigentlich geschlossener Ports durch Befehle von Außen), Bluejacking (Zusendung unerwünschter Nachrichten), Bluebugging (Ausnutzen einer Backdoor), Bluesmacking (Denial of Service) oder Car Whispering (Abhören der Freisprecheinrichtung).",
+                "en": "In certain cases, you can be recognized via Wi-Fi. In the most extreme cases, even your home address can be determined. Some devices reveal the unique hardware number of your Wi-Fi interface as well as the list of your known Wi-Fi networks. On websites such as wigle.net, you can easily search for the physical locations of the networks. However, Bluetooth and other interfaces also harbor dangers. Bluetooth, for example, is susceptible to bluesnarfing (opening ports that are actually closed by commands from outside), bluejacking (sending unwanted messages), bluebugging (exploiting a backdoor), bluesmacking (denial of service) or car whispering (eavesdropping on the hands-free system)."
             },
             "showMore": true,
             "links": [
@@ -1279,6 +1330,11 @@
                     "date": "2018-08-07",
                     "title": "Süddeutsche Zeitung: Alle eineinhalb Minuten pingt der Staat",
                     "url": "https:\/\/www.sueddeutsche.de\/digital\/stille-sms-alle-eineinhalb-minuten-pingt-der-staat-1.4085229"
+                },
+                {
+                    "date": "2024-04-03",
+                    "title": "Stille SMS & Co.: Regierung erklärt heimliche Überwachung komplett für geheim",
+                    "url": "https:\/\/www.heise.de\/news\/Stille-SMS-Co-Regierung-erklaert-heimliche-Ueberwachung-komplett-fuer-geheim-9674437.html"
                 }
             ],
             "tags": [
@@ -1308,6 +1364,11 @@
             },
             "showMore": true,
             "links": [
+                {
+                    "date": "2024-04-02",
+                    "title": "Überwachung ab jetzt komplett geheim",
+                    "url": "https:\/\/www.nd-aktuell.de\/artikel\/1181145.kleine-anfragen-ueberwachung-ab-jetzt-komplett-geheim.html"
+                },
                 {
                     "date": "2024-01-18",
                     "title": "Netzpolitik.org: Staatstrojaner bedrohen Grundrechte in der EU",
@@ -1434,8 +1495,8 @@
                 "en": "To further increase security, you can often change your anonymous SIM cards. Each time you switch, you should also change the phone used for this purpose."
             },
             "longText": {
-                "de": "Da in den Verkehrsdaten deiner Netzanbieter*in immer die IMSI zusammen mit der IMEI auftaucht solltest du beim Wechsel deiner Simkarte auch dein Telefon wechseln. Wie du dir sicher vorstellen kannst ist es aufwändig und auch teuer das Telefon von Zeit zu Zeit zu wechseln. Du müsstest ja ständig deine Apps neu einrichten und viel Geld für ein neues Telefon ausgeben. Um die Kosten gering zu halten kannst du mit Proxy-Telefonen arbeiten. Und das geht so: Du hast ein teureres Gerät für deine reguläre Nutzung auf dem all deine Apps installiert sind. In diesem Telefon befindet sich keine Simkarte. Es ist also für das Mobilfunknetzwerk unsichtbar. Internet bekommst du über ein günstiges Zweitgerät, in welches eine Simkarte eingelegt ist. Dieses Telefon braucht nicht viel Leistung. Dieses kann dir aber einen WiFi Hotspot und damit Internet bereitstellen. Außerdem kannst du damit ganz normal telefonieren, wenn du willst. Dieses Telefon lässt sich mit samt der eingelegten Simkarte schnell austauschen. Einziger Nachteil: Du hast immer zwei Smartphones dabei.",
-                "en": "Since the IMSI always appears together with the IMEI in the traffic data of your network provider, you should also change your phone when you change your SIM card. As you can imagine, it is time-consuming and expensive to change your phone from time to time. You would have to constantly set up your apps again and spend a lot of money on a new phone. To keep costs down, you can work with proxy phones. And this is how it works: You have a more expensive device for your regular use on which all your apps are installed. There is no SIM card in this phone. It is therefore invisible to the mobile network. You get Internet access via an inexpensive second device with a SIM card inserted. This phone does not need much power. However, it can provide you with a WiFi hotspot and therefore Internet. You can also use it to make normal phone calls if you want. This phone can be replaced quickly with the SIM card inserted. The only disadvantage is that you always have two smartphones with you."
+                "de": "Da in den Verkehrsdaten deiner Netzanbieter*in immer die IMSI zusammen mit der IMEI auftaucht solltest du beim Wechsel deiner Simkarte auch dein Telefon wechseln. Wie du dir sicher vorstellen kannst ist es aufwändig und auch teuer das Telefon von Zeit zu Zeit zu wechseln. Du müsstest ja ständig deine Apps neu einrichten und viel Geld für ein neues Telefon ausgeben. Um die Kosten gering zu halten kannst du mit Proxy-Telefonen arbeiten. Und das geht so: Du hast ein teureres Gerät für deine reguläre Nutzung auf dem all deine Apps installiert sind. In diesem Telefon befindet sich keine Simkarte. Es ist also für das Mobilfunknetzwerk unsichtbar. Internet bekommst du über ein günstiges Zweitgerät, in welches eine Simkarte eingelegt ist. Dieses Telefon braucht nicht viel Leistung. Dieses kann dir aber einen Wi-Fi Hotspot und damit Internet bereitstellen. Außerdem kannst du damit ganz normal telefonieren, wenn du willst. Dieses Telefon lässt sich mit samt der eingelegten Simkarte schnell austauschen. Einziger Nachteil: Du hast immer zwei Smartphones dabei.",
+                "en": "Since the IMSI always appears together with the IMEI in the traffic data of your network provider, you should also change your phone when you change your SIM card. As you can imagine, it is time-consuming and expensive to change your phone from time to time. You would have to constantly set up your apps again and spend a lot of money on a new phone. To keep costs down, you can work with proxy phones. And this is how it works: You have a more expensive device for your regular use on which all your apps are installed. There is no SIM card in this phone. It is therefore invisible to the mobile network. You get Internet access via an inexpensive second device with a SIM card inserted. This phone does not need much power. However, it can provide you with a Wi-Fi hotspot and therefore Internet. You can also use it to make normal phone calls if you want. This phone can be replaced quickly with the SIM card inserted. The only disadvantage is that you always have two smartphones with you."
             },
             "showMore": true,
             "tags": [
@@ -1450,6 +1511,33 @@
                 "en": "you-often-use-other-sim-cards-and-a-proxy-phone"
             },
             "links": []
+        },
+        {
+            "id": "140ymtm30s5501lhioyqiepvitssorgu",
+            "title": {
+                "de": "Deaktiviere deine anonyme Simkarte, wenn du dich mit Freund*innen oder Bekannten bewegst",
+                "en": "Deactivate your anonymous SIM card if you are traveling with friends or acquaintances"
+            },
+            "shortText": {
+                "de": "Wenn du mit Freund*innen, Bekannten, Familie oder Genoss*innen unterwegs bist solltest du deine anonyme Simkarte nicht verweden.",
+                "en": "If you are traveling with friends, acquaintances, family or comrades, you should not use your anonymous SIM card."
+            },
+            "longText": {
+                "de": "Du solltest nicht damit telefonieren, keine SMS schreiben und deine mobile Internetverbindung nicht nutzen. Entferne sie sicherheitshalber aus deinem Telefon. Bewegst du dich über einen längeren Zeitraum mit anderen Personen gemeinsam durch identische Funkzellen ist theoretisch eingrenzbar wer du sein könntest oder wer dein Familien- bzw. Freund*innenkreis ist. Gleiches gilt für eine mögliche zweite Simkarte, die auf deinen Namen registriert ist. Z.B. wenn du ein zweites nicht anonymes Telefon dabei hast. Bewegt sich diese Simkarte zusammen mit der anonymen Simkarte durch ein Gebiet ist anhan der gleichen Funkzellenwechsel bekannt wem die anonyme Karte gehört. Die Funkzellenwechsel werden möglicherweise in den Verkehrsdaten deines Providers geloggt. Lass dir von Bekannten einen Wi-Fi Hotspot bereitstellen, wenn du unterwegs bist und verwende diesen mit einem VPN oder TOR. Wenn du mit einer größeren Gruppe unterwegs bist sollte nur eine einzige Person einen HotSpot erstellen. Alle anderen sollten ihre Simkarten für diese Zeit entfernen.",
+                "en": "You should not use it to make calls, send text messages or use your mobile internet connection. Remove it from your phone to be on the safe side. If you move through identical cells with other people over a longer period of time, it is theoretically possible to narrow down who you could be or who your family or friends are. The same applies to a possible second SIM card registered in your name. For example, if you have a second non-anonymous phone with you. If this SIM card moves through an area together with the anonymous SIM card, it is known who the anonymous card belongs to based on the same cell changes. The cell changes may be logged in your provider's traffic data. Have friends provide you with a Wi-Fi hotspot when you are traveling and use it with a VPN or TOR. If you are traveling with a larger group, only one person should create a hotspot. Everyone else should remove their SIM cards for this time."
+            },
+            "showMore": true,
+            "tags": [
+                "mobile",
+                "easy",
+                "behavior"
+            ],
+            "points": 400,
+            "links": [],
+            "slug": {
+                "de": "deaktiviere-deine-anonyme-simkarte-wenn-du-dich-mit-freund-innen-oder-bekannten-bewegst",
+                "en": "deactivate-your-anonymous-sim-card-if-you-are-traveling-with-friends-or-acquaintances"
+            }
         },
         {
             "id": "7afsd36t6fnjy7t9kl61qilodns5l8ry",
@@ -1550,7 +1638,7 @@
         {
             "id": "htdfk57a95tvt9lmf13dv9s38y6ldrmk",
             "title": {
-                "de": "Du nutzt Rufnummernunterdrückung mit bedacht",
+                "de": "Du nutzt Rufnummernunterdrückung mit Bedacht",
                 "en": "You use number suppression wisely"
             },
             "shortText": {
@@ -1582,8 +1670,8 @@
                 "en": "Advanced Mobile Location (AML) has been used in Germany and many other countries since 2019 and is gradually being expanded to locate people in emergency situations. If you don't want this, you should prepare yourself for it."
             },
             "longText": {
-                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und WiFi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist. Auf Wikipedia findest du eine Liste mit allen Ländern in denen es AML gibt. AML ist auf Android Teil der Play-Services und kann über die Notfalleinstellungen deaktiviert werden.",
-                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern telephones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and WiFi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary. You can find a list of all countries with AML on Wikipedia. AML is part of the Play services on Android and can be deactivated via the emergency settings."
+                "de": "Vor AML standen den Rettungsleitstellen lediglich extrem ungenaue Funkzellendaten zur Verfügung (wenn überhaupt), um Personen in Notsituationen orten zu können. AML dagegen ist fest in moderne Telefone und deren Betriebssysteme integriert: Wird eine Notrufnummer gewählt aktiviert das Telefon selbstständig GPS und Wi-Fi, um die eigene Position bestimmen zu können. Diese wird dann via Internet oder SMS automatisch an die Leitstelle übertragen. Diese extrem genaue Ortung wird nur durch das wählen der Notrufnummern aktiviert und ist nicht von außen ohne dein aktives Handeln nutzbar. Du kannst in den meisten Fällen nichts dagegen tun, dass du beim Wählen dieser Nummern automatisch geortet wirst. Leider werden so aber auch anonyme Meldungen erschwert. Du solltest daher immer abwägen, ob die Wahl von Notrufnummern durch dein eigenes Telefon wirklich notwendig ist. Auf Wikipedia findest du eine Liste mit allen Ländern in denen es AML gibt. AML ist auf Android Teil der Play-Services und kann über die Notfalleinstellungen deaktiviert werden.",
+                "en": "Before AML, rescue coordination centers only had extremely inaccurate radio cell data at their disposal (if at all) to locate people in emergency situations. AML, on the other hand, is firmly integrated into modern telephones and their operating systems: When an emergency number is dialed, the phone automatically activates GPS and Wi-Fi to determine its own position. This is then automatically transmitted to the control center via the Internet or SMS. This extremely precise location is only activated by dialing the emergency numbers and cannot be used from outside without your active involvement. In most cases, there is nothing you can do to prevent you from being automatically located when you dial these numbers. Unfortunately, this also makes it more difficult to make anonymous reports. You should therefore always consider whether dialing emergency numbers from your own phone is really necessary. You can find a list of all countries with AML on Wikipedia. AML is part of the Play services on Android and can be deactivated via the emergency settings."
             },
             "showMore": true,
             "links": [
@@ -1871,6 +1959,11 @@
                     "date": "2023-12-10",
                     "title": "Heise: Black Hat Europe 2023: Neuer Angriff \"AutoSpill\" auf Android-Passwortmanager",
                     "url": "https:\/\/www.heise.de\/news\/Black-Hat-Europe-2023-Neuer-Angriff-AutoSpill-auf-Android-Passwortmanager-9569772.html"
+                },
+                {
+                    "date": "2024-05-30",
+                    "title": "Heise: Android-Malware: 90 Apps mit 5,5 Millionen Installationen entdeckt ",
+                    "url": "https:\/\/www.heise.de\/news\/Google-Play-Store-Malware-in-90-Apps-mit-5-5-Millionen-Installationen-9742120.html"
                 }
             ],
             "tags": [
@@ -1929,6 +2022,11 @@
                     "date": "2023-04-12",
                     "title": "Tarnkappe: Kriminelle verkaufen in Google Play Store eingeschleuste Malware",
                     "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/malware\/kriminelle-verkaufen-in-google-play-store-eingeschleuste-malware-272859.html"
+                },
+                {
+                    "date": "2024-04-01",
+                    "title": "Malicious Apps Caught Secretly Turning Android Phones into Proxies for Cybercriminals",
+                    "url": "https:\/\/thehackernews.com\/2024\/04\/malicious-apps-caught-secretly-turning.html"
                 }
             ],
             "tags": [
@@ -2082,6 +2180,11 @@
                     "date": "2024-02-21",
                     "title": "Netzpolitik: Signal erlaubt bald Verbergen der Telefonnummer",
                     "url": "https:\/\/netzpolitik.org\/2024\/messenger-signal-erlaubt-bald-verbergen-der-telefonnummer\/"
+                },
+                {
+                    "date": "2024-03-26",
+                    "title": "Techcrunch: Telegram’s peer-to-peer SMS login service is a privacy nightmare",
+                    "url": "https:\/\/techcrunch.com\/2024\/03\/25\/telegrams-peer-to-peer-sms-login-service-is-a-privacy-nightmare\/"
                 }
             ],
             "tags": [
@@ -2163,6 +2266,43 @@
             }
         },
         {
+            "id": "19k3makbf0rzzqhag6qeysqm55vvn5zh",
+            "title": {
+                "de": "Du hast auf deinem iPhone den Lockdown-Mode (Blockierungsmodus) aktiviert",
+                "en": "You have activated lockdown mode (blocking mode) on your iPhone"
+            },
+            "shortText": {
+                "de": "Der Blockierungsmodus kann auf dem iPhone benutzt werden um Infektionen mit Malware vorzubeugen. Hierbei werden einige Features stark eingeschränkt um das System besonders zu schützen.",
+                "en": "The blocking mode can be used on the iPhone to prevent infections with malware. Some features are severely restricted in order to protect the system."
+            },
+            "longText": {
+                "de": "Für Android ist ein ähnliches Feature nicht verfügbar.",
+                "en": "A similar feature is not available for Android."
+            },
+            "showMore": true,
+            "links": [
+                {
+                    "date": "2024-05-30",
+                    "title": "Heise: Putin-kritische Journalisten in der EU mit Pegasus-Spyware angegriffen",
+                    "url": "https:\/\/www.heise.de\/news\/Pegasus-Putin-kritische-Journalisten-in-der-EU-mit-Spyware-angegriffen-9742220.html"
+                },
+                {
+                    "title": "Apple: About Lockdown Mode",
+                    "url": "https:\/\/support.apple.com\/en-asia\/105120"
+                }
+            ],
+            "tags": [
+                "system",
+                "behavior",
+                "journalist"
+            ],
+            "points": 600,
+            "slug": {
+                "de": "du-hast-auf-deinem-iphone-den-lockdown-mode-blockierungsmodus-aktiviert",
+                "en": "you-have-activated-lockdown-mode-blocking-mode-on-your-iphone"
+            }
+        },
+        {
             "id": "7op6jj5qxe7ner93bu8pc02bzonpzudi",
             "title": {
                 "de": "Du startest dein Telefon oft neu",
@@ -2208,6 +2348,38 @@
             "slug": {
                 "de": "deine-zweiter-faktor-fr-anmeldungen-liegt-auf-einem-separaten-gert",
                 "en": "your-second-factor-for-logins-is-on-a-separate-device"
+            }
+        },
+        {
+            "id": "t8jwa8n4ib4dxh6xjrtuy9pbwmzc3dmx",
+            "title": {
+                "de": "Du gehst achtsam mit deinen persönlichen Daten um und entfernst diese proaktiv",
+                "en": "You are careful with your personal data and remove it proactively"
+            },
+            "shortText": {
+                "de": "Du solltest dir genau überlegen welche persönlichen Informationen du im Internet teilst. Bist du z.B. leicht über Suchmaschinen zu finden?",
+                "en": "You should think carefully about what personal information you share on the internet. For example, are you easy to find via search engines?"
+            },
+            "longText": {
+                "de": "Spezialisierte Agenturen und Datenbroker sammeln öffentliche Informationen und Informationen aus Datenleaks über dich und verkaufen diese z.B. an Geheimdienste weiter. Unternehmen wie PimEyes, die auf Gesichtserkennung ausgerichtet sind, nutzen deine persönlichen Bilder, um ihre KIs zu trainieren. So werden die biometrischen Merkmale deines Gesichts erfasst und du kannst in Bruchteilen von Sekunden auf anderen Bildern identifiziert werden. Versuche dich selbst im Internet zu finden, identifiziere die Services und versuche deine persönlichen Daten von dort zu entfernen. Nutze zum Beispiel Google Alerts, um dich automatisch via E-Mail informieren zu lassen sobald dein Name oder andere persönliche Daten im Internet auftauchen.",
+                "en": "Specialized agencies and data brokers collect public information and information from data leaks about you and sell it on to intelligence agencies, for example. Companies such as PimEyes, which specialize in facial recognition, use your personal images to train their AIs. This captures the biometric features of your face and you can be identified in other images in a fraction of a second. Try to find yourself on the internet, identify the services and try to remove your personal data from them. For example, use Google Alerts to be automatically informed by e-mail as soon as your name or other personal data appears on the Internet."
+            },
+            "showMore": true,
+            "tags": [
+                "online",
+                "refugee"
+            ],
+            "points": 800,
+            "links": [
+                {
+                    "date": "2024-05-29",
+                    "title": "Netzpolitik: Wenn sich Geheimdienste sensible Daten aus Smartphone-Apps besorgen",
+                    "url": "https:\/\/netzpolitik.org\/2024\/kommerzielle-datenberge-wenn-sich-geheimdienste-sensible-daten-aus-smartphone-apps-besorgen\/"
+                }
+            ],
+            "slug": {
+                "de": "du-gehst-achtsam-mit-deinen-persnlichen-daten-um-und-entfernst-diese-proaktiv",
+                "en": "you-are-careful-with-your-personal-data-and-remove-it-proactively"
             }
         },
         {
@@ -2439,8 +2611,8 @@
                 "en": "You use TOR or the TOR browser"
             },
             "shortText": {
-                "de": "TOR (The Onion Router) kann dir helfen deine Anonymität im Internet stark zu verbessern. Nutze Websites über den Tor-Browser und leite Apps mit der Orbot-App über das Tor-Netzwerk um.",
-                "en": "TOR (The Onion Router) can help you greatly improve your anonymity on the Internet. Use websites via the Tor browser and redirect apps with the Orbot app via the Tor network."
+                "de": "Deine Internetzzugangsprovider können sehen welche Websites du besuchst und welche Apps du nutzt. TOR (The Onion Router) kann dir helfen deine Anonymität im Internet stark zu verbessern. Nutze Websites über den Tor-Browser und leite Apps mit der Orbot-App über das Tor-Netzwerk um.",
+                "en": "Your internet access providers can see which websites you visit and which apps you use. TOR (The Onion Router) can help you greatly improve your anonymity on the internet. Use websites via the Tor browser and redirect apps with the Orbot app via the Tor network."
             },
             "tags": [
                 "online",
@@ -2506,7 +2678,7 @@
                 "en": "You only use encrypted cloud storage"
             },
             "shortText": {
-                "de": "Viele Cloud-Anbieter arbeiten vollumfänglich mit Ermittlungsbehörden zusammen und werden nicht zögern deine Daten auszuliefern. Lege dort nur verschlüsselte Daten ab.",
+                "de": "Viele Cloud-Anbieter*innen arbeiten vollumfänglich mit Ermittlungsbehörden zusammen und werden nicht zögern deine Daten auszuliefern. Lege dort nur verschlüsselte Daten ab.",
                 "en": "Many cloud providers cooperate fully with investigating authorities and will not hesitate to hand over your data. Only store encrypted data there."
             },
             "longText": {
