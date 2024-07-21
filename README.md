@@ -8,7 +8,8 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
-* To be filled...
+* Renamed filter "May require changes in habits" to "Behavior-based risks"
+* Changed icon for filter "Behavior-based risks"
 
 ## Changelog 1.21.0
 * New task: Anonymous sim cards and traveling with friends or acquaintances

@@ -207,10 +207,10 @@
         },
         {
             "key": "behavior",
-            "icon": "clock",
+            "icon": "secret",
             "title": {
-                "de": "Benötigt evtl. Gewohnheitsveränderungen",
-                "en": "May require changes in habits"
+                "de": "Verhaltensbasierte Risiken",
+                "en": "Behavior-based risks"
             },
             "enabled": false
         },
