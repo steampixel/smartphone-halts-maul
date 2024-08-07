@@ -17,12 +17,14 @@
 
         <div v-if="!task">
           <NuxtLink activeClass="underline" :to="switchLocalePath('de')">DE</NuxtLink> |
-          <NuxtLink activeClass="underline" :to="switchLocalePath('en')">EN</NuxtLink> 
+          <NuxtLink activeClass="underline" :to="switchLocalePath('en')">EN</NuxtLink> |
+          <NuxtLink activeClass="underline" :to="switchLocalePath('es')">ES</NuxtLink> 
         </div>
 
         <div v-if="task && task.slug">
           <NuxtLink activeClass="underline" :to="'/list/'+task.slug['de']">DE</NuxtLink> |
-          <NuxtLink activeClass="underline" :to="'/en/list/'+task.slug['en']">EN</NuxtLink> 
+          <NuxtLink activeClass="underline" :to="'/en/list/'+task.slug['en']">EN</NuxtLink> |
+          <NuxtLink activeClass="underline" :to="'/es/list/'+task.slug['es']">ES</NuxtLink> 
         </div>
 
       </div>

@@ -2,6 +2,8 @@
 
   <navbar></navbar>
 
+  <translation-notice></translation-notice>
+
   <div class="container">
 
     <space></space>

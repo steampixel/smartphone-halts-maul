@@ -6,5 +6,6 @@ export default defineI18nConfig(() => ({
     messages: {
         de: config.messages.de,
         en: config.messages.en,
+        es: config.messages.es,
     }
 }))

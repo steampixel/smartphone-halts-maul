@@ -8,8 +8,14 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
+* Added automatic translations for Español
+* Added notification for automatic translations
 * Renamed filter "May require changes in habits" to "Behavior-based risks"
 * Changed icon for filter "Behavior-based risks"
+* Changed may levels to 42 ;-)
+* Added filter "Important basics"
+* Fixed many typos
+* All texts read and updated
 
 ## Changelog 1.21.0
 * New task: Anonymous sim cards and traveling with friends or acquaintances

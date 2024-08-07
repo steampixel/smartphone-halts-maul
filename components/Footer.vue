@@ -12,7 +12,8 @@
 
       <p class="text-sm">
         <NuxtLink activeClass="underline" :to="switchLocalePath('de')">Deutsch</NuxtLink> |
-        <NuxtLink activeClass="underline" :to="switchLocalePath('en')">English</NuxtLink> 
+        <NuxtLink activeClass="underline" :to="switchLocalePath('en')">English</NuxtLink> |
+        <NuxtLink activeClass="underline" :to="switchLocalePath('es')">Español</NuxtLink> 
       </p>
 
       <space></space>

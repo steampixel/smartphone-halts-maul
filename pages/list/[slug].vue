@@ -4,6 +4,8 @@
 
     <navbar :task="task"></navbar>
 
+    <translation-notice></translation-notice>
+
     <div class="container">
 
       <div>

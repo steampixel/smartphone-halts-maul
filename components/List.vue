@@ -36,6 +36,8 @@
 
     </div>
 
+    <translation-notice></translation-notice>
+
     <div class="container">
 
       <space></space>
@@ -149,6 +151,7 @@ import Seperator from '~/components/Seperator.vue'
 import Modal from '~/components/Modal.vue'
 import Icon from '~/components/Icon.vue'
 import Navbar from '~/components/Navbar.vue'
+import TranslationNotice from '~/components/TranslationNotice.vue'
 
 import config from '~/config.json';
 
@@ -159,7 +162,7 @@ var enableConfetti = false;
 export default {
   
   components: {
-    Task, AppButton, Space, Modal, Icon, Seperator, Navbar
+    Task, AppButton, Space, Modal, Icon, Seperator, Navbar, TranslationNotice
   },
 
   data: function() {
