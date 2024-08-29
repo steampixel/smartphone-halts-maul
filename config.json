@@ -1,7 +1,7 @@
 {
     "version": "1.22.0",
-    "lastUpdated": "2024-08-07",
-    "pointsPerLevel": 780,
+    "lastUpdated": "2024-08-29",
+    "pointsPerLevel": 800,
     "messages": {
         "de": {
             "seoTitle": "Smartphone, halt's Maul! - Eine Checkliste für deine mobile Sicherheit",
@@ -199,16 +199,6 @@
             "enabled": false
         },
         {
-            "key": "system",
-            "icon": "gear",
-            "title": {
-                "de": "Apps und Betriebssystem",
-                "en": "Apps and operating system",
-                "es": "Aplicaciones y sistema operativo"
-            },
-            "enabled": false
-        },
-        {
             "key": "online",
             "icon": "online",
             "title": {
@@ -249,6 +239,36 @@
             "enabled": false
         },
         {
+            "key": "behavior",
+            "icon": "secret",
+            "title": {
+                "de": "Verhaltensbasierte Risiken",
+                "en": "Behavior-based risks",
+                "es": "Riesgos basados en el comportamiento"
+            },
+            "enabled": false
+        },
+        {
+            "key": "fraud",
+            "icon": "handcuffs",
+            "title": {
+                "de": "Betrug und Abzocke",
+                "en": "Fraud and rip-off",
+                "es": "Fraude y estafa"
+            },
+            "enabled": false
+        },
+        {
+            "key": "system",
+            "icon": "gear",
+            "title": {
+                "de": "Apps und Betriebssystem",
+                "en": "Apps and operating system",
+                "es": "Aplicaciones y sistema operativo"
+            },
+            "enabled": false
+        },
+        {
             "key": "easy",
             "icon": "star",
             "title": {
@@ -265,16 +285,6 @@
                 "de": "Eher komplizierter",
                 "en": "Rather more complicated",
                 "es": "Algo más complicado"
-            },
-            "enabled": false
-        },
-        {
-            "key": "behavior",
-            "icon": "secret",
-            "title": {
-                "de": "Verhaltensbasierte Risiken",
-                "en": "Behavior-based risks",
-                "es": "Riesgos basados en el comportamiento"
             },
             "enabled": false
         },
@@ -474,7 +484,13 @@
                 "en": "Remember that other people cannot know how well you know your own phone. It is therefore always a sign of mutual trust to keep phones out of sensitive conversations. The general rule should be: Trust people rather than their devices.",
                 "es": "Recuerda que los demás no pueden saber lo bien que conoces tu propio teléfono. Por lo tanto, siempre es una señal de confianza mutua mantener los teléfonos fuera de las conversaciones delicadas. La regla general debería ser: Confía más en las personas que en sus dispositivos."
             },
-            "links": [],
+            "links": [
+                {
+                    "date": "2024-08-23",
+                    "title": "Heise: Handyverbot: Niederländische Minister müssten Geräte künftig abgeben ",
+                    "url": "https:\/\/www.heise.de\/news\/Handyverbot-fuer-Minister-Niederlande-gehen-auf-Nummer-sicher-9846074.html"
+                }
+            ],
             "slug": {
                 "de": "entferne-vor-sensiblen-gesprchen-den-akku-aus-deinem-telefon",
                 "en": "remove-the-battery-from-your-phone-before-making-sensitive-calls",
@@ -562,16 +578,17 @@
                 "refugee"
             ],
             "points": 400,
-            "longText": {
-                "en": "",
-                "es": ""
-            },
             "slug": {
                 "de": "du-hast-eine-displaysperre-eingerichtet",
                 "en": "you-have-set-up-a-screen-lock",
                 "es": "has-configurado-un-bloqueo-de-pantalla"
             },
-            "links": []
+            "showMore": false,
+            "links": [],
+            "longText": {
+                "en": "",
+                "es": ""
+            }
         },
         {
             "id": "80orohontx6p1hk9iq507gcwxli61686",
@@ -581,9 +598,9 @@
                 "es": "Sus smartphones están cifrados"
             },
             "shortText": {
-                "de": "Verschlüssel deine Smartphones mit einem starken alphanumerischen Passwort. Dies verhindert das Auslesen von Daten sehr effektiv.",
-                "en": "Encrypt your smartphones with a strong alphanumeric password. This effectively prevents data from being read.",
-                "es": "Cifre sus smartphones con una contraseña alfanumérica fuerte. Esto impide que los datos puedan ser leídos de forma muy eficaz."
+                "de": "Verschlüssel deine Smartphones mit einem starken alphanumerischen Passwort das mindestens 20 Zeichen lang ist. Dies verhindert das Auslesen von Daten sehr effektiv.",
+                "en": "Encrypt your smartphones with a strong alphanumeric password that is at least 20 characters long. This prevents data from being read very effectively.",
+                "es": "Cifre sus smartphones con una contraseña alfanumérica fuerte de al menos 20 caracteres. De este modo se impide de forma muy eficaz la lectura de los datos."
             },
             "longText": {
                 "de": "Eine starke Verschlüsselung ist wichtig. Eine Bildschirmsperre ist nicht ausreichend. Software wie Cellebrite kann über die USB-Schnittstelle die meisten Bildschirmsperren einfach umgehen. Alle deine Daten, Kontakte, Anruflisten, Standortdaten, Login-Daten und vieles mehr können dann durch automatisierte Software wie Cellebrite Pathfinder via USB gesammelt und aufbereitet dargestellt werden. Dein Verschlüsselungspasswort sollte besonders stark sein. Nutze ein sehr komplexes Muster oder ein alphanumerisches Passwort zur Verschlüsselung.",
@@ -1608,6 +1625,11 @@
             "showMore": true,
             "links": [
                 {
+                    "date": "2024-01-08",
+                    "title": "Netzpolitik: Bundesnetzagentur schaltet pseudonyme Mobilfunk-Anschlüsse ab",
+                    "url": "https://netzpolitik.org/2024/bestandsdatenauskunft-2023-bundesnetzagentur-schaltet-pseudonyme-mobilfunk-anschluesse-ab/"
+                },
+                {
                     "date": "2024-04-02",
                     "title": "Überwachung ab jetzt komplett geheim",
                     "url": "https:\/\/www.nd-aktuell.de\/artikel\/1181145.kleine-anfragen-ueberwachung-ab-jetzt-komplett-geheim.html"
@@ -2165,9 +2187,9 @@
                 "es": "Has desactivado o borrado tu ID de publicidad"
             },
             "shortText": {
-                "de": "Du solltest unbedingt deine Werbe-ID löschen, öfters ändern (Android) oder deinen Apps das Tracking verbieten (iOS), wenn du nicht möchtest, dass die Daten aus verschiedenen Apps durch sogenannte Datenbroker wieder zusammengeführt und verkauft werden.",
-                "en": "You should definitely delete your advertising ID, change it frequently (Android) or prohibit your apps from tracking (iOS) if you do not want the data from different apps to be merged and sold again by so-called data brokers.",
-                "es": "Si no quieres que los datos de diferentes aplicaciones se fusionen y vuelvan a ser vendidos por los llamados corredores de datos, deberías borrar tu ID de publicidad, cambiarlo con frecuencia (Android) o prohibir el seguimiento de tus aplicaciones (iOS)."
+                "de": "Du solltest unbedingt deine „mobile advertising ID“ (MAID) löschen, öfters ändern (Android) oder deinen Apps das Tracking verbieten (iOS), wenn du nicht möchtest, dass die Daten aus verschiedenen Apps durch sogenannte Datenbroker wieder zusammengeführt und verkauft werden.",
+                "en": "You should definitely delete your \"mobile advertising ID\" (MAID), change it frequently (Android) or prohibit your apps from tracking (iOS) if you do not want the data from different apps to be merged and sold again by so-called data brokers.",
+                "es": "Si no quiere que los datos de distintas aplicaciones se fusionen y vuelvan a ser vendidos por los llamados corredores de datos, elimine su \"identificador de publicidad móvil\" (MAID), cámbielo con frecuencia (Android) o prohíba el seguimiento de sus aplicaciones (iOS)."
             },
             "longText": {
                 "de": "Wenn du iOS oder Android verwendest überträgt dein Betriebssystem im Hintergrund eine Werbe-ID an deine Apps. Diese ID können an die Datensätze einzelner Apps gehangen werden. Wenn die Anbieter*in deiner Apps diese Daten dann verkauft können Broker diese mit anderen Datensätzen von dir zusammenführen. Dadurch entstehen regelrechte Halden aus deinen persönlichen Daten und Interessen, die online gehandelt werden.",
@@ -2244,9 +2266,9 @@
                 "es": "¿Utilizas un gestor de contraseñas?"
             },
             "shortText": {
-                "de": "Deine Sicherheit wird enorm erhöht, wenn du für alle Services im Internet ein anderes komplexes Passwort verwendest. Diese solltest du in einem Passwortmanager wie KeePass speichern.",
-                "en": "Your security is increased enormously if you use a different complex password for all services on the Internet. You should save these in a password manager such as KeePass.",
-                "es": "Tu seguridad aumenta enormemente si utilizas una contraseña compleja diferente para todos los servicios de Internet. Deberías guardarlas en un gestor de contraseñas como KeePass."
+                "de": "Deine Sicherheit wird enorm erhöht, wenn du für alle Services im Internet ein anderes komplexes Passwort verwendest. Diese solltest du in einem Passwortmanager wie KeepassXC oder Bitwarden speichern.",
+                "en": "Your security is increased enormously if you use a different complex password for all services on the Internet. You should save these in a password manager such as KeepassXC or Bitwarden.",
+                "es": "Tu seguridad aumenta enormemente si utilizas una contraseña compleja diferente para todos los servicios de Internet. Debería guardarlas en un gestor de contraseñas como KeepassXC o Bitwarden."
             },
             "tags": [
                 "system",
@@ -2257,16 +2279,26 @@
             "points": 400,
             "showMore": true,
             "longText": {
-                "de": "Denke daran, dass dein Passwortmanager ein besonders sicheres Passwort braucht. Denke auch daran eine regelmäßige Sicherungskopie deiner Passwortdatenbank zu erstellen.",
-                "en": "Remember that your password manager needs a particularly secure password. Also remember to make a regular backup copy of your password database.",
-                "es": "Recuerde que su gestor de contraseñas necesita una contraseña especialmente segura. Recuerde también hacer una copia de seguridad periódica de su base de datos de contraseñas."
+                "de": "Denke daran, dass dein Passwortmanager ein besonders sicheres Passwort braucht. Denke auch daran eine regelmäßige Sicherungskopie deiner Passwortdatenbank zu erstellen. Wenn du Probleme hast dir starke Passworte auszudenken kannst du das Diceware-Verfahren nutzen. Unten findest du einen Link mit einer Anleitung. Alles was du brauchst ist ein Spiel-Würfel.",
+                "en": "Remember that your password manager needs a particularly strong password. Also remember to make a regular backup copy of your password database. If you have trouble coming up with strong passwords, you can use the Diceware method. Below you will find a link with instructions. All you need is a dice.",
+                "es": "Recuerda que tu gestor de contraseñas necesita una contraseña especialmente fuerte. Acuérdate también de hacer regularmente una copia de seguridad de tu base de datos de contraseñas. Si tienes problemas para crear contraseñas seguras, puedes utilizar el método Diceware. Más abajo encontrarás un enlace con instrucciones. Todo lo que necesitas es un dado."
             },
             "slug": {
                 "de": "nutzt-du-einen-passwortmanager",
                 "en": "do-you-use-a-password-manager",
                 "es": "utilizas-un-gestor-de-contraseas"
             },
-            "links": []
+            "links": [
+                {
+                    "date": "2024-08-28",
+                    "title": "So funktionieren sichere Passwörter",
+                    "url": "https:\/\/netzpolitik.org\/2024\/digitale-selbstverteidigung-so-funktionieren-sichere-passwoerter\/#netzpolitik-pw"
+                },
+                {
+                    "title": "Wikipedia: Diceware",
+                    "url": "https:\/\/de.wikipedia.org\/wiki\/Diceware"
+                }
+            ]
         },
         {
             "id": "bsqnf4sy9e72t3hfw0f47nywgsbmfm3j",
@@ -2300,7 +2332,8 @@
             ],
             "tags": [
                 "system",
-                "knowledge"
+                "knowledge",
+                "fraud"
             ],
             "points": 200,
             "slug": {
@@ -2323,7 +2356,8 @@
             },
             "tags": [
                 "system",
-                "easy"
+                "easy",
+                "fraud"
             ],
             "points": 200,
             "longText": {
@@ -2730,13 +2764,100 @@
             "tags": [
                 "system",
                 "expensive",
-                "journalist"
+                "journalist",
+                "fraud"
             ],
             "points": 200,
             "slug": {
                 "de": "deine-zweiter-faktor-fr-anmeldungen-liegt-auf-einem-separaten-gert",
                 "en": "your-second-factor-for-logins-is-on-a-separate-device",
                 "es": "tu-segundo-factor-para-iniciar-sesin-est-en-un-dispositivo-independiente"
+            }
+        },
+        {
+            "id": "hg1ex3x63thdg4dbqldatdoql0mletc3",
+            "title": {
+                "de": "Du bist vorsichtig beim Scannen von QR-Codes",
+                "en": "You are careful when scanning QR codes",
+                "es": "Ten cuidado al escanear códigos QR"
+            },
+            "shortText": {
+                "de": "Achte beim Scannen von QR-Codes auf die Echtheit der Zielseite und prüfe genau wohin der Code dich leitet. Sei skeptisch, wenn du nach dem Scannen persönliche Daten oder Bankinformationen eintippen sollst.",
+                "en": "When scanning QR codes, pay attention to the authenticity of the target page and check exactly where the code takes you. Be skeptical if you are asked to enter personal data or bank information after scanning.",
+                "es": "Cuando escanee códigos QR, preste atención a la autenticidad de la página de destino y compruebe exactamente a dónde le lleva el código. Sea escéptico si después de escanearlo le piden que introduzca datos personales o información bancaria."
+            },
+            "longText": {
+                "de": "Immer wieder werden QR-Codes zum Beispiel an Ladesäulen oder Automaten überklebt. Sie werden aber manchmal auch mit Briefen versendet. So werden Menschen dazu gebracht persönliche Informationen auf Fake-Seiten einzugeben oder bösartige Apps zu installieren. Prüfe daher das Ziel genau. Sei skeptisch bei aufgeklebten Codes. QR-Codes sollten so gestaltet sein, dass sie fälschungssicher sind. Zum Beispiel sollten diese hinter einer Glasscheibe angebracht sein, um ein Austauschen zu verhindern.",
+                "en": "QR codes are repeatedly pasted over at charging stations or vending machines, for example. However, they are sometimes also sent with letters. This is how people are tricked into entering personal information on fake websites or installing malicious apps. So check the target carefully. Be skeptical of stick-on codes. QR codes should be designed in such a way that they are forgery-proof. For example, they should be placed behind a pane of glass to prevent them from being replaced.",
+                "es": "Los códigos QR se pegan repetidamente en estaciones de carga o máquinas expendedoras, por ejemplo. Sin embargo, a veces también se envían con cartas. Así es como se engaña a la gente para que introduzca información personal en sitios web falsos o instale aplicaciones maliciosas. Así que compruebe cuidadosamente el objetivo. Desconfíe de los códigos adhesivos. Los códigos QR deben diseñarse de forma que sean a prueba de manipulaciones. Por ejemplo, deben colocarse detrás de un cristal para evitar que puedan ser sustituidos."
+            },
+            "showMore": true,
+            "tags": [
+                "online",
+                "fraud",
+                "behavior",
+                "easy"
+            ],
+            "points": 200,
+            "links": [
+                {
+                    "date": "2024-08-24",
+                    "title": "Tarnkappe: QR-Code-Phishing: Gefahr durch gefälschte Bankbriefe",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/datenschutz\/qr-code-phishing-gefahr-durch-gefaelschte-bankbriefe-300785.html"
+                },
+                {
+                    "date": "2024-08-02",
+                    "title": "Tarnkappe: Quishing-Betrugsmasche: E-Auto Ladesäulen bergen gefakte QR-Codes",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/online-betrug\/quishing-betrugsmasche-e-auto-ladesaeulen-bergen-gefakte-qr-codes-299683.html"
+                }
+            ],
+            "slug": {
+                "en": "you-are-careful-when-scanning-qr-codes",
+                "es": "ten-cuidado-al-escanear-cdigos-qr",
+                "de": "du-bist-vorsichtig-beim-scannen-von-qr-codes"
+            }
+        },
+        {
+            "id": "mw5r0sv8ugein99faqkulttjk84pjyzp",
+            "title": {
+                "de": "Du trägst deine Bankkarte nicht direkt bei deinem Smartphone",
+                "en": "You do not carry your bank card directly next to your smartphone",
+                "es": "No lleve la tarjeta bancaria directamente junto al smartphone"
+            },
+            "shortText": {
+                "de": "Du solltest deine Bankkarte nicht direkt neben deinem Smartphone tragen oder lagern. Malware könnte die Daten über NFC auslesen und verschicken. Nutze alternativ RFID-Schutzhüllen für deine Karten und deaktiviere NFC.",
+                "en": "You should not carry or store your bank card right next to your smartphone. Malware could read and send the data via NFC. Alternatively, use RFID protective covers for your cards and deactivate NFC.",
+                "es": "No debe llevar ni guardar su tarjeta bancaria junto a su smartphone. Los programas maliciosos podrían leer y enviar los datos a través de NFC. Como alternativa, utilice fundas protectoras RFID para sus tarjetas y desactive NFC."
+            },
+            "longText": {
+                "de": "Malware kann die NFC-Schnittstelle deines Smartphones nutzen, um Daten von Bankkarten auszulesen. Du kannst dich schützen indem du die Karten nicht direkt neben deinem Smartphone aufbewarst. Online kannst du auch spezielle RFID-Schutzhüllen bestellen, die dich schützen können.",
+                "en": "Malware can use your smartphone's NFC interface to read data from bank cards. You can protect yourself by not keeping your cards right next to your smartphone. You can also order special RFID protective covers online that can protect you.",
+                "es": "Los programas maliciosos pueden utilizar la interfaz NFC de su smartphone para leer datos de tarjetas bancarias. Puede protegerse no guardando las tarjetas junto al smartphone. También puede pedir en línea fundas protectoras RFID especiales que pueden protegerle."
+            },
+            "showMore": true,
+            "tags": [
+                "online",
+                "fraud",
+                "behavior",
+                "easy"
+            ],
+            "points": 200,
+            "links": [
+                {
+                    "date": "2024-08-26",
+                    "title": "thehackernews: New Android Malware NGate Steals NFC Data to Clone Contactless Payment Cards",
+                    "url": "https:\/\/thehackernews.com\/2024\/08\/new-android-malware-ngate-steals-nfc.html"
+                },
+                {
+                    "date": "2024-08-27",
+                    "title": "t3n: Abzocke am Geldautomaten: Wie Betrüger Android-Nutzern das Geld aus der Tasche ziehen wollen",
+                    "url": "https:\/\/t3n.de\/news\/geldautomaten-abzocke-android-nutzer-1642608\/"
+                }
+            ],
+            "slug": {
+                "en": "you-do-not-carry-your-bank-card-directly-next-to-your-smartphone",
+                "es": "no-lleve-la-tarjeta-bancaria-directamente-junto-al-smartphone",
+                "de": "du-trgst-deine-bankkarte-nicht-direkt-bei-deinem-smartphone"
             }
         },
         {
@@ -2759,7 +2880,8 @@
             "showMore": true,
             "tags": [
                 "online",
-                "refugee"
+                "refugee",
+                "fraud"
             ],
             "points": 800,
             "links": [
@@ -2850,7 +2972,8 @@
                 "online",
                 "easy",
                 "security",
-                "behavior"
+                "behavior",
+                "fraud"
             ],
             "points": 600,
             "slug": {
@@ -2889,7 +3012,8 @@
                 "easy",
                 "security",
                 "behavior",
-                "house"
+                "house",
+                "fraud"
             ],
             "points": 600,
             "slug": {
@@ -3310,7 +3434,8 @@
             },
             "tags": [
                 "online",
-                "knowledge"
+                "knowledge",
+                "fraud"
             ],
             "points": 400,
             "longText": {
@@ -3350,7 +3475,8 @@
             ],
             "tags": [
                 "online",
-                "easy"
+                "easy",
+                "fraud"
             ],
             "points": 400,
             "slug": {
