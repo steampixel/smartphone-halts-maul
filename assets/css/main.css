@@ -78,3 +78,45 @@ ol.list-inside-out li::before {
         transform:rotate(20deg); 
   }
 }
+
+/*
+  Shield
+*/
+.shield-gold {
+  /* border: 1px solid #db2777; */
+  border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+  background-image:
+    linear-gradient(
+      90deg,
+      #FCF6BA 50%,
+      #BF953F 100%
+    );
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.5);
+}
+
+.shield-silver {
+  /* border: 1px solid #db2777; */
+  border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+  background-image:
+    linear-gradient(
+      90deg,
+      #ccc 50%,
+      #444 100%
+    );
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.5);
+}
+
+.shield-bronze {
+  /* border: 1px solid #db2777; */
+  border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+  background-image:
+    linear-gradient(
+      90deg,
+      #db6c2b 50%,
+      #673208 100%
+    );
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.5);
+}

@@ -8,6 +8,18 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
+* Add some changes here...
+
+## Changelog 1.23.0
+* Added collectable shields at the top of the list
+* Added stalking tag and added first tasks to it
+* Added political activism to filter list
+* Some news on OTP and 2FA
+* Added new stalking tasks
+* Fixed some bugs
+* Changed some Texts
+* Made some task titles shorter
+* Fixed some color issues
 
 ## Changelog 1.22.0
 * Added automatic translations for Español

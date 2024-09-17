@@ -1,6 +1,6 @@
 {
-    "version": "1.22.0",
-    "lastUpdated": "2024-08-29",
+    "version": "1.23.0",
+    "lastUpdated": "2024-09-17",
     "pointsPerLevel": 800,
     "messages": {
         "de": {
@@ -43,7 +43,10 @@
             "nextTask": "nächster Tipp",
             "prevTask": "vorheriger Tipp",
             "backToList": "Ganze Liste anzeigen",
-            "noticeAutomaticTranslation": "Hinweis: Die Inhalte auf dieser Seite wurden automatisch übersetzt."
+            "noticeAutomaticTranslation": "Hinweis: Die Inhalte auf dieser Seite wurden automatisch übersetzt.",
+            "medal-gold": "Gold",
+            "medal-silver": "Silber",
+            "medal-bronze": "Bronze"
         },
         "en": {
             "seoTitle": "Smartphone, shut up! - A checklist for your mobile security",
@@ -85,14 +88,17 @@
             "introText2": "Please be aware that safety always depends on individual risks. Some of the tasks described here may be mutually exclusive. In the end, safety is always a trade-off. There is no such thing as absolute safety.",
             "flyerText": "Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible.",
             "introTextPrint": "This checklist is designed to help you review your smartphone security so that you can develop a feel for the topic. The list contains concrete suggestions for improving your security in various scenarios. This is the print version of the list. You can tick off the individual points with a pen.",
-            "listLinks": "Sources and further links"
+            "listLinks": "Sources and further links",
+            "medal-gold": "Gold",
+            "medal-silver": "Silver",
+            "medal-bronze": "Bronze"
         },
         "es": {
             "seoTitle": "Smartphone, ¡cállate! - Lista de comprobación para la seguridad de su móvil",
             "title": "¡Smartphone, cállate!",
             "buttonTasklist": "Lista",
             "handout": "Folleto",
-            "flyer": "Folleto",
+            "flyer": "Volante",
             "github": "GitHub",
             "footerCopyright": "Un proyecto steampixel",
             "footerVersion": "Versión:",
@@ -106,7 +112,6 @@
             "sitemap": "Mapa del sitio",
             "checklist": "Lista de control",
             "buttonPrint": "Imprimir",
-            "introTextPrint": null,
             "legend": "Leyenda",
             "listPoints": "Puntos",
             "listLevel": "Nivel",
@@ -127,7 +132,11 @@
             "introText2": "Tenga en cuenta que la seguridad depende siempre de los riesgos individuales. Algunas de las tareas aquí descritas pueden ser mutuamente excluyentes. Al final, la seguridad es siempre un compromiso. No existe la seguridad absoluta.",
             "flyerText": "¿Te gusta la acción directa o tienes que esconderte? ¿Estás huido o quieres solicitar asilo? ¿Eres periodista o criticas al régimen? Entonces, ¡cuida ya de tu smartphone! Esta lista de comprobación está diseñada para ayudarte a comprobar tu seguridad de forma divertida. Los puntos y niveles te animarán a marcar el mayor número posible de elementos.",
             "listPrivacyStatement": "Las tareas completadas se guardan en su navegador (almacenamiento local). Puede eliminar estos datos de su navegador aquí.",
-            "listLinks": "Fuentes y enlaces"
+            "listLinks": "Fuentes y enlaces",
+            "introTextPrint": "Esta lista de comprobación está pensada para ayudarle a revisar la seguridad de su smartphone y que pueda hacerse una idea del tema. La lista contiene sugerencias concretas para mejorar su seguridad en diversos escenarios. Esta es la versión impresa de la lista. Puedes marcar cada uno de los puntos con un bolígrafo.",
+            "medal-gold": "Oro",
+            "medal-silver": "Plata",
+            "medal-bronze": "Bronce"
         }
     },
     "categoryTags": [
@@ -176,7 +185,11 @@
                 "en": "Important basics",
                 "es": "Aspectos básicos importantes"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Diese Aufgaben sind ein guter Anfang, wenn du etwas für deine mobile Sicherheit tun möchtest. Viele andere Aufgaben bauen auf ihnen auf. Diese Sicherheitsmaßnahmen für Mobiltelefone sind somit eine solide Grundlage, um deine Privatsphäre zu wahren und persönliche Daten zu schützen."
+            },
+            "showShield": true
         },
         {
             "key": "physical",
@@ -186,7 +199,11 @@
                 "en": "Dangers due to direct access",
                 "es": "Peligros debidos al acceso directo"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Gefahren durch direkte Zugriffe entstehen immer dann, wenn Menschen dein Gerät selbst in den Händen halten können. Also zum Beispiel bei Hausdurchsuchungen, Beschlagnahmungen und Sicherstellungen durch die Polizei. Ungewollte physische Zugriffe von Menschen auf dein Smartphone sind problematisch, da sie sensible persönliche Daten wie Nachrichten, Fotos, Passwörter und Bankdaten enthalten. Unbefugter Zugriff kann zu Identitätsdiebstahl, Datenmissbrauch oder finanziellen Schäden führen. Darüber hinaus speichern Smartphones oft Zugangsdaten zu sozialen Netzwerken, E-Mails und anderen wichtigen Konten, wodurch Fremde nicht nur private Informationen einsehen, sondern auch Manipulationen oder Angriffe durchführen könnten."
+            },
+            "showShield": true
         },
         {
             "key": "mobile",
@@ -196,7 +213,11 @@
                 "en": "Dangers in the mobile network",
                 "es": "Peligros en la red de telefonía móvil"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Im Mobilfunknetz lauern viele Gefahren, denen du dich normalerweise nur schwer entziehen kannst. Diese Aufgaben sollen dich ermutigen es trotzdem zu versuchen. Hier ist nicht nur dein Mobilgerät direkt betroffen sondern auch deine Daten und deine Kommunikation, die zwischen einer vielzahl von Stellen ausgetauscht werden. Es ist wichtig, sich über die Gefahren von z.B. Ortung oder Datenweitergabe im Mobilfunknetz im Klaren zu sein. Diese Daten können von Dritten, wie Unternehmen oder Behörden, zur Überwachung, Profilbildung oder Verfolgung verwendet werden. Zudem können Datenlecks oder missbräuchliche Zugriffe durch Cyberkriminelle gravierende Folgen haben."
+            },
+            "showShield": true
         },
         {
             "key": "online",
@@ -206,7 +227,11 @@
                 "en": "Dangers on the Internet",
                 "es": "Peligros en Internet"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Ein umsichtiges Verhalten im digitalen Raum ist entscheidend, um die eigene Privatsphäre und Sicherheit zu schützen. Durch Achtsamkeit im Umgang mit persönlichen Daten und gezielten Schutzmaßnahmen, wie der Nutzung von Passkeys, Zwei-Faktor-Authentifizierung und verschlüsselten Cloud-Speichern, minimierst du das Risiko von Datenmissbrauch und Cyberangriffen. Das proaktive Löschen nicht genutzter Accounts und das regelmäßige Überprüfen auf Datenlecks sind ebenso wichtig, um die Kontrolle über sensible Informationen zu behalten. Datenschutzfreundliche Technologien wie TOR und alternative Frontends sowie die Verschlüsselung von E-Mails bieten zusätzliche Schutzebenen."
+            },
+            "showShield": true
         },
         {
             "key": "journalist",
@@ -216,7 +241,25 @@
                 "en": "Journalism, criticism of the regime and exile",
                 "es": "Periodismo, crítica al régimen y exilio"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "In einigen Ländern ist es für Journalist*innen und Regimekritiker*innen besonders wichtig, ihre Smartphone-Sicherheit zu bedenken, da sie oft sensible Informationen verwalten, die sie oder ihre Quellen gefährden könnten. Autoritäre Regime nutzen gezielte Überwachungsmaßnahmen, um Journalist*innen auszuspionieren, ihre Kommunikation abzuhören oder ihre Kontakte nachzuverfolgen. Smartphones sind dabei ein leichtes Ziel, da sie ständig mit dem Internet und dem Mobilfunknetz verbunden sind und oft Standortdaten oder unverschlüsselte Informationen preisgeben. Ein mangelnder Schutz kann dazu führen, dass vertrauliche Recherchen kompromittiert werden oder Journalist*innen selbst Verhaftungen, Einschüchterungen oder sogar körperlicher Gefahr ausgesetzt sind. Daher ist es essenziell, Verschlüsselung, Anonymisierungstools und sichere Kommunikationsmethoden zu nutzen."
+            },
+            "showShield": true
+        },
+        {
+            "key": "activism",
+            "icon": "fist",
+            "title": {
+                "de": "Politischer Aktivismus",
+                "en": "Political activism",
+                "es": "Activismo político"
+            },
+            "enabled": false,
+            "text": {
+                "de": "Es ist wichtig, dass Personen, die politischen Aktivismus betreiben, sich Gedanken um ihre Smartphonesicherheit machen. Smartphones speichern und übertragen sensible Daten, darunter Nachrichten, Kontakte und Standorte, die von Behörden oder unerwünschten Akteuren überwacht oder abgegriffen werden können. Ein bewusster Umgang mit Sicherheitsmaßnahmen wie Verschlüsselung, sichere Kommunikationsapps und regelmäßige Software-Updates schützt Aktivist*innen vor Überwachung, Verfolgung und potenzieller Repression. Zudem hilft es, die Vertraulichkeit und Integrität ihrer Netzwerke und Aktionen zu wahren."
+            },
+            "showShield": true
         },
         {
             "key": "refugee",
@@ -226,7 +269,11 @@
                 "en": "Migration, flight and asylum",
                 "es": "Migración, huida y asilo"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Für Asylsuchende und geflüchtete Menschen ist Smartphone-Sicherheit von großer Bedeutung, da ihre Geräte oft die einzige Möglichkeit sind, mit Angehörigen, Anwält*innen oder Unterstützungsnetzwerken in Verbindung zu bleiben. Gleichzeitig enthalten Smartphones sensible Informationen wie Aufenthaltsorte, Fluchtrouten, Identitätsdokumente oder persönliche Nachrichten, die bei unzureichendem Schutz in falsche Hände geraten könnten. Regierungen oder kriminelle Organisationen könnten diese Daten missbrauchen, um Rückverfolgung, Überwachung oder Druck auszuüben. Ein sicheres Smartphone hilft, die eigene Privatsphäre zu schützen, die Kommunikation vertraulich zu halten und sich vor möglichen Gefahren wie Abschiebung zu schützen."
+            },
+            "showShield": true
         },
         {
             "key": "house",
@@ -236,7 +283,25 @@
                 "en": "House searches and confiscations",
                 "es": "Registros domiciliarios y confiscaciones"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Für Menschen, die ein erhöhtes Risiko für Hausdurchsuchungen oder Beschlagnahmungen haben, ist Smartphone-Sicherheit besonders wichtig, da ihre Geräte eine Fülle sensibler Informationen speichern. Diese Informationen, wie Kontakte, Nachrichten, Fotos und Standortdaten, könnten bei einer Beschlagnahmung eingesehen oder verwendet werden, um Netzwerke offenzulegen oder strafrechtliche Ermittlungen zu unterstützen. Durch Verschlüsselung, sichere Passwörter und das regelmäßige Löschen kritischer Daten kann der Zugriff auf private Informationen erschwert werden. Zudem helfen die Maßnahmen dabei, im Falle einer Beschlagnahmung die Privatsphäre und Sicherheit ihrer persönlichen oder beruflichen Netzwerke zu schützen."
+            },
+            "showShield": true
+        },
+        {
+            "key": "stalking",
+            "icon": "ghost",
+            "title": {
+                "de": "Stalking und Frauenhäuser",
+                "en": "Stalking and women's shelters",
+                "es": "Acoso y centros de acogida para mujeres"
+            },
+            "enabled": false,
+            "text": {
+                "de": "Menschen, die in Frauenhäuser fliehen müssen oder die von Stalking betroffen sind erleben häufig sogenannte Advanced Persistend Threads (APTs). Das bedeutet, dass sie über einen langen Zeitraum immer wieder auf vielfältige Weise und mit viel Energie Angriffen ausgesetzt sind. Oft kommen die Täter*innen aus dem nahen oder ehemaligen Umfeld."
+            },
+            "showShield": true
         },
         {
             "key": "behavior",
@@ -246,7 +311,11 @@
                 "en": "Behavior-based risks",
                 "es": "Riesgos basados en el comportamiento"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Verhaltensbasierte Risiken entstehen durch unüberlegtes oder unreflektiertes Verhalten von Personen. Dazu gehören unvorsichtige Online-Aktivitäten wie das Verwenden schwacher Passwörter, das Klicken auf unsichere Links, das Teilen sensibler Informationen auf unsicheren Plattformen oder das Nicht-Aktualisieren von Software. Diese Verhaltensweisen erhöhen das Risiko für Cyberangriffe, Datenmissbrauch oder Identitätsdiebstahl, da sie es Angreifern leichter machen, Schwachstellen auszunutzen. Verhaltensbasierte Risiken lassen sich durch bewusstes und sicherheitsorientiertes Handeln minimieren."
+            },
+            "showShield": true
         },
         {
             "key": "fraud",
@@ -256,7 +325,11 @@
                 "en": "Fraud and rip-off",
                 "es": "Fraude y estafa"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Es ist wichtig, sich vor Betrug und Abzocke zu schützen, da Betrüger zunehmend raffinierte Methoden verwenden, um persönliche Daten zu stehlen oder finanziellen Schaden zu verursachen. Schutzmaßnahmen wie das Verwenden starker Passwörter, das Vermeiden verdächtiger Links und das regelmäßige Aktualisieren von Apps können helfen, Angriffe wie Phishing, Malware oder betrügerische Apps zu verhindern. Durch proaktive Sicherheitsvorkehrungen schützt du nicht nur deine persönlichen Informationen, sondern minimierst auch das Risiko finanzieller Verluste und Identitätsdiebstahls."
+            },
+            "showShield": true
         },
         {
             "key": "system",
@@ -266,7 +339,11 @@
                 "en": "Apps and operating system",
                 "es": "Aplicaciones y sistema operativo"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Es ist wichtig, sich um die Aktualität und die Einstellungen von Apps und Betriebssystemen auf dem Mobiltelefon zu kümmern, da regelmäßige Updates Sicherheitslücken schließen und Schutz vor neuen Bedrohungen bieten. Veraltete Software kann anfällig für Sicherheitsrisiken wie Malware oder Exploits sein, die von Angreifern ausgenutzt werden können. Zudem sorgen korrekte Einstellungen dafür, dass Apps nur die notwendigen Berechtigungen erhalten und persönliche Daten nicht unnötig exponiert werden. Durch eine regelmäßige Überprüfung und Aktualisierung der Software sowie durch sorgfältige Verwaltung der App-Berechtigungen bleibt das Gerät sicher und die Privatsphäre geschützt."
+            },
+            "showShield": false
         },
         {
             "key": "easy",
@@ -276,7 +353,11 @@
                 "en": "Rather simple",
                 "es": "Bastante simple"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Diese Sicherheitsmaßnahmen werden als besonders einfach eingestuft und bieten auch technisch nicht so versierten Menschen einen schnellen Einstieg in die Materie."
+            },
+            "showShield": false
         },
         {
             "key": "knowledge",
@@ -286,7 +367,11 @@
                 "en": "Rather more complicated",
                 "es": "Algo más complicado"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Diese Aufgaben sind etwas komplizierter oder setzen ein gewissen Grundwissen voraus. Du wirst dich eventuell etwas genauer mit technischen Details beschäftigen müssen, für die Aufgaben länger brauchen oder Hilfe von Expert*innen in Anspruch nehmen müssen."
+            },
+            "showShield": false
         },
         {
             "key": "expensive",
@@ -296,7 +381,11 @@
                 "en": "Is rather more expensive",
                 "es": "Es bastante más caro"
             },
-            "enabled": false
+            "enabled": false,
+            "text": {
+                "de": "Diese Aufgaben kosten in der Regel etwas mehr Geld, da sie teurere oder separate Geräte voraussetzen oder spezielles Werzeug oder Tools empfehlen."
+            },
+            "showShield": false
         }
     ],
     "tasks": [
@@ -421,7 +510,8 @@
             ],
             "tags": [
                 "common",
-                "easy"
+                "easy",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -476,7 +566,8 @@
             "tags": [
                 "common",
                 "easy",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -549,7 +640,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "refugee"
+                "refugee",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -575,7 +667,8 @@
                 "basics",
                 "physical",
                 "easy",
-                "refugee"
+                "refugee",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -641,7 +734,8 @@
                 "easy",
                 "security",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -689,7 +783,8 @@
                 "physical",
                 "easy",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -848,7 +943,8 @@
                 "security",
                 "behavior",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -882,7 +978,8 @@
                 "knowledge",
                 "security",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 600,
             "longText": {
@@ -908,9 +1005,9 @@
                 "es": "Utiliza sólo adaptadores de corriente y cables de carga en los que confíes. Marca el cable y el adaptador de corriente para evitar que puedan ser sustituidos."
             },
             "longText": {
-                "de": "Wenn möglich nutze ein USB-Kabel ohne Datenfunktion zum Laden. Manipulierte Kabel oder öffentliche Ladepunkte könnten Daten auslesen oder unerwünschte Software installieren. Wenn du dir nicht sicher bist kannst du dein Telefon für den Ladevorgang einfach abschalten. So kann nichts installiert werden und es wird trotzdem geladen.",
-                "en": "If possible, use a USB cable without data function for charging. Tampered cables or public charging points could read data or install unwanted software. If you are not sure, you can simply switch off your phone for the charging process. This way, nothing can be installed and it will still charge.",
-                "es": "Si es posible, utiliza un cable USB sin función de datos para la carga. Los cables manipulados o los puntos de carga públicos podrían leer datos o instalar software no deseado. Si no estás seguro, puedes simplemente apagar el teléfono durante el proceso de carga. De este modo, no se podrá instalar nada y seguirá cargándose."
+                "de": "Wenn möglich nutze ein USB-Kabel ohne Datenfunktion zum Laden. Manipulierte Kabel oder USB-Dosen in Hotels, Bussen oder Bahnen könnten Daten auslesen oder unerwünschte Software installieren. Wenn du dir nicht sicher bist kannst du dein Telefon für den Ladevorgang einfach abschalten. So kann nichts installiert oder ausgelesen werden und es wird trotzdem geladen.",
+                "en": "If possible, use a USB cable without data function for charging. Tampered cables or USB sockets in hotels, buses or trains could read data or install unwanted software. If you are not sure, you can simply switch off your phone for the charging process. This way, nothing can be installed or read out and it will still charge.",
+                "es": "Si es posible, utiliza un cable USB sin función de datos para la carga. Los cables manipulados o las tomas USB de hoteles, autobuses o trenes podrían leer datos o instalar software no deseado. Si no estás seguro, puedes simplemente apagar el teléfono durante el proceso de carga. De este modo, no se podrá instalar ni leer nada y seguirá cargándose."
             },
             "showMore": true,
             "links": [
@@ -923,7 +1020,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "expensive"
+                "expensive",
+                "fraud"
             ],
             "points": 200,
             "slug": {
@@ -947,7 +1045,8 @@
             "tags": [
                 "physical",
                 "knowledge",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 200,
             "showMore": true,
@@ -985,9 +1084,10 @@
             ],
             "tags": [
                 "physical",
-                "knowledge",
+                "easy",
                 "expensive",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -1016,7 +1116,8 @@
                 "physical",
                 "easy",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -1063,7 +1164,8 @@
                 "physical",
                 "security",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -1127,7 +1229,8 @@
                 "physical",
                 "knowledge",
                 "security",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -1139,25 +1242,28 @@
         {
             "id": "ue4r5ahyan5cu3rkcuxp0wd2a4ls17aw",
             "title": {
-                "de": "Deine Backups sind dezentral und auch außerhalb deiner Wohnung gelagert",
-                "en": "Your backups are stored decentrally and also outside your home",
-                "es": "Tus copias de seguridad están descentralizadas y también se almacenan fuera de tu casa"
+                "de": "Deine Backups sind dezentral gelagert",
+                "en": "Your backups are stored decentrally",
+                "es": "Tus copias de seguridad se almacenan en un lugar descentralizado"
             },
             "shortText": {
-                "de": "Verschaffe dir einen Überblick über die Wichtigkeit deiner jeweiligen Daten und lagere sie entsprechend. Lagere z.B. unwichtigere Kopien deiner Musik- oder Bildersammlung weiter entfernt bei Freund*innen. Kritische Backups von Zugangsdaten oder wichtige Dokumenten solltest du eher redundant und auch in deiner Nähe lagern.",
-                "en": "Get an overview of the importance of your data and store it accordingly. For example, store less important copies of your music or picture collection further away with friends. Critical backups of access data or important documents should be stored redundantly and close to you.",
-                "es": "Hazte una idea de la importancia de tus datos y almacénalos en consecuencia. Por ejemplo, guarda las copias menos importantes de tu colección de música o fotos más lejos, con tus amigos. Las copias de seguridad críticas de datos de acceso o documentos importantes deben almacenarse de forma redundante y cerca de ti."
+                "de": "Du solltest deine Backups unbedingt dezentral und auch außerhalb deiner Wohnung speichern, damit du bei Diebstahl oder Beschlagnahmung schnell darauf zugreifen kannst.",
+                "en": "You should definitely store your backups decentrally and outside your home so that you can access them quickly in the event of theft or confiscation.",
+                "es": "Definitivamente, deberías almacenar tus copias de seguridad de forma descentralizada y fuera de tu casa para poder acceder a ellas rápidamente en caso de robo o confiscación."
             },
             "tags": [
                 "physical",
                 "behavior",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 400,
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Verschaffe dir einen Überblick über die Wichtigkeit deiner jeweiligen Daten und lagere sie entsprechend. Lagere z.B. unwichtigere Kopien deiner Musik- oder Bildersammlung weiter entfernt bei Freund*innen. Kritische Backups von Zugangsdaten oder wichtige Dokumenten solltest du eher redundant und auch in deiner Nähe lagern. Generell solltest du eine Kopie deiner Backups auch außerhalb deiner Wohnung aufbewahren.",
+                "en": "Get an overview of the importance of your data and store it accordingly. For example, store less important copies of your music or picture collection further away with friends. Critical backups of access data or important documents should be stored redundantly and close to you. In general, you should also keep a copy of your backups outside your home.",
+                "es": "Hazte una idea de la importancia de tus datos y almacénalos en consecuencia. Por ejemplo, guarda las copias menos importantes de tu colección de música o fotos más lejos, con amigos. Las copias de seguridad críticas de datos de acceso o documentos importantes deben almacenarse de forma redundante y cerca de ti. En general, también deberías guardar una copia de tus copias de seguridad fuera de casa."
             },
+            "showMore": true,
             "slug": {
                 "de": "deine-backups-sind-dezentral-und-auch-ausserhalb-deiner-wohnung-gelagert",
                 "en": "your-backups-are-stored-decentrally-and-also-outside-your-home",
@@ -1180,7 +1286,8 @@
             "tags": [
                 "physical",
                 "easy",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -1210,7 +1317,8 @@
                 "physical",
                 "easy",
                 "security",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -1241,7 +1349,8 @@
                 "easy",
                 "security",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 800,
             "longText": {
@@ -1404,9 +1513,9 @@
                 "es": "Lo mejor es cubrir con pegatinas las cámaras que no se utilicen. Por ejemplo, si no utilizas la cámara selfie o sólo la usas en contadas ocasiones."
             },
             "longText": {
-                "de": "Wenn du in Deutschland wohnst kannst du dir beim Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) kostenlos wiederablösbare Spezialaufkleber für deine Smartphone-Kameras bestellen. Aber auch normale Sticker erledigen diese Aufgabe. Achte darauf, dass du nicht den unscheinbaren Helligkeitssensor überklebst! Dies führt dazu dass einige Smartphones den Display abschalten, da diese sich in einer Hosentasche wähnen.",
-                "en": "If you live in Germany, you can order special removable stickers for your smartphone cameras free of charge from the Federal Ministry for Family Affairs, Senior Citizens, Women and Youth (BMFSFJ). But normal stickers will also do the job. Make sure that you don't stick over the inconspicuous brightness sensor! This causes some smartphones to switch off the display because they think they are in a trouser pocket.",
-                "es": "Si vives en Alemania, puedes solicitar gratuitamente al Ministerio Federal de Familia, Tercera Edad, Mujer y Juventud (BMFSFJ) unas pegatinas extraíbles especiales para las cámaras de tus smartphones. Pero las pegatinas normales también sirven. Asegúrate de no pegarlas sobre el discreto sensor de luminosidad. Esto hace que algunos smartphones apaguen la pantalla porque creen que están en un bolsillo del pantalón."
+                "de": "Wenn du in Deutschland wohnst kannst du dir beim Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) kostenlos wiederablösbare Spezialaufkleber für deine Smartphone-Kameras bestellen. Aber auch normale Sticker erledigen diese Aufgabe. Achte darauf, dass du nicht den unscheinbaren Helligkeitssensor überklebst! Dies führt dazu dass einige Smartphones den Display abschalten, da diese sich in einer Hosentasche wähnen. Wenn du Probleme mit Stalking hast oder von Ex-Partner*innen verfolgt wirst solltest du deine Kameras zur Sicherheit komplett abkleben.",
+                "en": "If you live in Germany, you can order special removable stickers for your smartphone cameras free of charge from the Federal Ministry for Family Affairs, Senior Citizens, Women and Youth (BMFSFJ). But normal stickers will also do the job. Make sure that you don't stick over the inconspicuous brightness sensor! This causes some smartphones to switch off the display because they think they are in a trouser pocket. If you have problems with stalking or are being followed by ex-partners, you should completely cover your cameras to be on the safe side.",
+                "es": "Si vives en Alemania, puedes pedir gratuitamente al Ministerio Federal de Familia, Tercera Edad, Mujer y Juventud (BMFSFJ) pegatinas especiales extraíbles para las cámaras de tu smartphone. Pero las pegatinas normales también sirven. Asegúrate de no pegarlas sobre el discreto sensor de luminosidad. Esto hace que algunos smartphones apaguen la pantalla porque creen que están en un bolsillo del pantalón. Si tienes problemas de acoso o te siguen tus ex parejas, deberías tapar completamente las cámaras para estar más seguro."
             },
             "showMore": true,
             "links": [
@@ -1422,7 +1531,8 @@
             ],
             "tags": [
                 "physical",
-                "easy"
+                "easy",
+                "stalking"
             ],
             "points": 400,
             "slug": {
@@ -1523,7 +1633,8 @@
             "tags": [
                 "mobile",
                 "easy",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -1553,7 +1664,8 @@
             "tags": [
                 "mobile",
                 "easy",
-                "security"
+                "security",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -1596,7 +1708,8 @@
             "tags": [
                 "mobile",
                 "easy",
-                "security"
+                "security",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -1627,7 +1740,7 @@
                 {
                     "date": "2024-01-08",
                     "title": "Netzpolitik: Bundesnetzagentur schaltet pseudonyme Mobilfunk-Anschlüsse ab",
-                    "url": "https://netzpolitik.org/2024/bestandsdatenauskunft-2023-bundesnetzagentur-schaltet-pseudonyme-mobilfunk-anschluesse-ab/"
+                    "url": "https:\/\/netzpolitik.org\/2024\/bestandsdatenauskunft-2023-bundesnetzagentur-schaltet-pseudonyme-mobilfunk-anschluesse-ab\/"
                 },
                 {
                     "date": "2024-04-02",
@@ -1719,7 +1832,8 @@
                 "knowledge",
                 "security",
                 "behavior",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -1743,7 +1857,8 @@
             "tags": [
                 "mobile",
                 "knowledge",
-                "security"
+                "security",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -1779,7 +1894,8 @@
                 "mobile",
                 "knowledge",
                 "expensive",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -1792,9 +1908,9 @@
         {
             "id": "140ymtm30s5501lhioyqiepvitssorgu",
             "title": {
-                "de": "Deaktiviere deine anonyme Simkarte, wenn du dich mit Freund*innen oder Bekannten bewegst",
-                "en": "Deactivate your anonymous SIM card if you are traveling with friends or acquaintances",
-                "es": "Desactiva tu tarjeta SIM anónima si viajas con amigos o conocidos"
+                "de": "Deaktiviere deine Simkarte wenn du dich mit einer Gruppe bewegst",
+                "en": "Deactivate your SIM card if you are traveling with a group",
+                "es": "Desactiva tu tarjeta SIM cuando viajes en grupo"
             },
             "shortText": {
                 "de": "Wenn du mit Freund*innen, Bekannten, Familie oder Genoss*innen unterwegs bist solltest du deine anonyme Simkarte nicht verweden.",
@@ -1810,7 +1926,8 @@
             "tags": [
                 "mobile",
                 "easy",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "links": [],
@@ -1828,20 +1945,23 @@
                 "es": "No das tu número de teléfono"
             },
             "shortText": {
-                "de": "Nur wenn du deine Nummer nicht in Verbindung mit deinem Namen weiter gibst bleibt deine anonyme Karte anonym. Um trotzdem erreichbar zu sein kannst du auf Messenger mit Anruffunktion ausweichen, die keine Nummer benötigen oder bei denen sich die Nummer verbergen lässt.",
-                "en": "Your anonymous card will only remain anonymous if you do not give your number in connection with your name. In order to still be reachable, you can switch to messengers with a call function that do not require a number or where the number can be hidden.",
-                "es": "Tu tarjeta anónima sólo permanece anónima si no das tu número en conexión con tu nombre. Si aún así quieres estar localizable, puedes cambiar a mensajeros con función de llamada que no requieran un número o en los que el número pueda ocultarse."
+                "de": "Wer deine Telefonnummer kennt kann dich leicht angreifen. Halte deine Nummer wenn möglich geheim. Um trotzdem erreichbar zu sein kannst du auf Messenger mit Anruffunktion ausweichen, die keine Nummer benötigen oder bei denen sich die Nummer verbergen lässt.",
+                "en": "Anyone who knows your phone number can easily attack you. Keep your number secret if possible. If you still want to be reachable, you can use messengers with a call function that do not require a number or where the number can be hidden.",
+                "es": "Cualquiera que conozca tu número de teléfono puede atacarte fácilmente. Mantén tu número en secreto si es posible. Si aún así quieres estar localizable, puedes cambiar a mensajeros con función de llamada que no requieran un número o en los que el número pueda ocultarse."
             },
             "longText": {
-                "de": "Wer deine Telefonnummer kennt kann dich leicht angreifen. Auf Seiten wie cell-track.com oder phone-location.info kann zum Beispiel einfach herausgefunden werden, ob sich ein Gerät im Ausland befindet oder nicht oder ob ein Gerät gerade eingeschaltet ist. Alles was du brauchst ist die Nummer. Du kannst nichts dagegen tun als deine Nummer geheim zu halten. Das ist eventuell noch nicht wirklich gefährlich. Aber staatliche Akteure haben noch ganz andere Möglichkeiten wie z.B. die Infektion des Gerätes mit einem Zero-Click-Exploit. Nur eine anonyme Simkarte und das Geheimhalten deiner Nummer schützt dich effektiv vor staatlichen Übergriffen.",
-                "en": "Anyone who knows your phone number can easily attack you. On sites such as cell-track.com or phone-location.info, for example, it is easy to find out whether a device is abroad or not, or whether a device is currently switched on. All you need is the number. There's nothing you can do about it except keep your number secret. That may not be really dangerous yet. But state actors have completely different options, such as infecting the device with a zero-click exploit. Only an anonymous SIM card and keeping your number secret will effectively protect you from government attacks.",
-                "es": "Cualquiera que conozca tu número de teléfono puede atacarte fácilmente. En sitios como cell-track.com o phone-location.info, por ejemplo, es fácil averiguar si un dispositivo está en el extranjero o no, o si está encendido en ese momento. Lo único que necesita es el número. No hay nada que puedas hacer al respecto, salvo mantener tu número en secreto. Puede que eso aún no sea realmente peligroso. Pero los actores estatales tienen opciones completamente diferentes, como infectar el dispositivo con un exploit zero-click. Sólo una tarjeta SIM anónima y mantener tu número en secreto te protegerán eficazmente de los ataques estatales."
+                "de": "Auf Seiten wie cell-track.com oder phone-location.info kann zum Beispiel einfach herausgefunden werden, ob sich ein Gerät im Ausland befindet oder nicht oder ob ein Gerät gerade eingeschaltet ist. Alles was du brauchst ist die Telefonnummer. Du kannst nichts dagegen tun als deine Nummer geheim zu halten. Staatliche Akteure haben zudem weitere Möglichkeiten wie z.B. die Infektion des Gerätes mit einem Zero-Click-Exploit (Staatstrojaner). Nur eine anonyme Simkarte und das Geheimhalten deiner Nummer schützen dich effektiv vor staatlichen Übergriffen.",
+                "en": "On sites such as cell-track.com or phone-location.info, for example, it is easy to find out whether a device is abroad or not, or whether a device is currently switched on. All you need is the phone number. There's nothing you can do about it except keep your number secret. State actors also have other options, such as infecting the device with a zero-click exploit (state trojan). Only an anonymous SIM card and keeping your number secret will effectively protect you from government attacks.",
+                "es": "En sitios como cell-track.com o phone-location.info, por ejemplo, es fácil averiguar si un dispositivo está en el extranjero o no, o si está encendido en ese momento. Lo único que necesita es el número de teléfono. No se puede hacer nada al respecto, salvo mantener el número en secreto. Los actores estatales también tienen otras opciones, como infectar el dispositivo con un exploit zero-click (troyano estatal). Sólo una tarjeta SIM anónima y mantener tu número en secreto te protegerán eficazmente de los ataques del Estado."
             },
+            "showMore": true,
             "tags": [
                 "mobile",
                 "easy",
                 "security",
-                "behavior"
+                "behavior",
+                "stalking",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -1867,7 +1987,8 @@
                 "mobile",
                 "security",
                 "easy",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -1895,7 +2016,8 @@
             },
             "tags": [
                 "mobile",
-                "easy"
+                "easy",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -1924,7 +2046,8 @@
             "tags": [
                 "mobile",
                 "knowledge",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -1941,39 +2064,48 @@
         {
             "id": "htdfk57a95tvt9lmf13dv9s38y6ldrmk",
             "title": {
-                "de": "Du nutzt Rufnummernunterdrückung mit Bedacht",
-                "en": "You use number suppression wisely",
-                "es": "Utiliza la supresión del número con prudencia"
+                "de": "Du unterdrückst deine Rufnummer, wenn du telefonierst",
+                "en": "You suppress your phone number when you make calls",
+                "es": "Suprime tu número de teléfono cuando hagas llamadas"
             },
             "shortText": {
-                "de": "Du bist dir im Klaren darüber, dass das Unterdrücken der Rufnummer lediglich dazu führt, dass diese auf dem Telefon der Gegenstelle nicht angezeigt wird. In den Verkehrsdaten der beteiligten Provider*innen wird deine Nummer dennoch gespeichert. Nutze anonyme Simkarten, wenn du auf Anonymität angewiesen bist.",
-                "en": "You are aware that suppressing the phone number only means that it is not displayed on the other party's phone. Your number will still be stored in the traffic data of the providers involved. Use anonymous SIM cards if you need to remain anonymous.",
-                "es": "Eres consciente de que suprimir tu número de teléfono sólo significa que no se mostrará en el teléfono de la otra parte. Tu número seguirá almacenado en los datos de tráfico de los proveedores implicados. Utiliza tarjetas SIM anónimas si dependes del anonimato."
+                "de": "Du kannst deine Rufnummer unterdrücken, wenn du telefonierst. So kann die angerufene Person deine eigene Nummer nicht sehen. Das kannst du für bestimmte Personen oder für alle Anrufe einstellen.",
+                "en": "You can suppress your phone number when you make calls. This means that the person you are calling cannot see your own number. You can set this for certain people or for all calls.",
+                "es": "Puedes suprimir tu número de teléfono al hacer una llamada. Esto significa que la persona a la que llamas no puede ver tu propio número. Puedes configurarlo para determinadas personas o para todas las llamadas."
             },
             "tags": [
                 "mobile",
                 "easy",
                 "behavior",
-                "journalist"
+                "journalist",
+                "stalking"
             ],
             "points": 200,
+            "showMore": true,
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Besonders wenn du von Stalking betroffen bist solltest du deine Nummer unterdrücken. Denn deine Nummer kann auf vielfältige Weise genutzt werden um dich anzugreifen. Sei dir auch im Klaren darüber, dass das Unterdrücken der Rufnummer lediglich dazu führt, dass diese auf dem Telefon der Gegenstelle nicht angezeigt wird. In den Anrufprotokollen (Verkehrsdaten) der beteiligten Provider*innen wird deine Nummer dennoch gespeichert. Für Behörden ist dein Anruf also trotz unterdrückter Rufnummer nachvollziehbar. Nutze anonyme Simkarten, wenn du auf wirkliche Anonymität angewiesen bist.",
+                "en": "You should suppress your number, especially if you are being stalked. This is because your number can be used in a variety of ways to attack you. Also be aware that suppressing your number will only mean that it will not be displayed on the other party's phone. Your number will still be saved in the call logs (traffic data) of the providers involved. The authorities can therefore trace your call even if your number is suppressed. Use anonymous SIM cards if you need real anonymity.",
+                "es": "Deberías suprimir tu número, sobre todo si te están acosando. Esto se debe a que tu número puede ser utilizado de diversas formas para atacarte. Ten en cuenta también que suprimir tu número sólo significa que no aparecerá en el teléfono de la otra persona. Tu número seguirá guardado en los registros de llamadas (datos de tráfico) de los proveedores implicados. Por tanto, las autoridades pueden rastrear tu llamada aunque tu número esté suprimido. Utiliza tarjetas SIM anónimas si necesitas anonimato real."
             },
+            "links": [
+                {
+                    "date": "2023-05-03",
+                    "title": "Chip: Der Notfall-Standortdienst liefert schnell genaue Standortinformationen",
+                    "url": "https:\/\/praxistipps.chip.de\/rufnummer-unterdruecken-so-gehts_42424"
+                }
+            ],
             "slug": {
-                "de": "du-nutzt-rufnummernunterdrckung-mit-bedacht",
-                "en": "you-use-number-suppression-wisely",
-                "es": "utiliza-la-supresin-del-nmero-con-prudencia"
-            },
-            "links": []
+                "en": "you-suppress-your-phone-number-when-you-make-calls",
+                "es": "suprime-tu-nmero-de-telfono-cuando-hagas-llamadas",
+                "de": "du-unterdrckst-deine-rufnummer-wenn-du-telefonierst"
+            }
         },
         {
             "id": "sqdf8gqi8sttil068u2mwb7jxa3p5ldn",
             "title": {
-                "de": "Du wählst die 110 und die 112 mit bedacht",
-                "en": "You dial 110 and 112 carefully",
-                "es": "Marque 110 y 112 con cuidado"
+                "de": "Du wählst Notrufnummern wie 110 und 112 mit bedacht",
+                "en": "Dial emergency numbers such as 110 and 112 carefully",
+                "es": "Marque con cuidado números de emergencia como el 110 y el 112"
             },
             "shortText": {
                 "de": "Seit 2019 wird in Deutschland und vielen anderen Ländern Advanced Mobile Location (AML) eingesetzt und schrittweise ausgebaut, um Personen in Notsituationen zu orten. Wenn du das nicht möchtest solltest du dich darauf vorbereiten.",
@@ -2013,7 +2145,8 @@
             "tags": [
                 "mobile",
                 "easy",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -2077,7 +2210,10 @@
             "showMore": false,
             "tags": [
                 "mobile",
-                "easy"
+                "easy",
+                "stalking",
+                "behavior",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -2133,7 +2269,8 @@
                 "basics",
                 "system",
                 "security",
-                "knowledge"
+                "knowledge",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -2155,7 +2292,7 @@
                 "es": "Los fabricantes de smartphones reciben entre millones y miles de millones de Google o Apple por instalar su software en tu teléfono. Deberías eliminar estas aplicaciones."
             },
             "longText": {
-                "de": "Derartige Beträge lohnen sich natürlich nur wenn das einen Nutzen hat: Die vorinstallierte Software sammelt muter Daten und verwertet eure Gewohnheiten. Ihr solltet Bloatware daher entfernen (Manchmal ist das ohne Root-Berechtigungen nicht möglich) oder gleich ein custom Betriebssystem wie GrapheneOS installieren.",
+                "de": "Derartige Beträge lohnen sich natürlich nur wenn das einen Nutzen hat: Die vorinstallierte Software sammelt Daten und verwertet eure Gewohnheiten. Ihr solltet Bloatware daher entfernen (Manchmal ist das ohne Root-Berechtigungen nicht möglich) oder gleich ein custom Betriebssystem wie GrapheneOS installieren.",
                 "en": "Of course, this is only worthwhile if it has a benefit: The pre-installed software collects data and analyzes your habits. You should therefore remove bloatware (sometimes this is not possible without root permissions) or install a custom operating system such as GrapheneOS.",
                 "es": "Por supuesto, esto sólo merece la pena si tiene algún beneficio: El software preinstalado recopila datos y analiza tus hábitos. Por tanto, deberías eliminar el bloatware (a veces no es posible sin autorización root) o instalar un sistema operativo personalizado como GrapheneOS."
             },
@@ -2170,7 +2307,8 @@
             "tags": [
                 "system",
                 "security",
-                "knowledge"
+                "knowledge",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -2217,7 +2355,8 @@
             "tags": [
                 "system",
                 "easy",
-                "security"
+                "security",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -2241,10 +2380,10 @@
             "tags": [
                 "basics",
                 "system",
-                "knowledge",
                 "security",
                 "behavior",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -2261,9 +2400,9 @@
         {
             "id": "4x79gthlqk49k5o4v5r9pzimofc7oskd",
             "title": {
-                "de": "Nutzt du einen Passwortmanager?",
-                "en": "Do you use a password manager?",
-                "es": "¿Utilizas un gestor de contraseñas?"
+                "de": "Nutze einen Passwortmanager",
+                "en": "Use a password manager",
+                "es": "Utiliza un gestor de contraseñas"
             },
             "shortText": {
                 "de": "Deine Sicherheit wird enorm erhöht, wenn du für alle Services im Internet ein anderes komplexes Passwort verwendest. Diese solltest du in einem Passwortmanager wie KeepassXC oder Bitwarden speichern.",
@@ -2274,7 +2413,8 @@
                 "system",
                 "knowledge",
                 "security",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "showMore": true,
@@ -2408,7 +2548,8 @@
                 "system",
                 "security",
                 "knowledge",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -2471,7 +2612,8 @@
                 "system",
                 "security",
                 "knowledge",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -2501,7 +2643,8 @@
             ],
             "tags": [
                 "system",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -2535,7 +2678,8 @@
             "tags": [
                 "system",
                 "easy",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -2589,8 +2733,9 @@
                 "system",
                 "security",
                 "behavior",
-                "knowledge",
-                "journalist"
+                "easy",
+                "journalist",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -2621,7 +2766,8 @@
                 "system",
                 "easy",
                 "house",
-                "refugee"
+                "refugee",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -2663,7 +2809,8 @@
             "tags": [
                 "system",
                 "behavior",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -2675,14 +2822,14 @@
         {
             "id": "19k3makbf0rzzqhag6qeysqm55vvn5zh",
             "title": {
-                "de": "Du hast auf deinem iPhone den Lockdown-Mode (Blockierungsmodus) aktiviert",
-                "en": "You have activated lockdown mode (blocking mode) on your iPhone",
-                "es": "Has activado el modo de bloqueo (modo de bloqueo) en tu iPhone"
+                "de": "Du hast auf deinem iPhone den Lockdown-Mode aktiviert",
+                "en": "You have activated lockdown mode on your iPhone",
+                "es": "Has activado el modo de bloqueo en tu iPhone"
             },
             "shortText": {
-                "de": "Der Blockierungsmodus kann auf dem iPhone benutzt werden, um Infektionen mit Malware vorzubeugen. Hierbei werden einige Features stark eingeschränkt um das System besonders zu schützen.",
-                "en": "The blocking mode can be used on the iPhone to prevent infections with malware. Some features are severely restricted in order to protect the system.",
-                "es": "El modo de bloqueo puede utilizarse en el iPhone para evitar infecciones con malware. Algunas funciones están muy restringidas para proteger el sistema."
+                "de": "Der Lockdown-Mode (Blockierungsmodus) kann auf dem iPhone benutzt werden, um Infektionen mit Malware vorzubeugen. Hierbei werden einige Features stark eingeschränkt, um das System besonders zu schützen.",
+                "en": "Lockdown mode (blocking mode) can be used on the iPhone to prevent malware infections. Some features are severely restricted in order to protect the system.",
+                "es": "El modo Lockdown (modo de bloqueo) puede utilizarse en el iPhone para evitar infecciones de malware. Algunas funciones están severamente restringidas para proporcionar protección adicional al sistema."
             },
             "longText": {
                 "de": "Für Android ist ein ähnliches Feature nicht verfügbar.",
@@ -2704,7 +2851,8 @@
             "tags": [
                 "system",
                 "behavior",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -2734,7 +2882,8 @@
             "tags": [
                 "system",
                 "easy",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 200,
             "slug": {
@@ -2744,34 +2893,34 @@
             }
         },
         {
-            "id": "muzyklbhvog62myh5cpmk7wzmce5fff9",
+            "id": "p3entk3lnku75c058aknixynkzex44zv",
             "title": {
-                "de": "Dein zweiter Faktor für Anmeldungen liegt auf einem separaten Gerät",
-                "en": "Your second factor for logins is on a separate device",
-                "es": "Tu segundo factor para iniciar sesión está en un dispositivo independiente"
+                "de": "Du hast dein Gerät auf Werkseinstellungen zurückgesetzt",
+                "en": "You have reset your device to factory settings",
+                "es": "Has restablecido el dispositivo a los valores de fábrica"
             },
             "shortText": {
-                "de": "Deine Zwei-Faktor-App ist auf einem separaten Gerät installiert. So kann dein zweiter Faktor bei einer Kompromittierung deines Geräts nicht zum Einloggen in deine Accounts genutzt werden.",
-                "en": "Your two-factor app is installed on a separate device. This means that your second factor cannot be used to log into your accounts if your device is compromised.",
-                "es": "Tu aplicación de dos factores está instalada en un dispositivo independiente. Esto significa que tu segundo factor no se puede utilizar para iniciar sesión en tus cuentas si tu dispositivo está en peligro."
+                "de": "Du solltest dein Telefon auf Werkseinstellungen zurücksetzen, wenn du ihm nicht mehr traust. Diese Methode ist effektiv gegen handelsübliche Spionage-Apps aus dem App-Store, die sich womöglich auf deinem Gerät verstecken könnten.",
+                "en": "You should reset your phone to factory settings if you no longer trust it. This method is effective against common spy apps from the app store that may be hiding on your device.",
+                "es": "Deberías restablecer el teléfono a los valores de fábrica si ya no confías en él. Este método es eficaz contra las aplicaciones espía comunes de la tienda de aplicaciones que puedan estar ocultas en tu dispositivo."
             },
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Diese Methode entfernt in der Regel ungewollte Spionage- oder Stalking-Apps von deinem Telefon. Diese Apps wurden eventuell von Menschen aus deinem nahen Umfeld installiert, als sie direkten Zugriff auf dein Gerät hatten. Bitte sei dir bewusst darüber, dass diese Apps nicht vergelichbar sind mit professionellen Staatstrojanern, die auch nach einem Zurücksetzen des Telefons möglicheriweise aus der Ferne wieder installiert werden können. Trotzdem ist diese Möglichkeit ein guter Anfang, um aus toxischen Beziehungen zu entkommen oder um Stalking vorzubeugen. Bitte sichere deine wichtigsten Daten vor dem Zurücksetzen.",
+                "en": "This method usually removes unwanted spying or stalking apps from your phone. These apps may have been installed by people close to you when they had direct access to your device. Please be aware that these apps are not comparable to professional state trojans, which can potentially be reinstalled remotely even after resetting your phone. Nevertheless, this option is a good start to get out of toxic relationships or to prevent stalking. Please back up your most important data before resetting.",
+                "es": "Este método suele eliminar las aplicaciones de espionaje o acoso no deseadas de tu teléfono. Estas aplicaciones pueden haber sido instaladas por personas cercanas a ti cuando tenían acceso directo a tu dispositivo. Ten en cuenta que estas aplicaciones no son comparables a los troyanos de estado profesionales, que pueden reinstalarse de forma remota incluso después de reiniciar el teléfono. No obstante, esta opción es un buen comienzo para salir de relaciones tóxicas o evitar el acoso. Por favor, haz una copia de seguridad de tus datos más importantes antes de resetear."
             },
-            "showMore": false,
+            "showMore": true,
             "links": [],
             "tags": [
                 "system",
-                "expensive",
-                "journalist",
-                "fraud"
+                "easy",
+                "stalking"
             ],
-            "points": 200,
+            "points": 400,
             "slug": {
-                "de": "deine-zweiter-faktor-fr-anmeldungen-liegt-auf-einem-separaten-gert",
-                "en": "your-second-factor-for-logins-is-on-a-separate-device",
-                "es": "tu-segundo-factor-para-iniciar-sesin-est-en-un-dispositivo-independiente"
+                "en": "you-have-reset-your-device-to-factory-settings",
+                "es": "has-restablecido-el-dispositivo-a-los-valores-de-fbrica",
+                "de": "du-hast-dein-gert-auf-werkseinstellungen-zurckgesetzt"
             }
         },
         {
@@ -2863,14 +3012,14 @@
         {
             "id": "t8jwa8n4ib4dxh6xjrtuy9pbwmzc3dmx",
             "title": {
-                "de": "Du gehst achtsam mit deinen persönlichen Daten um und entfernst diese proaktiv",
-                "en": "You are careful with your personal data and remove it proactively",
-                "es": "Ten cuidado con tus datos personales y elimínalos de forma proactiva"
+                "de": "Du gehst achtsam mit deinen persönlichen Daten um",
+                "en": "You are careful with your personal data",
+                "es": "Ten cuidado con tus datos personales"
             },
             "shortText": {
-                "de": "Du solltest dir genau überlegen welche persönlichen Informationen du im Internet teilst. Bist du z.B. leicht über Suchmaschinen zu finden?",
-                "en": "You should think carefully about what personal information you share on the internet. For example, are you easy to find via search engines?",
-                "es": "Piense detenidamente qué información personal comparte en Internet. Por ejemplo, ¿es usted fácil de encontrar a través de los motores de búsqueda?"
+                "de": "Du solltest dir genau überlegen welche persönlichen Informationen du im Internet teilst. Bist du z.B. leicht über Suchmaschinen zu finden? Wenn ja solltest du versuchen diese Daten zu entfernen.",
+                "en": "You should think carefully about what personal information you share online. For example, are you easy to find via search engines? If so, you should try to remove this data.",
+                "es": "Debe pensar detenidamente qué información personal comparte en línea. Por ejemplo, ¿es usted fácil de encontrar en los motores de búsqueda? Si es así, debería intentar eliminar estos datos."
             },
             "longText": {
                 "de": "Spezialisierte Agenturen und Datenbroker sammeln öffentliche Informationen und Informationen aus Datenleaks über dich und verkaufen diese z.B. an Geheimdienste weiter. Unternehmen wie PimEyes, die auf Gesichtserkennung ausgerichtet sind, nutzen deine persönlichen Bilder, um ihre KIs zu trainieren. So werden die biometrischen Merkmale deines Gesichts erfasst und du kannst in Bruchteilen von Sekunden auf anderen Bildern identifiziert werden. Versuche dich selbst im Internet zu finden, identifiziere die Services und versuche deine persönlichen Daten von dort zu entfernen. Nutze zum Beispiel Google Alerts, um dich automatisch via E-Mail informieren zu lassen sobald dein Name oder andere persönliche Daten im Internet auftauchen. Du kannst manchmal auch DMCA-Takedown-Anfragen nutzen, um deine Daten von US-Websites löschen zu lassen.",
@@ -2881,7 +3030,9 @@
             "tags": [
                 "online",
                 "refugee",
-                "fraud"
+                "fraud",
+                "stalking",
+                "activism"
             ],
             "points": 800,
             "links": [
@@ -2934,7 +3085,8 @@
             "tags": [
                 "online",
                 "easy",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -2973,7 +3125,8 @@
                 "easy",
                 "security",
                 "behavior",
-                "fraud"
+                "fraud",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -3005,6 +3158,11 @@
                     "date": "2024-01-23",
                     "title": "Heise: Gefälschter Tweet zur Freigabe von Bitcoin-ETFs: SEC Opfer von SIM-Swapping ",
                     "url": "https:\/\/www.heise.de\/news\/Gefaelschter-Tweet-zur-Freigabe-von-Bitcoin-ETFs-SEC-Opfer-von-SIM-Swapping-9605332.html"
+                },
+                {
+                    "date": "2024-07-11",
+                    "title": "Heise: CCC: Bitte Zwei-Faktor-Authentifizierung, aber nicht per SMS",
+                    "url": "https:\/\/www.heise.de\/news\/Chaos-Computer-Club-Nutzt-2-Faktor-Authentifizierung-aber-bitte-nicht-via-SMS-9798159.html"
                 }
             ],
             "tags": [
@@ -3013,13 +3171,47 @@
                 "security",
                 "behavior",
                 "house",
-                "fraud"
+                "fraud",
+                "stalking",
+                "activism"
             ],
             "points": 600,
             "slug": {
                 "de": "du-sicherst-deine-accounts-mit-zwei-faktor-authentifizierung",
                 "en": "you-secure-your-accounts-with-two-factor-authentication",
                 "es": "asegura-tus-cuentas-con-la-autenticacin-de-dos-factores"
+            }
+        },
+        {
+            "id": "muzyklbhvog62myh5cpmk7wzmce5fff9",
+            "title": {
+                "de": "Dein zweiter Faktor liegt auf einem separaten Gerät",
+                "en": "Your second factor is on a separate device",
+                "es": "Tu segundo factor está en un dispositivo independiente"
+            },
+            "shortText": {
+                "de": "Deine Zwei-Faktor-App ist auf einem separaten Gerät installiert. So kann dein zweiter Faktor bei einer Kompromittierung deines Geräts nicht zum Einloggen in deine Accounts genutzt werden.",
+                "en": "Your two-factor app is installed on a separate device. This means that your second factor cannot be used to log into your accounts if your device is compromised.",
+                "es": "Tu aplicación de dos factores está instalada en un dispositivo independiente. Esto significa que tu segundo factor no se puede utilizar para iniciar sesión en tus cuentas si tu dispositivo está en peligro."
+            },
+            "longText": {
+                "en": "",
+                "es": ""
+            },
+            "showMore": false,
+            "links": [],
+            "tags": [
+                "online",
+                "expensive",
+                "journalist",
+                "fraud",
+                "activism"
+            ],
+            "points": 200,
+            "slug": {
+                "de": "deine-zweiter-faktor-fr-anmeldungen-liegt-auf-einem-separaten-gert",
+                "en": "your-second-factor-for-logins-is-on-a-separate-device",
+                "es": "tu-segundo-factor-para-iniciar-sesin-est-en-un-dispositivo-independiente"
             }
         },
         {
@@ -3088,7 +3280,8 @@
                 "online",
                 "easy",
                 "knowledge",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -3100,9 +3293,9 @@
         {
             "id": "zokh9ctwzdanhdqvbw4l2pv9h9l7f03r",
             "title": {
-                "de": "Nutzt du verschiedene Pseudonyme und Mailadressen?",
-                "en": "Do you use different pseudonyms and e-mail addresses?",
-                "es": "Utilizas seudónimos y direcciones de correo electrónico diferentes?"
+                "de": "Du nutzt verschiedene Pseudonyme und Mailadressen",
+                "en": null,
+                "es": "Utiliza seudónimos y direcciones de correo electrónico diferentes."
             },
             "shortText": {
                 "de": "Du kannst deine Sicherheit verbessern, indem du auf allen Plattformen einen anderen Namen und andere Mailadressen bzw. Mobilnummern für die Registrierung verwendest. So können deine Accounts durch Datenlecks nicht zusammengeführt werden.",
@@ -3112,7 +3305,8 @@
             "tags": [
                 "online",
                 "knowledge",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -3141,7 +3335,8 @@
             "tags": [
                 "online",
                 "easy",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -3171,7 +3366,8 @@
                 "online",
                 "easy",
                 "security",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 800,
             "longText": {
@@ -3221,7 +3417,8 @@
             "tags": [
                 "online",
                 "security",
-                "behavior"
+                "behavior",
+                "activism"
             ],
             "points": 400,
             "longText": {
@@ -3278,7 +3475,8 @@
                 "knowledge",
                 "behavior",
                 "refugee",
-                "house"
+                "house",
+                "activism"
             ],
             "points": 600,
             "slug": {
@@ -3301,7 +3499,8 @@
             },
             "tags": [
                 "online",
-                "knowledge"
+                "knowledge",
+                "activism"
             ],
             "points": 200,
             "longText": {
@@ -3343,7 +3542,8 @@
                 "online",
                 "easy",
                 "behavior",
-                "refugee"
+                "refugee",
+                "activism"
             ],
             "points": 400,
             "slug": {
@@ -3403,7 +3603,8 @@
                 "online",
                 "security",
                 "knowledge",
-                "journalist"
+                "journalist",
+                "activism"
             ],
             "points": 800,
             "slug": {
@@ -3434,7 +3635,7 @@
             },
             "tags": [
                 "online",
-                "knowledge",
+                "easy",
                 "fraud"
             ],
             "points": 400,

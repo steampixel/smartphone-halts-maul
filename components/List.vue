@@ -34,6 +34,20 @@
 
       <div class="h-1 bg-pink-600" :style="{width: percentage + '%'}"></div>
 
+      <div class="relative">
+        <div class="absolute w-full flex justify-center gap-1 md:gap-4 top-[-0.5rem]">
+          <template v-for="(tag) in filterTags" :key="tag.key">   
+            <div 
+              v-if="shieldIsVisible(tag.key) && tag.showShield" 
+              :class="'shield-'+getShieldColor(tag.key)+' flex items-center justify-center h-6 w-6 md:h-8 md:w-8'" 
+              :title="$t('medal-'+getShieldColor(tag.key))+': '+tag.title[$i18n.locale]" 
+              >
+              <icon class="h-3 w-3 md:h-4 md:w-4 fill-black opacity-50" :type="tag.icon"></icon>
+            </div>
+          </template>
+        </div>
+      </div>
+
     </div>
 
     <translation-notice></translation-notice>
@@ -174,7 +188,10 @@ export default {
       points: 0,
       level: 1,
       percentage: 0,
-      search: ''
+      search: '',
+      pointsPerTag: {},
+      possiblePointsPerTag: {},
+      possiblePointsPerTagPercentage: {}
     }
   },
 
@@ -189,6 +206,25 @@ export default {
       enableConfetti = true;
     }, 2000);
 
+    // Initiate points per tag
+    this.filterTags.forEach((tag) => {
+      if(typeof this.pointsPerTag[tag.key] === 'undefined') {
+        this.pointsPerTag[tag.key] = 0;
+      }
+    });
+
+    // Count all possible points for each tag
+    this.tasks.forEach((task) => {
+      task.tags.forEach((tag) => {
+        if(typeof this.possiblePointsPerTag[tag] === 'undefined') {
+          this.possiblePointsPerTag[tag] = 0;
+        }
+        this.possiblePointsPerTag[tag] = this.possiblePointsPerTag[tag] + task.points;
+      });
+    });
+
+    console.log('mounted', this.possiblePointsPerTag);
+
   },
 
   watch: {
@@ -198,13 +234,22 @@ export default {
         // Calculate level
         this.level = this.calculateLevel(newValue);
 
-        // Percentage
+        // Calculate percentage
         this.percentage = Math.floor(newValue / this.countPoints() * 100);
 
         if(newValue>oldValue) {
           let audio = new Audio('/sounds/coin.mp3');
           audio.play();
         }
+
+        // Calculate points per tag percentage
+        this.filterTags.forEach((tag) => {
+          if(typeof this.possiblePointsPerTagPercentage[tag.key] === 'undefined') {
+            this.possiblePointsPerTagPercentage[tag.key] = 0;
+          }
+          console.log(this.pointsPerTag[tag.key],this.possiblePointsPerTag[tag.key]);
+          this.possiblePointsPerTagPercentage[tag.key] = Math.floor(this.pointsPerTag[tag.key] / this.possiblePointsPerTag[tag.key] * 100);
+        });
 
       },
       deep: true,
@@ -316,11 +361,22 @@ export default {
     //   })
     // },
 
-    done(points) {
+    done(points, tags) {
+      // Add the points to thew tag
+      tags.forEach((tag) => {
+        this.pointsPerTag[tag] = this.pointsPerTag[tag] + points;
+      });
+
+      // Add the points to the overall sum
       this.points = this.points + points;
     },
 
-    revoke(points) {
+    revoke(points, tags) {
+      tags.forEach((tag) => {
+        this.pointsPerTag[tag] = this.pointsPerTag[tag] - points;
+      });
+
+      // Revoke points from overall sum
       this.points = this.points - points;
     },
 
@@ -328,6 +384,25 @@ export default {
       localStorage.clear();
       location.reload(); 
     },
+
+    shieldIsVisible(tag) {
+      if(this.possiblePointsPerTagPercentage[tag]>50) {
+        return true;
+      }
+      return false;
+    },
+
+    getShieldColor(tag) {
+      if(this.possiblePointsPerTagPercentage[tag]>75) {
+        return 'gold';
+      }
+      if(this.possiblePointsPerTagPercentage[tag]>50) {
+        return 'silver';
+      }
+      if(this.possiblePointsPerTagPercentage[tag]>25) {
+        return 'bronze';
+      }
+    }
 
 }
 

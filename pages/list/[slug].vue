@@ -58,7 +58,7 @@
                       :key="tag.key">
 
                       <span class="inline-block ml-2" v-if="hasTag(task.tags, tag.key)" :title="tag.title[$i18n.locale]">
-                        <icon color="black" :type="tag.icon"></icon>
+                        <icon color="gray-800" :type="tag.icon"></icon>
                       </span>
 
                     </div>

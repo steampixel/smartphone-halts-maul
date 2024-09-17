@@ -28,7 +28,7 @@
         <a target="_blank" href="https://steampixel.de/impressum/">{{ $t('footerImprint') }}</a> |
         <a target="_blank" href="https://steampixel.de/datenschutzerklaerung/">{{ $t('footerPrivacy') }}</a> |
         <NuxtLink :to="localePath('/')" :aria-label="$t('home')">{{ $t('home') }}</NuxtLink> |
-        <a target="_blank" rel="me" href="https://digitalcourage.social/@smartphone">Mastodon</a>
+        <a target="_blank" rel="me" href="https://fedifreu.de/@smartphone">Mastodon</a>
 
       </p>
 
