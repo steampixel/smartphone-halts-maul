@@ -8,7 +8,17 @@ You can find all tasks of the checklist as well as all texts and tags in the con
 Happy coding :-)
 
 ## Changelog new release candidate
-* Add some changes here...
+* Added percentage to shield title
+* Added stalking to "metadata and images" task
+* Added NO STALK APP to task list
+* Altered intro text
+* Added Smart-TV Task
+* Added filter "Advertising and marketing"
+* Some news on ad blockers and alternative frontends
+* Renamed TOR to Tor^^
+* Some text additions
+* Renamed "Du nutzt datenschutzfreundliche Browser" to "Du nutzt datenschutzfreundliche Apps"
+* Repaired some nulls in translations
 
 ## Changelog 1.23.0
 * Added collectable shields at the top of the list

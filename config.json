@@ -1,7 +1,7 @@
 {
     "version": "1.23.0",
-    "lastUpdated": "2024-09-17",
-    "pointsPerLevel": 800,
+    "lastUpdated": "2024-10-02",
+    "pointsPerLevel": 820,
     "messages": {
         "de": {
             "seoTitle": "Smartphone, halt's Maul! - Eine Checkliste für deine mobile Sicherheit",
@@ -9,7 +9,7 @@
             "title": "Smartphone, halt's Maul!",
             "subtitle": "✔ Eine Checkliste für deine mobile Sicherheit",
             "introText": "Diese Checkliste soll dir helfen spielerisch deine Smartphone-Sicherheit zu überprüfen, damit du ein Gefühl für die Thematik entwickeln kannst. Die Liste enthält {count} konkrete Vorschläge zur Verbesserung deiner Sicherheit in verschiedenen Szenarien. Punkte und Level sollen dich ermutigen so viel wie möglich abzuhaken. Du kannst maximal {levels} Level aufsteigen.",
-            "introText2": "Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt. Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus. Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht. ",
+            "introText2": "Bitte sei dir bewusst, dass Sicherheit immer auch von individuellen Risiken abhängt. Nicht alle Aufgaben werden für dich relevant sein. Nutze die Filter, um nur die Aufgaben zu zeigen, die für dich passend sind. Einige der hier beschriebenen Aufgaben schließen sich eventuell gegenseitig aus. Am Ende ist Sicherheit immer eine Abwägung. Absolute Sicherheit gibt es nicht. ",
             "buttonTasklist": "Liste",
             "handout": "Handout",
             "flyer": "Flyer",
@@ -85,13 +85,13 @@
             "noticeAutomaticTranslation": "Note: The content on this page has been automatically translated.",
             "seoDescription": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains concrete suggestions for improving your safety in various scenarios. Points and levels are designed to encourage you to tick off as many items as possible.",
             "introText": "This checklist is designed to help you check your smartphone security in a fun way so that you can develop a feel for the topic. The list contains {count} concrete suggestions for improving your safety in various scenarios. Points and levels are designed to encourage you to check off as much as possible. You can move up a maximum of {levels} levels.",
-            "introText2": "Please be aware that safety always depends on individual risks. Some of the tasks described here may be mutually exclusive. In the end, safety is always a trade-off. There is no such thing as absolute safety.",
             "flyerText": "Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible.",
             "introTextPrint": "This checklist is designed to help you review your smartphone security so that you can develop a feel for the topic. The list contains concrete suggestions for improving your security in various scenarios. This is the print version of the list. You can tick off the individual points with a pen.",
             "listLinks": "Sources and further links",
             "medal-gold": "Gold",
             "medal-silver": "Silver",
-            "medal-bronze": "Bronze"
+            "medal-bronze": "Bronze",
+            "introText2": "Please be aware that safety always depends on individual risks. Not all tasks will be relevant for you. Use the filters to show only the tasks that are suitable for you. Some of the tasks described here may be mutually exclusive. In the end, safety is always a trade-off. There is no such thing as absolute safety."
         },
         "es": {
             "seoTitle": "Smartphone, ¡cállate! - Lista de comprobación para la seguridad de su móvil",
@@ -129,14 +129,14 @@
             "seoDescription": "Esta lista de comprobación está diseñada para ayudarle a comprobar la seguridad de su smartphone de una forma divertida, para que pueda familiarizarse con el tema. La lista contiene sugerencias específicas para mejorar su seguridad en diversos escenarios. Los puntos y los niveles están diseñados para animarte a marcar tantos puntos como sea posible.",
             "subtitle": "✔ Una lista de comprobación para tu seguridad móvil",
             "introText": "Esta lista de comprobación está pensada para que compruebes la seguridad de tu smartphone de una forma divertida y te familiarices con el tema. La lista contiene {count} sugerencias concretas para mejorar tu seguridad en diversos escenarios. Los puntos y los niveles están diseñados para animarte a marcar tantas casillas como sea posible. Puedes subir un máximo de {niveles} niveles.",
-            "introText2": "Tenga en cuenta que la seguridad depende siempre de los riesgos individuales. Algunas de las tareas aquí descritas pueden ser mutuamente excluyentes. Al final, la seguridad es siempre un compromiso. No existe la seguridad absoluta.",
             "flyerText": "¿Te gusta la acción directa o tienes que esconderte? ¿Estás huido o quieres solicitar asilo? ¿Eres periodista o criticas al régimen? Entonces, ¡cuida ya de tu smartphone! Esta lista de comprobación está diseñada para ayudarte a comprobar tu seguridad de forma divertida. Los puntos y niveles te animarán a marcar el mayor número posible de elementos.",
             "listPrivacyStatement": "Las tareas completadas se guardan en su navegador (almacenamiento local). Puede eliminar estos datos de su navegador aquí.",
             "listLinks": "Fuentes y enlaces",
             "introTextPrint": "Esta lista de comprobación está pensada para ayudarle a revisar la seguridad de su smartphone y que pueda hacerse una idea del tema. La lista contiene sugerencias concretas para mejorar su seguridad en diversos escenarios. Esta es la versión impresa de la lista. Puedes marcar cada uno de los puntos con un bolígrafo.",
             "medal-gold": "Oro",
             "medal-silver": "Plata",
-            "medal-bronze": "Bronce"
+            "medal-bronze": "Bronce",
+            "introText2": "Tenga en cuenta que la seguridad depende siempre de los riesgos individuales. No todas las tareas serán relevantes para usted. Utilice los filtros para mostrar sólo las tareas que sean adecuadas para usted. Algunas de las tareas aquí descritas pueden ser mutuamente excluyentes. Al final, la seguridad es siempre un compromiso. No existe la seguridad absoluta."
         }
     },
     "categoryTags": [
@@ -229,7 +229,7 @@
             },
             "enabled": false,
             "text": {
-                "de": "Ein umsichtiges Verhalten im digitalen Raum ist entscheidend, um die eigene Privatsphäre und Sicherheit zu schützen. Durch Achtsamkeit im Umgang mit persönlichen Daten und gezielten Schutzmaßnahmen, wie der Nutzung von Passkeys, Zwei-Faktor-Authentifizierung und verschlüsselten Cloud-Speichern, minimierst du das Risiko von Datenmissbrauch und Cyberangriffen. Das proaktive Löschen nicht genutzter Accounts und das regelmäßige Überprüfen auf Datenlecks sind ebenso wichtig, um die Kontrolle über sensible Informationen zu behalten. Datenschutzfreundliche Technologien wie TOR und alternative Frontends sowie die Verschlüsselung von E-Mails bieten zusätzliche Schutzebenen."
+                "de": "Ein umsichtiges Verhalten im digitalen Raum ist entscheidend, um die eigene Privatsphäre und Sicherheit zu schützen. Durch Achtsamkeit im Umgang mit persönlichen Daten und gezielten Schutzmaßnahmen, wie der Nutzung von Passkeys, Zwei-Faktor-Authentifizierung und verschlüsselten Cloud-Speichern, minimierst du das Risiko von Datenmissbrauch und Cyberangriffen. Das proaktive Löschen nicht genutzter Accounts und das regelmäßige Überprüfen auf Datenlecks sind ebenso wichtig, um die Kontrolle über sensible Informationen zu behalten. Datenschutzfreundliche Technologien wie Tor und alternative Frontends sowie die Verschlüsselung von E-Mails bieten zusätzliche Schutzebenen."
             },
             "showShield": true
         },
@@ -285,7 +285,7 @@
             },
             "enabled": false,
             "text": {
-                "de": "Für Menschen, die ein erhöhtes Risiko für Hausdurchsuchungen oder Beschlagnahmungen haben, ist Smartphone-Sicherheit besonders wichtig, da ihre Geräte eine Fülle sensibler Informationen speichern. Diese Informationen, wie Kontakte, Nachrichten, Fotos und Standortdaten, könnten bei einer Beschlagnahmung eingesehen oder verwendet werden, um Netzwerke offenzulegen oder strafrechtliche Ermittlungen zu unterstützen. Durch Verschlüsselung, sichere Passwörter und das regelmäßige Löschen kritischer Daten kann der Zugriff auf private Informationen erschwert werden. Zudem helfen die Maßnahmen dabei, im Falle einer Beschlagnahmung die Privatsphäre und Sicherheit ihrer persönlichen oder beruflichen Netzwerke zu schützen."
+                "de": "Für Menschen, die ein erhöhtes Risiko für Hausdurchsuchungen oder Beschlagnahmungen haben, ist Smartphone-Sicherheit besonders wichtig, da ihre Geräte eine Fülle sensibler Informationen speichern. Diese Informationen, wie Kontakte, Nachrichten, Fotos und Standortdaten, könnten bei einer Beschlagnahmung eingesehen oder verwendet werden, um Netzwerke offenzulegen oder strafrechtliche Ermittlungen zu unterstützen. Durch Verschlüsselung, sichere Passwörter und das regelmäßige Löschen kritischer Daten kann der Zugriff auf private Informationen erschwert werden. Zudem helfen die Maßnahmen dabei, im Falle einer Beschlagnahmung die Privatsphäre und Sicherheit ihrer persönlichen oder beruflichen Netzwerke zu schützen. Hausdurchsuchungen und Beschlagnahmungen sind leider eine extrem häufige Maßnahme bei Ermittlungen. Oft stehen diese Maßnahmen in keinem Verhältnis zu den Vorwürfen. Schon eine politische Botschaft mit abwaschbarer Kreide auf einer Straße kann Hausdurchsuchungen nach sich ziehen. Aber auch als Zeug*in kannst du davon betroffen sein, ohne dass dir selbst etwas vorgeworfen wird."
             },
             "showShield": true
         },
@@ -299,7 +299,7 @@
             },
             "enabled": false,
             "text": {
-                "de": "Menschen, die in Frauenhäuser fliehen müssen oder die von Stalking betroffen sind erleben häufig sogenannte Advanced Persistend Threads (APTs). Das bedeutet, dass sie über einen langen Zeitraum immer wieder auf vielfältige Weise und mit viel Energie Angriffen ausgesetzt sind. Oft kommen die Täter*innen aus dem nahen oder ehemaligen Umfeld."
+                "de": "Menschen, die in Frauenhäuser fliehen müssen oder die von Stalking betroffen sind erleben häufig sogenannte Advanced Persistend Threads (APTs). Das bedeutet, dass sie über einen langen Zeitraum immer wieder auf vielfältige Weise und mit viel Energie Angriffen ausgesetzt sind. Oft kommen die Täter*innen aus dem nahen oder ehemaligen Umfeld. Das Smartphone einfach nicht zu benutzen kann hier keine dauerhafte Lösung sein. Denn das kann zu Rückzug und sozialer Isolation führen. Besser ist es sich der Gefahren bewusst zu werden und aktiv daran zu arbeiten, um weiterhin am sozialen Miteinander teilnehmen zu können."
             },
             "showShield": true
         },
@@ -314,6 +314,20 @@
             "enabled": false,
             "text": {
                 "de": "Verhaltensbasierte Risiken entstehen durch unüberlegtes oder unreflektiertes Verhalten von Personen. Dazu gehören unvorsichtige Online-Aktivitäten wie das Verwenden schwacher Passwörter, das Klicken auf unsichere Links, das Teilen sensibler Informationen auf unsicheren Plattformen oder das Nicht-Aktualisieren von Software. Diese Verhaltensweisen erhöhen das Risiko für Cyberangriffe, Datenmissbrauch oder Identitätsdiebstahl, da sie es Angreifern leichter machen, Schwachstellen auszunutzen. Verhaltensbasierte Risiken lassen sich durch bewusstes und sicherheitsorientiertes Handeln minimieren."
+            },
+            "showShield": true
+        },
+        {
+            "key": "advertising",
+            "icon": "eye",
+            "title": {
+                "de": "Werbung und Marketing",
+                "en": "Advertising and marketing",
+                "es": "Publicidad y marketing"
+            },
+            "enabled": false,
+            "text": {
+                "de": ""
             },
             "showShield": true
         },
@@ -397,9 +411,9 @@
                 "es": "Te interesa tu seguridad"
             },
             "shortText": {
-                "de": "Sehr gut! Offenbar ist dir deine Sicherheit wichtig. Sonst würdest du das hier nicht lesen. Deine ersten Punkte sind dir sicher.",
-                "en": "Very good! Obviously your safety is important to you. Otherwise you wouldn't be reading this. Your first points are safe.",
-                "es": "¡Muy bien! Obviamente tu seguridad es importante para ti. Si no, no estarías leyendo esto. Tus primeros puntos son seguros."
+                "de": "Offenbar ist dir deine Sicherheit wichtig. Sonst würdest du hier nicht weiter lesen. Der erste Schritt für mehr Sicherheit ist getan.",
+                "en": "Your safety is obviously important to you. Otherwise you wouldn't continue reading here. The first step towards greater security has been taken.",
+                "es": "Su seguridad es obviamente importante para usted. De lo contrario, no estarías leyendo esto. Se ha dado el primer paso hacia una mayor seguridad."
             },
             "tags": [
                 "common"
@@ -420,9 +434,9 @@
         {
             "id": "a2t3l5ehl2x96hbk35ua0u71hoxoklax",
             "title": {
-                "de": "Du teilst diese Liste mit anderen",
-                "en": "You share this list with others",
-                "es": "Comparte esta lista con otros"
+                "de": "Du teilst dieses Wissen mit anderen",
+                "en": "You share this knowledge with others",
+                "es": "Comparte estos conocimientos con los demás"
             },
             "shortText": {
                 "de": "Wenn wir es schaffen die Sicherheit aller Menschen zu erhöhen werden sich staatliche Überwachungsmaßnahmen weniger lohnen. Das kommt auch deiner Sicherheit zugute. Teile diese Liste daher in deinen Kanälen oder drucke den Flyer aus.",
@@ -446,9 +460,9 @@
                 "es": ""
             },
             "slug": {
-                "de": "du-teilst-diese-liste-mit-anderen",
-                "en": "you-share-this-list-with-others",
-                "es": "comparte-esta-lista-con-otros"
+                "en": "you-share-this-knowledge-with-others",
+                "es": "comparte-estos-conocimientos-con-los-dems",
+                "de": "du-teilst-dieses-wissen-mit-anderen"
             }
         },
         {
@@ -492,9 +506,9 @@
                 "es": "Las criptofiestas son eventos en los que aprendes a proteger tus dispositivos y tus comunicaciones."
             },
             "longText": {
-                "de": "Wenn du dich für Cryptoparties interessierst und Gleichgesinnte treffen möchtest kannst du dich zum Beispiel auf der Seite cryptoparty.in über bevorstehende Events informieren. Oder du befolgst den Guide unten und veranstaltest gleich selbst eine.",
-                "en": "If you are interested in cryptoparties and want to meet like-minded people, you can find out about upcoming events on cryptoparty.in, for example. Or you can follow the guide below and organize one yourself.",
-                "es": "Si te interesan las criptofiestas y te gustaría conocer a gente afín, puedes informarte sobre los próximos eventos en cryptoparty.in, por ejemplo. También puedes seguir la guía que te ofrecemos a continuación y organizar una tú mismo."
+                "de": "Wenn du dich für Cryptoparties interessierst und Gleichgesinnte treffen möchtest kannst du dich zum Beispiel auf der Seite cryptoparty.in über bevorstehende Events informieren. Oder du folgst dem verlinkten Guide und veranstaltest gleich selbst eine Cryptoparty.",
+                "en": "If you are interested in cryptoparties and would like to meet like-minded people, you can find out about upcoming events at cryptoparty.in, for example. Or you can follow the linked guide and organize a cryptoparty yourself.",
+                "es": "Si te interesan las criptofiestas y te gustaría conocer a gente afín, puedes informarte sobre los próximos eventos en cryptoparty.in, por ejemplo. O puedes seguir la guía enlazada y organizar tú mismo una criptofiesta."
             },
             "showMore": true,
             "links": [
@@ -589,6 +603,42 @@
             }
         },
         {
+            "id": "bmcpn75qyks6e41lgu408zxiw0ulv1ap",
+            "title": {
+                "de": "Du nutzt die \"NO STALK\" App",
+                "en": "You use the \"NO STALK\" app",
+                "es": "Utiliza la aplicación \"NO STALK"
+            },
+            "shortText": {
+                "de": "Die NO STALK App des Weissen Rings kann dir helfen unerwünschte Ereignisse wie Anrufe, SMS und Chat-Nachrichten gerichtsfest zu dokumentieren.",
+                "en": "The NO STALK app from the Weisser Ring can help you to document unwanted events such as calls, text messages and chat messages in a court of law.",
+                "es": "La aplicación NO STALK de Weisser Ring puede ayudarte a documentar sucesos no deseados, como llamadas, mensajes de texto y mensajes de chat, de forma que sean válidos ante un tribunal."
+            },
+            "showMore": true,
+            "tags": [
+                "common",
+                "easy",
+                "stalking"
+            ],
+            "points": 400,
+            "longText": {
+                "de": "Alle weiteren Informationen findest du auf der Website der NO STALK APP.",
+                "en": "You can find all further information on the NO STALK APP website.",
+                "es": "Encontrará más información en el sitio web de NO STALK APP."
+            },
+            "links": [
+                {
+                    "title": "NO STALK App",
+                    "url": "https:\/\/nostalk.de\/"
+                }
+            ],
+            "slug": {
+                "en": "you-use-the-no-stalk-app",
+                "es": "utiliza-la-aplicacin-no-stalk",
+                "de": "du-nutzt-die-no-stalk-app"
+            }
+        },
+        {
             "id": "pt4y2j261kog00fs6iodjs9kz14kvgkv",
             "title": {
                 "de": "Du verwendest kein Dumbphone",
@@ -632,9 +682,9 @@
                 "es": "En el reverso de tu tarjeta SIM hay un número poco visible. Rásquelo para que no puedan identificarle ni a usted ni a su proveedor en caso de confiscación."
             },
             "longText": {
-                "de": "Sei dabei bitte vorsichtig und achte darauf den Chip nicht zu zerstören. Kratze also nicht zu tief!",
-                "en": "Please be careful not to destroy the chip. Do not scratch too deeply!",
-                "es": "Por favor, tenga cuidado y procure no destruir el chip. No raye demasiado."
+                "de": "Sei dabei bitte vorsichtig und achte darauf den Chip nicht zu zerstören. Kratze also nicht zu tief! Selbstverständlich gilt das nur für physische Simkarten. eSims haben eine solche Nummer nicht.",
+                "en": "Please be careful and take care not to destroy the chip. So don't scratch too deeply! Of course, this only applies to physical SIM cards. eSims do not have such a number.",
+                "es": "Por favor, ten cuidado y procura no destruir el chip. No rayes demasiado. Por supuesto, esto sólo se aplica a las tarjetas SIM físicas. Las eSims no tienen ese número."
             },
             "showMore": true,
             "tags": [
@@ -676,11 +726,12 @@
                 "en": "you-have-set-up-a-screen-lock",
                 "es": "has-configurado-un-bloqueo-de-pantalla"
             },
-            "showMore": false,
+            "showMore": true,
             "links": [],
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Dein Passwort sollte mindestens 20 Zeichen lang sein.",
+                "en": "Your password should be at least 20 characters long.",
+                "es": "Su contraseña debe tener al menos 20 caracteres."
             }
         },
         {
@@ -696,9 +747,9 @@
                 "es": "Cifre sus smartphones con una contraseña alfanumérica fuerte de al menos 20 caracteres. De este modo se impide de forma muy eficaz la lectura de los datos."
             },
             "longText": {
-                "de": "Eine starke Verschlüsselung ist wichtig. Eine Bildschirmsperre ist nicht ausreichend. Software wie Cellebrite kann über die USB-Schnittstelle die meisten Bildschirmsperren einfach umgehen. Alle deine Daten, Kontakte, Anruflisten, Standortdaten, Login-Daten und vieles mehr können dann durch automatisierte Software wie Cellebrite Pathfinder via USB gesammelt und aufbereitet dargestellt werden. Dein Verschlüsselungspasswort sollte besonders stark sein. Nutze ein sehr komplexes Muster oder ein alphanumerisches Passwort zur Verschlüsselung.",
-                "en": "Strong encryption is important. A screen lock is not sufficient. Software like Cellebrite can easily bypass most screen locks via the USB interface. All your data, contacts, call logs, location data, login data and much more can then be collected and displayed by automated software such as Cellebrite Pathfinder via USB. Your encryption password should be particularly strong. Use a very complex pattern or an alphanumeric password for encryption.",
-                "es": "Una encriptación fuerte es importante. Un bloqueo de pantalla no es suficiente. Un software como Cellebrite puede saltarse fácilmente la mayoría de los bloqueos de pantalla a través de la interfaz USB. Todos sus datos, contactos, registros de llamadas, datos de localización, datos de inicio de sesión y mucho más pueden entonces ser recogidos y mostrados por software automatizado como Cellebrite Pathfinder a través de USB. Su contraseña de cifrado debe ser especialmente fuerte. Utilice un patrón muy complejo o una contraseña alfanumérica para el cifrado."
+                "de": "Eine starke Verschlüsselung ist wichtig. Eine Bildschirmsperre ist nicht ausreichend und nicht das gleiche wie eine Verschlüsselung. Aktiviere die Verschlüsselung in deinen Einstellungen! Professionelle mobilforensische Software wie Cellebrite kann über die USB-Schnittstelle die meisten Bildschirmsperren einfach umgehen, indem es Sicherheitslücken ausnutzt oder versucht deinen Pin zu erraten. Alle Polizeibehörden in Deutschland verfügen über diese Software. Alle deine Daten, Kontakte, Anruflisten, Standortdaten, Login-Daten und vieles mehr könnten dann automatisiert via USB gesammelt, aufbereitet und visuell dargestellt werden. Dein Verschlüsselungspasswort sollte daher besonders stark sein. Nutze ein sehr komplexes Muster oder ein alphanumerisches Passwort zur Verschlüsselung! Aber was ist der Unterschied zwischen Verschlüsselung und Pin bzw. Passwort? Vereinfacht ausgedrückt ist ein Passwort- oder Pin-Schutz wie ein abgeschlossener Raum. Angreifer*innen können aber trotzdem durch das Fenster oder die Wand brechen, um an deine Daten zu kommen. Bei einer Verschlüsselung hingegen wird der ganze Raum in kleine Teile gehackt und gleichmäßig auf dem Boden verstreut. Ein Auslesen dieses Daten-Chaos ist ohne den richtigen Schlüssel, der alles wieder sortiert, nicht möglich.",
+                "en": "Strong encryption is important. A screen lock is not enough and is not the same as encryption. Activate encryption in your settings! Professional mobile forensic software like Cellebrite can easily bypass most screen locks via the USB interface by exploiting security holes or trying to guess your pin. All police departments in Germany have this software. All your data, contacts, call logs, location data, login data and much more could then be automatically collected, processed and visualized via USB. Your encryption password should therefore be particularly strong. Use a very complex pattern or an alphanumeric password for encryption! But what is the difference between encryption and a pin or password? Put simply, password or pin protection is like a locked room. Attackers can still break through the window or wall to access your data. With encryption, on the other hand, the entire room is hacked into small pieces and scattered evenly across the floor. It is not possible to read this data chaos without the right key that sorts everything again.",
+                "es": "Un cifrado fuerte es importante. Un bloqueo de pantalla no es suficiente y no es lo mismo que encriptación. ¡Activa la encriptación en tus ajustes! Un software forense profesional para móviles como Cellebrite puede saltarse fácilmente la mayoría de los bloqueos de pantalla a través de la interfaz USB aprovechando agujeros de seguridad o intentando adivinar tu pin. Todos los cuerpos de policía de Alemania disponen de este software. Todos tus datos, contactos, registros de llamadas, datos de localización, datos de inicio de sesión y mucho más se podrían recopilar, procesar y visualizar automáticamente a través de USB. Por tanto, tu contraseña de encriptación debe ser especialmente fuerte. Utiliza un patrón muy complejo o una contraseña alfanumérica para el cifrado. Pero, ¿cuál es la diferencia entre el cifrado y un pin o contraseña? En pocas palabras, la protección con contraseña o pin es como una habitación cerrada. Los atacantes pueden atravesar la ventana o la pared para acceder a tus datos. En cambio, con la encriptación, toda la habitación se corta en pedacitos y se esparce uniformemente por el suelo. No es posible leer este caos de datos sin la llave adecuada que lo ordene todo de nuevo."
             },
             "showMore": true,
             "links": [
@@ -757,9 +808,9 @@
                 "es": "El cifrado sólo es efectivo cuando el teléfono está apagado. Practica cómo apagar el teléfono rápidamente en situaciones de estrés."
             },
             "longText": {
-                "de": "Auch wenn dein Telefon verschlüsselt ist kann Software wie Cellebrite via USB darauf zugreifen. Solange dein Telefon eingeschaltet ist, ist die Verschlüsselung wirkungslos. Erst wenn es abgeschaltet ist, ist Verschlüsselung wirklich effektiv. Schalte dein Telefon unbedingt ab, bevor du es in fremde Hände gibst! Wenn du auf Nummer sicher gehen willst kannst du auch einen Killswitch an deinem Telefon anbringen. So lässt sich der Akku in Gefahrensituationen schnell entfernen. Damit verschwindet dann der Schlüssel vom Speicher deines Geräts.",
-                "en": "Even if your phone is encrypted, software such as Cellebrite can access it via USB. As long as your phone is switched on, encryption is ineffective. Encryption is only really effective when it is switched off. Be sure to switch off your phone before you give it into someone else's hands! If you want to be on the safe side, you can also attach a killswitch to your phone. This allows you to quickly remove the battery in dangerous situations. The key will then disappear from your device's memory.",
-                "es": "Aunque el teléfono esté encriptado, programas como Cellebrite pueden acceder a él a través de USB. Mientras el teléfono esté encendido, el cifrado no tendrá ningún efecto. El cifrado sólo es realmente efectivo cuando está apagado. Asegúrate de apagar el teléfono antes de dárselo a otra persona. Si quieres ir sobre seguro, también puedes conectar un interruptor de apagado al teléfono. Esto te permitirá extraer rápidamente la batería en situaciones de peligro. La clave desaparecerá entonces de la memoria de tu dispositivo."
+                "de": "Auch wenn dein Telefon verschlüsselt ist kann professionelle mobilforensiche Software wie Cellebrite via USB darauf zugreifen. Solange dein Telefon eingeschaltet ist, ist die Verschlüsselung wirkungslos, da die Daten entschlüsselt sind. Erst wenn es abgeschaltet ist, ist Verschlüsselung wirklich effektiv. Schalte dein Telefon unbedingt ab, bevor du es in fremde Hände gibst! Wenn du auf Nummer sicher gehen willst kannst du auch einen Killswitch an deinem Telefon anbringen. So lässt sich der Akku in Gefahrensituationen schnell entfernen. In den weiterführenden Informationen findest du mehr Details zu dieser Idee.",
+                "en": "Even if your phone is encrypted, professional mobile forensic software such as Cellebrite can access it via USB. As long as your phone is switched on, the encryption is ineffective as the data is decrypted. Encryption is only really effective when it is switched off. Be sure to switch off your phone before you give it into someone else's hands! If you want to be on the safe side, you can also attach a killswitch to your phone. This allows you to quickly remove the battery in dangerous situations. You can find more details on this idea in the further information.",
+                "es": "Incluso si tu teléfono está encriptado, un software forense profesional para móviles como Cellebrite puede acceder a él a través de USB. Mientras el teléfono esté encendido, el cifrado no es efectivo, ya que los datos se descifran. El cifrado sólo es realmente efectivo cuando está apagado. Asegúrate de apagar el teléfono antes de dárselo a otra persona. Si quieres ir sobre seguro, también puedes conectar un interruptor de apagado al teléfono. Esto te permitirá extraer rápidamente la batería en situaciones de peligro. Encontrarás más detalles sobre esta idea en la información adicional."
             },
             "showMore": true,
             "links": [
@@ -801,9 +852,9 @@
                 "es": "Utiliza una película de privacidad"
             },
             "shortText": {
-                "de": "Du kannst eine spezielle Folie auf deinen Display kleben, die verhindert, dass umstehende Personen oder Kameras mitlesen können. Diese Folien gibt es für viele Modelle.",
-                "en": "You can stick a special film on your display to prevent bystanders or cameras from being able to read it. These films are available for many models.",
-                "es": "Puedes pegar una película especial en la pantalla para evitar que los espectadores o las cámaras puedan leerla. Estas películas están disponibles para muchos modelos."
+                "de": "Du kannst eine spezielle Folie auf deinen Display kleben, die verhindert, dass umstehende Personen oder Kameras mitlesen können. Diese Folien gibt es für viele Modelle. Sie verwenden optische Effekte, die dazu führen, dass dein Display nur aus einem bestimmten Winkel sichtbar ist.",
+                "en": "You can apply a special film to your display that prevents bystanders or cameras from being able to read it. These films are available for many models. They use optical effects that mean your display is only visible from a certain angle.",
+                "es": "Puedes aplicar a tu pantalla una película especial que impida su lectura por parte de transeúntes o cámaras. Estas películas están disponibles para muchos modelos. Utilizan efectos ópticos que hacen que su pantalla sólo sea visible desde un ángulo determinado."
             },
             "tags": [
                 "physical",
@@ -812,9 +863,11 @@
             ],
             "points": 200,
             "longText": {
+                "de": "",
                 "en": "",
                 "es": ""
             },
+            "showMore": false,
             "slug": {
                 "de": "du-verwendest-eine-blickschutzfolie",
                 "en": "you-are-using-a-privacy-film",
@@ -907,14 +960,14 @@
             "showMore": true,
             "links": [
                 {
+                    "date": "2022-06-29",
+                    "title": "Tipp: So sperrt ihr Face ID und Touch ID innerhalb von 2 Sekunden",
+                    "url": "https:\/\/www.macerkopf.de\/2022\/06\/29\/tipp-so-face-id-touch\/"
+                },
+                {
                     "date": "2023-06-29",
                     "title": "How to use Android's lockdown mode (and why)",
                     "url": "https:\/\/www.zdnet.com\/article\/how-to-use-the-android-lockdown-mode-and-why-you-should\/"
-                },
-                {
-                    "date": "2017-09-15",
-                    "title": "Heise: Face ID: Not-Tastenkombination deaktiviert Gesichtserkennung",
-                    "url": "https:\/\/www.heise.de\/news\/Face-ID-Not-Tastenkombination-deaktiviert-Gesichtserkennung-3833463.html"
                 },
                 {
                     "date": "2024-04-19",
@@ -961,7 +1014,7 @@
                 "es": "Has desactivado las funciones de desarrollador"
             },
             "shortText": {
-                "de": "Deaktiviere unbedingt USB-Debugging, wenn du dich damit auskennst. Normalerweise ist diese Funktion auf allen Geräten standardmäßig deaktiviert und muss von dir bewusst aktiviert werden.",
+                "de": "Deaktiviere unbedingt USB-Debugging auf deinem Android-Gerät, wenn du dich damit auskennst. Normalerweise ist diese Funktion auf allen Geräten standardmäßig deaktiviert und muss von dir bewusst aktiviert werden.",
                 "en": "Be sure to deactivate USB debugging if you are familiar with it. Normally, this function is deactivated by default on all devices and must be consciously activated by you.",
                 "es": "Asegúrese de desactivar la depuración USB si está familiarizado con ella. Normalmente, esta función está desactivada por defecto en todos los dispositivos y debe ser activada conscientemente por usted."
             },
@@ -1051,16 +1104,22 @@
             "points": 200,
             "showMore": true,
             "longText": {
-                "de": "Ob dein Gerät verified Boot unterstützt oder nicht erfährst du bei der herstellenden Firma.",
-                "en": "You can find out whether your device supports verified boot or not from the manufacturing company.",
-                "es": "Puede averiguar si su dispositivo admite o no el arranque verificado a través de la empresa fabricante."
+                "de": "Ob dein Gerät verified Boot unterstützt oder nicht erfährst du bei der herstellenden Firma. Wenn du ein eigenes Betriebssystem auf deinem Gerät installiert hast solltest du sicherstellen, dass verified Boot für dein Gerät unterstütz wird.",
+                "en": "You can find out whether your device supports verified boot or not from the manufacturing company. If you have installed your own operating system on your device, you should make sure that verified boot is supported for your device.",
+                "es": "Puede averiguar si su dispositivo es compatible o no con el arranque verificado a través del fabricante. Si ha instalado su propio sistema operativo en el dispositivo, debe asegurarse de que el dispositivo admite el arranque verificado."
             },
             "slug": {
                 "de": "dein-betriebssystem-verfgt-ber-verified-boot",
                 "en": "your-operating-system-has-verified-boot",
                 "es": "tu-sistema-operativo-tiene-arranque-verificado"
             },
-            "links": []
+            "links": [
+                {
+                    "date": "2024-04-29",
+                    "title": "Android: Verifizierter Start",
+                    "url": "https:\/\/source.android.com\/docs\/security\/features\/verifiedboot?hl=de"
+                }
+            ]
         },
         {
             "id": "1p48age63ez4bimmj70g4dn5wuyc4fc1",
@@ -1120,9 +1179,11 @@
                 "activism"
             ],
             "points": 200,
+            "showMore": true,
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Achte darauf, dass du diese Nummern an einem geheimen Platz ablegst. Speichere sie am besten verschlüsselt. So musst du nicht befürchten, dass diese Nummern in Zukunft genutzt werden, um dir ein bestimmtes Telefon zuordnen zu können.",
+                "en": "Make sure that you store these numbers in a secret place. It is best to store them in encrypted form. This way, you don't have to worry that these numbers will be used in the future to assign a specific phone to you.",
+                "es": "Asegúrate de guardar estos números en un lugar secreto. Lo mejor es guardarlos de forma encriptada. De este modo, no tendrás que preocuparte de que estos números se utilicen en el futuro para asociarte a un teléfono concreto."
             },
             "slug": {
                 "de": "du-hast-die-eindeutigen-nummern-deines-gertes-notiert",
@@ -1279,9 +1340,9 @@
                 "es": "Practica la restauración de tus copias de seguridad"
             },
             "shortText": {
-                "de": "Die Wiederherstellung deiner Daten ist das Wichtigste an einem Backup. Übe diese Situation. So kannst du sehen, ob dein Backup intakt ist. Stelle sicher, dass du dein Backup ohne Zugriff auf Passwortmanager und Zwei-Faktor-Apps wiederherstellen kannst.",
-                "en": "Restoring your data is the most important part of a backup. Practice this situation. This way you can see if your backup is intact. Make sure you can restore your backup without access to password managers and two-factor apps.",
-                "es": "Restaurar tus datos es la parte más importante de una copia de seguridad. Practica esta situación. Así podrás comprobar si tu copia de seguridad está intacta. Asegúrate de que puedes restaurar la copia de seguridad sin acceder a gestores de contraseñas ni a aplicaciones de doble factor."
+                "de": "Die Wiederherstellung deiner Daten ist das Wichtigste an einem Backup. Übe diese Situation! So kannst du sehen, ob dein Backup intakt ist. Stelle sicher, dass du dein Backup ohne Zugriff auf andere Backups, Passwortmanager und Zwei-Faktor-Apps wiederherstellen kannst.",
+                "en": "Restoring your data is the most important part of a backup. Practice this situation! This way you can see if your backup is intact. Make sure that you can restore your backup without access to other backups, password managers and two-factor apps.",
+                "es": "Restaurar tus datos es la parte más importante de una copia de seguridad. Practica esta situación. Así podrás comprobar si tu copia de seguridad está intacta. Asegúrate de que puedes restaurar tu copia de seguridad sin acceso a otras copias de seguridad, gestores de contraseñas y aplicaciones de doble factor."
             },
             "tags": [
                 "physical",
@@ -1289,10 +1350,12 @@
                 "house",
                 "activism"
             ],
+            "showMore": true,
             "points": 400,
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Du fragst dich wie das gehen soll, wenn doch alles verschlüsselt ist? Hier folgt eine Idee: Erstelle dir eine separate Passwortdatenbank. In diese Datenbank legst du alle wichtigen Haupt-Passworte für Computer, Telefon, andere Passwort-Datenbanken und auch für deine Backup-Archive. Erstelle dir nun eine Liste von 10-20 persönlichen Fragen, die nur du selbst beantworten kannst. Die Antworten auf die Fragen ergeben zusammengeschrieben dein Masterpasswort für Notfälle. Kopiere diese kritische Datenbank auf einen USB-Stick und lagere die Fragen daneben. Wenn du willst kannst du die Fragen auch mit Partner*innen, Freund*innen oder Familienmitgliedern gemeinsam erarbeiten. So sind Daten wiederherstellbar, selbst wenn dir etwas zustoßen sollte.",
+                "en": "Wondering how to do this if everything is encrypted? Here's an idea: create a separate password database. Put all the important main passwords for your computer, phone, other password databases and also for your backup archives in this database. Now create a list of 10-20 personal questions that only you can answer. The answers to the questions together form your master password for emergencies. Copy this critical database to a USB stick and store the questions next to it. If you want, you can also work through the questions together with your partner, friends or family members. This way, you can recover your data even if something should happen to you.",
+                "es": "¿Te preguntas cómo hacerlo si todo está encriptado? He aquí una idea: crea una base de datos de contraseñas independiente. Pon en esta base de datos todas las contraseñas principales importantes para tu ordenador, teléfono, otras bases de datos de contraseñas y también para tus archivos de copia de seguridad. Ahora crea una lista de 10 a 20 preguntas personales que sólo tú puedas responder. Las respuestas a las preguntas serán tu contraseña maestra para emergencias. Copia esta base de datos crítica en una memoria USB y guarda las preguntas junto a ella. Si quieres, también puedes repasar las preguntas junto con tu pareja, amigos o familiares. De este modo, podrás recuperar tus datos aunque te ocurra algo."
             },
             "slug": {
                 "de": "du-bst-die-wiederherstellung-deiner-backups",
@@ -1309,9 +1372,9 @@
                 "es": "No guardes en casa los dispositivos que no utilices"
             },
             "shortText": {
-                "de": "Im Falle einer Hausdurchsuchung oder eines Einbruchs werden oft alle Geräte entwendet. Bereite dich darauf vor indem du nicht genutzte Geräte bei deinen Freund*innen lagerst. So hast du schnell Ersatz.",
-                "en": "In the event of a house search or break-in, all devices are often stolen. Prepare for this by storing unused devices with your friends. That way you'll have a quick replacement.",
-                "es": "En caso de allanamiento o robo, suelen robar todos los dispositivos. Prepárate para ello guardando los dispositivos que no utilices con tus amigos. Así tendrás un reemplazo rápido."
+                "de": "Im Falle einer Hausdurchsuchung, eines Einbruchs, einer Überschwemmung oder anderer Notlagen werden oft alle Geräte entwendet oder zerstört. Bereite dich darauf vor, indem du nicht genutzte Geräte bei deinen Freund*innen lagerst. So hast du schnell Ersatz.",
+                "en": "In the event of a house search, burglary, flooding or other emergencies, all devices are often stolen or destroyed. Prepare for this by storing unused devices with your friends. That way you'll have a quick replacement.",
+                "es": "En caso de allanamiento de morada, robo, inundación u otras emergencias, todos los aparatos suelen ser robados o destruidos. Prepárate para ello guardando los dispositivos que no utilices con tus amigos. Así tendrás un reemplazo rápido."
             },
             "tags": [
                 "physical",
@@ -1352,17 +1415,30 @@
                 "house",
                 "activism"
             ],
+            "showMore": true,
             "points": 800,
             "longText": {
-                "en": "",
-                "es": ""
+                "de": "Du solltest auch dann nicht reagieren, wenn du einen Brief von der Polizei erhältst in dem du zur Heruasgabe der Pin aufgefordert wirst. Die Polizei könnte zudem versuchen dich verbal unter Druck zu setzen. Sie erzählen dir vielleicht, dass sich die Heruasgabe des Passwortes strafmildernd auswirken wird. Oder sie erzählen dir, dass du dein Telefon dann schneller wieder hast. Oder sie behaupten, dass es für dich teuer werden kann dein Smartphone professionell knacken zu lassen. Bleibe standhaft und verweigere die Herausgabe! Kontaktiere im Zweifel Anwält*innen. Bitte bedenke, dass bei der Einreise in andere Länder wie die USA oder China dein Telefon durchsucht werden darf. Möglicherweise wirst du zur Herausgabe deines Passwortes gezwungen. In diesem Fall kannst du ein frisch zurückgesetztes Telefon mitnehmen, dass gefahrlos durchleutet werden kann. Installiere nach dem Übertritt der Grenze alle Apps neu.",
+                "en": "You should also not react if you receive a letter from the police asking you to hand over your PIN. The police may also try to put you under verbal pressure. They may tell you that giving them your password will mitigate your punishment. Or they may tell you that you will get your phone back more quickly. Or they claim that it can be expensive for you to have your smartphone cracked professionally. Stand firm and refuse to hand it over! If in doubt, contact a lawyer. Please bear in mind that your phone may be searched when you enter other countries such as the USA or China. You may be forced to hand over your password. In this case, you can take a freshly reset phone with you that can be safely searched. Reinstall all apps after crossing the border.",
+                "es": "Tampoco debes reaccionar si recibes una carta de la policía pidiéndote que entregues tu PIN. La policía también puede intentar presionarte verbalmente. Pueden decirte que entregar la contraseña atenuará la sanción. O que le devolverán el teléfono más rápidamente. O pueden alegar que te puede salir caro que te crackeen el smartphone profesionalmente. Mantente firme y niégate a entregarlo. En caso de duda, ponte en contacto con un abogado. Ten en cuenta que pueden registrar tu teléfono cuando viajes a otros países, como Estados Unidos o China. Es posible que te obliguen a entregar tu contraseña. En este caso, puedes llevar contigo un teléfono recién reiniciado que pueda ser registrado con seguridad. Reinstala todas las aplicaciones después de cruzar la frontera."
             },
             "slug": {
                 "de": "du-entsperrst-dein-smartphone-nicht-auf-verlangen",
                 "en": "you-do-not-unlock-your-smartphone-on-demand",
                 "es": "no-desbloquee-su-smartphone-a-peticin"
             },
-            "links": []
+            "links": [
+                {
+                    "date": "2017-02-20",
+                    "title": "Smartphone-Kontrolle in den USA - Nicht lügen!",
+                    "url": "https:\/\/www.deutschlandfunknova.de\/beitrag\/smartphone-kontrolle-in-den-usa-auf-keinen-fall-luegen"
+                },
+                {
+                    "date": "2019-06-04",
+                    "title": "Zeit: So schützen Sie Ihre Daten an der Grenze",
+                    "url": "https:\/\/www.zeit.de\/digital\/datenschutz\/2019-06\/reisen-datenschutz-grenzbeamte-kontrolle-usa"
+                }
+            ]
         },
         {
             "id": "98rgv22iqrocb3e55w90anh5rtoni492",
@@ -1407,8 +1483,8 @@
                 "es": "Desactivar las interfaces no utilizadas"
             },
             "shortText": {
-                "de": "Du solltest Positionierung, Wi-Fi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst",
-                "en": "You should only activate positioning, Wi-Fi, Bluetooth or NFC if you really need it",
+                "de": "Du solltest Positionierung, Wi-Fi, Bluetooth oder NFC nur aktivieren, wenn du es wirklich benötigst.",
+                "en": "You should only activate positioning, Wi-Fi, Bluetooth or NFC if you really need it.",
                 "es": "Sólo debes activar el posicionamiento, Wi-Fi, Bluetooth o NFC si realmente lo necesitas."
             },
             "longText": {
@@ -1522,11 +1598,6 @@
                 {
                     "title": "BMFSFJ: Webcamsticker-Karte TOP SECRET",
                     "url": "https:\/\/www.bmfsfj.de\/bmfsfj\/service\/publikationen\/webcamsticker-karte-top-secret-96100"
-                },
-                {
-                    "date": "2020-05-21",
-                    "title": "Heise: Bluetooth-Sicherheitslücke ermöglicht unerkannte Angriffe ",
-                    "url": "https:\/\/www.heise.de\/news\/Bluetooth-Sicherheitsluecke-ermoeglicht-unerkannte-Angriffe-4726211.html"
                 }
             ],
             "tags": [
@@ -1651,14 +1722,14 @@
                 "es": "No se lleva el móvil a la manifestación"
             },
             "shortText": {
-                "de": "Du solltest dein Telefon nicht mit zur Demo nehmen oder es einige Zeit vorher in den Flugmodus schalten und es auch nach der Demo noch einige Zeit im Flugmodus belassen.",
-                "en": "You should not take your phone with you to the demo or switch it to flight mode some time beforehand and leave it in flight mode for some time after the demo.",
-                "es": "No lleves tu teléfono contigo a la demostración o ponlo en modo avión un tiempo antes y déjalo en modo avión durante un tiempo después de la demostración."
+                "de": "Du solltest dein Telefon nicht mit zur Demo nehmen oder es einige Zeit vorher in den Flugmodus schalten bzw. es ganz ausschalten und es auch nach der Demo noch einige Zeit so belassen.",
+                "en": "You should not take your phone with you to the demonstration or switch it to flight mode some time beforehand or switch it off completely and leave it like this for some time after the demonstration.",
+                "es": "No lleve su teléfono a la demostración, póngalo en modo avión con cierta antelación o apáguelo por completo y déjelo así durante algún tiempo después de la demostración."
             },
             "longText": {
-                "de": "Das gilt auch dann, wenn du anonyme Simkarten nutzt. Durch die gezielte Verfolgung (zum Beipiel auf dem Heimweg) einzelner Personen mit sogenannten IMSI-Catchern lässt sich eine Telefonnummer einer Person zuordnen. Egal, ob die Simkarte anonym ist oder nicht.",
-                "en": "This also applies if you use anonymous SIM cards. Targeted tracking (e.g. on the way home) of individual persons with so-called IMSI catchers allows a telephone number to be assigned to a person. Regardless of whether the SIM card is anonymous or not.",
-                "es": "Esto también se aplica si se utilizan tarjetas SIM anónimas. El seguimiento selectivo (por ejemplo, de camino a casa) de personas individuales con los denominados IMSI catchers permite asignar un número de teléfono a una persona. Independientemente de si la tarjeta SIM es anónima o no."
+                "de": "Der Grund ist, dass viele Telefone schlicht von der Polizei sichergestellt oder beschlagnahmt werden. Aber auch sogenannte IMSI-Catcher sind ein Problem. Das gilt auch dann, wenn du anonyme Simkarten nutzt. Durch die gezielte Verfolgung (zum Beipiel auf dem Heimweg) einzelner Personen mit IMSI-Catchern lässt sich eine Telefonnummer einer Person zuordnen. Egal, ob die Simkarte anonym ist oder nicht. IMSI-Cathcer können in Rucksäcken oder sogar auf Drohnen befinden. Ein IMSI-Catchers erzeugt eine Fake-Funkzelle mit der sich dein Telefon verbindet, weil das Signal des IMSI-Catchers stärker ist als das der umliegenden echten Funkzellen. Wirst du lange genug verfolgt müssen die Angreifer*innen nur noch nachschauen welches Telefon am längsten eingeloggt war. Deine IMSI ist den Angreifer*innen dadurch dann bekannt. Auf dieser Basis können dann Funkzellenauswertungen, Telekommunikationsüberwachung oder andere Maßnahmen folgen. Du hast in der Regel keine einfache Möglichkeit festzustellen, ob dein Telefon mit einer Fake-Funkzelle verbunden ist.",
+                "en": "The reason is that many phones are simply seized or confiscated by the police. But so-called IMSI catchers are also a problem. This also applies if you use anonymous SIM cards. Targeted tracking (for example on the way home) of individual persons with IMSI catchers allows a telephone number to be assigned to a person. Regardless of whether the SIM card is anonymous or not. IMSI catchers can be found in backpacks or even on drones. An IMSI catcher creates a fake cell to which your phone connects because the signal of the IMSI catcher is stronger than that of the surrounding real cells. If you are tracked long enough, the attackers only have to check which phone has been logged in the longest. Your IMSI is then known to the attackers. This can then be used as the basis for radio cell evaluations, telecommunications surveillance or other measures. As a rule, you have no easy way of determining whether your phone is connected to a fake cell.",
+                "es": "La razón es que muchos teléfonos son simplemente incautados o confiscados por la policía. Pero los llamados IMSI catchers también son un problema. Esto también se aplica si utiliza tarjetas SIM anónimas. El seguimiento selectivo (por ejemplo, de camino a casa) de personas concretas con IMSI catchers permite asignar un número de teléfono a una persona. Independientemente de si la tarjeta SIM es anónima o no. Los IMSI catchers pueden encontrarse en mochilas o incluso en drones. Un IMSI catcher crea una célula falsa a la que se conecta tu teléfono porque la señal del IMSI catcher es más fuerte que la de las células reales circundantes. Si te rastrean el tiempo suficiente, los atacantes sólo tienen que comprobar qué teléfono lleva más tiempo conectado. Entonces, los atacantes conocen tu IMSI. Esto puede servir de base para análisis de células de radio, vigilancia de las telecomunicaciones u otras medidas. Por regla general, no es fácil determinar si su teléfono está conectado a una célula falsa."
             },
             "showMore": true,
             "tags": [
@@ -1737,6 +1808,11 @@
             },
             "showMore": true,
             "links": [
+                {
+                    "date": "2024-09-24",
+                    "title": "Tarnkappe: LG Regensburg: Funkzellenabfrage auch bei minderen Delikten erlaubt",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/rechtssachen\/lg-regensburg-funkzellenabfrage-auch-bei-minderen-delikten-erlaubt-302120.html"
+                },
                 {
                     "date": "2024-01-08",
                     "title": "Netzpolitik: Bundesnetzagentur schaltet pseudonyme Mobilfunk-Anschlüsse ab",
@@ -1918,9 +1994,9 @@
                 "es": "Si viajas con amigos, conocidos, familiares o compañeros, no deberías utilizar tu tarjeta SIM anónima."
             },
             "longText": {
-                "de": "Du solltest nicht damit telefonieren, keine SMS schreiben und deine mobile Internetverbindung nicht nutzen. Entferne sie sicherheitshalber aus deinem Telefon. Bewegst du dich über einen längeren Zeitraum mit anderen Personen gemeinsam durch identische Funkzellen ist theoretisch eingrenzbar wer du sein könntest oder wer dein Familien- bzw. Freund*innenkreis ist. Gleiches gilt für eine mögliche zweite Simkarte, die auf deinen Namen registriert ist. Z.B. wenn du ein zweites nicht anonymes Telefon dabei hast. Bewegt sich diese Simkarte zusammen mit der anonymen Simkarte durch ein Gebiet ist anhand der gleichen Funkzellenwechsel bekannt wem die anonyme Karte gehört. Die Funkzellenwechsel werden möglicherweise in den Verkehrsdaten deines Providers geloggt. Lass dir von Bekannten einen Wi-Fi Hotspot bereitstellen, wenn du unterwegs bist und verwende diesen mit einem VPN oder TOR. Wenn du mit einer größeren Gruppe unterwegs bist sollte nur eine einzige Person einen Hotspot erstellen. Alle anderen sollten ihre Simkarten für diese Zeit entfernen.",
-                "en": "You should not use it to make calls, send text messages or use your mobile internet connection. Remove it from your phone to be on the safe side. If you move through identical cells with other people over a longer period of time, it is theoretically possible to narrow down who you could be or who your family or friends are. The same applies to a possible second SIM card registered in your name. For example, if you have a second non-anonymous phone with you. If this SIM card moves through an area together with the anonymous SIM card, it is known who the anonymous card belongs to based on the same cell changes. The cell changes may be logged in your provider's traffic data. Have friends provide you with a Wi-Fi hotspot when you are traveling and use it with a VPN or TOR. If you are traveling with a larger group, only one person should create a hotspot. Everyone else should remove their SIM cards for this time.",
-                "es": "No debes utilizarlo para hacer llamadas, enviar mensajes de texto o utilizar tu conexión móvil a internet. Quítala de tu teléfono para estar más seguro. Si se desplaza con otras personas durante un largo periodo de tiempo a través de células de radio idénticas, es teóricamente posible acotar quién podría ser usted o quiénes son sus familiares o amigos. Lo mismo se aplica a una posible segunda tarjeta SIM registrada a su nombre. Por ejemplo, si lleva consigo un segundo teléfono no anónimo. Si esta tarjeta SIM se desplaza por una zona junto con la tarjeta SIM anónima, se sabrá a quién pertenece la tarjeta anónima basándose en los mismos cambios de celda. Los cambios de celda pueden quedar registrados en los datos de tráfico de tu proveedor. Pide a tus amigos que te proporcionen un punto de acceso Wi-Fi cuando estés de viaje y utilízalo con una VPN o TOR. Si viajas con un grupo más grande, sólo una persona debería crear un punto de acceso. Todos los demás deben retirar sus tarjetas SIM durante ese tiempo."
+                "de": "Du solltest nicht damit telefonieren, keine SMS schreiben und deine mobile Internetverbindung nicht nutzen. Entferne sie sicherheitshalber aus deinem Telefon. Bewegst du dich über einen längeren Zeitraum mit anderen Personen gemeinsam durch identische Funkzellen ist theoretisch eingrenzbar wer du sein könntest oder wer dein Familien- bzw. Freund*innenkreis ist. Gleiches gilt für eine mögliche zweite Simkarte, die auf deinen Namen registriert ist. Z.B. wenn du ein zweites nicht anonymes Telefon dabei hast. Bewegt sich diese Simkarte zusammen mit der anonymen Simkarte durch ein Gebiet ist anhand der gleichen Funkzellenwechsel bekannt wem die anonyme Karte gehört. Die Funkzellenwechsel werden möglicherweise in den Verkehrsdaten deines Providers geloggt. Lass dir von Bekannten einen Wi-Fi Hotspot bereitstellen, wenn du unterwegs bist und verwende diesen mit einem VPN oder Tor. Wenn du mit einer größeren Gruppe unterwegs bist sollte nur eine einzige Person einen Hotspot erstellen. Alle anderen sollten ihre Simkarten für diese Zeit entfernen.",
+                "en": "You should not use it to make calls, send text messages or use your mobile internet connection. Remove it from your phone to be on the safe side. If you move through identical cells with other people over a longer period of time, it is theoretically possible to narrow down who you could be or who your family or friends are. The same applies to a possible second SIM card registered in your name. For example, if you have a second non-anonymous phone with you. If this SIM card moves through an area together with the anonymous SIM card, it is known who the anonymous card belongs to based on the same cell changes. The cell changes may be logged in your provider's traffic data. Have friends provide you with a Wi-Fi hotspot when you are traveling and use it with a VPN or Tor. If you are traveling with a larger group, only one person should create a hotspot. Everyone else should remove their SIM cards for this time.",
+                "es": "No debes utilizarlo para hacer llamadas, enviar mensajes de texto o utilizar tu conexión móvil a internet. Quítala de tu teléfono para estar más seguro. Si se desplaza con otras personas durante un largo periodo de tiempo a través de células de radio idénticas, es teóricamente posible acotar quién podría ser usted o quiénes son sus familiares o amigos. Lo mismo se aplica a una posible segunda tarjeta SIM registrada a su nombre. Por ejemplo, si lleva consigo un segundo teléfono no anónimo. Si esta tarjeta SIM se desplaza por una zona junto con la tarjeta SIM anónima, se sabrá a quién pertenece la tarjeta anónima basándose en los mismos cambios de celda. Los cambios de celda pueden quedar registrados en los datos de tráfico de tu proveedor. Pide a tus amigos que te proporcionen un punto de acceso Wi-Fi cuando estés de viaje y utilízalo con una VPN o Tor. Si viajas con un grupo más grande, sólo una persona debería crear un punto de acceso. Todos los demás deben retirar sus tarjetas SIM durante ese tiempo."
             },
             "showMore": true,
             "tags": [
@@ -2034,9 +2110,9 @@
         {
             "id": "7afsd36t6fnjy7t9kl61qilodns5l8ry",
             "title": {
-                "de": "Du beziehst dein Guthaben anonym",
-                "en": "You withdraw your credit anonymously",
-                "es": "Obtienes el crédito de forma anónima"
+                "de": "Du beziehst dein Telefon-Guthaben anonym",
+                "en": "You get your phone credit anonymously",
+                "es": "Obtén el crédito de tu teléfono de forma anónima"
             },
             "shortText": {
                 "de": "Du solltest auch das Guthaben für deine Simkarte anonym oder über Mittelspersonen beziehen. Verwende daher Simkarten für die du Guthaben bar an Kassen kaufen kannst oder bitte Freund*innen dir den Guthaben-Code zu senden.",
@@ -2308,7 +2384,8 @@
                 "system",
                 "security",
                 "knowledge",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 400,
             "slug": {
@@ -2356,7 +2433,8 @@
                 "system",
                 "easy",
                 "security",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 600,
             "slug": {
@@ -2623,19 +2701,32 @@
             }
         },
         {
-            "id": "9b3c2a6e82d9yijdm9w99vni4ouo9ebl",
+            "id": "3q2lzxl08jv9yg3v2huofxrwi3ws7v4h",
             "title": {
-                "de": "Du nutzt datenschutzfreundliche Webbrowser",
-                "en": "You use privacy-friendly web browsers",
-                "es": "Utiliza navegadores respetuosos con la privacidad"
+                "de": "Du nutzt datenschutzfreundliche Apps",
+                "en": "You use privacy-friendly apps",
+                "es": "Utiliza aplicaciones respetuosas con la privacidad"
             },
             "shortText": {
-                "de": "Nutze Browser, wie DuckDuckGo-Browser, die keine Daten über dich sammeln und gleichzeitig deine Privatsphäre aktiv schützen.",
-                "en": "Use browsers such as DuckDuckGo browser, which do not collect any data about you and at the same time actively protect your privacy.",
-                "es": "Utilice navegadores, como los de DuckDuckGo, que no recopilan datos sobre usted y, al mismo tiempo, protegen activamente su privacidad."
+                "de": "Viele gängige Apps tracken deine Gewohnheiten und Vorlieben. Informiere dich über datenschutzfreundliche Alternativen und prüfe die Tracker vorher!",
+                "en": "Many popular apps track your habits and preferences. Find out about privacy-friendly alternatives and check the trackers beforehand!",
+                "es": "Muchas aplicaciones populares rastrean tus hábitos y preferencias. Infórmate sobre alternativas respetuosas con la privacidad y comprueba los rastreadores de antemano."
+            },
+            "longText": {
+                "de": "Auf privascore.org findest du alternative Apps und Dienste für zahlreiche Themen. Nutze z.B. Browser, wie den DuckDuckGo-Browser, die keine Daten über dich sammeln. Das Projekt εxodus gibt dir zudem Auskunft über verwendete Tracker und Berechtigungen vieler Apps. So verzichten Karten-Apps wie Organic Maps oder Magic Earth komplett auf Tracker und sind somit eine gute Alternative zu Google Maps.",
+                "en": "On privascore.org you will find alternative apps and services for numerous topics. For example, use browsers such as the DuckDuckGo browser, which do not collect any data about you. The εxodus project also provides you with information about the trackers and permissions used by many apps. For example, map apps such as Organic Maps or Magic Earth do not use trackers at all and are therefore a good alternative to Google Maps.",
+                "es": "En privascore.org puedes encontrar aplicaciones y servicios alternativos para numerosos temas. Por ejemplo, utilice navegadores como el de DuckDuckGo, que no recopilan ningún dato sobre usted. El proyecto εxodus también te proporciona información sobre los rastreadores y permisos que utilizan muchas apps. Por ejemplo, aplicaciones de mapas como Organic Maps o Magic Earth no utilizan rastreadores en absoluto y son, por tanto, una buena alternativa a Google Maps."
             },
             "showMore": true,
             "links": [
+                {
+                    "title": "privascore.org",
+                    "url": "https:\/\/privascore.org\/priva-score\/"
+                },
+                {
+                    "title": "εxodus",
+                    "url": "https:\/\/reports.exodus-privacy.eu.org\/de\/"
+                },
                 {
                     "title": "How To Get the DuckDuckGo App on Android",
                     "url": "https:\/\/duckduckgo.com\/duckduckgo-help-pages\/mobile\/android\/"
@@ -2644,17 +2735,14 @@
             "tags": [
                 "system",
                 "behavior",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 400,
-            "longText": {
-                "en": "",
-                "es": ""
-            },
             "slug": {
-                "de": "du-nutzt-datenschutzfreundliche-webbrowser",
-                "en": "you-use-privacy-friendly-web-browsers",
-                "es": "utiliza-navegadores-respetuosos-con-la-privacidad"
+                "en": "you-use-privacy-friendly-apps",
+                "es": "utiliza-aplicaciones-respetuosas-con-la-privacidad",
+                "de": "du-nutzt-datenschutzfreundliche-apps"
             }
         },
         {
@@ -2924,6 +3012,42 @@
             }
         },
         {
+            "id": "x0qccshlljirptzu1hzamwntmmmatnsh",
+            "title": {
+                "de": "Du überträgst deinen Bildschirm nicht an einen Smart-TV",
+                "en": "You are not transmitting your screen to a smart TV",
+                "es": "No transmitas tu pantalla a un televisor inteligente."
+            },
+            "shortText": {
+                "de": "Einige smarte TV-Geräte erstellen Screenshots sowie Audioaufnahmen und laden diese automatisch und ungewollt ins Internet hoch. Schütze dich indem du dein Smartphone nicht mit einem Smart-TV koppelst.",
+                "en": "Some smart TVs take screenshots and audio recordings and upload them automatically and unintentionally to the internet. Protect yourself by not pairing your smartphone with a smart TV.",
+                "es": "Algunos televisores inteligentes realizan capturas de pantalla y grabaciones de audio y las suben a Internet de forma automática e involuntaria. Protéjase no emparejando su smartphone con un televisor inteligente."
+            },
+            "longText": {
+                "en": "",
+                "es": ""
+            },
+            "showMore": true,
+            "tags": [
+                "online",
+                "easy",
+                "advertising"
+            ],
+            "points": 200,
+            "links": [
+                {
+                    "date": "2024-09-25",
+                    "title": "Tarnkappe: Smart-TVs von LG & Samsung übertragen Screenshots an eigene Server",
+                    "url": "https:\/\/tarnkappe.info\/artikel\/it-sicherheit\/datenschutz\/smart-tvs-von-lg-samsung-uebertragen-screenshots-an-eigene-server-301935.html"
+                }
+            ],
+            "slug": {
+                "en": "you-are-not-transmitting-your-screen-to-a-smart-tv",
+                "es": "no-transmitas-tu-pantalla-a-un-televisor-inteligente",
+                "de": "du-bertrgst-deinen-bildschirm-nicht-an-einen-smart-tv"
+            }
+        },
+        {
             "id": "hg1ex3x63thdg4dbqldatdoql0mletc3",
             "title": {
                 "de": "Du bist vorsichtig beim Scannen von QR-Codes",
@@ -3066,12 +3190,20 @@
                 "es": "Los frontales alternativos de servicios web como YouTube, Twitter, TikTok y otros sitios web pueden ayudarte a proteger tus datos."
             },
             "longText": {
-                "de": "Anstelle von Youtube kannst du zum Beispiel eine der zahlreichen Invidious-Instanzen wie yewtu.be nutzen. So kannst du Werbung vermeiden und gleichzeitig deine Privatsphäre schüzen. Du kannst auch LibRedirect für FireFox installieren. Dieses Plugin leitet dich beim Surfen im Internet automatisch auf ein alternatives Frontend um.",
-                "en": "Instead of YouTube, for example, you can use one of the many Invidious instances such as yewtu.be. This way you can avoid advertising and protect your privacy at the same time. You can also install LibRedirect for FireFox. This plugin automatically redirects you to an alternative frontend when surfing the Internet.",
-                "es": "En lugar de YouTube, por ejemplo, puedes utilizar una de las muchas instancias de Invidious, como yewtu.be. Así evitarás los anuncios y protegerás tu privacidad al mismo tiempo. También puedes instalar LibRedirect para FireFox. Este plugin te redirige automáticamente a un frontend alternativo cuando navegas por Internet."
+                "de": "Anstelle von Youtube kannst du zum Beispiel eine der zahlreichen Invidious-Instanzen wie yewtu.be im Browser oder die App FreeTubeAndroid nutzen. So kannst du Werbung vermeiden und gleichzeitig deine Privatsphäre schüzen. Du kannst auch LibRedirect für FireFox installieren. Dieses Plugin leitet dich beim Surfen im Internet automatisch auf ein alternatives Frontend um. Große Unternehmen wie YouTube unternehmen große Anstrengungen um alternative Frontend immer wieder unbrauchbar zu machen oder zu sperren. Gib nicht auf, wenn es nicht gliech beim ersten Versuch funktioniert!",
+                "en": "Instead of YouTube, you can use one of the many Invidious instances such as yewtu.be in your browser or the FreeTubeAndroid app. This way you can avoid advertising and protect your privacy at the same time. You can also install LibRedirect for FireFox. This plugin automatically redirects you to an alternative frontend when surfing the internet. Large companies such as YouTube go to great lengths to make alternative frontends unusable or block them again and again. Don't give up if it doesn't work on the first try!",
+                "es": "En lugar de YouTube, puedes utilizar una de las muchas instancias de Invidious como yewtu.be en tu navegador o la aplicación FreeTubeAndroid. Así evitarás los anuncios y protegerás tu privacidad al mismo tiempo. También puedes instalar LibRedirect para FireFox. Este plugin te redirige automáticamente a un frontend alternativo cuando navegas por Internet. Las grandes empresas, como YouTube, hacen todo lo posible por inutilizar o bloquear una y otra vez los frontales alternativos. No te rindas si no funciona a la primera."
             },
             "showMore": true,
             "links": [
+                {
+                    "title": "FreeTubeAndroid",
+                    "url": "https:\/\/github.com\/MarmadileManteater\/FreeTubeAndroid"
+                },
+                {
+                    "title": "Invidious instances",
+                    "url": "https:\/\/docs.invidious.io\/instances\/"
+                },
                 {
                     "title": "LibRedirect",
                     "url": "https:\/\/libredirect.github.io\/"
@@ -3086,7 +3218,8 @@
                 "online",
                 "easy",
                 "behavior",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 600,
             "slug": {
@@ -3148,9 +3281,9 @@
                 "es": "Muchos servicios y plataformas en Internet ofrecen asegurar los inicios de sesión con un segundo factor. Utiliza esta opción siempre que sea posible."
             },
             "longText": {
-                "de": "Bedenke dabei bitte auch, dass es möglich sein muss ein Backup von deinem zweiten Faktor zu erzeugen. Eine Handynummer ist kein wirklich guter zweiter Faktor. Erstens kannst du deine Nummer potentiell verlieren. Es kann aber auch sein, dass andere Menschen oder Behörden Zugriff auf deine Nummer erlangen können. Im Falle eins Verlustes deiner Simkarte kommst du erst mal nicht an deine Accounts. Solltest du einen Hardware-Token als zweiten Faktor nutzen, stelle bitte sicher, dass es für Notfälle noch einen zweiten gibt! Solltest du Softwarelösungen wie Time-Based-One-Time-Passwords nutzen, fertige bitte Backups in deinen OTP-Apps an!",
-                "en": "Please also bear in mind that it must be possible to create a backup of your second factor. A cell phone number is not really a good second factor. Firstly, you can potentially lose your number. But it is also possible that other people or authorities can gain access to your number. If you lose your SIM card, you won't be able to access your accounts for the time being. If you use a hardware token as a second factor, please make sure that there is a second one for emergencies! If you use software solutions such as Time-Based-One-Time-Passwords, please make backups in your OTP apps!",
-                "es": "Ten en cuenta también que debe ser posible crear una copia de seguridad de tu segundo factor. Un número de teléfono móvil no es un buen segundo factor. En primer lugar, podrías perder tu número. Pero también es posible que otras personas o autoridades puedan acceder a tu número. Si pierdes tu tarjeta SIM, no podrás acceder a tus cuentas por el momento. Si utilizas un token de hardware como segundo factor, asegúrate de que hay otro para casos de emergencia. Si utilizas soluciones de software como contraseñas basadas en tiempo, haz copias de seguridad en tus aplicaciones OTP."
+                "de": "Bedenke dabei bitte auch, dass es möglich sein muss ein Backup von deinem zweiten Faktor zu erzeugen. Eine Handynummer ist kein wirklich guter zweiter Faktor. Erstens kannst du deine Nummer potentiell verlieren. Es kann aber auch sein, dass andere Menschen oder Behörden Zugriff auf deine Nummer erlangen können. Im Falle eins Verlustes deiner Simkarte kommst du erst mal nicht an deine Accounts. Solltest du einen Hardware-Token als zweiten Faktor nutzen, stelle bitte sicher, dass es für Notfälle noch einen zweiten gibt! Solltest du Softwarelösungen wie Time-Based-One-Time-Passwords nutzen, fertige bitte Backups in deinen OTP-Apps an! Die Android-App Aegis bietet zum Beispiel automatische Backups an.",
+                "en": "Please also bear in mind that it must be possible to create a backup of your second factor. A cell phone number is not really a good second factor. Firstly, you can potentially lose your number. But it is also possible that other people or authorities can gain access to your number. If you lose your SIM card, you won't be able to access your accounts for the time being. If you use a hardware token as a second factor, please make sure that there is a second one for emergencies! If you use software solutions such as Time-Based-One-Time-Passwords, please create backups in your OTP apps! The Android app Aegis, for example, offers automatic backups.",
+                "es": "Ten en cuenta también que debe ser posible crear una copia de seguridad de tu segundo factor. Un número de teléfono móvil no es un buen segundo factor. En primer lugar, podría perder su número. Pero también es posible que otras personas o autoridades puedan acceder a tu número. Si pierdes tu tarjeta SIM, no podrás acceder a tus cuentas por el momento. Si utilizas un token de hardware como segundo factor, asegúrate de que hay otro para casos de emergencia. Si utilizas soluciones de software como contraseñas basadas en tiempo, crea copias de seguridad en tus aplicaciones OTP. La aplicación Android Aegis, por ejemplo, ofrece copias de seguridad automáticas."
             },
             "showMore": true,
             "links": [
@@ -3222,14 +3355,14 @@
                 "es": "Utilizas un bloqueador de anuncios"
             },
             "shortText": {
-                "de": "Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren.",
-                "en": "Targeted advertising campaigns (microtargeting) are used by intelligence services, among others, to infect individual devices with malware.",
-                "es": "Los servicios de inteligencia, entre otros, utilizan campañas publicitarias dirigidas (microtargeting) para infectar dispositivos individuales con malware."
+                "de": "Gezielte Werbekampagnen (Microtargeting) werden unter anderem von Geheimdiensten genutzt, um einzelne Geräte passgenau mit Malware zu infizieren. Schütze dich mit Werbeblockern!",
+                "en": "Targeted advertising campaigns (microtargeting) are used by intelligence services, among others, to infect individual devices with malware. Protect yourself with ad blockers!",
+                "es": "Los servicios de inteligencia, entre otros, utilizan campañas publicitarias dirigidas (microtargeting) para infectar dispositivos individuales con malware. ¡Protéjase con bloqueadores de anuncios!"
             },
             "longText": {
-                "de": "Aber nicht nur Geheimdienste nutzen Werbung, um Menschen zu verfolgen. Datenbroker verkaufen aggregierte Daten über dich weiter und legen Profile von dir an.",
-                "en": "But it's not just intelligence agencies that use advertising to track people. Data brokers resell aggregated data about you and create profiles of you.",
-                "es": "Pero no sólo los servicios secretos utilizan la publicidad para rastrear a la gente. Los corredores de datos revenden datos agregados sobre usted y crean perfiles suyos."
+                "de": "Aber nicht nur Geheimdienste nutzen Werbung, um Menschen zu verfolgen. Sogenannte Datenbroker verkaufen außerdem aggregierte Daten über deine Person aus diversen Apps und Websites. Es gibt verschiedene Werbeblocker, die du auf unterschiedlichen Ebenen ausprobieren kannst. Netzwerkweite Lösungen wie eBlocker und Pi-hole schützen alle Geräte in deinem Heimnetzwerk. AdAway schützt dein Smartphone und uBlock Origin ist ein Plugin für den Firefox-Browser.",
+                "en": "But it's not just intelligence agencies that use advertising to track people. So-called data brokers also sell aggregated data about you from various apps and websites. There are various ad blockers that you can try out at different levels. Network-wide solutions such as eBlocker and Pi-hole protect all devices in your home network. AdAway protects your smartphone and uBlock Origin is a plugin for the Firefox browser.",
+                "es": "Pero no sólo los servicios secretos utilizan la publicidad para rastrear a las personas. Los llamados corredores de datos también venden datos agregados sobre usted de varias aplicaciones y sitios web. Hay varios bloqueadores de publicidad que puedes probar a distintos niveles. Las soluciones para toda la red, como eBlocker y Pi-hole, protegen todos los dispositivos de tu red doméstica. AdAway protege tu smartphone y uBlock Origin es un complemento para el navegador Firefox."
             },
             "showMore": true,
             "links": [
@@ -3281,7 +3414,8 @@
                 "easy",
                 "knowledge",
                 "journalist",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 600,
             "slug": {
@@ -3294,8 +3428,8 @@
             "id": "zokh9ctwzdanhdqvbw4l2pv9h9l7f03r",
             "title": {
                 "de": "Du nutzt verschiedene Pseudonyme und Mailadressen",
-                "en": null,
-                "es": "Utiliza seudónimos y direcciones de correo electrónico diferentes."
+                "es": "Utiliza seudónimos y direcciones de correo electrónico diferentes.",
+                "en": "You use different pseudonyms and email addresses"
             },
             "shortText": {
                 "de": "Du kannst deine Sicherheit verbessern, indem du auf allen Plattformen einen anderen Namen und andere Mailadressen bzw. Mobilnummern für die Registrierung verwendest. So können deine Accounts durch Datenlecks nicht zusammengeführt werden.",
@@ -3353,14 +3487,14 @@
         {
             "id": "pfjvsc5s12m97912lzslirixegh3f9u2",
             "title": {
-                "de": "Du nutzt TOR oder den TOR-Browser",
-                "en": "You use TOR or the TOR browser",
-                "es": "Utiliza TOR o el navegador TOR"
+                "de": "Du nutzt Tor oder den Tor-Browser",
+                "en": "You use Tor or the Tor browser",
+                "es": "Utiliza Tor o el navegador Tor"
             },
             "shortText": {
-                "de": "Deine Internetzugangsprovider können sehen welche Websites du besuchst und welche Apps du nutzt. TOR (The Onion Router) kann dir helfen deine Anonymität im Internet stark zu verbessern. Nutze Websites über den Tor-Browser und leite Apps mit der Orbot-App über das Tor-Netzwerk um.",
-                "en": "Your internet access providers can see which websites you visit and which apps you use. TOR (The Onion Router) can help you greatly improve your anonymity on the internet. Use websites via the Tor browser and redirect apps with the Orbot app via the Tor network.",
-                "es": "Tus proveedores de acceso a Internet pueden ver qué sitios web visitas y qué aplicaciones utilizas. TOR (The Onion Router) puede ayudarte a mejorar enormemente tu anonimato en Internet. Utiliza sitios web a través del navegador Tor y redirige aplicaciones con la aplicación Orbot a través de la red Tor."
+                "de": "Deine Internetzugangsprovider (Telekom, Vodafone, Telefonica, 1&1, etc...) können sehen welche Websites du besuchst. Tor (The Onion Router) kann dir helfen deine Anonymität im Internet stark zu verbessern. Nutze Websites über den Tor-Browser und leite Apps mit der Orbot-App über das Tor-Netzwerk um.",
+                "en": "Your internet access providers (Telekom, Vodafone, Telefonica, 1&1, etc...) can see which websites you visit. Tor (The Onion Router) can help you greatly improve your anonymity on the Internet. Use websites via the Tor browser and redirect apps with the Orbot app via the Tor network.",
+                "es": "Tus proveedores de acceso a Internet (Telekom, Vodafone, Telefónica, 1&1, etc...) pueden ver qué sitios web visitas. Tor (The Onion Router) puede ayudarte a mejorar enormemente tu anonimato en Internet. Utiliza sitios web a través del navegador Tor y redirige aplicaciones con la aplicación Orbot a través de la red Tor."
             },
             "tags": [
                 "online",
@@ -3369,6 +3503,7 @@
                 "journalist",
                 "activism"
             ],
+            "showMore": false,
             "points": 800,
             "longText": {
                 "en": "",
@@ -3418,7 +3553,8 @@
                 "online",
                 "security",
                 "behavior",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 400,
             "longText": {
@@ -3493,9 +3629,9 @@
                 "es": "Utiliza las VPN con prudencia"
             },
             "shortText": {
-                "de": "Bedenke, dass du VPN-Anbieter*innen vertrauen musst. Du bezahlt sie, also kennen Sie deine Identität. Viele VPN-Dienste arbeiten vollumfänglich mit Ermittlungsbehörden zusammen. Wenn du kannst, nutze stattdessen das TOR-Netzwerk.",
-                "en": "Remember that you have to trust VPN providers. You pay them, so they know your identity. Many VPN services cooperate fully with investigative authorities. If you can, use the TOR network instead.",
-                "es": "Recuerde que debe confiar en los proveedores de VPN. Usted les paga, así que ellos conocen su identidad. Muchos servicios VPN cooperan plenamente con las autoridades policiales. Si puedes, utiliza la red TOR."
+                "de": "Bedenke, dass du VPN-Anbieter*innen vertrauen musst. Du bezahlt sie, also kennen Sie deine Identität. Viele VPN-Dienste arbeiten vollumfänglich mit Ermittlungsbehörden zusammen. Wenn du kannst, nutze stattdessen das Tor-Netzwerk.",
+                "en": "Remember that you have to trust VPN providers. You pay them, so they know your identity. Many VPN services cooperate fully with investigative authorities. If you can, use the Tor network instead.",
+                "es": "Recuerde que debe confiar en los proveedores de VPN. Usted les paga, así que ellos conocen su identidad. Muchos servicios VPN cooperan plenamente con las autoridades policiales. Si puedes, utiliza la red Tor."
             },
             "tags": [
                 "online",
@@ -3543,7 +3679,8 @@
                 "easy",
                 "behavior",
                 "refugee",
-                "activism"
+                "activism",
+                "stalking"
             ],
             "points": 400,
             "slug": {
@@ -3594,9 +3731,9 @@
                 "es": "¿Utiliza el correo electrónico? Entonces debería pensar en un cifrado como GPG\/OpenPGP."
             },
             "longText": {
-                "de": "Hast du gewusst, dass zum Beispiel in Deutschland viele E-Mail-Provider als Telekommunikationsdienst gelten? Damit dürfen Behörden deine Bestandsdaten und E-Mails anfordern. Aber auch ohne behördliche Überwachung sind E-Mails vielen Gefahren ausgesetzt. Eine E-Mail passiert beim Weg in ein Postfach viele Knotenpunkte und kann an zahlreichen Stellen mitgelesen werden.",
-                "en": "Did you know that in Germany, for example, many email providers are considered telecommunications services? This means that authorities can request your inventory data and emails. But even without official surveillance, emails are exposed to many dangers. An email passes through many nodes on its way to a mailbox and can be read at numerous points.",
-                "es": "¿Sabía que en Alemania, por ejemplo, muchos proveedores de correo electrónico se consideran servicios de telecomunicaciones? Esto significa que las autoridades pueden solicitar sus datos de inventario y correos electrónicos. Pero incluso sin vigilancia oficial, los correos electrónicos están expuestos a muchos peligros. Un correo electrónico pasa por muchos nodos en su camino hacia un buzón y puede ser leído en numerosos puntos."
+                "de": "Hast du gewusst, dass zum Beispiel in Deutschland viele E-Mail-Provider als Telekommunikationsdienst gelten? Damit dürfen Behörden deine Bestandsdaten und E-Mails anfordern. Aber auch ohne behördliche Überwachung sind E-Mails vielen Gefahren ausgesetzt. Eine E-Mail passiert beim Weg in ein Postfach viele Knotenpunkte und kann an zahlreichen Stellen mitgelesen werden. Zudem nutzen vermutlich zahlreiche Freemail-Services wie GMX.de oder WEB.de die Inhalte deiner Mails, um dir gezielt Werbung anzuzeigen.",
+                "en": "Did you know that in Germany, for example, many email providers are considered telecommunications services? This means that authorities can request your inventory data and emails. But even without official surveillance, emails are exposed to many dangers. An email passes through many nodes on its way to a mailbox and can be read at numerous points. In addition, numerous freemail services such as GMX.de or WEB.de probably use the content of your emails to show you targeted advertising.",
+                "es": "¿Sabía que en Alemania, por ejemplo, muchos proveedores de correo electrónico se consideran servicios de telecomunicaciones? Esto significa que las autoridades pueden solicitar sus datos de inventario y correos electrónicos. Pero incluso sin vigilancia oficial, los correos electrónicos están expuestos a muchos peligros. Un correo electrónico pasa por muchos nodos en su camino hacia un buzón y puede ser leído en numerosos puntos. Además, numerosos servicios de correo gratuito, como GMX.de o WEB.de, probablemente utilizan el contenido de sus correos electrónicos para mostrar publicidad dirigida."
             },
             "tags": [
                 "basics",
@@ -3604,7 +3741,8 @@
                 "security",
                 "knowledge",
                 "journalist",
-                "activism"
+                "activism",
+                "advertising"
             ],
             "points": 800,
             "slug": {

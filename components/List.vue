@@ -40,7 +40,7 @@
             <div 
               v-if="shieldIsVisible(tag.key) && tag.showShield" 
               :class="'shield-'+getShieldColor(tag.key)+' flex items-center justify-center h-6 w-6 md:h-8 md:w-8'" 
-              :title="$t('medal-'+getShieldColor(tag.key))+': '+tag.title[$i18n.locale]" 
+              :title="$t('medal-'+getShieldColor(tag.key))+' ('+getShieldPercentage(tag.key)+'%): '+tag.title[$i18n.locale]" 
               >
               <icon class="h-3 w-3 md:h-4 md:w-4 fill-black opacity-50" :type="tag.icon"></icon>
             </div>
@@ -190,8 +190,8 @@ export default {
       percentage: 0,
       search: '',
       pointsPerTag: {},
-      possiblePointsPerTag: {},
-      possiblePointsPerTagPercentage: {}
+      pointsPerTagPercentage: {},
+      possiblePointsPerTag: {}
     }
   },
 
@@ -244,11 +244,11 @@ export default {
 
         // Calculate points per tag percentage
         this.filterTags.forEach((tag) => {
-          if(typeof this.possiblePointsPerTagPercentage[tag.key] === 'undefined') {
-            this.possiblePointsPerTagPercentage[tag.key] = 0;
+          if(typeof this.pointsPerTagPercentage[tag.key] === 'undefined') {
+            this.pointsPerTagPercentage[tag.key] = 0;
           }
           console.log(this.pointsPerTag[tag.key],this.possiblePointsPerTag[tag.key]);
-          this.possiblePointsPerTagPercentage[tag.key] = Math.floor(this.pointsPerTag[tag.key] / this.possiblePointsPerTag[tag.key] * 100);
+          this.pointsPerTagPercentage[tag.key] = Math.floor(this.pointsPerTag[tag.key] / this.possiblePointsPerTag[tag.key] * 100);
         });
 
       },
@@ -386,22 +386,26 @@ export default {
     },
 
     shieldIsVisible(tag) {
-      if(this.possiblePointsPerTagPercentage[tag]>50) {
+      if(this.pointsPerTagPercentage[tag]>50) {
         return true;
       }
       return false;
     },
 
     getShieldColor(tag) {
-      if(this.possiblePointsPerTagPercentage[tag]>75) {
+      if(this.pointsPerTagPercentage[tag]>75) {
         return 'gold';
       }
-      if(this.possiblePointsPerTagPercentage[tag]>50) {
+      if(this.pointsPerTagPercentage[tag]>50) {
         return 'silver';
       }
-      if(this.possiblePointsPerTagPercentage[tag]>25) {
+      if(this.pointsPerTagPercentage[tag]>25) {
         return 'bronze';
       }
+    },
+
+    getShieldPercentage(tag) {
+      return this.pointsPerTagPercentage[tag];
     }
 
 }

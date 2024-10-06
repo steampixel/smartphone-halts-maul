@@ -55,7 +55,7 @@
       :key="tag.key">
       
       <span class="flex items-center">
-        <icon class="mr-2 h-4 w-4" color="gray-600" :type="tag.icon"></icon>
+        <icon class="mr-2 h-4 w-4" color="gray-800" :type="tag.icon"></icon>
         {{ tag.title[$i18n.locale] }}
       </span>
     </span>
@@ -77,7 +77,7 @@
 
             <div class="flex justify-between items-center">
               <h3 class="text-base xs:text-lg sm:text-xl font-bold text-gray-800 hyphenate flex items-center">
-                <icon class="h-4 w-4 md:h-6 md:w-6 mr-2" color="gray-600" type="square"></icon>
+                <icon class="h-4 w-4 md:h-6 md:w-6 mr-2" color="gray-800" type="square"></icon>
                 <div>{{ categoryIndex+1 }}.{{ taskIndex+1 }} {{ task.title[$i18n.locale] }}</div>
               </h3>
 
@@ -88,7 +88,7 @@
                 :key="tag.key">
 
                   <span class="inline-block ml-2" v-if="hasTag(task.tags, tag.key)" :title="tag.title[$i18n.locale]">
-                    <icon color="gray-600" :type="tag.icon"></icon>
+                    <icon color="gray-800" :type="tag.icon"></icon>
                   </span>
 
                 </div>
