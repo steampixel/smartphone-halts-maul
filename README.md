@@ -1,3 +1,5 @@
+Note: The Repository has moved to https://codeberg.org/steampixel/smartphone-dont-spy
+
 # 🦄 Smartphone, shut up!
 Do you love direct action or do you have to hide? Are you on the run or want to apply for asylum? Are you a journalist or criticizing the regime? Then take care of your smartphone now! This checklist is designed to help you check your safety in a fun way. Points and levels should encourage you to tick off as many items as possible.
 
